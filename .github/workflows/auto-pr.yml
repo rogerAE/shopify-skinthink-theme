@@ -1,29 +1,44 @@
-name: Auto PR and Merge (people/* -> main)
+name: Auto PR and Auto-merge (people/* -> main)
 
 on:
   push:
     branches:
       - 'people/**'
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
-  create-or-update-pr:
+  open-update-and-automerge:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Create or update PR
-        uses: tibdex/github-create-pull-request@v3
-        with:
-          base: main
-          branch: ${{ github.ref_name }}
-          title: "Sandbox: ${{ github.ref_name }}"
-          body: "Auto PR for ${{ github.ref_name }}. See preview URL in description."
-          draft: false
+      - name: Ensure GH CLI auth
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh auth status || echo "$GITHUB_TOKEN" | gh auth login --with-token
 
-      - name: Enable auto-merge
-        if: ${{ success() }}
-        uses: peter-evans/enable-pull-request-automerge@v3
-        with:
-          pull-request-number: ${{ steps.create-or-update-pr.outputs.pull-request-number }}
-          merge-method: squash
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create or update PR to main
+        id: pr
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # If a PR from this branch to main exists, capture its number; else create one
+          if gh pr view --base main --head "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
+            num=$(gh pr view --base main --head "${GITHUB_REF_NAME}" --json number -q .number)
+          else
+            gh pr create --base main --head "${GITHUB_REF_NAME}" \
+              --title "Sandbox: ${GITHUB_REF_NAME}" \
+              --body "Auto PR for ${GITHUB_REF_NAME} (Theme editor saves)."
+            num=$(gh pr view --base main --head "${GITHUB_REF_NAME}" --json number -q .number)
+          fi
+          echo "number=$num" >> $GITHUB_OUTPUT
+
+      - name: Enable auto-merge (squash) if possible
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge --auto --squash ${{ steps.pr.outputs.number }} || true
