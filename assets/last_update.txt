@@ -1,1 +1,1 @@
-2025-09-05 21:28:44Z — ci: retrigger auto-pr (#3) (LATEST) (bb2ae07)
+2025-09-05 21:34:46Z — ci: make last_update.txt writer newline-safe (subject only) (090b06b)
