@@ -1,0 +1,29 @@
+name: Auto PR and Merge (people/* -> main)
+
+on:
+  push:
+    branches:
+      - 'people/**'
+
+jobs:
+  create-or-update-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create or update PR
+        uses: tibdex/github-create-pull-request@v3
+        with:
+          base: main
+          branch: ${{ github.ref_name }}
+          title: "Sandbox: ${{ github.ref_name }}"
+          body: "Auto PR for ${{ github.ref_name }}. See preview URL in description."
+          draft: false
+
+      - name: Enable auto-merge
+        if: ${{ success() }}
+        uses: peter-evans/enable-pull-request-automerge@v3
+        with:
+          pull-request-number: ${{ steps.create-or-update-pr.outputs.pull-request-number }}
+          merge-method: squash
+          token: ${{ secrets.GITHUB_TOKEN }}
