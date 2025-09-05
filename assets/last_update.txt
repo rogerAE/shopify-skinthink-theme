@@ -1,1 +1,1 @@
-2025-09-05 21:12:19Z — ci: write assets/last_update.txt on main pushes (5386ef3)
+2025-09-05 21:28:44Z — ci: retrigger auto-pr (#3) (LATEST) (bb2ae07)
