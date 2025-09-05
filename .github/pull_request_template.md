@@ -1,11 +1,5 @@
 ## Summary
-What changed? (1–3 bullets)
+(1–2 bullets: what changed)
 
 ## Preview
-Paste the admin preview URL of your connected theme.
-
-## Scope
-- [ ] Home
-- [ ] Product
-- [ ] Collection
-- [ ] Other: __________
+Paste the preview URL of your connected theme
