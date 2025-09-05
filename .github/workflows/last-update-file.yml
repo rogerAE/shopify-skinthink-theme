@@ -3,6 +3,7 @@ name: Update last_update.txt on main merges
 on:
   push:
     branches: [ main ]
+  workflow_dispatch: {}   # allows manual run from the Actions tab
 
 permissions:
   contents: write
@@ -17,23 +18,21 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build last update message
-        id: meta
+      - name: Build message and write file
         run: |
+          set -e
           TS="$(date -u +'%Y-%m-%d %H:%M:%SZ')"
-          TITLE="${{ github.event.head_commit.message }}"
-          SHA="${{ github.sha }}"
-          echo "msg=${TS} — ${TITLE} (${SHA::7})" >> $GITHUB_OUTPUT
-
-      - name: Write assets/last_update.txt
-        run: |
+          # Use the commit SUBJECT only (no body / trailers), avoids newlines & "Co-authored-by"
+          TITLE="$(git log -1 --pretty=%s)"
+          SHA="$(git rev-parse --short HEAD)"
           mkdir -p assets
-          echo "${{ steps.meta.outputs.msg }}" > assets/last_update.txt
+          printf '%s — %s (%s)\n' "$TS" "$TITLE" "$SHA" > assets/last_update.txt
 
       - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@users.noreply.github.com"
           git add assets/last_update.txt
-          git commit -m "[last-update-bot] update last_update.txt"
+          # If the file didn't change, don't fail the workflow
+          git commit -m "[last-update-bot] update last_update.txt" || exit 0
           git push
