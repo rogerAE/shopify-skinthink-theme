@@ -80,7 +80,6 @@
         },
         "form": {
           "type": "form",
-          "disabled": true,
           "settings": {
             "show_labels": true,
             "show_quantity": true,
