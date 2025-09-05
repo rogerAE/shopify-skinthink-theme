@@ -1,0 +1,359 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section_custom_content_ECmhqN": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image_gcFWjt": {
+          "type": "image",
+          "settings": {
+            "text_position": "middle-center",
+            "image": "shopify://shop_images/Authentic_Ego_Social_Content_7_copy_2.png",
+            "overlay_opacity": 0,
+            "text_color": "text-dark",
+            "title": "",
+            "heading_size": 50,
+            "image_text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--medium"
+          }
+        },
+        "text_dRVWAh": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-dark",
+            "subheading": "AUTHENTIC EGO",
+            "title": "FORMULATED FOR REAL, REACTIVE SKIN.",
+            "heading_size": 100,
+            "text": "",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--medium",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gcFWjt",
+        "text_dRVWAh"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "bg_color": "#ffffff",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_La3Krw": {
+      "type": "section-text",
+      "blocks": {
+        "heading_bhACRP": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>A Note From Our Founder</h1>",
+            "size": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#20150f",
+            "highlight_text_color": ""
+          }
+        },
+        "split_text_YdKWR6": {
+          "type": "split-text",
+          "settings": {
+            "text_left": "<p>I never struggled with acne as a teenager. But in my early twenties, everything changed. A series of autoimmune diagnoses, chronic stress, and systemic health shifts triggered relentless breakouts—deep, painful, and impossible to ignore. My skin became unpredictable. So did my confidence.</p><p><br/></p><p>I tried everything. Each treatment addressed one symptom but created another. It felt like my skin was always reacting—and my mental health was caught in the crossfire. No routine was designed for skin like mine: skin in flux, skin under stress, skin that didn’t fit into the clear-or-nothing narrative of conventional beauty.</p><p><br/></p><p>Eventually, I stopped asking, How do I fix this?</p><p>And started asking, Why is this happening?</p><p>Why are so many of us—especially women—dealing with new or worsening acne in adulthood?</p>",
+            "size_left": 100,
+            "text_right": "<p>Why are conventional solutions falling short?</p><p>And more importantly, what would it look like to build something smarter?</p><p><br/></p><p>That’s why I created Authentic Ego: a brand born not from trends, but from lived experience, research, and the drive to do things differently. Our mission isn’t to promise perfect skin. It’s to design formulas that meet you where you are—and evolve with you.</p><p><br/></p><p><em><strong>Formulas for real, reactive skin—built to support every phase, not just the pretty ones.</strong></em></p><p><br/></p><p><em><strong>Xx, Christina</strong></em></p>",
+            "size_right": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_bhACRP",
+        "split_text_YdKWR6"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "left",
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 40,
+        "padding_bottom": 50
+      }
+    },
+    "section-marquee": {
+      "type": "section-marquee",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "smile",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Authentic Ego - the female founded skincare brand for hormonal acne-prone skin</p>",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "zap",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_color": "",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000",
+            "icon_name": "heart",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "text-0",
+        "text-1"
+      ],
+      "settings": {
+        "layout": "marquee-with-parallax",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 75,
+        "direction": "ticker-rtl",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_font": "space_mono_n4",
+        "text_size": 120,
+        "letter_spacing": 0,
+        "message_spacing": 15,
+        "bg_color": "#de5757",
+        "gradient": "",
+        "color": "#ffffff",
+        "border_color": "#20150f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_banner_image_bVy6aY": {
+      "type": "section-banner-image",
+      "blocks": {
+        "heading_Pzg8dK": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>THE EGO ETHOS</h1>",
+            "size": 180,
+            "heading_highlight_type": "highlight-color",
+            "highlight_color": "#20150f",
+            "highlight_text_color": "#20150f"
+          }
+        },
+        "text_XCYWan": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We don’t do one-size-fits-all routines.</p><p>We don’t chase trends.</p><p>And we don’t believe skin has to be “clear” to be cared for.</p><p>We’re here for the skin that flares, shifts, and speaks up.</p><p>Formulas that work with your biology—not against it.</p><p>Support that adapts. Ingredients that make sense. Packaging that stays out of the way.</p><p>Real skin. Real science. Real standards.</p><p>No fluff. No filter. Just formulas that evolve with you.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading_Pzg8dK",
+        "text_XCYWan"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "original-height-mobile",
+        "image": "shopify://shop_images/header.png",
+        "overlay_opacity": 0,
+        "transition": "fade",
+        "enable_zoom_animation": false,
+        "enable_card_scrolling": false,
+        "increase_border_radius": false,
+        "content_width": 80,
+        "text_position": "left",
+        "text_alignment": "text-left",
+        "text_color": "text-dark",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Get in touch</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color": "",
+        "gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_ryxbgN": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_zKfnzD": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>GET IN, WE'RE GLOWING →</p>",
+            "size": 125,
+            "margin_bottom": 16
+          }
+        },
+        "heading_6hV6jk": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1><strong>Join The #EGOSYSTEM</strong></h1>",
+            "size": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_pCC74W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zKfnzD",
+        "heading_6hV6jk",
+        "text_pCC74W"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "1753123633f9a8698d": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_qcQYBX": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_qcQYBX"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "section_custom_content_ECmhqN",
+    "section_text_La3Krw",
+    "section-marquee",
+    "section_banner_image_bVy6aY",
+    "section-text",
+    "main-page",
+    "section_text_ryxbgN",
+    "1753123633f9a8698d"
+  ]
+}

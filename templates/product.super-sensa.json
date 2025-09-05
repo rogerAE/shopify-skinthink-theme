@@ -1,0 +1,797 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product": {
+      "type": "product",
+      "blocks": {
+        "judge_me_reviews_preview_badge_FGVUEE": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "enable_full_width": true,
+            "padding_bottom": 20
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "show_sale_badge": true,
+            "show_custom_badge": true,
+            "show_badges_over_gallery": true,
+            "padding_bottom": 20
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "title_size": 125,
+            "price_size": 105,
+            "bold_price": true,
+            "padding_bottom": 16
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "disabled": true,
+          "settings": {
+            "max_inventory": 8,
+            "hide_inventory_count": false,
+            "padding_bottom": 16
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 6
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": true,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 32
+          }
+        },
+        "timer": {
+          "type": "timer",
+          "disabled": true,
+          "settings": {
+            "end_date": "2025-8-30",
+            "end_time": "11:59",
+            "period": "am",
+            "end_message": "",
+            "digits_size": 65,
+            "heading": "Limited time offer",
+            "heading_size": 95,
+            "heading_style": "font-heading",
+            "text": "<p>Exclusive styles at 30% off, only for three days!</p>",
+            "text_size": 85,
+            "bg_color": "#f7f6f4",
+            "text_color": "text-dark",
+            "text_align": "text-center",
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_xxhA9c": {
+          "type": "icon_row",
+          "settings": {
+            "icon_name_1": "truck",
+            "icon_color_1": "",
+            "icon_width_1": 20,
+            "icon_text_1": "LORUM IPSUM",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "LORUM IPSUM",
+            "icon_name_3": "heart",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "LORUM IPSUM",
+            "icon_name_4": "clock",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "LORUM IPSUM",
+            "alignment": "left",
+            "bg_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "recycle-circle",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "VECTOR AND TEXT",
+            "text_size": 80,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 12
+          }
+        },
+        "icon-0": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "VECTOR AND TEXT",
+            "text_size": 70,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 20
+          }
+        },
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "VECTOR AND TEXT",
+            "text_size": 70,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 32
+          }
+        },
+        "icon_rPdCDg": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "VECTOR AND TEXT",
+            "text_size": 70,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 32
+          }
+        },
+        "icon_UKFEPz": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "VECTOR AND TEXT",
+            "text_size": 70,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 32
+          }
+        },
+        "icon_wxqDxC": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "mail",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "VECTOR AND TEXT",
+            "text_size": 80,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 16
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "mail",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Free standard shipping on all Domestic USA orders",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 16
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "settings": {
+            "product_list": [],
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_FGVUEE",
+        "description",
+        "badges",
+        "title",
+        "inventory_countdown",
+        "divider",
+        "form",
+        "timer",
+        "icon_row_xxhA9c",
+        "icon-2",
+        "icon-0",
+        "icon",
+        "icon_rPdCDg",
+        "icon_UKFEPz",
+        "icon_wxqDxC",
+        "icon-1",
+        "upsell"
+      ],
+      "settings": {
+        "product_sticky_enable": true,
+        "image_layout": "carousel",
+        "image_width": "large",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 30
+      }
+    },
+    "apps": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-columns": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block": {
+          "type": "text_block",
+          "settings": {
+            "image_width": 100,
+            "title": "Sustainable & trendy",
+            "heading_size": 120,
+            "text": "<p>Our pieces are sustainably made, and designed to be a timeless piece in your wardrobe.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block-0": {
+          "type": "text_block",
+          "settings": {
+            "image_width": 100,
+            "title": "Elevate your style",
+            "heading_size": 120,
+            "text": "<p>Made with natural materials, each item is comfortable and easily machine washable.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block",
+        "text_block-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "No need to sacrifice style for comfort.",
+        "heading_size": 140,
+        "align_text": "text-left",
+        "columns": 2,
+        "columns_mobile": "1",
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.7,
+        "mobile_aspect_ratio": 1,
+        "bg_color": "",
+        "gradient": "",
+        "color_borders": "#000000",
+        "layout_mobile": "stacked",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-overlapping-images": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "center",
+        "images_width": 750,
+        "images_offset": 125,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "subheading": "",
+        "title": "<p>Sustainable trends for <em>everyone</em></p>",
+        "heading_size": 130,
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#000000",
+        "highlight_text_color": "#ecc295",
+        "description": "<p>Our mission is to empower people through sustainable fashion. We want everyone to look and feel good, while also doing our part to protect the environment.</p>",
+        "text_size": 100,
+        "button_text": "Shop new arrivals",
+        "button_link": "",
+        "button_color": "btn--primary",
+        "button_style": "btn--solid",
+        "button_size": "btn--large",
+        "video_text": "",
+        "video_link": "",
+        "bg_color": "",
+        "gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 242, 228, 1) 50%, rgba(251, 236, 223, 1) 100%)",
+        "animation": "horizontal",
+        "animation_intensity": 50,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "section-image-with-text": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "show_accordion_divider": true,
+        "increase_border_radius": false,
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "block_bg_color": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "linear-gradient(180deg, rgba(251, 236, 223, 1), rgba(255, 255, 255, 1) 100%)",
+        "section_width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_J4zizB": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_Bh4k66": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>let's put a subheading above a heading. amke it make sense</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_hgqeji": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>SECONDARY KEY INFORMATION</p>",
+            "size": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_AFfhgi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>tabs with other key info to be below</p>",
+            "size": 100
+          }
+        },
+        "button_DpEAcf": {
+          "type": "button",
+          "settings": {
+            "button_text": "left this here just in case",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Bh4k66",
+        "heading_hgqeji",
+        "text_AFfhgi",
+        "button_DpEAcf"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "left",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_text_columns_YidyTz": {
+      "type": "section-banner-text-columns",
+      "blocks": {
+        "column_yWf4kA": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 10,
+            "subheading": "TAB 1",
+            "heading": "TAB 1",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_EEjrGc": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 10,
+            "subheading": "TAB 2 ETC",
+            "heading": "TAB 2 ETC",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_wHwNbB": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 10,
+            "subheading": "Add a subheading",
+            "heading": "Add a heading",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        },
+        "column_AK4FkE": {
+          "type": "column",
+          "settings": {
+            "overlay_opacity": 10,
+            "subheading": "Add a subheading",
+            "heading": "Add a heading",
+            "text": "",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_yWf4kA",
+        "column_EEjrGc",
+        "column_wHwNbB",
+        "column_AK4FkE"
+      ],
+      "name": "Banner with text columns",
+      "settings": {
+        "appearance": "columns",
+        "content_alignment": "center",
+        "text_alignment": "text-center",
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_section_height": "five-fifty-height-mobile",
+        "text_color": "text-light",
+        "button_color": "btn--white",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "show_single_image": false,
+        "heading_size": 100,
+        "width": "wrapper",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_banner_image_WyDRmU": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_VjnTPd": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Welcome to</p>",
+            "size": 100
+          }
+        },
+        "heading_8gFfL8": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>before and after carousel to go here</p>",
+            "size": 180,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_Pbe33J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        },
+        "button_MgaUgt": {
+          "type": "button",
+          "settings": {
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VjnTPd",
+        "heading_8gFfL8",
+        "text_Pbe33J",
+        "button_MgaUgt"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "enable_card_scrolling": false,
+        "increase_border_radius": true,
+        "content_width": 80,
+        "text_position": "left",
+        "text_alignment": "text-left",
+        "text_color": "text-light",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "enable_tabs": true,
+        "layout": "grid",
+        "columns_mobile": "1",
+        "type_style": "font-heading",
+        "tab_heading_size": 135,
+        "bg_color": "rgba(0,0,0,0)",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-icons-row": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "icon_name": "bee",
+            "title": "Save 10% on your first order",
+            "text": "<p>When you subscribe</p>"
+          }
+        },
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "dollar-sign",
+            "title": "Free domestic U.S. shipping",
+            "text": "<p>on all orders</p>"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "flower",
+            "title": "ShopPay ",
+            "text": "<p>Buy now, pay later</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "text-0",
+        "text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 20,
+        "show_vertical_borders": true,
+        "show_top_border": true,
+        "show_bottom_border": false,
+        "heading_size": 100,
+        "text_size": 90,
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "color_border": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1753191429f163aa19": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_BPVhNy": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_BPVhNy"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1753191432043d58a4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_wcMcmt": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_wcMcmt"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "175319143921205bc2": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_YLVtdL": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_YLVtdL"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "175319144783bd2e40": {
+      "type": "apps",
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1753191456cba150fa": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_verified_badge_6DU7m7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/verified_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_verified_badge_6DU7m7"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "175319146428a0a4bb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_ATe49W": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_ATe49W"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1753191502eb073d45": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_fDUgUV": {
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_fDUgUV"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "product",
+    "apps",
+    "section-columns",
+    "section-overlapping-images",
+    "section-image-with-text",
+    "section_text_J4zizB",
+    "section_banner_text_columns_YidyTz",
+    "section_banner_image_WyDRmU",
+    "related-products",
+    "section-icons-row",
+    "1753191429f163aa19",
+    "1753191432043d58a4",
+    "175319143921205bc2",
+    "175319144783bd2e40",
+    "1753191456cba150fa",
+    "175319146428a0a4bb",
+    "1753191502eb073d45"
+  ]
+}

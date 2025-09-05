@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "logo": {
+          "type": "logo",
+          "settings": {
+            "alignment": "text-left",
+            "image": "shopify://shop_images/eb5a5b_4d30aad6-169d-4405-9178-fade8c3ba1ed.png",
+            "logo_width": 100,
+            "show_shop_name": false,
+            "text": "",
+            "column_width": "20"
+          }
+        },
+        "link_e66LpG": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "main-menu",
+            "title": "SHOP",
+            "column_width": "15"
+          }
+        },
+        "link": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "custom-footer-menu-help",
+            "title": "INFO",
+            "column_width": "15"
+          }
+        },
+        "link-0": {
+          "type": "link",
+          "settings": {
+            "alignment": "text-left",
+            "menu": "custom-footer-menu-company",
+            "title": "SOCIAL",
+            "column_width": "15"
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "alignment": "text-left",
+            "title": "JOIN OUR #EGOSYSTEM",
+            "uppercase_heading": true,
+            "heading_size": 160,
+            "text": "<p><strong>Enjoy 10% off your first order </strong>and step into our system—where rituals, rewards, and real skin support come full circle.</p>",
+            "button_text": "Subscribe",
+            "button_color": "btn--white",
+            "button_style": "btn--solid",
+            "column_width": "30"
+          }
+        }
+      },
+      "block_order": [
+        "logo",
+        "link_e66LpG",
+        "link",
+        "link-0",
+        "newsletter"
+      ],
+      "settings": {
+        "show_footer_wave": false,
+        "enable_footer_parallax": true,
+        "increase_border_radius": true,
+        "bottom_bar_alignment": "text-left",
+        "show_social_links": true,
+        "enable_follow_on_shop": true,
+        "show_payment_icons": true,
+        "enable_greyscale": true,
+        "bottom_menu": "",
+        "color_text": "#ffffff",
+        "color_bg": "#20150f",
+        "color_border": "#ffffff",
+        "show_locale_selector": true,
+        "show_locale_code": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 10
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

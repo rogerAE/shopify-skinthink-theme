@@ -1,0 +1,193 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>FREE STANDARD DOMESTIC U.S. SHIPPING</strong></h3>",
+            "text_color": "#ffffff",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Save 10% off your first order when you subscribe</h3>",
+            "text_color": "#ffffff",
+            "heading_highlight_type": "circle",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": "#ffffff",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "text-0"
+      ],
+      "custom_css": [
+        "h1,h2,h3,p,.cta-button {font-family: \"CommuterSans R egular\", sans-serif !important; font-weight: 400;}"
+      ],
+      "settings": {
+        "width": "wrapper--full",
+        "layout": "marquee",
+        "show_top_border": false,
+        "show_bottom_border": true,
+        "padding": 10,
+        "slider_speed": 14,
+        "show_arrows": false,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "text_caps": true,
+        "type_font": "space_mono_n4",
+        "text_size": 110,
+        "letter_spacing": 100,
+        "message_spacing": 30,
+        "bg_color": "#de5757",
+        "gradient": "",
+        "color": "#000000",
+        "border_color": "#000000"
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "h1,h2,h3,p,.cta-button {font-family: \"CommuterSans Regular\", sans-serif !important; font-weight: 400;}"
+      ],
+      "settings": {
+        "sticky_header": false,
+        "link_hover_effect": "dot",
+        "header_border": true,
+        "header_border_color": "",
+        "border_opacity": 50,
+        "logo_not_home": "shopify://shop_images/Website_Header_3000_x_1500_px_665f5a06-912f-4130-b3cb-3bd36e891d28.png",
+        "logo_max_width": 100,
+        "main-menu": "main-menu",
+        "main_menu_secondary": "",
+        "show_images": false,
+        "image_aspect_ratio": 1.1,
+        "menu_alignment": "left",
+        "header_icons_as_text": false,
+        "show_locale_selector": false,
+        "show_locale_code": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "highlight_item": "Sale",
+        "enable_custom_badge": true,
+        "custom_badge_text": "15% off",
+        "highlight_item_color": "#de5757",
+        "header_transparent": false,
+        "header_text_color": "white",
+        "header_gradient": true
+      }
+    },
+    "mobile-menu": {
+      "type": "mobile-menu",
+      "blocks": {
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "mobile_menu_linklist": "main-menu",
+            "text_size": 100,
+            "show_images": true,
+            "image_aspect_ratio": 0.5,
+            "highlight_item": "Sale",
+            "enable_custom_badge": false,
+            "custom_badge_text": "10% OFF",
+            "highlight_item_color": "#d02e2e",
+            "padding": false,
+            "padding_bottom": 10
+          }
+        },
+        "login": {
+          "type": "login",
+          "settings": {
+            "text_size": 100,
+            "pin_to_bottom": true,
+            "padding_bottom": 10
+          }
+        },
+        "search": {
+          "type": "search",
+          "settings": {
+            "text_size": 100,
+            "pin_to_bottom": true,
+            "padding_bottom": 10
+          }
+        },
+        "localization": {
+          "type": "localization",
+          "settings": {
+            "show_locale_selector": true,
+            "show_locale_code": true,
+            "show_country_selector": true,
+            "show_country_name": false,
+            "show_country_flag": false,
+            "pin_to_bottom": true,
+            "padding_bottom": 10
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop All",
+            "button_link": "shopify://collections/all",
+            "button_color": "btn--white",
+            "button_style": "btn--solid-border",
+            "button_size": "btn--medium",
+            "pin_to_bottom": true,
+            "padding_bottom": 10
+          }
+        }
+      },
+      "block_order": [
+        "menu",
+        "login",
+        "search",
+        "localization",
+        "button"
+      ],
+      "settings": {
+        "logo_max_width": 150
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "mobile-menu"
+  ]
+}

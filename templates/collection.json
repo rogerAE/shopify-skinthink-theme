@@ -1,0 +1,316 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-image-with-title": {
+      "type": "collection-image-with-title",
+      "disabled": true,
+      "settings": {
+        "banner_height": "two-fifty-height",
+        "text_position": "middle-center",
+        "show_image": true,
+        "text_color": "text-light",
+        "overlay_opacity": 0,
+        "bg_color": "",
+        "gradient": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-text": {
+      "type": "section-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>SHOP ALL ESSENTIALS</p>",
+            "size": 145,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#fff7f2",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Built for breakouts no one talks about. We target the triggers behind hormonal, stress-induced, and adult acne — </p><p>with barrier-safe, ego-approved formulas that actually make sense.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "text_position": "left",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 24,
+        "padding_bottom": 20
+      }
+    },
+    "section-list-butttons": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_nUbTQy": {
+          "type": "button",
+          "settings": {
+            "heading": "SHOP ALL",
+            "button_link": "shopify://collections/all",
+            "overlay_opacity": 100,
+            "block_text_color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "heading": "SHOP BUNDLES",
+            "button_link": "shopify://collections/bundles",
+            "overlay_opacity": 100,
+            "block_text_color": "#de5757",
+            "bg_color": "#ffffff",
+            "border_color": "#de5757"
+          }
+        },
+        "button-0": {
+          "type": "button",
+          "settings": {
+            "heading": "SUBSCRIPTIONS",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "#de5757",
+            "bg_color": "#ffffff",
+            "border_color": "#de5757"
+          }
+        }
+      },
+      "block_order": [
+        "button_nUbTQy",
+        "button",
+        "button-0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "layout": "carousel",
+        "alignment": "left",
+        "collections_per_row": 6,
+        "columns_mobile": "2",
+        "type_style": "subheading-text",
+        "button_style": "rounded",
+        "text_size": 80,
+        "letter_spacing": 75,
+        "show_arrow": true,
+        "bg_color": "#ffffff",
+        "block_text_color": "#de5757",
+        "border_color": "#de5757",
+        "section_bg_color": "",
+        "gradient": "",
+        "section_text_color": "",
+        "enable_slider_mobile": true,
+        "animations_enabled": false,
+        "width": "wrapper--full-padded",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "disabled": true,
+      "settings": {
+        "subcollections": [
+          "all",
+          "bestsellers",
+          "bestselling",
+          "blouses",
+          "blazers",
+          "bottoms"
+        ],
+        "limit": 8,
+        "layout": "carousel",
+        "image_source": "product",
+        "image_aspect_ratio": 0.7,
+        "image_overlay_opacity": 10,
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-light",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "collection": {
+      "type": "collection",
+      "settings": {
+        "show_breadcrumbs": false,
+        "products_per_page": 24,
+        "enable_sorting": true,
+        "enable_filters": false,
+        "filters_layout": "closed",
+        "show_more": true,
+        "filter_mode": "default",
+        "bg_color": "#ffffff",
+        "padding_top": 10,
+        "padding_bottom": 20
+      }
+    },
+    "section-icons-row": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "New customers get 10% off",
+            "text": "<p>on your first purchase</p>"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "Free standard shipping",
+            "text": "<p>on all domestic US orders</p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "ShopPay",
+            "text": "<p>Buy now, pay later</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-0",
+        "text-1",
+        "text-2"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 20,
+        "show_vertical_borders": true,
+        "show_top_border": true,
+        "show_bottom_border": false,
+        "heading_size": 100,
+        "text_size": 90,
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "#333333",
+        "box_color": "",
+        "color_border": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_mzMUhR": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_4CdBLP": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>GET IN, WE'RE GLOWING →</p>",
+            "size": 125,
+            "margin_bottom": 16
+          }
+        },
+        "heading_hTmn8C": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1><strong>Join The #EGOSYSTEM</strong></h1>",
+            "size": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_byg7KV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you'll need on the journey of loving the skin you’re in.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4CdBLP",
+        "heading_hTmn8C",
+        "text_byg7KV"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "17531229061e7d37ea": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_MwkBtL": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_MwkBtL"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "collection-image-with-title",
+    "section-text",
+    "section-list-butttons",
+    "subcollections",
+    "collection",
+    "section-icons-row",
+    "section_text_mzMUhR",
+    "17531229061e7d37ea"
+  ]
+}

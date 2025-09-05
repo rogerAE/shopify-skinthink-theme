@@ -1,0 +1,547 @@
+/*================ "Product pages" and "Featured product" ================*/
+.aos-initialized .shopify-section--product [data-aos-order="1"],
+.aos-initialized .featured-product-section [data-aos-order="1"] {
+  animation-delay: 100ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="2"],
+.aos-initialized .featured-product-section [data-aos-order="2"] {
+  animation-delay: 188.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="3"],
+.aos-initialized .featured-product-section [data-aos-order="3"] {
+  animation-delay: 274ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="4"],
+.aos-initialized .featured-product-section [data-aos-order="4"] {
+  animation-delay: 356.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="5"],
+.aos-initialized .featured-product-section [data-aos-order="5"] {
+  animation-delay: 436ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="6"],
+.aos-initialized .featured-product-section [data-aos-order="6"] {
+  animation-delay: 512.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="7"],
+.aos-initialized .featured-product-section [data-aos-order="7"] {
+  animation-delay: 586ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="8"],
+.aos-initialized .featured-product-section [data-aos-order="8"] {
+  animation-delay: 656.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="9"],
+.aos-initialized .featured-product-section [data-aos-order="9"] {
+  animation-delay: 724ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="10"],
+.aos-initialized .featured-product-section [data-aos-order="10"] {
+  animation-delay: 788.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="11"],
+.aos-initialized .featured-product-section [data-aos-order="11"] {
+  animation-delay: 850ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="12"],
+.aos-initialized .featured-product-section [data-aos-order="12"] {
+  animation-delay: 908.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="13"],
+.aos-initialized .featured-product-section [data-aos-order="13"] {
+  animation-delay: 964ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="14"],
+.aos-initialized .featured-product-section [data-aos-order="14"] {
+  animation-delay: 1016.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="15"],
+.aos-initialized .featured-product-section [data-aos-order="15"] {
+  animation-delay: 1066ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="16"],
+.aos-initialized .featured-product-section [data-aos-order="16"] {
+  animation-delay: 1112.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="17"],
+.aos-initialized .featured-product-section [data-aos-order="17"] {
+  animation-delay: 1156ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="18"],
+.aos-initialized .featured-product-section [data-aos-order="18"] {
+  animation-delay: 1196.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="19"],
+.aos-initialized .featured-product-section [data-aos-order="19"] {
+  animation-delay: 1234ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="20"],
+.aos-initialized .featured-product-section [data-aos-order="20"] {
+  animation-delay: 1268.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="21"],
+.aos-initialized .featured-product-section [data-aos-order="21"] {
+  animation-delay: 1300ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="22"],
+.aos-initialized .featured-product-section [data-aos-order="22"] {
+  animation-delay: 1328.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="23"],
+.aos-initialized .featured-product-section [data-aos-order="23"] {
+  animation-delay: 1354ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="24"],
+.aos-initialized .featured-product-section [data-aos-order="24"] {
+  animation-delay: 1376.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="25"],
+.aos-initialized .featured-product-section [data-aos-order="25"] {
+  animation-delay: 1396ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="26"],
+.aos-initialized .featured-product-section [data-aos-order="26"] {
+  animation-delay: 1412.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="27"],
+.aos-initialized .featured-product-section [data-aos-order="27"] {
+  animation-delay: 1426ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="28"],
+.aos-initialized .featured-product-section [data-aos-order="28"] {
+  animation-delay: 1436.5ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="29"],
+.aos-initialized .featured-product-section [data-aos-order="29"] {
+  animation-delay: 1444ms;
+}
+.aos-initialized .shopify-section--product [data-aos-order="30"],
+.aos-initialized .featured-product-section [data-aos-order="30"] {
+  animation-delay: 1448.5ms;
+}
+
+.product-single {
+  background: var(--bg);
+}
+
+@media only screen and (min-width: 768px) {
+  .product-single .form__wrapper.is-sticky {
+    position: sticky;
+    top: var(--sticky-top, 0);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product-single__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--gutter);
+  }
+}
+
+.product__full-width-blocks {
+  grid-column: 1/-1;
+}
+@media only screen and (min-width: 768px) {
+  .product__full-width-blocks {
+    padding-top: calc(var(--gutter) / 2);
+  }
+}
+
+.aos-initialized .product-single__wrapper [data-aos][data-aos].aos-animate {
+  transform: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .product-single__wrapper--large {
+    grid-template-columns: calc(60% - var(--gutter) / 2) calc(40% - var(--gutter) / 2);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .product-single__wrapper--standard {
+    grid-template-columns: calc(50% - var(--gutter) / 2) calc(50% - var(--gutter) / 2);
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .product-single__wrapper--grid .product-gallery__media-slider {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .product-single__wrapper .product__submit__holder {
+    padding-top: calc(var(--form-margin-mobile) * 2);
+  }
+}
+
+.featured-product--onboarding .product-single__wrapper--grid .product-gallery__media-slider {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+@media only screen and (min-width: 768px) {
+  .product-single__wrapper--stacked .product-gallery__media-slider {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 10px;
+  }
+}
+
+.product-single__details {
+  width: 100%;
+  position: relative;
+  z-index: 15;
+}
+@media only screen and (min-width: 768px) {
+  .product-single__details .form__wrapper {
+    max-width: 460px;
+    margin: 0 auto;
+  }
+}
+
+.js .product-single__wrapper--carousel .product-gallery__media-slider:not(.flickity-enabled) .product-gallery__media-slide:not(:first-child) {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.product-single__wrapper--carousel .product-gallery__media-slide.media--hidden:not(.is-selected) button,
+.product-single__wrapper--carousel .product-gallery__media-slide.media--hidden:not(.is-selected) input,
+.product-single__wrapper--carousel .product-gallery__media-slide.media--hidden:not(.is-selected) iframe,
+.product-single__wrapper--carousel .product-gallery__media-slide.media--hidden:not(.is-selected) .shopify-model-viewer-ui__button,
+.product-single__wrapper--carousel .product-gallery__media-slide.media--hidden:not(.is-selected) .shopify-model-viewer-ui__controls-area {
+  visibility: hidden;
+  transition: visibility 0s linear 0.75s;
+}
+
+.product-single__thumbnails {
+  margin: 5px 0;
+}
+@media only screen and (max-width: 1023px) {
+  .product-single__thumbnails {
+    margin: 5px calc(var(--gutter-mobile) * -1);
+  }
+}
+
+.product-single__thumbnails:not(.flickity-enabled) {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.product-single__thumbnails:not(.flickity-enabled)::-webkit-scrollbar {
+  display: none;
+}
+
+.product-single__thumbnails:not(.flickity-enabled) .product-single__thumbnail {
+  min-width: 110px;
+}
+
+.product-single__thumbnails.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: default;
+}
+
+@media only screen and (min-width: 768px) {
+  .product-single__wrapper--stacked .product-single__thumbnails,
+  .product-single__wrapper--grid .product-single__thumbnails {
+    display: none;
+  }
+}
+
+.product-single__thumbnail {
+  position: relative;
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+.product-single__thumbnail .icon {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  margin: 5px;
+  height: 22px;
+  width: 22px;
+  vertical-align: baseline;
+}
+.product-single__thumbnail:first-child {
+  padding-left: var(--gutter-mobile);
+}
+.product-single__thumbnail:last-child {
+  padding-right: var(--gutter-mobile);
+}
+@media only screen and (min-width: 768px) {
+  .product-single__thumbnail:first-child {
+    padding-left: 0;
+  }
+  .product-single__thumbnail:last-child {
+    padding-right: 0;
+  }
+}
+
+.product-single__thumbnail-link {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  border: var(--BORDER-WIDTH) solid transparent;
+}
+.is-nav-selected .product-single__thumbnail-link {
+  border-color: var(--text);
+}
+
+.product-single__thumbnail-img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.body--rounded-corners .product-single__thumbnail-link {
+  border-radius: var(--radius-medium);
+  overflow: hidden;
+}
+
+/* ==========================================================================
+   AE PRODUCT PAGE — CONSOLIDATED CSS
+   - Vertical gallery (thumbs + main)
+   - Optional main viewer arrows
+   - Simple lightbox (if used)
+   - Tabs (2-per-row groups) + unclamped text
+   ========================================================================== */
+
+/* =========================
+   Vertical Gallery
+   ========================= */
+.ae-vert-gallery {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.ae-vert-thumbs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 560px;
+  overflow-y: auto;
+}
+
+.ae-vert-thumb {
+  width: 90px;
+  height: 90px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+.ae-vert-thumb.is-active { border-color: #000; }
+
+/* Use theme media sizing but cancel carousel transforms inside our block */
+.ae-vert-main { min-width: 0; position: relative; }
+.ae-vert-main .product-gallery__media-slide {
+  position: static !important;
+  transform: none !important;
+  left: auto !important;
+  top: auto !important;
+  display: block !important;
+}
+.ae-vert-main .media--hidden { display: none !important; }
+.ae-vert-slide.is-hidden    { display: none !important; }
+.ae-vert-main .product-gallery__media { position: relative; }
+.ae-vert-main .product-gallery__media-space { height: auto; }
+
+/* Desktop → Mobile stack */
+@media (max-width: 768px) {
+  .ae-vert-gallery {
+    grid-template-columns: 1fr;
+  }
+  .ae-vert-thumbs {
+    order: 2;
+    max-height: none;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  .ae-vert-thumb {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+/* Thumb image fit (no crop) + subtle hover */
+.ae-vert-thumb .product-single__thumbnail,
+.ae-vert-thumb .product-single__thumbnail-link {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+  background: #f7f7f7;
+  border: none !important;
+}
+.ae-vert-thumb .product-single__thumbnail-img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+}
+.ae-vert-thumb .product-single__thumbnail-link { 
+  transition: transform .2s ease, box-shadow .2s ease; 
+}
+.ae-vert-thumb .product-single__thumbnail-link:hover,
+.ae-vert-thumb .product-single__thumbnail-link:focus {
+  transform: scale(1.08);
+  box-shadow: 0 0 6px rgba(0,0,0,.15);
+}
+
+/* Z stacking so gallery never blocks the details column */
+.ae-vert-gallery, .ae-vert-main, .ae-vert-thumbs { position: relative; z-index: 1; }
+.product-single__details { position: relative; z-index: 20; }
+
+/* =========================
+   Main viewer arrows (optional)
+   ========================= */
+.ae-main-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(0,0,0,.55);
+  color: #fff;
+  font-size: 26px;
+  line-height: 42px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  transition: background .2s ease, transform .2s ease;
+  opacity: 0; pointer-events: none;
+}
+.ae-vert-main:hover .ae-main-nav { opacity: 1; pointer-events: auto; }
+.ae-main-prev { left: 8px; }
+.ae-main-next { right: 8px; }
+.ae-main-nav:hover { background: rgba(0,0,0,.75); transform: translateY(-50%) scale(1.05); }
+
+/* =========================
+   Simple lightbox (only if you kept it)
+   ========================= */
+.ae-lb-open { overflow: hidden; }
+.ae-lightbox { position: fixed; inset: 0; z-index: 9999; display: none; pointer-events: none; }
+.ae-lightbox.is-open { display: block; pointer-events: auto; }
+.ae-lightbox__backdrop { position: absolute; inset: 0; background: rgba(0,0,0,.6); }
+.ae-lightbox__content  { position: absolute; inset: 4%; display: flex; align-items: center; justify-content: center; }
+.ae-lightbox__img      { max-width: 100%; max-height: 100%; width: auto; height: auto;
+                         box-shadow: 0 10px 30px rgba(0,0,0,.3); border-radius: 6px; background: #fff; }
+.ae-lightbox__close    { position: absolute; top: 10px; right: 14px; font-size: 28px; line-height: 1;
+                         background: rgba(0,0,0,.55); color: #fff; border: 0; border-radius: 4px; padding: 6px 10px; cursor: pointer; }
+.ae-lightbox__close:hover { background: rgba(0,0,0,.75); }
+.ae-lightbox__nav      { position: absolute; top: 50%; transform: translateY(-50%); z-index: 10001;
+                         width: 44px; height: 44px; border: 0; border-radius: 22px; background: rgba(0,0,0,.55);
+                         color: #fff; font-size: 28px; line-height: 44px; text-align: center; cursor: pointer; user-select: none; }
+.ae-lightbox__nav:hover { background: rgba(0,0,0,.75); }
+.ae-lightbox__prev { left: 14px; } .ae-lightbox__next { right: 14px; }
+
+/* =========================
+   Tabs (2-per-row groups)
+   ========================= */
+.ae-tabs { border: 1px solid rgba(0,0,0,.08); border-radius: 10px; background: var(--bg,#fff); margin-bottom: 14px; }
+.ae-tablist {
+  display: flex; flex-wrap: nowrap; gap: 8px;
+  padding: 8px; border-bottom: 1px solid rgba(0,0,0,.08);
+  overflow-x: visible; /* 2-up, no scroll */
+}
+.ae-tab {
+  appearance: none; border: 1px solid transparent; background: transparent;
+  flex: 1 1 50%; min-width: 0; white-space: normal; text-align: center;
+  padding: 8px 12px; font: inherit; color: inherit; cursor: pointer; border-radius: 8px;
+  opacity: .85; transition: background .15s ease, border-color .15s ease, opacity .15s ease;
+}
+.ae-tab:hover { opacity: 1; }
+.ae-tab[aria-selected="true"] { opacity: 1; background: rgba(0,0,0,.04); border-color: rgba(0,0,0,.12); }
+
+.ae-tabs-mode .ae-tabpanel { display: none !important; }
+.ae-tabs-mode .ae-tabpanel.is-active { display: block !important; padding: 14px 16px 18px; }
+
+/* Hide original accordion UI when in tabs mode + remove separators */
+.ae-tabs-mode .product__block.product__accordions,
+.ae-tabs-mode .product__block.product__accordions::before,
+.ae-tabs-mode .product__block.product__accordions::after,
+.ae-tabs-mode .product__accordion,
+.ae-tabs-mode .product__accordion::before,
+.ae-tabs-mode .product__accordion::after,
+.ae-tabs-mode .product__accordion__title::before,
+.ae-tabs-mode .product__accordion__title::after {
+  border: 0 !important; box-shadow: none !important; content: none !important;
+}
+.ae-tabs-mode .product__accordion__title,
+.ae-tabs-mode .accordion__header,
+.ae-tabs-mode details > summary { display: none !important; }
+
+/* Stack multiple tab groups */
+.ae-tabs--group + .ae-tabs--group { margin-top: 14px; }
+
+/* =========================
+   Tabs — Unclamp text ("Read more") only in tabs mode
+   Handles custom <toggle-ellipsis> element used by Palo Alto.
+   ========================= */
+.ae-tabs-mode .ae-tabpanel { overflow: visible !important; }
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis { overflow: visible !important; }
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis .toggle-ellipsis__content { overflow: visible !important; }
+
+/* Hide the Read more controls entirely */
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis .toggle-ellipsis__actions,
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis .toggle-ellipsis__button,
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis .toggle-ellipsis__more,
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis .toggle-ellipsis__less { display: none !important; }
+/* === AE Tabs — compat shim to neutralize theme collapse styles ========== */
+
+/* Show panels only when active, but fully neutralize collapse props */
+.ae-tabs-mode .ae-tabpanel {
+  display: block !important;
+  max-height: none !important;
+  height: auto !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Hide non-active panels explicitly (overrides any inline display:none on others) */
+.ae-tabs-mode .ae-tabpanel:not(.is-active) {
+  display: none !important;
+}
+
+/* Neutralize the theme’s accordion content container (some builds clamp here) */
+.ae-tabs-mode .product__accordion__content {
+  max-height: none !important;
+  height: auto !important;
+  overflow: visible !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+}
+
+/* Ensure descendants aren’t left semi-hidden after transitions */
+.ae-tabs-mode .ae-tabpanel *,
+.ae-tabs-mode .product__accordion__content * {
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: none !important;
+}
+
+/* Keep toggle-ellipsis safe inside tabs (in case theme injects mask/height) */
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis,
+.ae-tabs-mode .ae-tabpanel toggle-ellipsis .toggle-ellipsis__content {
+  max-height: none !important;
+  height: auto !important;
+  overflow: visible !important;
+}

@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "blog": {
+      "type": "blog",
+      "settings": {
+        "default_color": "accent",
+        "blog_style": "standard",
+        "post_columns": 3,
+        "image_aspect_ratio": 1.2,
+        "show_rss_icon": false,
+        "show_date": false,
+        "show_author": false,
+        "show_tags": true,
+        "show_comments_count": false,
+        "tag_alignment": "center",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-divider": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section-newsletter": {
+      "type": "section-newsletter",
+      "settings": {
+        "flex_align": "align--middle-split",
+        "text_color": "text-dark",
+        "title": "Let's Get Glowing",
+        "text": "<p>Subscribe for skin-intel, #EgoChecks, and clear-skin secrets—no clutter, just clarity.</p>",
+        "extra_fields": "",
+        "button_text": "SUBSCRIBE",
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "image_height": "three-fifty-height",
+        "overlay_opacity": 10,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-divider-0": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "blog",
+    "section-divider",
+    "section-newsletter",
+    "section-divider-0"
+  ]
+}

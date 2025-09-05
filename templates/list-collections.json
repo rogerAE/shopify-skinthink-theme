@@ -1,0 +1,159 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "list-collections": {
+      "type": "list-collections",
+      "blocks": {
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-0": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-7": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-8": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-9": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        },
+        "collection-10": {
+          "type": "collection",
+          "settings": {
+            "heading": "",
+            "block_text_color": "",
+            "bg_color": "",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection",
+        "collection-0",
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6",
+        "collection-7",
+        "collection-8",
+        "collection-9",
+        "collection-10"
+      ],
+      "settings": {
+        "title": "Shop All Collections",
+        "heading_size": 100,
+        "layout": "grid",
+        "alignment": "left",
+        "collections_per_row": 5,
+        "image_shape": "circle",
+        "image_aspect_ratio": 1,
+        "text_size": 120,
+        "overlay_text": false,
+        "section_bg_color": "",
+        "section_text_color": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "list-collections"
+  ]
+}

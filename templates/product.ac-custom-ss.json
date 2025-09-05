@@ -1,0 +1,2016 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product": {
+      "type": "product",
+      "blocks": {
+        "badges": {
+          "type": "badges",
+          "settings": {
+            "show_sale_badge": true,
+            "show_custom_badge": true,
+            "show_badges_over_gallery": true,
+            "padding_bottom": 20
+          }
+        },
+        "loox_reviews_loox_rating_EwTjch": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "#de5757",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "subheading": "none",
+            "title_size": 125,
+            "price_size": 105,
+            "bold_price": true,
+            "padding_bottom": 16
+          }
+        },
+        "inventory_countdown": {
+          "type": "inventory_countdown",
+          "disabled": true,
+          "settings": {
+            "max_inventory": 8,
+            "hide_inventory_count": false,
+            "padding_bottom": 16
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 6
+          }
+        },
+        "icon": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Free shipping over $99",
+            "text_size": 70,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 32
+          }
+        },
+        "icon-0": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Free shipping over $99",
+            "text_size": 70,
+            "width": "half",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 20
+          }
+        },
+        "timer": {
+          "type": "timer",
+          "disabled": true,
+          "settings": {
+            "end_date": "2025-8-30",
+            "end_time": "11:59",
+            "period": "am",
+            "end_message": "",
+            "digits_size": 65,
+            "heading": "Limited time offer",
+            "heading_size": 95,
+            "heading_style": "font-heading",
+            "text": "<p>Exclusive styles at 30% off, only for three days!</p>",
+            "text_size": 85,
+            "bg_color": "#f7f6f4",
+            "text_color": "text-dark",
+            "text_align": "text-center",
+            "padding_bottom": 20
+          }
+        },
+        "fit-guide": {
+          "type": "fit-guide",
+          "disabled": true,
+          "settings": {
+            "heading": "Fit",
+            "selected_segment": "4",
+            "left_label": "Small",
+            "middle_label": "True to size",
+            "right_label": "Large",
+            "fit_color": "",
+            "padding_bottom": 20
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "show_labels": true,
+            "show_quantity": true,
+            "show_payment_button": true,
+            "enable_subscriptions_selectors": true,
+            "padding_bottom": 8
+          }
+        },
+        "icon-1": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "mail",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Free shipping on orders over $100",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 16
+          }
+        },
+        "icon-2": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "recycle-circle",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Free 30 day returns",
+            "text_size": 80,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "rgba(0,0,0,0)",
+            "padding_bottom": 12
+          }
+        },
+        "product_accordion": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "open_by_default": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": true,
+            "line_thickness": "normal",
+            "accordion_heading": "About Super Sensa",
+            "heading_style": "font-body",
+            "accordion_text": "<ul><li>Barrier-coded, ultra-calming gel-cream</li><li>5% panthenol + 2% ectoin,  1% rice PDRN + 2% peptide duo</li><li>Deep long long-lasting hydration + faster barrier repair</li><li>Calms visible redness + irritation</li><li>Strengthens skin for long-term resilience</li></ul>",
+            "accordion_page": "",
+            "padding_bottom": 0
+          }
+        },
+        "product_accordion-0": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "open_by_default": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": true,
+            "line_thickness": "normal",
+            "accordion_heading": "About Tidy Pores",
+            "heading_style": "font-body",
+            "accordion_text": "<ul><li>Acne-safe, barrier-smart vitamin C serum</li><li>Brightens, tightens, & hydrates for up to 30 hours</li><li>Helps fade post-acne marks</li><li>Protects against oxidative stress & lipid peroxidation (hidden triggers behind breakouts)</li><li>Powered by stabilized, ultra-gentle vitamin C + 11 potent antioxidants</li><li>Delivers clarity without irritation</li></ul>",
+            "accordion_page": "",
+            "padding_bottom": 0
+          }
+        },
+        "product_accordion-1": {
+          "type": "product_accordion",
+          "disabled": true,
+          "settings": {
+            "show_description": false,
+            "show_read_more": true,
+            "open_by_default": false,
+            "enable_full_width": false,
+            "tabs_bg_color": "",
+            "text_color": "text-dark",
+            "show_accordion_divider": true,
+            "line_thickness": "normal",
+            "accordion_heading": "Why They're Better Together",
+            "heading_style": "font-body",
+            "accordion_text": "<p>Two steps that simplify your routine, support skin recovery, and help you glow smarter. Designed to layer seamlessly for calm, clear, hydrated skin.</p><p>Dermatologist-tested. Breakout-safe. Ego-approved.</p>",
+            "accordion_page": "",
+            "padding_bottom": 24
+          }
+        },
+        "upsell": {
+          "type": "upsell",
+          "disabled": true,
+          "settings": {
+            "product_list": [],
+            "padding_bottom": 0
+          }
+        },
+        "custom_code_Y4HGDc": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div id='ss-tabs'></div>",
+            "padding_bottom": 2
+          }
+        },
+        "custom_code_gKhTcB": {
+          "type": "custom_code",
+          "settings": {
+            "custom_code": "<div id='ss-trust-badges'></div>",
+            "padding_bottom": 0
+          }
+        },
+        "text_kVEfUX": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "<p><strong>FORMULATED FOR</strong></p>",
+            "text_alignment": "left",
+            "padding_bottom": 0
+          }
+        },
+        "icon_YQaV3b": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Brightening + Hyperpigmentation",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "icon_8aGnVi": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Deep Hydration",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "icon_wkmCwH": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Post-Acne Mark Fading",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "icon_rAyPaA": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Broad Spectrum Antioxidant Support",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "icon_eX3JmR": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Collagen Support",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "icon_iGG3BP": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Sebum Regulating",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "icon_y4Qeg6": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Calming + Soothing",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "icon_TF7PJL": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon_name": "check",
+            "icon_color": "",
+            "icon_width": 20,
+            "icon_text": "Aging Support",
+            "text_size": 90,
+            "width": "full",
+            "text_alignment": "left",
+            "bg_color": "",
+            "padding_bottom": 2
+          }
+        },
+        "cutline_MnUCbn": {
+          "type": "cutline",
+          "disabled": true,
+          "settings": {
+            "cutline_color": "body",
+            "padding_bottom": 48
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "enable_full_width": false,
+            "padding_bottom": 20
+          }
+        },
+        "icon_row_a4QJTc": {
+          "type": "icon_row",
+          "disabled": true,
+          "settings": {
+            "icon_name_1": "check",
+            "icon_color_1": "#0b0b0b",
+            "icon_width_1": 20,
+            "icon_text_1": "Brightening",
+            "icon_name_2": "check",
+            "icon_color_2": "",
+            "icon_width_2": 20,
+            "icon_text_2": "Hperpigmentation",
+            "icon_name_3": "check",
+            "icon_color_3": "",
+            "icon_width_3": 20,
+            "icon_text_3": "broad spectrum antioxidant support",
+            "icon_name_4": "clock",
+            "icon_color_4": "",
+            "icon_width_4": 20,
+            "icon_text_4": "Feature",
+            "alignment": "left",
+            "bg_color": "#ffffff",
+            "padding_bottom": 20
+          }
+        }
+      },
+      "block_order": [
+        "badges",
+        "loox_reviews_loox_rating_EwTjch",
+        "title",
+        "inventory_countdown",
+        "divider",
+        "icon",
+        "icon-0",
+        "timer",
+        "fit-guide",
+        "form",
+        "icon-1",
+        "icon-2",
+        "product_accordion",
+        "product_accordion-0",
+        "product_accordion-1",
+        "upsell",
+        "custom_code_Y4HGDc",
+        "custom_code_gKhTcB",
+        "text_kVEfUX",
+        "icon_YQaV3b",
+        "icon_8aGnVi",
+        "icon_wkmCwH",
+        "icon_rAyPaA",
+        "icon_eX3JmR",
+        "icon_iGG3BP",
+        "icon_y4Qeg6",
+        "icon_TF7PJL",
+        "cutline_MnUCbn",
+        "description",
+        "icon_row_a4QJTc"
+      ],
+      "settings": {
+        "product_sticky_enable": false,
+        "image_layout": "carousel",
+        "image_width": "large",
+        "product_image_aspect_ratio": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 8
+      }
+    },
+    "ss_product_tabs_2_QTEhp4": {
+      "type": "ss-product-tabs-2",
+      "blocks": {
+        "tab_L4Me8j": {
+          "type": "tab",
+          "settings": {
+            "icon": "none",
+            "header": "DESCRIPTION",
+            "content": "<p>Description</p>",
+            "product_description": true
+          }
+        },
+        "tab_DD37DT": {
+          "type": "tab",
+          "settings": {
+            "icon": "none",
+            "header": "FORMULATED FOR",
+            "content": "<p>✓ Barrier Repair<br/>✓ Use With Acne Treatments<br/>✓ Post-Acne Healing<br/>✓ Microbiome Support<br/>✓ Breakout-Prone Skin<br/>✓ Skin Stress<br/>✓ Redness Relief<br/>✓ Fungal Acne</p>",
+            "product_description": false
+          }
+        },
+        "tab_YUFYdn": {
+          "type": "tab",
+          "settings": {
+            "icon": "none",
+            "header": "INGREDIENTS",
+            "content": "<p>Key Ingredients:</p><ul><li>5% Panthenol</li><li>2% Ectoin</li><li>2% Betaine</li><li>2% Glyceryl Glucoside</li><li>6% Prebiotics & Postbiotics</li><li>1% Rice PDRN</li><li>1% Polyglutamic Acid</li><li>1% Tremella Snow Mushroom Extract</li><li>1% Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate (Syn-Up Peptide)</li><li>1% Acetyl Heptapeptide-4</li></ul><p></p><p>Full Ingredients:</p><p>Water/Aqua/Eau, Squalane*, Panthenol, Propanediol**, Ectoin, Glyceryl Glucoside, Betaine, Ammonium Polyacryloyldimethyl Taurate, Cyclopentasiloxane, Xylitylglucoside, Anhydroxylitol, Xylitol, Inulin, Alpha-Glucan Oligosaccharide, Acetyl Heptapeptide-4, Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate, Polyglutamic Acid, Sodium DNA, Trehalose, 1,2-Hexanediol, Caprylhydroxamic Acid, Tremella Fuciformis Sporocarp (Silver Ear Mushroom) Extract, Caprylyl Glycol, Tocopherol***.</p><p>* Sugarcane derived<br/>** Biotech corn-derived<br/>*** Natural Vitamin E Mixed Tocopherols</p><p>*For those sensitive to silicones: we use a tiny amount of cyclopentasiloxane in Super Sensa. During testing none of our silicone-sensitive customers experienced any adverse reactions. We use 1/10th to 1/20th the concentration that most silicone-containing moisturizers use and this prevents the risk of skin reactions, breakouts or irritation. This silicone also evaporates from the skin and does not leave a residue or film that occurs with dimethicone containing formulas.</p><p>* 0.1% used as a ph adjuster only. Does not exfoliate.</p><p>**Mixed tocopherols.</p>",
+            "product_description": false
+          }
+        }
+      },
+      "block_order": [
+        "tab_L4Me8j",
+        "tab_DD37DT",
+        "tab_YUFYdn"
+      ],
+      "name": "SS - Product tabs #2",
+      "settings": {
+        "tabs_position": "below_buy",
+        "btns_gap": 20,
+        "btns_gap_mobile": 20,
+        "button_line_thickness": 4,
+        "bts_padding_vertical": 0,
+        "button_padding_horizontal": 0,
+        "button_radius": 0,
+        "button_border_thickness": 0,
+        "icon_size": 20,
+        "icon_size_mobile": 20,
+        "btns_text_custom": true,
+        "btns_text_font": "josefin_sans_n4",
+        "btns_text_size": 12,
+        "btns_text_size_mobile": 12,
+        "btns_text_height": 130,
+        "content_custom": true,
+        "content_font": "josefin_sans_n4",
+        "content_size": 12,
+        "content_size_mobile": 13,
+        "content_height": 170,
+        "content_mt": 16,
+        "btns_bg_color": "#ffffff",
+        "btns_bg_hover_color": "",
+        "btns_border_color": "#000000",
+        "btns_border_hover_color": "#121212",
+        "btns_text_color": "#121212",
+        "btns_text_hover_color": "#121212",
+        "tabs_line_color": "#121212",
+        "content_color": "#121212",
+        "icon_color": "#121212",
+        "icon_hover_color": "#121212",
+        "background_color": "#fcfaf7",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "content_width": 120,
+        "border_thickness": 0
+      }
+    },
+    "ss_trust_badges_2_hnU68e": {
+      "type": "ss-trust-badges-2",
+      "blocks": {
+        "item_BRJXeb": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-ecology",
+            "image": "shopify://shop_images/7_bd03dbc8-f80d-409a-8e2e-24467a2ba170.png",
+            "title": "<p>Non-comedogenic, Dermatologist +</p><p>Allergy-tested.</p>",
+            "subtitle": ""
+          }
+        },
+        "item_aDfker": {
+          "type": "item",
+          "settings": {
+            "icon": "plant",
+            "title": "<p>Rosacea, Eczema, Fungal Acne, Hormonal Acne-prone & Reactive Skin Safe.</p>",
+            "subtitle": ""
+          }
+        },
+        "item_UWAnW4": {
+          "type": "item",
+          "settings": {
+            "icon": "time",
+            "image": "shopify://shop_images/9.png",
+            "title": "<p>Women Owned.</p>",
+            "subtitle": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_BRJXeb",
+        "item_aDfker",
+        "item_UWAnW4"
+      ],
+      "name": "SS - Trust Badges #2",
+      "settings": {
+        "trust_position": "below_buy",
+        "template": "standard",
+        "svg_color": "#de5757",
+        "bg_color": "",
+        "bg_color_item": "",
+        "title_color": "#de5757",
+        "subtitle_color": "#716969",
+        "icon_size": 30,
+        "title_font_size": 12,
+        "subtitle_font_size": 10,
+        "subtitle_margin_top": 0,
+        "space_items": 7,
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "ss_product_ingredients_2_E3Mzye": {
+      "type": "ss-product-ingredients-2",
+      "blocks": {
+        "ingredient_AGP9tX": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mystical Herb",
+            "text": "<p>This rare herb, found only in the luminous Azure Meadows, is known for its remarkable healing properties. It's believed to rejuvenate the body, restoring vitality and energy.</p>"
+          }
+        },
+        "ingredient_bwBGDt": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mystical Herb",
+            "text": "<p>This rare herb, found only in the luminous Azure Meadows, is known for its remarkable healing properties. It's believed to rejuvenate the body, restoring vitality and energy.</p>"
+          }
+        },
+        "ingredient_DNDMVz": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mystical Herb",
+            "text": "<p>This rare herb, found only in the luminous Azure Meadows, is known for its remarkable healing properties. It's believed to rejuvenate the body, restoring vitality and energy.</p>"
+          }
+        },
+        "ingredient_FkW66L": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mystical Herb",
+            "text": "<p>This rare herb, found only in the luminous Azure Meadows, is known for its remarkable healing properties. It's believed to rejuvenate the body, restoring vitality and energy.</p>"
+          }
+        },
+        "ingredient_dtW6t6": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mystical Herb",
+            "text": "<p>This rare herb, found only in the luminous Azure Meadows, is known for its remarkable healing properties. It's believed to rejuvenate the body, restoring vitality and energy.</p>"
+          }
+        },
+        "ingredient_H8U4gG": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mystical Herb",
+            "text": "<p>This rare herb, found only in the luminous Azure Meadows, is known for its remarkable healing properties. It's believed to rejuvenate the body, restoring vitality and energy.</p>"
+          }
+        },
+        "ingredient_nm6cBh": {
+          "type": "ingredient",
+          "settings": {
+            "title": "Mystical Herb",
+            "text": "<p>This rare herb, found only in the luminous Azure Meadows, is known for its remarkable healing properties. It's believed to rejuvenate the body, restoring vitality and energy.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "ingredient_AGP9tX",
+        "ingredient_bwBGDt",
+        "ingredient_DNDMVz",
+        "ingredient_FkW66L",
+        "ingredient_dtW6t6",
+        "ingredient_H8U4gG",
+        "ingredient_nm6cBh"
+      ],
+      "disabled": true,
+      "name": "SS - Product Ingredients #2",
+      "settings": {
+        "body_gap": 0,
+        "body_gap_mobile": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 38,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_align_mobile": "center",
+        "heading_mt": 0,
+        "heading_mt_mobile": 0,
+        "text": "<h3>Formulated For</h3>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 24,
+        "text_mt_mobile": 24,
+        "text_align": "left",
+        "text_align_mobile": "center",
+        "text_bottom_mobile": true,
+        "items_gap": 16,
+        "items_gap_mobile": 10,
+        "items_mt": 16,
+        "items_mt_mobile": 16,
+        "items_align": "start",
+        "items_align_mobile": "center",
+        "item_custom": false,
+        "item_font": "josefin_sans_n4",
+        "item_size": 16,
+        "item_size_mobile": 16,
+        "item_height": 100,
+        "item_padding_vertical": 8,
+        "item_padding_vertical_mobile": 8,
+        "item_padding_horizontal": 14,
+        "item_padding_horizontal_mobile": 14,
+        "item_radius": 40,
+        "item_border_thickness": 1,
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_align": "left",
+        "button_align_mobile": "center",
+        "button_mt": 32,
+        "button_mt_mobile": 0,
+        "button_padding_vertical": 20,
+        "button_padding_vertical_mobile": 20,
+        "button_padding_horizontal": 40,
+        "button_padding_horizontal_mobile": 40,
+        "button_radius": 100,
+        "button_border_thickness": 1,
+        "button_bottom_mobile": true,
+        "slider_width": 42,
+        "slider_width_mobile": 100,
+        "slider_gap": 20,
+        "card_padding_vertical": 20,
+        "card_padding_vertical_mobile": 20,
+        "card_padding_horizontal": 20,
+        "card_padding_horizontal_mobile": 20,
+        "card_radius": 40,
+        "card_border_thickness": 1,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 40,
+        "title_size_mobile": 34,
+        "title_height": 130,
+        "title_align": "center",
+        "title_align_mobile": "center",
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_text_height": 130,
+        "card_text_mt": 20,
+        "card_text_align": "center",
+        "card_text_align_mobile": "center",
+        "image_width": 80,
+        "image_width_mobile": 80,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "image_radius": 50,
+        "image_border_thickness": 6,
+        "image_mt": 20,
+        "image_align": "center",
+        "image_align_mobile": "center",
+        "hide_image": false,
+        "navigation_mt": -20,
+        "navigation_mt_mobile": 20,
+        "navigation_gap": 40,
+        "navigation_gap_mobile": 40,
+        "arrow_size": 46,
+        "arrow_size_mobile": 46,
+        "arrow_icon_size": 14,
+        "arrow_icon_size_mobile": 14,
+        "arrow_border_thickness": 0,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "dots_size": 12,
+        "dots_size_mobile": 12,
+        "dots_show_desktop": false,
+        "dots_show_mobile": true,
+        "item_color": "#2f222b",
+        "item_hover_color": "#ffffff",
+        "item_bg_color": "#ffffff",
+        "item_bg_hover_color": "#2f222b",
+        "item_border_color": "#2f222b",
+        "item_border_hover_color": "#2f222b",
+        "button_color": "#ffffff",
+        "button_hover_color": "#2f222b",
+        "button_bg_color": "#2f222b",
+        "button_bg_hover_color": "#ffffff",
+        "button_border_color": "#2f222b",
+        "button_border_hover_color": "#2f222b",
+        "card_bg_color": "#ffffff",
+        "card_border_color": "#2f222b",
+        "title_color": "#000000",
+        "card_text_color": "#000000",
+        "image_border_color": "#a68f8f",
+        "arrow_color": "#ffffff",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#2f222b",
+        "arrow_bg_hover_color": "#2f222b",
+        "arrow_border_color": "#2f222b",
+        "arrow_border_hover_color": "#2f222b",
+        "dots_color": "#2f222b",
+        "heading_color": "#1c161a",
+        "text_color": "#1c161a",
+        "background_color": "#fcf8f5",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "apps": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-columns": {
+      "type": "section-columns",
+      "blocks": {
+        "text_block": {
+          "type": "text_block",
+          "settings": {
+            "image_width": 100,
+            "title": "Sustainable & trendy",
+            "heading_size": 120,
+            "text": "<p>Our pieces are sustainably made, and designed to be a timeless piece in your wardrobe.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        },
+        "text_block-0": {
+          "type": "text_block",
+          "settings": {
+            "image_width": 100,
+            "title": "Elevate your style",
+            "heading_size": 120,
+            "text": "<p>Made with natural materials, each item is comfortable and easily machine washable.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--text",
+            "button_size": "btn--small",
+            "video_link_popup": "",
+            "video_link_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "text_block",
+        "text_block-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "No need to sacrifice style for comfort.",
+        "heading_size": 140,
+        "align_text": "text-left",
+        "columns": 2,
+        "columns_mobile": "1",
+        "show_images": true,
+        "show_borders": false,
+        "equalize_height": true,
+        "desktop_aspect_ratio": 0.7,
+        "mobile_aspect_ratio": 1,
+        "bg_color": "",
+        "gradient": "",
+        "color_borders": "#000000",
+        "layout_mobile": "stacked",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-overlapping-images": {
+      "type": "section-overlapping-images",
+      "disabled": true,
+      "settings": {
+        "text_position": "right",
+        "text_alignment": "center",
+        "images_width": 750,
+        "images_offset": 125,
+        "image_link_1": "",
+        "image_link_2": "",
+        "hide_image_2": false,
+        "subheading": "",
+        "title": "<p>Sustainable trends for <em>everyone</em></p>",
+        "heading_size": 130,
+        "heading_highlight_type": "highlight-color",
+        "highlight_color": "#000000",
+        "highlight_text_color": "#ecc295",
+        "description": "<p>Our mission is to empower people through sustainable fashion. We want everyone to look and feel good, while also doing our part to protect the environment.</p>",
+        "text_size": 100,
+        "button_text": "Shop new arrivals",
+        "button_link": "",
+        "button_color": "btn--primary",
+        "button_style": "btn--solid",
+        "button_size": "btn--large",
+        "video_text": "",
+        "video_link": "",
+        "bg_color": "",
+        "gradient": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 242, 228, 1) 50%, rgba(251, 236, 223, 1) 100%)",
+        "animation": "horizontal",
+        "animation_intensity": 50,
+        "width": "wrapper--full-padded",
+        "padding_top": 20,
+        "padding_bottom": 40
+      }
+    },
+    "section-image-with-text": {
+      "type": "section-image-with-text",
+      "disabled": true,
+      "settings": {
+        "show_accordion_divider": true,
+        "increase_border_radius": false,
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "inline",
+        "image_location": "right",
+        "image_width": "wide",
+        "block_bg_color": "",
+        "text_color": "text-dark",
+        "bg_color": "",
+        "gradient": "linear-gradient(180deg, rgba(251, 236, 223, 1), rgba(255, 255, 255, 1) 100%)",
+        "section_width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 80,
+        "padding_bottom": 60
+      }
+    },
+    "section-icons-row": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "Save 10% on your first order",
+            "text": "<p>When you subscribe</p>"
+          }
+        },
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "Free shipping in the U.S.",
+            "text": "<p>on orders over $100</p>"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "ShopPay ",
+            "text": "<p>Buy now, pay later</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text",
+        "text-0",
+        "text-1"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 20,
+        "show_vertical_borders": true,
+        "show_top_border": true,
+        "show_bottom_border": false,
+        "heading_size": 100,
+        "text_size": 90,
+        "bg_color": "#20150f",
+        "gradient": "",
+        "text_color": "#fff7f2",
+        "box_color": "",
+        "color_border": "#333333",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "section_divider_TReJtz": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_testimonials_with_images_iW9RXz": {
+      "type": "section-testimonials-with-images",
+      "blocks": {
+        "testimonial_7JAM4G": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "My favorite Vitamin C serum!",
+            "text_size": 125,
+            "text": "<p>Loves how it dries down on the skin. I usually apply this after cleaning and applying a watery toner. After I wait for it to dry I’ll apply a hydrating serum, my moisturizer and then sunscreen</p>",
+            "content_size": 100,
+            "customer_name": "John Edmonson",
+            "subheading": "<p>Maryam K.</p>"
+          }
+        },
+        "image_HYgwaa": {
+          "type": "image",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": false,
+            "image": "shopify://shop_images/uwUD-Me_m.jpg",
+            "aspect_ratio": 0.8,
+            "heading": "I’m really enjoying this product. I’ve tried a lot of skincare in my time and this company is new to me. I do still struggle with hormonal breakouts every now and then but as you can see by the picture my skin was looking pretty good (no filter or make up was on) and when I was a teenager I had horrible acne it affected my confidence so much, I chose to go on Roaccutane through my doctors it worked amazing for me. So if this sounds like your skin or you’ve had similar issues this product it’s definitely worth a try. 💋",
+            "text_size": 125,
+            "customer_name": "Georgia K.",
+            "block_color": "",
+            "text_color": "text-dark"
+          }
+        },
+        "testimonial_6xVFUA": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "Best Vitamin C serum out there!!!",
+            "text_size": 125,
+            "text": "<p>I have combination skin, and usually most products tend to break me out. Not this one, it makes my face feel more hydrated, and it’s lightweight. Overall my skin loves this product, my rating is a 10/10.</p>",
+            "content_size": 100,
+            "customer_name": "Abel Z.",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_7JAM4G",
+        "image_HYgwaa",
+        "testimonial_6xVFUA"
+      ],
+      "name": "Testimonials with images",
+      "settings": {
+        "subheading": "SEE THE #EGOEVIDENCE",
+        "subheading_size": 150,
+        "title": "98% of customers love us",
+        "heading_size": 115,
+        "text_alignment": "text-left",
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "testimonial_block_color": "",
+        "star_color": "#eb5a5b",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 6
+      }
+    },
+    "section_list_butttons_bbTWLU": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_3FBYmw": {
+          "type": "button",
+          "settings": {
+            "heading": "Submit Your #EgoEvidence",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "button_Lq9rEp": {
+          "type": "button",
+          "settings": {
+            "heading": "APPLY TO OUR CASE STUDY",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_3FBYmw",
+        "button_Lq9rEp"
+      ],
+      "name": "Buttons list",
+      "settings": {
+        "title": "",
+        "heading_size": 200,
+        "layout": "grid",
+        "alignment": "center",
+        "collections_per_row": 2,
+        "columns_mobile": "1",
+        "type_style": "button-typography",
+        "button_style": "rounded",
+        "text_size": 115,
+        "letter_spacing": 75,
+        "show_arrow": false,
+        "bg_color": "#fff7f2",
+        "block_text_color": "#20150f",
+        "border_color": "#20150f",
+        "section_bg_color": "#fff7f2",
+        "gradient": "",
+        "section_text_color": "",
+        "enable_slider_mobile": false,
+        "animations_enabled": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ss_feature_15_eNVbpD": {
+      "type": "ss-feature-15",
+      "blocks": {
+        "item_3YYCYw": {
+          "type": "item",
+          "settings": {
+            "icon": "bi-ecology",
+            "heading": "SUPER SENSA INGREDIENTS",
+            "text": "<p>Every texture choice and supporting ingredient was made to feel luxe, layer seamlessly, and keep your skin calm. No fluff. No fillers. Just skin-safe support.</p><p><br/></p><p><strong>Caprylic/Capric Triglyceride + Squalane:</strong> Lightweight, non-comedogenic emollients that seal in moisture and restore suppleness without clogging pores</p><p><br/></p><p><strong>Glycerin:</strong> A humectant that draws moisture deep into the skin and maintains hydration throughout the day</p><p><br/></p><p><strong>Tocopherol (Vitamin E):</strong> A soothing antioxidant that works with Ectoin to reduce irritation and oxidative stress</p><p><br/></p><p><strong>Skin-Friendly pH (5.0–6.0):</strong> Balanced to avoid disruption and maintain barrier harmony</p><p><br/></p><p><strong>No fragrance, essential oils, or acne-triggering ingredients</strong> — ever.</p>",
+            "image": "shopify://shop_images/Untitled_design_14_copy_70a607f2-df86-4fb4-b571-d20e5f2bbde0.png"
+          }
+        },
+        "item_nkRjxt": {
+          "type": "item",
+          "settings": {
+            "icon": "love",
+            "heading": "SUPER SENSA ACTIVES",
+            "text": "<p>Super Sensa is loaded with clinically studied actives chosen for sensitive, acne-prone, and barrier-compromised skin. Every % is there for a reason — and nothing is filler.</p><p><br/></p><p><strong>5% Panthenol (Vitamin B5):</strong> Delivers deep, lasting hydration while speeding up barrier recovery and healing</p><p><br/></p><p><strong>2% Ectoin:</strong> A powerhouse stress-protection molecule that shields skin from environmental aggressors and oxidative damage</p><p><br/></p><p><strong>0.1% Polydeoxyribonucleotide (PDRN):</strong> A DNA fragment with regenerative properties to visibly calm irritation and support cellular repair</p><p><br/></p><p><strong>2% Peptide Complex (Palmitoyl Tripeptide-5 + Acetyl Hexapeptide-8):</strong> Improves resilience, elasticity, and skin texture over time</p><p><br/></p><p><strong>Prebiotics (Inulin) + Postbiotics (Lactococcus Ferment Lysate):</strong> Nourish and rebalance the skin microbiome to minimize reactivity and strengthen long-term skin health</p>",
+            "image": "shopify://shop_images/Untitled_design_14_copy_2_0ce4c3d5-6aa3-4375-ac25-c7eb91da6a3f.png"
+          }
+        },
+        "item_EACaK8": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "newsletter",
+            "heading": "HOW TO USE",
+            "text": "<p>After serums, apply <strong>just 1 pump</strong> of Super Sensa to <strong>damp skin</strong> for optimal absorption.<br/><br/>Gently press (don’t rub!) into the skin and let it fully absorb before layering SPF or any additional products.</p><p><br/></p><p><em>Pro tip: Applying to damp skin helps lock in hydration and prevents pilling—don’t overdo it. One pump is enough.</em></p><p><br/></p><p>Use AM or PM for barrier support, bounce, and glow that plays nice with actives and your ego.</p>",
+            "image": "shopify://shop_images/Untitled_design_14_copy_2_0ce4c3d5-6aa3-4375-ac25-c7eb91da6a3f.png"
+          }
+        },
+        "item_cGxkfy": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "icon": "shield",
+            "heading": "ADD IT TO YOUR ROUTINE",
+            "text": "<p><strong>Super Sensa is your final step before SPF or your PM treatment—think of it as your bounce-back, barrier-repair, hydration hero.</strong></p><p><br/></p><p>It locks in glow, soothes sensitivity, and makes everything else in your routine work better (without the sting).</p><p><br/></p><p><strong>Step 1:</strong> Cleanse<br/><strong>Step 2:</strong> Serum (hello, Tidy Pores)<br/><strong>Step 3:</strong> Super Sensa Moisturizer<br/><strong>Step 4:</strong> SPF (AM only) or Retinoid (PM only)</p><p><br/></p><p>Use it morning, night, or both—just <strong>one pump on damp skin</strong> is all it takes.</p>",
+            "image": "shopify://shop_images/Untitled_design_14_72a3b62d-e332-47af-a94c-f41632d3c85f.png"
+          }
+        },
+        "item_RTck9q": {
+          "type": "item",
+          "settings": {
+            "icon": "heart",
+            "heading": "FROM OUR FOUNDER",
+            "text": "<p>\"I built Super Sensa for the skin I couldn't fix with anything else. I needed something hydrating enough to help my skin bounce back, but gentle enough not to break it. This formula took months to get right—every active was picked to support reactive skin and barrier healing, without compromising results.\"</p><p><br/></p><p>— Christina, Founder + Head of R+D</p>",
+            "image": "shopify://shop_images/Untitled_design_14_copy_d8ed195b-c196-4111-9917-cc2ce3842be7.png"
+          }
+        }
+      },
+      "block_order": [
+        "item_3YYCYw",
+        "item_nkRjxt",
+        "item_EACaK8",
+        "item_cGxkfy",
+        "item_RTck9q"
+      ],
+      "name": "SS - Feature #15",
+      "settings": {
+        "heading": "",
+        "heading_custom": true,
+        "heading_font": "space_mono_n4",
+        "heading_size": 34,
+        "heading_size_mobile": 20,
+        "heading_height": 130,
+        "heading_align_mobile": "center",
+        "tabs_radius": 6,
+        "tabs_border_thickness": 0,
+        "tabs_mt_mobile": 24,
+        "tab_padding_vertical": 10,
+        "tab_padding_vertical_mobile": 10,
+        "tab_padding_horizontal": 14,
+        "tab_padding_horizontal_mobile": 14,
+        "tab_icon_size": 24,
+        "tab_icon_size_mobile": 24,
+        "tab_custom": false,
+        "tab_font": "space_mono_n4",
+        "tab_size": 14,
+        "tab_height": 100,
+        "slider_mt": 40,
+        "slider_mt_mobile": 40,
+        "slide_gap": 32,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "sub_heading_custom": false,
+        "sub_heading_font": "space_mono_n4",
+        "sub_heading_size": 32,
+        "sub_heading_size_mobile": 30,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 20,
+        "text_custom": false,
+        "text_font": "space_mono_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "list_item_icon_size": 16,
+        "list_item_icon_size_mobile": 16,
+        "slide_image_position": "right",
+        "slide_image_radius": 6,
+        "slide_image_border_thickness": 0,
+        "slide_image_mt_mobile": 20,
+        "slide_image_ratio": "portrait",
+        "slide_image_ratio_mobile": "portrait",
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 1,
+        "arrow_hover_effect": "arrow",
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": true,
+        "tabs_border_color": "#20150f",
+        "tab_color": "#de5757",
+        "tab_hover_color": "#20150f",
+        "tab_active_color": "#de5757",
+        "tab_bg_color": "#fff7f2",
+        "tab_bg_hover_color": "#fff7f2",
+        "tab_bg_active_color": "#20150f",
+        "slide_image_border_color": "#000000",
+        "sub_heading_color": "#20150f",
+        "text_color": "#20150f",
+        "arrow_color": "#de5757",
+        "arrow_hover_color": "#de5757",
+        "arrow_bg_color": "#20150f",
+        "arrow_bg_hover_color": "#20150f",
+        "arrow_border_color": "#ffffff",
+        "arrow_border_hover_color": "#ffffff",
+        "heading_color": "#ffffff",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#f7e7df",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 10,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "section_divider_AREMnw": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ss_steps_11_XakNyR": {
+      "type": "ss-steps-11",
+      "blocks": {
+        "step_QBayHb": {
+          "type": "step",
+          "settings": {
+            "step": "START",
+            "title": "Here's how Super Sensa fits into your daily ritual...",
+            "text": ""
+          }
+        },
+        "step_3TeNNa": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 1",
+            "title": "CLEANSE",
+            "text": "<p>Use a gentle, barrier-safe cleanser (like MELLOW JELLY - launching soon ;)) to remove buildup without stripping your skin.</p>"
+          }
+        },
+        "step_qA3LTJ": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 2",
+            "title": "SERUMS",
+            "text": "<p>Tidy Pores if you want a clarity kickstarter ;)<br/><br/>Apply 1–2 pumps of this acne-safe, vitamin C-powered serum to dry skin. Brightens, hydrates, and calms in one ego-approved step.</p>"
+          }
+        },
+        "step_tqaxVr": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 3",
+            "title": "TREAT (OPTIONAL)",
+            "text": "<p>Layer your retinoid, spot treatment, or other actives now.</p>"
+          }
+        },
+        "step_W8Fm4r": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 4",
+            "title": "SUPER SENSA",
+            "text": "<p>After serums, apply <strong>just 1 pump</strong> of Super Sensa to <strong>damp skin</strong> for optimal absorption.<br/><br/>Gently press (don’t rub!) into the skin and let it fully absorb before layering SPF or any additional products.</p><p><br/></p><p><em>Pro tip: Applying to damp skin helps lock in hydration and prevents pilling—don’t overdo it. One pump is enough.</em></p><p><br/></p>"
+          }
+        },
+        "step_dakJDW": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 5",
+            "title": "SPF (AM ONLY)",
+            "text": "<p>Don’t skip the shield. Protect your progress with a mineral or acne-safe sunscreen—your skin’s final layer of defense.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_QBayHb",
+        "step_3TeNNa",
+        "step_qA3LTJ",
+        "step_tqaxVr",
+        "step_W8Fm4r",
+        "step_dakJDW"
+      ],
+      "name": "SS - Steps #11",
+      "settings": {
+        "layout": "image_content",
+        "layout_mobile": "image_content",
+        "layout_gap": 64,
+        "layout_gap_mobile": 32,
+        "image": "shopify://shop_images/Authentic_Ego_Social_Content_9_copy.png",
+        "image_radius": 6,
+        "image_border_thickness": 0,
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "steps_custom": true,
+        "steps_font": "josefin_sans_n4",
+        "steps_size": 12,
+        "steps_size_mobile": 12,
+        "steps_height": 100,
+        "steps_padding_horizontal": 8,
+        "steps_padding_horizontal_mobile": 8,
+        "steps_padding_vertical": 4,
+        "steps_padding_vertical_mobile": 4,
+        "steps_radius": 100,
+        "steps_border_thickness": 1,
+        "steps_content_align": "left",
+        "steps_content_align_mobile": "left",
+        "title_custom": true,
+        "title_font": "josefin_sans_n4",
+        "title_size": 24,
+        "title_size_mobile": 20,
+        "title_height": 130,
+        "text_custom": true,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 12,
+        "text_height": 150,
+        "text_mt": 8,
+        "text_mt_mobile": 8,
+        "steps_color": "#de5757",
+        "steps_bg_color": "#ffffff",
+        "steps_border_color": "#f7e7df",
+        "title_color": "#ffffff",
+        "text_color": "#ffffff",
+        "image_border_color": "#121212",
+        "background_color": "#20150f",
+        "background_gradient": "",
+        "border_color": "#20150f",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1000,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "ss_before_after_9_AkFqDL": {
+      "type": "ss-before-after-9",
+      "blocks": {
+        "card_7gEDGa": {
+          "type": "card",
+          "settings": {
+            "before_text": "BEFORE",
+            "after_text": "AFTER",
+            "title": "SOPHIE S.",
+            "stars_count": 5,
+            "first_icon": "none",
+            "first_tag_text": "\"I don’t think it would be an exaggeration to say that this moisturiser saved my skin. I had severe dermatitis/eczema for a good few weeks, it wasn’t until I started using Super Sensa (alongside my steroid) that it calmed down and now my skin is so much smoother, clearer and more hydrated than even before my skin condition.\"",
+            "second_icon": "none",
+            "second_tag_text": "",
+            "product": "",
+            "product_title": "SUPER SENSA",
+            "button_url": "shopify://products/super-sensa-barrier-repair-moisturizer-with-ectoin-and-panthenol-pdrn"
+          }
+        },
+        "card_63D683": {
+          "type": "card",
+          "settings": {
+            "before_text": "BEFORE",
+            "after_text": "AFTER",
+            "title": "CLAIRE E.",
+            "stars_count": 5,
+            "first_icon": "none",
+            "first_tag_text": "\"It has now been a full month of using the new super sensa! My acne scars are fading, my skin feels fresh, and it has been almost of month of no acne, NONE. I trust that all the ingredients are serving me and this will continue to be my holy grail! Praise authentic ego!\"",
+            "second_icon": "none",
+            "second_tag_text": "",
+            "product": "",
+            "product_title": "SUPER SENSA",
+            "button_url": "shopify://products/super-sensa-barrier-repair-moisturizer-with-ectoin-and-panthenol-pdrn"
+          }
+        },
+        "card_XrwTtW": {
+          "type": "card",
+          "settings": {
+            "before_text": "Before",
+            "after_text": "After",
+            "title": "Title",
+            "stars_count": 5,
+            "first_icon": "atc",
+            "first_tag_text": "First tag",
+            "second_icon": "atc",
+            "second_tag_text": "Second tag",
+            "product": "",
+            "product_title": "Product title",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_7gEDGa",
+        "card_63D683",
+        "card_XrwTtW"
+      ],
+      "disabled": true,
+      "name": "SS - Before/after image #9",
+      "settings": {
+        "heading": "<h3>SEE THE #EGOEVIDENCE</h3>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 36,
+        "heading_size_mobile": 24,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_align_mobile": "center",
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 9,
+        "arrow_icon_size_mobile": 9,
+        "arrow_border_thickness": 1,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "arrow_shadow": true,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "slider_view": 3,
+        "slider_view_mobile": 1.1,
+        "slider_gap": 12,
+        "slider_gap_mobile": 10,
+        "slider_mt": 28,
+        "slider_mt_mobile": 24,
+        "card_radius": 12,
+        "card_border_thickness": 0,
+        "card_shadow": true,
+        "image_border_thickness": 1,
+        "image_overlay": 0.2,
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "image_text_custom": false,
+        "image_text_font": "josefin_sans_n4",
+        "image_text_size": 13,
+        "image_text_size_mobile": 12,
+        "image_text_height": 130,
+        "content_padding_horizontal": 8,
+        "content_padding_horizontal_mobile": 8,
+        "content_padding_vertical": 8,
+        "content_padding_vertical_mobile": 8,
+        "content_border_thickness": 1,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 18,
+        "title_size_mobile": 18,
+        "title_height": 130,
+        "stars_size": 14,
+        "stars_size_mobile": 14,
+        "tags_gap": 12,
+        "tags_gap_mobile": 12,
+        "tag_icon_width": 14,
+        "tag_icon_width_mobile": 14,
+        "tag_text_custom": false,
+        "tag_text_font": "josefin_sans_n4",
+        "tag_text_size": 14,
+        "tag_text_size_mobile": 14,
+        "tag_text_height": 130,
+        "product_image_radius": 8,
+        "product_image_border_thickness": 0,
+        "product_image_ratio": "square",
+        "product_image_ratio_mobile": "square",
+        "product_title_custom": false,
+        "product_title_font": "josefin_sans_n4",
+        "product_title_size": 16,
+        "product_title_size_mobile": 14,
+        "product_title_height": 150,
+        "button": "Shop",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_height": 100,
+        "button_padding_vertical": 8,
+        "button_padding_vertical_mobile": 8,
+        "button_padding_horizontal": 16,
+        "button_padding_horizontal_mobile": 16,
+        "button_radius": 100,
+        "button_border_thickness": 1,
+        "button_style": "outline",
+        "bottom_text": "",
+        "bottom_text_custom": false,
+        "bottom_text_font": "josefin_sans_n4",
+        "bottom_text_size": 14,
+        "bottom_text_size_mobile": 14,
+        "bottom_text_height": 150,
+        "bottom_text_mt": 28,
+        "bottom_text_mt_mobile": 28,
+        "bottom_text_align": "center",
+        "bottom_text_align_mobile": "center",
+        "card_bg_color": "#f7e7df",
+        "card_border_color": "#20150f",
+        "image_border_color": "#20150f",
+        "image_overlay_color": "#20150f",
+        "image_text_color": "#ffffff",
+        "content_border_color": "#20150f",
+        "title_color": "#20150f",
+        "stars_color": "#de5757",
+        "tag_icon_color": "#de5757",
+        "tag_text_color": "#121212",
+        "product_image_border_color": "#121212",
+        "product_title_color": "#20150f",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#de5757",
+        "button_bg_hover_color": "#de5757",
+        "button_border_color": "#20150f",
+        "button_border_hover_color": "#de5757",
+        "arrow_color": "#de5757",
+        "arrow_hover_color": "#20150f",
+        "arrow_bg_color": "#ffffff",
+        "arrow_bg_hover_color": "#ffffff",
+        "arrow_border_color": "#de5757",
+        "arrow_border_hover_color": "#121212",
+        "heading_color": "#ffffff",
+        "bottom_text_color": "#20150f",
+        "background_color": "#20150f",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "ss_feature_39_mApF3z": {
+      "type": "ss-feature-39",
+      "blocks": {
+        "sub_heading_3F4zTe": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "<h3>SUPER SENSA FAQ</h3>",
+            "sub_heading_custom": true,
+            "sub_heading_font": "josefin_sans_n4",
+            "sub_heading_size": 40,
+            "sub_heading_size_mobile": 24,
+            "sub_heading_height": 150,
+            "sub_heading_mt": 0,
+            "sub_heading_mt_mobile": 0,
+            "sub_heading_color": "#ffffff"
+          }
+        },
+        "heading_hWzJWc": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 40,
+            "heading_size_mobile": 32,
+            "heading_height": 130,
+            "heading_mt": 12,
+            "heading_mt_mobile": 12,
+            "heading_color": "#ffffff"
+          }
+        },
+        "feature_ggqQkp": {
+          "type": "feature",
+          "settings": {
+            "column": "first",
+            "icon": "none",
+            "title": "Is this just a moisturizer?",
+            "text": "<p>Not quite. Super Sensa is a gel-cream hybrid that hydrates like a serum, calms like a treatment, and seals like a moisturizer—minus the heaviness.</p>"
+          }
+        },
+        "feature_iNAKhW": {
+          "type": "feature",
+          "settings": {
+            "column": "first",
+            "icon": "none",
+            "title": "Will this break me out?",
+            "text": "<p>Nope. Super Sensa is acne-safe, fungal acne-safe, and fragrance-free. It was built specifically for reactive, breakout-prone skin.</p>"
+          }
+        },
+        "feature_t83PEd": {
+          "type": "feature",
+          "settings": {
+            "column": "first",
+            "icon": "none",
+            "title": "Can I use it with actives like retinol?",
+            "text": "<p>Absolutely. Super Sensa is designed to buffer, soothe, and support your skin barrier—making it the perfect partner for strong actives or post-treatment skin.</p>"
+          }
+        },
+        "button_BC8kfL": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button": "TRY NOW (SAVE 30%)",
+            "url": "",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 18,
+            "button_size_mobile": 18,
+            "button_height": 100,
+            "button_padding_horizontal": 36,
+            "button_padding_horizontal_mobile": 36,
+            "button_padding_vertical": 20,
+            "button_padding_vertical_mobile": 20,
+            "button_radius": 100,
+            "button_border_thickness": 1,
+            "button_mt": 32,
+            "button_mt_mobile": 0,
+            "button_style": "outline",
+            "button_color": "#ffffff",
+            "button_hover_color": "#121212",
+            "button_bg_color": "#121212",
+            "button_bg_hover_color": "#ffffff",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        },
+        "bottom_text_4QHQHa": {
+          "type": "bottom_text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>90-Day Money-Back Guarantee</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 15,
+            "text_size_mobile": 15,
+            "text_height": 130,
+            "text_mt": 16,
+            "text_mt_mobile": 16,
+            "text_color": "#121212"
+          }
+        },
+        "sticker_LajmPH": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "sticker": "first_sticker",
+            "sticker_color": "#f3f3f3",
+            "sticker_width": 150,
+            "sticker_width_mobile": 100,
+            "vertical_position": 12,
+            "vertical_position_mobile": 12,
+            "horizontal_position": 5,
+            "horizontal_position_mobile": 5,
+            "rotate": 10,
+            "rotate_mobile": 10
+          }
+        },
+        "sticker_BVdqmm": {
+          "type": "sticker",
+          "disabled": true,
+          "settings": {
+            "sticker": "first_sticker",
+            "sticker_color": "#f3f3f3",
+            "sticker_width": 150,
+            "sticker_width_mobile": 100,
+            "vertical_position": 24,
+            "vertical_position_mobile": 24,
+            "horizontal_position": 95,
+            "horizontal_position_mobile": 95,
+            "rotate": 350,
+            "rotate_mobile": 350
+          }
+        }
+      },
+      "block_order": [
+        "sub_heading_3F4zTe",
+        "heading_hWzJWc",
+        "feature_ggqQkp",
+        "feature_iNAKhW",
+        "feature_t83PEd",
+        "button_BC8kfL",
+        "bottom_text_4QHQHa",
+        "sticker_LajmPH",
+        "sticker_BVdqmm"
+      ],
+      "name": "SS - Feature #39",
+      "settings": {
+        "feature_bg_type": "image",
+        "bg_image": "shopify://shop_images/Untitled_design_14_68b63408-6a63-4208-917f-4606bdc3bb60.png",
+        "bg_image_mobile": "shopify://shop_images/Website_-_Mobile_2_copy_2.png",
+        "feature_bg_overlay": 0,
+        "content_align": "center",
+        "content_align_mobile": "center",
+        "features_gap": 40,
+        "features_gap_mobile": 24,
+        "features_mt": 40,
+        "features_mt_mobile": 24,
+        "feature_align": "center",
+        "feature_align_mobile": "center",
+        "feature_icon_size": 72,
+        "feature_icon_size_mobile": 62,
+        "title_custom": true,
+        "title_font": "josefin_sans_n4",
+        "title_size": 25,
+        "title_size_mobile": 20,
+        "title_height": 130,
+        "title_mt": 28,
+        "title_mt_mobile": 24,
+        "text_custom": true,
+        "text_font": "josefin_sans_n4",
+        "text_size": 15,
+        "text_size_mobile": 15,
+        "text_height": 150,
+        "text_mt": 16,
+        "text_mt_mobile": 16,
+        "image": "shopify://shop_images/Website_-_Mobile_2_copy_3.png",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "image_ratio": "original",
+        "image_ratio_mobile": "original",
+        "feature_icon_color": "#f7e7df",
+        "title_color": "#ffffff",
+        "text_color": "#ffffff",
+        "image_border_color": "#20150f",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "feature_bg_overlay_color": "#121212",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 52,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "1753191429f163aa19": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_BPVhNy": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_BPVhNy"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1753191432043d58a4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_all_reviews_text_wcMcmt": {
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_all_reviews_text_wcMcmt"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "#f7e7df",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "175319143921205bc2": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_medals_YLVtdL": {
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_medals_YLVtdL"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "175319144783bd2e40": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_preview_badge_TpxgMh": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_preview_badge_TpxgMh"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1753191456cba150fa": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_verified_badge_6DU7m7": {
+          "type": "shopify://apps/judge-me-reviews/blocks/verified_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_verified_badge_6DU7m7"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "175319146428a0a4bb": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_ATe49W": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_ATe49W"
+      ],
+      "disabled": true,
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "1753191502eb073d45": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_ugc_media_grid_fDUgUV": {
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_ugc_media_grid_fDUgUV"
+      ],
+      "settings": {
+        "bg_color": "#20150f",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "blocks": {
+        "related": {
+          "type": "related",
+          "settings": {
+            "title": "You may also like",
+            "product_recommendations_limit": 4
+          }
+        },
+        "recent": {
+          "type": "recent",
+          "settings": {
+            "title": "Recently viewed",
+            "product_recently_limit": 4
+          }
+        }
+      },
+      "block_order": [
+        "related",
+        "recent"
+      ],
+      "settings": {
+        "enable_tabs": true,
+        "layout": "grid",
+        "columns_mobile": "1",
+        "type_style": "subheading-text",
+        "tab_heading_size": 100,
+        "bg_color": "#ffffff",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "product",
+    "ss_product_tabs_2_QTEhp4",
+    "ss_trust_badges_2_hnU68e",
+    "ss_product_ingredients_2_E3Mzye",
+    "apps",
+    "section-columns",
+    "section-overlapping-images",
+    "section-image-with-text",
+    "section-icons-row",
+    "section_divider_TReJtz",
+    "section_testimonials_with_images_iW9RXz",
+    "section_list_butttons_bbTWLU",
+    "ss_feature_15_eNVbpD",
+    "section_divider_AREMnw",
+    "ss_steps_11_XakNyR",
+    "ss_before_after_9_AkFqDL",
+    "ss_feature_39_mApF3z",
+    "1753191429f163aa19",
+    "1753191432043d58a4",
+    "175319143921205bc2",
+    "175319144783bd2e40",
+    "1753191456cba150fa",
+    "175319146428a0a4bb",
+    "1753191502eb073d45",
+    "related-products"
+  ]
+}

@@ -1,0 +1,40 @@
+<!-- /snippets/products-recently-viewed.liquid -->
+{% comment %}
+  Renders list of recently viewed products in grid layout
+
+  Accepts:
+  - product: {Object} product (required)
+  - limit: {Integer} A maxmimum products to show
+  - product_recently_minimum: {Integer} A minimum products to show
+  - enable_carousel: {Boolean} Determines the section layout
+  - container_class: {String} The class of the container
+  - layout_class: {String} The classes of the layout components
+
+  Usage:
+  {% render 'products-recently-viewed', product: product, product_recently_minimum: product_recently_minimum %}
+{% endcomment %}
+
+{%- assign enable_carousel = enable_carousel | default: false -%}
+
+<div
+  class="{{ container_class }}"
+  id="RecentlyViewed-{{ section.id }}"
+  data-recent-wrapper
+  data-limit="{{ limit }}"
+  data-minimum="{{ product_recently_minimum }}"
+  {% if block %}
+    {{- block.shopify_attributes -}}
+  {% endif %}
+>
+  <div
+    class="{{ layout_class }}"
+    {% if enable_carousel %}
+      data-slider
+      data-slider-id="recently-slider--{{ section.id }}"
+    {% endif %}
+    id="recently-viewed-products-{{ section.id }}"
+    tabindex="0"
+    role="group"
+    data-column-mobile="{{ columns_mobile }}"
+  ></div>
+</div>

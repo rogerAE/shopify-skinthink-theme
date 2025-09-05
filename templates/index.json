@@ -1,0 +1,1815 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "section-slideshow": {
+      "type": "section-slideshow",
+      "blocks": {
+        "image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/header.png",
+            "image_mobile": "shopify://shop_images/Untitled_design_14_6bf09336-98d5-4272-a459-890831c9b89e.png",
+            "overlay_opacity": 5,
+            "content_width": 91,
+            "text_position": "left",
+            "text_alignment": "text-left",
+            "text_color": "text-dark",
+            "subheading": "THE FUTURE OF ACNE-CARE IS HERE",
+            "title": "<p>FORMULATED FOR REAL, REACTIVE SKIN</p>",
+            "heading_size": 110,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#fff7f2",
+            "highlight_text_color": "#ffffff",
+            "text": "",
+            "text_size": 70,
+            "stacked_button": true,
+            "button_1_text": "SHOP ALL PRODUCTS →",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/all",
+            "button_2_color": "btn--secondary",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
+          }
+        },
+        "image_YnanPA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/You_ve_already_trusted_Authentic_Ego_with_your_skin._Now_you_re_part_of_the_EgoSystem_where_every_formula_is_designed_to_support_the_complex_biology_of_adult_hormonal_and_reactive_ski_16c90fd2-7cda-412a-8ed8-5df98aa232ca.png",
+            "image_mobile": "shopify://shop_images/Website_-_Mobile_3_copy.png",
+            "overlay_opacity": 10,
+            "content_width": 80,
+            "text_position": "left",
+            "text_alignment": "text-left",
+            "text_color": "text-dark",
+            "subheading": "JUST DROPPED",
+            "title": "<p>THE EGO ESSENTIALS DUO</p>",
+            "heading_size": 150,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#fff7f2",
+            "highlight_text_color": "#20150f",
+            "text": "Our simple 2 step routine for clear, hydrated skin...",
+            "text_size": 100,
+            "stacked_button": false,
+            "button_1_text": "SHOP THE NEW DUO →",
+            "button_1_link": "shopify://products/ego-essentialsego-essentials",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image",
+        "image_YnanPA"
+      ],
+      "custom_css": [],
+      "settings": {
+        "slide_height": "seven-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "full-height-mobile",
+        "show_nav_dots": false,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": true,
+        "duration": 3,
+        "transition": "fade",
+        "enable_zoom_animation": false,
+        "enable_card_scrolling": false,
+        "increase_border_radius": false
+      }
+    },
+    "section-countdown": {
+      "type": "section-countdown",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Shop Before It Ends</p>",
+            "size": 125
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>Save On Our  Bestsellers</h1>",
+            "size": 135,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#f4e5e5",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "timer": {
+          "type": "timer",
+          "settings": {
+            "end_date": "2025-8-30",
+            "end_time": "11:59",
+            "period": "am",
+            "end_message": "",
+            "digit_size": 160,
+            "unit_size": 145,
+            "bg_color": "rgba(0,0,0,0)",
+            "bg_opacity": 15,
+            "text_color": "text-dark"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_1_text": "Shop the sale",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--black",
+            "button_1_style": "btn--text",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "timer",
+        "button"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout_style": "inline",
+        "text_alignment": "center",
+        "height": "150",
+        "enable_mobile_height": true,
+        "mobile_height": "300",
+        "overlay_opacity": 0,
+        "enable_zoom_animation": true,
+        "bg_color": "#f7e7df",
+        "gradient": "",
+        "text_color": "text-dark",
+        "text_width": "normal",
+        "width": "wrapper--full-padded",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "section-text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading-0": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>The Ego Essentials</p>",
+            "size": 125,
+            "margin_bottom": 10
+          }
+        },
+        "heading-0": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>Shop By Product</h1>",
+            "size": 120,
+            "heading_highlight_type": "underline",
+            "highlight_color": "#0b0b0b",
+            "highlight_text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading-0",
+        "heading-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 50,
+        "padding_bottom": 0
+      }
+    },
+    "section-grid": {
+      "type": "section-grid",
+      "blocks": {
+        "image-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/AE-ProductListingContent.png",
+            "overlay_opacity": 5,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "SHOP SUPER SENSA",
+            "button_1_link": "shopify://products/super-sensa-barrier-repair-moisturizer-with-ectoin-and-panthenol-pdrn",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-dark"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/5_041dbbf6-6255-4930-86ec-bcca45ab6fd4.png",
+            "overlay_opacity": 5,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "SHOP TIDY PORES",
+            "button_1_link": "shopify://products/tidy-pores-serum",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-dark"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "33.33",
+            "image": "shopify://shop_images/duo.png",
+            "overlay_opacity": 0,
+            "text_position": "bottom-left",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_1_text": "SHOP EGO ESSENTIALS",
+            "button_1_link": "shopify://products/ego-essentialsego-essentials",
+            "button_2_text": "",
+            "button_2_link": "",
+            "overlay_text_color": "text-dark"
+          }
+        }
+      },
+      "block_order": [
+        "image-1",
+        "image-2",
+        "image-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_height": "five-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "two-fifty-height-mobile",
+        "heading_size": 100,
+        "text_size": 100,
+        "button_1_color": "btn--white",
+        "button_1_style": "btn--solid",
+        "button_1_size": "btn--medium",
+        "button_2_color": "btn--white",
+        "button_2_style": "btn--solid",
+        "button_2_size": "btn--medium",
+        "section_bg_color": "#ffffff",
+        "gradient": "",
+        "enable_slider_mobile": true,
+        "columns_mobile": "1",
+        "overlay_text": false,
+        "width": "wrapper--full-padded",
+        "add_gutter": true,
+        "padding_top": 20,
+        "padding_bottom": 50
+      }
+    },
+    "section-marquee-0": {
+      "type": "section-marquee",
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We get acne so you don’t have to - next-gen formulas tailored to hormonal acne-prone skin</p>",
+            "text_color": "",
+            "heading_highlight_type": "italics",
+            "highlight_color": "#0b0b0b",
+            "highlight_text_color": "#0b0b0b",
+            "icon_name": "none",
+            "icon_color": "",
+            "icon_width": 25,
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text-0"
+      ],
+      "custom_css": [
+        ".marquee-text {font-family: \"CommuterSans Regular\", sans-serif !important; font-weight: 400;}"
+      ],
+      "settings": {
+        "layout": "marquee-with-parallax",
+        "show_top_border": false,
+        "show_bottom_border": false,
+        "padding": 10,
+        "marquee_speed": 100,
+        "direction": "ticker-ltr",
+        "slider_speed": 7,
+        "show_arrows": false,
+        "text_caps": false,
+        "type_font": "space_mono_n4",
+        "text_size": 120,
+        "letter_spacing": 0,
+        "message_spacing": 15,
+        "bg_color": "#20150f",
+        "gradient": "",
+        "color": "#fff7f2",
+        "border_color": "#20150f",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collection_9CGwHX": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "all",
+        "products_layout": "grid",
+        "products_limit": 4,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "1",
+        "text_alignment": "text-left",
+        "title": "<h3>SHOP THE ESSENTIALS</h3>",
+        "heading_size": 100,
+        "heading_highlight_type": "underline-hand-drawn",
+        "highlight_color": "#20150f",
+        "highlight_text_color": "",
+        "text": "<p>Formulas built for real, reactive skin— no gimmicks, no guessing, just clinically-backed clarity.</p>",
+        "text_size": 100,
+        "button_position": "top",
+        "button_text": "Shop Now",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color": "",
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "ss_tabs_pro_aVQaJ3": {
+      "type": "ss-tabs-pro",
+      "blocks": {
+        "tab_6ayYdJ": {
+          "type": "tab",
+          "settings": {
+            "title": "SUPPORTIVE",
+            "product_description": false,
+            "content": "<p><em>We take a 4-pronged approach to fighting breakouts</em></p><p>We don’t wait for breakouts to happen—we target what triggers them before they show.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_KhXYP9": {
+          "type": "tab",
+          "settings": {
+            "title": "SIMPLE",
+            "product_description": false,
+            "content": "<p><em>No fragrances, essential oils, or trendy plant extracts = No Reactions.</em></p><p>We leave out the fluff and we vet every single ingredient in our formulas to minimize the risk of reactions. </p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_zFUwRi": {
+          "type": "tab",
+          "settings": {
+            "title": "RESEARCHED",
+            "product_description": false,
+            "content": "<p><em>We're Breaking The Acne Status Quo</em></p><p>We're taking a radically different approach to supporting your skin by excluding all 5 types of pore-clogging ingredients from every formula.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_8YwrmP": {
+          "type": "tab",
+          "settings": {
+            "title": "VERSATILE",
+            "product_description": false,
+            "content": "<p><em>Because Acne Doesn’t Discriminate</em></p><p>Our formulas are made for every tone, type, & sensitivity—Rosacea, Eczema & Fungal Acne included.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        }
+      },
+      "block_order": [
+        "tab_6ayYdJ",
+        "tab_KhXYP9",
+        "tab_zFUwRi",
+        "tab_8YwrmP"
+      ],
+      "disabled": true,
+      "name": "SS - Tabs Pro",
+      "settings": {
+        "section_class": "",
+        "background-color": "#fff7f2",
+        "lazy": true,
+        "padding_top_desktop": 28,
+        "padding_bottom_desktop": 36,
+        "padding_horizontal_desktop": 50,
+        "margin_top_desktop": 0,
+        "margin_bottom_desktop": 0,
+        "padding_top": 4,
+        "padding_bottom": 36,
+        "padding_horizontal": 15,
+        "margin_top": 36,
+        "margin_bottom": 0,
+        "section-width": 120,
+        "section_title": "IT'S TIME FOR A CHANGE",
+        "section_title_html_element": "h1",
+        "section_title_text_align_desktop": "center",
+        "section_title_color": "#20150f",
+        "section_title_font_family": "open_sans_n6",
+        "custom_font_family_name": "",
+        "section_title_font_weight": "inherit",
+        "section_title_font_size_desktop": 32,
+        "section_title_line_height_desktop": 0,
+        "section_title_letter_spacing_desktop": 0,
+        "section_title_margin_top_desktop": 0,
+        "section_title_margin_bottom_desktop": 36,
+        "section_title_text_align": "center",
+        "section_title_font_size": 26,
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_margin_top": 36,
+        "section_title_margin_bottom": 24,
+        "section_tab_title_font_family": "open_sans_n4",
+        "tab_title_custom_font_family_name": "",
+        "section_tab_title_font_weight": "inherit",
+        "tab_style": "with-border",
+        "tab_border_width": 1,
+        "tab_border_radius": 6,
+        "tab_border_color": "#20150f",
+        "tab_background_color": "#ffffff",
+        "tab_text_color": "#20150f",
+        "tab_active_hover_background_color": "#de5757",
+        "tab_active_state_selector": "background_color",
+        "tab_active_title_color": "#20150f",
+        "tag_alignment": "fullwidth",
+        "tab_padding_vertical_desktop": 14,
+        "tab_padding_horizontal_desktop": 14,
+        "tab_gap_desktop": 10,
+        "tab_title_font_size_desktop": 0,
+        "tab_title_line_height_desktop": 0,
+        "tab_title_letter_spacing_desktop": 0,
+        "tab_padding_vertical": 12,
+        "tab_padding_horizontal": 12,
+        "tab_gap": 6,
+        "tab_title_font_size": 0,
+        "tab_title_line_height": 0,
+        "tab_title_letter_spacing": 0,
+        "content_background_color": "#fff7f2",
+        "content_border_color": "#20150f",
+        "content_border_width": 1,
+        "content_border_radius": 6,
+        "content_margin_top_desktop": 20,
+        "content_padding_top_desktop": 20,
+        "content_padding_horizontal_desktop": 20,
+        "content_padding_bottom_desktop": 20,
+        "content_margin_bottom_desktop": 0,
+        "content_padding_horizontal": 20,
+        "content_margin_top": 12,
+        "content_padding_top": 20,
+        "content_padding_bottom": 20,
+        "content_margin_bottom": 0,
+        "content_text_align_desktop": "left",
+        "content_text_color": "#20150f",
+        "content_text_font": "open_sans_n4",
+        "content_text_custom_font_family_name": "",
+        "content_text_font_weight": "inherit",
+        "content_text_font_size_desktop": 0,
+        "content_text_line_height_desktop": 0,
+        "content_text_letter_spacing_desktop": 0,
+        "content_text_align": "left",
+        "content_text_font_size": 0,
+        "content_text_line_height": 0,
+        "content_text_letter_spacing": 0,
+        "content_link_color": "#20150f",
+        "content_link_underline": false
+      }
+    },
+    "section_icons_row_4cmC6q": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text_APYtj3": {
+          "type": "text",
+          "settings": {
+            "icon_name": "reuseable",
+            "title": "Supportive",
+            "text": "<p><em>Built for Skin That’s Tried Everything</em></p><p>We don’t wait for breakouts to happen—we target what triggers them before they show.</p>"
+          }
+        },
+        "text_FgxQEJ": {
+          "type": "text",
+          "settings": {
+            "icon_name": "eco-friendly",
+            "title": "Simple",
+            "text": "<p><em>No Filters. No Fuss. No Reactions.</em></p><p>We leave out the fluff: no essential oils, no fragrances, no trendy ingredients. Just what works.</p>"
+          }
+        },
+        "text_krY6MB": {
+          "type": "text",
+          "settings": {
+            "icon_name": "phthalate-free",
+            "title": "Researched",
+            "text": "<p><em>We Read the Science So You Don’t Have To</em></p><p>Every formula starts with real research and ends with clear skin. We vet every single ingredient for acne-causing potential. </p>"
+          }
+        },
+        "text_hnn3DL": {
+          "type": "text",
+          "settings": {
+            "icon_name": "fair-trade",
+            "title": "Versatile",
+            "text": "<p><em>Because Acne Doesn’t Discriminate</em></p><p>Our formulas are made for every tone, type, & sensitivity—Rosacea, Eczema & Fungal Acne included.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_APYtj3",
+        "text_FgxQEJ",
+        "text_krY6MB",
+        "text_hnn3DL"
+      ],
+      "name": "Icons row",
+      "settings": {
+        "heading": "It’s Time For A Change",
+        "subheading": "<p>We’re harnessing the skin’s natural repairing abilities and targeting the unaddressed contributors of hormonal & adult acne breakouts—oxidative stress, lipid peroxidation, microbiome dysbiosis, and barrier dysfunction. </p>",
+        "alignment": "center",
+        "columns": 4,
+        "icons_width": 20,
+        "show_vertical_borders": true,
+        "show_top_border": true,
+        "show_bottom_border": true,
+        "heading_size": 120,
+        "text_size": 100,
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "#20150f",
+        "box_color": "#ffffff",
+        "color_border": "#20150f",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--medium",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_banner_image_C37en6": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_pmgTrF": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Clear skin starts here. Literally.</p>",
+            "size": 100
+          }
+        },
+        "heading_cDNdi8": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>CLEANSER IS COMING...</p>",
+            "size": 180,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_WChJXq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our Jelly Mellow Cleanser melts away makeup, buildup, and breakout triggers—without disrupting your barrier or your bounce. It’s pH-balanced, microbiome-friendly, and gentle enough for even the most reactive skin. No sting. No stripping. Just a mellow moment your skin will crave, daily.</p>",
+            "size": 100
+          }
+        },
+        "button_dAYmeG": {
+          "type": "button",
+          "settings": {
+            "stacked_button": false,
+            "button_1_text": "JOIN THE WAITLIST NOW →",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_pmgTrF",
+        "heading_cDNdi8",
+        "text_WChJXq",
+        "button_dAYmeG"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "full-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/You_ve_already_trusted_Authentic_Ego_with_your_skin._Now_you_re_part_of_the_EgoSystem_where_every_formula_is_designed_to_support_the_complex_biology_of_adult_hormonal_and_reactive_ski_2da9af51-0fe1-47a0-b75b-9ca886148578.png",
+        "image_mobile": "shopify://shop_images/Untitled_design_14_copy_3.png",
+        "overlay_opacity": 10,
+        "transition": "fade",
+        "enable_zoom_animation": false,
+        "enable_card_scrolling": true,
+        "increase_border_radius": false,
+        "content_width": 80,
+        "text_position": "left",
+        "text_alignment": "text-left",
+        "text_color": "text-light",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_banner_image_DBg3k4": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_JGXbpV": {
+          "type": "subheading",
+          "settings": {
+            "text": "",
+            "size": 100
+          }
+        },
+        "heading_BWtpXg": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Palo Alto</p>",
+            "size": 180,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_HUwbPV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        },
+        "button_cJaQTd": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JGXbpV",
+        "heading_BWtpXg",
+        "text_HUwbPV",
+        "button_cJaQTd"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "four-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/Email_Marketing_block_1200_x_550_1800_x_900_px.png",
+        "image_mobile": "shopify://shop_images/Untitled_design_14_copy_4.png",
+        "overlay_opacity": 0,
+        "transition": "fade",
+        "enable_zoom_animation": false,
+        "enable_card_scrolling": false,
+        "increase_border_radius": false,
+        "content_width": 100,
+        "text_position": "left",
+        "text_alignment": "text-left",
+        "text_color": "text-dark",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ss_comparison_table_23_j7igFa": {
+      "type": "ss-comparison-table-23",
+      "blocks": {
+        "heading_r4VD83": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h4>JOIN THE #CLEARCOMMITMENT</h4>",
+            "heading_custom": true,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 30,
+            "heading_size_mobile": 36,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#20150f"
+          }
+        },
+        "text_f9nVCT": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><em><strong>Your Ritual, Remembered.</strong></em></h4><p></p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 15,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 20,
+            "text_mt_mobile": 20,
+            "text_color": "#121212"
+          }
+        },
+        "button_zgcd8a": {
+          "type": "button",
+          "settings": {
+            "button": "SHOP SUBSCRIPTIONS →",
+            "url": "",
+            "open_in_new_tab": true,
+            "button_style": "outline",
+            "button_custom": true,
+            "button_font": "josefin_sans_n4",
+            "button_size": 15,
+            "button_size_mobile": 15,
+            "button_height": 100,
+            "button_padding_horizontal": 32,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_radius": 6,
+            "button_border_thickness": 1,
+            "button_mt": 20,
+            "button_mt_mobile": 20,
+            "button_color": "#20150f",
+            "button_hover_color": "#ffffff",
+            "button_bg_color": "#fff7f2",
+            "button_bg_hover_color": "#20150f",
+            "button_border_color": "#121212",
+            "button_border_hover_color": "#121212"
+          }
+        },
+        "trust_content_akhp6K": {
+          "type": "trust_content",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Trust content</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 15,
+            "text_size_mobile": 15,
+            "text_height": 150,
+            "text_mt": 20,
+            "text_mt_mobile": 20,
+            "text_color": "#121212"
+          }
+        },
+        "feature_t64gQ7": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "atc",
+            "text": "<p>Feature</p>"
+          }
+        },
+        "feature_kTCEkm": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "atc",
+            "text": "<p>Feature</p>"
+          }
+        },
+        "feature_bAhaDb": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "atc",
+            "text": "<p>Feature</p>"
+          }
+        },
+        "feature_Gp76AW": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "icon": "atc",
+            "text": "<p>Feature</p>"
+          }
+        },
+        "column_b39zc3": {
+          "type": "column",
+          "settings": {
+            "column_heading": "THE #CLEARCOMMITMENT",
+            "first_row": "ORDERS PLACED ON AUTOPILOT, ALWAYS",
+            "first_row_icon_type": "none",
+            "first_row_icon": "check",
+            "second_row": "SUPPORTS CONSISTENCY",
+            "second_row_icon_type": "none",
+            "second_row_icon": "check",
+            "third_row": "SKIP, PAUSE, OR CANCEL ANYTIME",
+            "third_row_icon_type": "none",
+            "third_row_icon": "check",
+            "fourth_row": "EARN EXTRA SELFCARE CREDITS + REWARDS WHEN YOU'RE SUBSCRIPED",
+            "fourth_row_icon_type": "none",
+            "fourth_row_icon": "check",
+            "fifth_row": "",
+            "fifth_row_icon_type": "default",
+            "fifth_row_icon": "check"
+          }
+        },
+        "column_j8Q8mN": {
+          "type": "column",
+          "settings": {
+            "column_heading": "ONE-TIME ORDERS",
+            "first_row": "REORDER MANUALLY",
+            "first_row_icon_type": "none",
+            "first_row_icon": "cross",
+            "second_row": "RISK OF FALLING OFF",
+            "second_row_icon_type": "none",
+            "second_row_icon": "cross",
+            "third_row": "ONE + DONE",
+            "third_row_icon_type": "none",
+            "third_row_icon": "cross",
+            "fourth_row": "LESS #EGOSYSTEM PERKS",
+            "fourth_row_icon_type": "none",
+            "fourth_row_icon": "cross",
+            "fifth_row": "",
+            "fifth_row_icon_type": "default",
+            "fifth_row_icon": "cross"
+          }
+        },
+        "column_CmVEBt": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "column_heading": "Column heading",
+            "first_row": "Value 1",
+            "first_row_icon_type": "default",
+            "first_row_icon": "cross",
+            "second_row": "Value 2",
+            "second_row_icon_type": "default",
+            "second_row_icon": "cross",
+            "third_row": "Value 3",
+            "third_row_icon_type": "default",
+            "third_row_icon": "cross",
+            "fourth_row": "Value 4",
+            "fourth_row_icon_type": "default",
+            "fourth_row_icon": "cross",
+            "fifth_row": "Value 5",
+            "fifth_row_icon_type": "default",
+            "fifth_row_icon": "cross"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r4VD83",
+        "text_f9nVCT",
+        "button_zgcd8a",
+        "trust_content_akhp6K",
+        "feature_t64gQ7",
+        "feature_kTCEkm",
+        "feature_bAhaDb",
+        "feature_Gp76AW",
+        "column_b39zc3",
+        "column_j8Q8mN",
+        "column_CmVEBt"
+      ],
+      "name": "SS - Comparison table #23",
+      "settings": {
+        "layout": "content_table",
+        "layout_mobile": "content_table",
+        "table_width": 65,
+        "layout_gap": 36,
+        "layout_gap_mobile": 24,
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "content_vertical_align": "center",
+        "table_radius": 6,
+        "table_border_thickness": 1,
+        "column_width_mobile": 105,
+        "column_header_height": 70,
+        "column_header_height_mobile": 70,
+        "row_height": 94,
+        "row_height_mobile": 104,
+        "column_heading_custom": true,
+        "column_heading_font": "josefin_sans_n4",
+        "column_heading_size": 18,
+        "column_heading_size_mobile": 16,
+        "column_heading_height": 130,
+        "column_heading_align": "center",
+        "column_heading_align_mobile": "left",
+        "first_row_heading": "DELIVERY",
+        "second_row_heading": "RESULTS",
+        "third_row_heading": "FLEXIBILITY",
+        "fourth_row_heading": "REWARDS",
+        "fifth_row_heading": "",
+        "row_heading_custom": false,
+        "row_heading_font": "josefin_sans_n4",
+        "row_heading_size": 15,
+        "row_heading_size_mobile": 13,
+        "row_heading_height": 130,
+        "row_heading_align": "center",
+        "row_heading_align_mobile": "left",
+        "row_text_custom": true,
+        "row_text_font": "josefin_sans_n4",
+        "row_text_size": 16,
+        "row_text_size_mobile": 14,
+        "row_text_height": 130,
+        "row_text_align": "center",
+        "row_text_align_mobile": "center",
+        "value_icon_size": 28,
+        "value_icon_size_mobile": 24,
+        "features_gap": 16,
+        "features_gap_mobile": 16,
+        "features_view": 4,
+        "features_view_mobile": 4,
+        "features_mt": 60,
+        "features_mt_mobile": 24,
+        "feature_align": "center",
+        "feature_align_mobile": "center",
+        "feature_icon_size": 36,
+        "feature_icon_size_mobile": 10,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 12,
+        "feature_text_size_mobile": 12,
+        "feature_text_height": 150,
+        "feature_text_mt": 16,
+        "feature_text_mt_mobile": 12,
+        "column_heading_color": "#20150f",
+        "row_heading_color": "#20150f",
+        "row_text_color": "#20150f",
+        "value_check_color": "#20150f",
+        "value_cross_color": "#20150f",
+        "table_border_color": "#20150f",
+        "column_heading_active_color": "#20150f",
+        "row_active_text_color": "#de5757",
+        "value_check_active_color": "#121212",
+        "value_cross_active_color": "#121212",
+        "table_bg_color": "#fff7f2",
+        "table_bg_opacity": 1,
+        "feature_icon_color": "#20150f",
+        "feature_text_color": "#20150f",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1400,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "section_custom_content_ygdtUU": {
+      "type": "section-custom-content",
+      "blocks": {
+        "text_hAjxAj": {
+          "type": "text",
+          "settings": {
+            "text_position": "center",
+            "top_image_width": 100,
+            "text_color": "text-light",
+            "subheading": "Skincare rewards, reimagined...",
+            "title": "WELCOME TO THE #EGOSYSTEM",
+            "heading_size": 100,
+            "text": "<p>This isn’t your average points program. The #EgoSystem is a science-backed, self-led loyalty ritual built for those who glow with intention. Earn Self Credits every time you engage, shop, or share—and unlock exclusive perks, early drops, and ego-elevated extras just for showing up.</p><p>Because skincare that supports you... should reward you, too.</p>",
+            "text_size": 100,
+            "button_text": "",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--white",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--medium",
+            "bg_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_hAjxAj"
+      ],
+      "name": "Custom content",
+      "settings": {
+        "height": "one-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "three-fifty-height-mobile",
+        "bg_color": "#20150f",
+        "reverse_blocks": false,
+        "width": "wrapper",
+        "add_gutter": false,
+        "padding_top": 22,
+        "padding_bottom": 0
+      }
+    },
+    "ss_steps_11_WctdHG": {
+      "type": "ss-steps-11",
+      "blocks": {
+        "step_N8UQxM": {
+          "type": "step",
+          "settings": {
+            "step": "START",
+            "title": "THE #EGOSYSTEM",
+            "text": "<p><strong>Our loyalty ritual—structured like skincare, but built for life.</strong></p><p><br/></p><p>Because committing to real skin support should feel as good as glowing skin does.</p>"
+          }
+        },
+        "step_wNc6D4": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 1",
+            "title": "START WITH INTENTION",
+            "text": "<p>Create an account. That’s it. You’ve already taken the first step toward elevated skin support.</p><p><br/></p><p><em>No guesswork. Just glow goals.</em></p>"
+          }
+        },
+        "step_rnKgGn": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 2",
+            "title": "LAYER IN LOYALTY",
+            "text": "<p>Earn points (aka <em>#SelfCredits</em>) every time you shop, share, or show up.</p><p><br/><br/><em>Because progress deserves perks.</em></p>"
+          }
+        },
+        "step_fTDDkF": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 3",
+            "title": "LOCK IT IN",
+            "text": "<p>Redeem for exclusive rewards, insider-only offers, and early access to product launches and drops.</p>"
+          }
+        },
+        "step_tzkejB": {
+          "type": "step",
+          "settings": {
+            "step": "STEP 4",
+            "title": "STAY CONSISTENT",
+            "text": "<p>Your glow evolves—so does your status. Since consistency is everything in skincare, we built a program that rewards it.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_N8UQxM",
+        "step_wNc6D4",
+        "step_rnKgGn",
+        "step_fTDDkF",
+        "step_tzkejB"
+      ],
+      "name": "SS - Steps #11",
+      "settings": {
+        "layout": "image_content",
+        "layout_mobile": "image_content",
+        "layout_gap": 64,
+        "layout_gap_mobile": 32,
+        "image": "shopify://shop_images/Untitled_design_14_copy_5.png",
+        "image_radius": 6,
+        "image_border_thickness": 0,
+        "image_ratio": "portrait",
+        "image_ratio_mobile": "portrait",
+        "steps_custom": true,
+        "steps_font": "josefin_sans_n4",
+        "steps_size": 12,
+        "steps_size_mobile": 12,
+        "steps_height": 100,
+        "steps_padding_horizontal": 8,
+        "steps_padding_horizontal_mobile": 8,
+        "steps_padding_vertical": 4,
+        "steps_padding_vertical_mobile": 4,
+        "steps_radius": 100,
+        "steps_border_thickness": 1,
+        "steps_content_align": "left",
+        "steps_content_align_mobile": "left",
+        "title_custom": true,
+        "title_font": "josefin_sans_n4",
+        "title_size": 24,
+        "title_size_mobile": 20,
+        "title_height": 130,
+        "text_custom": true,
+        "text_font": "josefin_sans_n4",
+        "text_size": 14,
+        "text_size_mobile": 12,
+        "text_height": 150,
+        "text_mt": 8,
+        "text_mt_mobile": 8,
+        "steps_color": "#fff7f2",
+        "steps_bg_color": "#de5757",
+        "steps_border_color": "#fff7f2",
+        "title_color": "#fff7f2",
+        "text_color": "#fff7f2",
+        "image_border_color": "#20150f",
+        "background_color": "#20150f",
+        "background_gradient": "",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1000,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "section_list_butttons_ranjmc": {
+      "type": "section-list-butttons",
+      "blocks": {
+        "button_jDgRCx": {
+          "type": "button",
+          "settings": {
+            "heading": "JOIN THE #EGOSYSTEM →",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "button_LNBkew": {
+          "type": "button",
+          "settings": {
+            "heading": "LOG IN →",
+            "button_link": "",
+            "overlay_opacity": 100,
+            "block_text_color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_jDgRCx",
+        "button_LNBkew"
+      ],
+      "name": "Buttons list",
+      "settings": {
+        "title": "",
+        "heading_size": 100,
+        "layout": "carousel",
+        "alignment": "center",
+        "collections_per_row": 2,
+        "columns_mobile": "1",
+        "type_style": "button-typography",
+        "button_style": "rounded",
+        "text_size": 115,
+        "letter_spacing": 75,
+        "show_arrow": false,
+        "bg_color": "#de5757",
+        "block_text_color": "#fff7f2",
+        "border_color": "#000000",
+        "section_bg_color": "#20150f",
+        "gradient": "",
+        "section_text_color": "",
+        "enable_slider_mobile": false,
+        "animations_enabled": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "section-testimonials-with-images": {
+      "type": "section-testimonials-with-images",
+      "blocks": {
+        "testimonial-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "",
+            "text_size": 125,
+            "text": "<p>Amazing. Acne already going away, my skin was very irritated so wanted something to calm it down but every product out there that calmed Irritated skin has some clogging potential. This is the best moisturizer in the market for my skin hands down.</p>",
+            "content_size": 100,
+            "customer_name": "Toby A.",
+            "subheading": ""
+          }
+        },
+        "image-5": {
+          "type": "image",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": false,
+            "image": "shopify://shop_images/Untitled_design_14_f96dbdce-1d92-4063-9bdd-bb4631598ce8.png",
+            "aspect_ratio": 0.8,
+            "heading": "I don’t think it would be an exaggeration to say that this moisturiser saved my skin. I had severe dermatitis/ eczema for a good few weeks, it wasn’t until I started using Super Sensa (alongside my steroid) that it calmed down and now my skin is so much smoother, clearer and more hydrated than even before my skin condition.",
+            "text_size": 125,
+            "customer_name": "Sophie S.",
+            "block_color": "",
+            "text_color": "text-dark"
+          }
+        },
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "",
+            "text_size": 125,
+            "text": "<p>My favorite Vitamin C serum! Loves how it dries down on the skin. I usually apply this after cleaning and applying a watery toner. After I wait for it to dry I’ll apply a hydrating serum, my moisturizer and then sunscreen</p>",
+            "content_size": 100,
+            "customer_name": "Maryam K.",
+            "subheading": ""
+          }
+        },
+        "image-6": {
+          "type": "image",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": false,
+            "image": "shopify://shop_images/Untitled_design_14_copy.png",
+            "aspect_ratio": 0.8,
+            "heading": "It has now been a full month of using the new super sensa! My acne scars are fading, my skin feels fresh, and it has been almost of month of no acne, NONE. I trust that all the ingredients are serving me and this will continue to be my holy grail! Praise authentic ego!",
+            "text_size": 125,
+            "customer_name": "Claire E.",
+            "block_color": "",
+            "text_color": "text-dark"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "enable_border": true,
+            "heading": "",
+            "text_size": 125,
+            "text": "<p>Where do I start! First the creator of AE is amazing! Now, this moisturizer is the best I’ve ever used for my combination skin. It sits so well under makeup, without or just under sunscreen. Doesn’t leave a greasy feel. I have very reactive skin and the first day I used this, my skins flare ups were completely gone! Bumps gone! Redness, subsided! Irritation who?!?</p>",
+            "content_size": 100,
+            "customer_name": "Simira",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-0",
+        "image-5",
+        "testimonial-1",
+        "image-6",
+        "testimonial-2"
+      ],
+      "settings": {
+        "subheading": "SEE THE #EGOEVIDENCE",
+        "subheading_size": 150,
+        "title": "98% of customers love us",
+        "heading_size": 115,
+        "text_alignment": "text-left",
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "testimonial_block_color": "#ffffff",
+        "star_color": "#eb5a5b",
+        "testimonial_text_color": "text-dark",
+        "width": "wrapper--full-padded",
+        "padding_top": 40,
+        "padding_bottom": 36
+      }
+    },
+    "section_image_with_text_f3VDjL": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "subheading_FHrMFd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "",
+            "size": 75,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        },
+        "heading_MEew3b": {
+          "type": "heading",
+          "settings": {
+            "title": "<p>WHERE SKIN MEETS SCIENCE</p>",
+            "size": 120,
+            "text_position": "left",
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": "",
+            "spacing_bottom": 12
+          }
+        },
+        "text_rKA69n": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We built the system our skin always needed: science-backed, cycle-aware care formulated for REAL, REACTIVE skin.</strong><br/><br/>Breakouts, irritation, hormone shifts — handled.</p>",
+            "size": 100,
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        },
+        "button_bCrCXN": {
+          "type": "button",
+          "settings": {
+            "button_text": "SEE OUR STORY →",
+            "button_link": "shopify://pages/our-story",
+            "button_color": "btn--secondary",
+            "button_style": "btn--solid",
+            "button_size": "btn--small",
+            "video_link": "",
+            "text_position": "left",
+            "spacing_bottom": 12
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FHrMFd",
+        "heading_MEew3b",
+        "text_rKA69n",
+        "button_bCrCXN"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "show_accordion_divider": true,
+        "increase_border_radius": false,
+        "section_height": "six-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_height": "four-fifty-height-mobile",
+        "layout": "inline",
+        "image_location": "left",
+        "image_width": "standard",
+        "image": "shopify://shop_images/Untitled_design_14_copy_7.png",
+        "block_bg_color": "#de5757",
+        "text_color": "text-light",
+        "bg_color": "#20150f",
+        "gradient": "",
+        "section_width": "wrapper",
+        "add_gutter": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "ss_gallery_1_TtMdKK": {
+      "type": "ss-gallery-1",
+      "blocks": {
+        "image_TVUwCJ": {
+          "type": "image",
+          "settings": {
+            "url": "",
+            "hide_mobile": false
+          }
+        },
+        "image_p6JqjV": {
+          "type": "image",
+          "settings": {
+            "url": "",
+            "hide_mobile": false
+          }
+        },
+        "image_w8irC4": {
+          "type": "image",
+          "settings": {
+            "url": "",
+            "hide_mobile": false
+          }
+        },
+        "image_yjy73K": {
+          "type": "image",
+          "settings": {
+            "url": "",
+            "hide_mobile": false
+          }
+        },
+        "image_xVDarz": {
+          "type": "image",
+          "settings": {
+            "url": "",
+            "hide_mobile": false
+          }
+        },
+        "image_jRdYXH": {
+          "type": "image",
+          "settings": {
+            "url": "",
+            "hide_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "image_TVUwCJ",
+        "image_p6JqjV",
+        "image_w8irC4",
+        "image_yjy73K",
+        "image_xVDarz",
+        "image_jRdYXH"
+      ],
+      "disabled": true,
+      "name": "SS - Gallery #1",
+      "settings": {
+        "heading": "<h3>#COMPLEXIONCLUB</h3>",
+        "heading_custom": true,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 32,
+        "heading_size_mobile": 28,
+        "heading_height": 130,
+        "heading_align": "left",
+        "heading_align_mobile": "center",
+        "sub_heading": "<p>Apply to join the #ComplexionClub for early access to product trials, PR drops, affiliate perks, campaign collabs, and more...</p>",
+        "sub_heading_custom": true,
+        "sub_heading_font": "josefin_sans_n4",
+        "sub_heading_size": 16,
+        "sub_heading_size_mobile": 16,
+        "sub_heading_height": 130,
+        "sub_heading_mt": 16,
+        "sub_heading_mt_mobile": 16,
+        "sub_heading_align": "left",
+        "sub_heading_align_mobile": "center",
+        "images_gap": 10,
+        "images_gap_mobile": 10,
+        "images_radius": 4,
+        "images_position": "row",
+        "images_position_mobile": "column",
+        "images_mt": 32,
+        "images_mt_mobile": 24,
+        "main_image_url": "",
+        "main_image_width": 40,
+        "small_images_row": 3,
+        "small_images_row_mobile": 2,
+        "heading_color": "#20150f",
+        "sub_heading_color": "#20150f",
+        "image_overlay": "#000000",
+        "background_color": "#de5757",
+        "background_gradient": "linear-gradient(180deg, rgba(255, 247, 242, 1), rgba(252, 252, 252, 1) 100%)",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "section_text_eAqPag": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_3Dyt8a": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>GET IN, WE'RE GLOWING →</p>",
+            "size": 125,
+            "margin_bottom": 10
+          }
+        },
+        "heading_JNgeTC": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1><strong>Join The #EGOSYSTEM</strong></h1>",
+            "size": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#ffffff",
+            "highlight_text_color": ""
+          }
+        },
+        "text_dBkWAw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3Dyt8a",
+        "heading_JNgeTC",
+        "text_dBkWAw"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "1753114793499346c1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_zNPeXG": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_zNPeXG"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "width": "wrapper--full-padded",
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    },
+    "section-divider": {
+      "type": "section-divider",
+      "settings": {
+        "show_line": true,
+        "bg_color": "",
+        "gradient": "",
+        "width": "wrapper--full",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "section_text_LRn883": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_kmFCTp": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>SEE OUR #EGOBOOSTS</p>",
+            "size": 130,
+            "margin_bottom": 16
+          }
+        },
+        "heading_L6Np36": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>Our Breakout Moment. Literally.</h1>",
+            "size": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_wXz4aj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"6 Woman-Owned Brands to Keep Your Eyes On In 2024.\" - BEAUTY MATTER NYC</p>",
+            "size": 100
+          }
+        },
+        "button_4kmi8j": {
+          "type": "button",
+          "settings": {
+            "button_text": "READ THE ARTICLE",
+            "button_link": "https://www.beautynewsnycofficial.com/beauty/beauty-best-bets/6-woman-owned-brands-to-keep-your-eyes-on-in-2024/",
+            "button_color": "btn--secondary",
+            "button_style": "btn--outline",
+            "button_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_kmFCTp",
+        "heading_L6Np36",
+        "text_wXz4aj",
+        "button_4kmi8j"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "#de5757",
+        "gradient": "",
+        "text_color": "text-light",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-accordions-with-images": {
+      "type": "section-accordions-with-images",
+      "blocks": {
+        "text-8": {
+          "type": "text",
+          "settings": {
+            "title": "What's the story behind Authentic Ego?",
+            "text": "<p>I founded Authentic Ego because we need a REAL revolution in the acne-prone skincare industry. </p><p>As an acne sufferer myself, I recognized that the types of ingredients & actives we've been using for nearly 40 years are outdated, they're not inclusive, and a lot of the time, make breakouts worse. </p><p>I develop each and every formula myself, and I make it for every woman out there who has struggled with acne. </p>",
+            "icon_width": 20,
+            "icon_position": "inline-left"
+          }
+        },
+        "text-9": {
+          "type": "text",
+          "settings": {
+            "title": "Are you acne safe?",
+            "text": "<p>Yes, we're the first brand to exclude the 5 types of ingredients that lead to clogged pores, irritation & breakouts. </p><p>We're doing what brands don't dare to do by disrupting 40 years of the acne status quo. </p><p>While everyone's skin is unique, we're thrilled to report that 98% of customers who try our products experience no irritation, no breakouts and zero reactions. </p>",
+            "icon_width": 20,
+            "icon_position": "inline-left"
+          }
+        },
+        "text-10": {
+          "type": "text",
+          "settings": {
+            "title": "What kind of ingredients do you use?",
+            "text": "<p>We choose from a vetted selection of ingredients that are safe for all types of acne-prone skin, and we exclude every single ingredient that has the potential to cause clogged pores, irritation, or breakouts. </p><p>We prioritize the use of lab-created, safe synthetics and biotech ingredients over trending, plant-based or 'natural' ingredients that often lead to reactions, irritation, breakouts & dermatitis. </p><p>And we're pioneering a new generation of acne-safe formulas based on a different undertanding of what actually clogs pores. </p><p></p>",
+            "icon_width": 20,
+            "icon_position": "inline-left"
+          }
+        },
+        "text-11": {
+          "type": "text",
+          "settings": {
+            "title": "Are you clinically tested?",
+            "text": "<p>As part of our commitment to providing the highest quality products that are safe and effective, all products undergo 5 tests:</p><ul><li><strong>Stability Testing:</strong> This ensures the product remains stable and effective under a range of temperatures and conditions. </li><li><strong>Microbiology Testing:</strong> This process tests the formula for bacterial or fungal contamination and also checks for the presence of heavy metals. We complete this for every batch we make.</li><li><strong>Preservative Efficacy Testing:</strong> This test introduces bacteria and fungi into a formula sample in order to ‘stress-test’ the effectiveness of the preservative system. If anything develops, we re-formulate the preservative system and re-test. </li><li><strong>Human Repeat Insult Patch Testing (HRIPT):</strong> Also known as Dermatological Testing, this test is conducted on 50 human volunteers over a period of weeks under clinical supervision. We specifically request a cross-section of volunteers to ensure it’s tested on various skin tones. This test ensures that the formula is non-irritating and non-allergenic. </li><li><strong>Real-World Customer Testing: </strong>We test all our formulas on a broad cross-section of our real-life customers to ensure we're meeting the unique needs of different skin tones and that we're safe for those with Rosacea, Eczema, Perioral Dermatitis & Fungal Acne. </li></ul>",
+            "icon_width": 20,
+            "icon_position": "inline-left"
+          }
+        }
+      },
+      "block_order": [
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "line_thickness": "normal",
+        "content_alignment": "text-left",
+        "subheading": "",
+        "title": "#EgoAnswers",
+        "type_style": "font-body",
+        "heading_size": 155,
+        "text": "<p>Because skincare shouldn’t be confusing. Let’s clear things up.</p>",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "#20150f",
+        "width": "wrapper",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "section-icons-row": {
+      "type": "section-icons-row",
+      "blocks": {
+        "text-12": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "New customers get 10% off",
+            "text": "<p>When you subscribe</p>"
+          }
+        },
+        "text-13": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "Free U.S. Domestic Shipping",
+            "text": "<p>on orders over $100</p>"
+          }
+        },
+        "text-14": {
+          "type": "text",
+          "settings": {
+            "icon_name": "none",
+            "title": "ShopPay",
+            "text": "<p>Buy now, pay later</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-12",
+        "text-13",
+        "text-14"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "alignment": "center",
+        "columns": 3,
+        "icons_width": 20,
+        "show_vertical_borders": true,
+        "show_top_border": true,
+        "show_bottom_border": false,
+        "heading_size": 110,
+        "text_size": 90,
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "#20150f",
+        "box_color": "",
+        "color_border": "#20150f",
+        "button_text": "",
+        "button_link": "",
+        "button_color": "btn--black",
+        "button_style": "btn--solid",
+        "button_size": "btn--small",
+        "layout_mobile": "grid",
+        "width": "wrapper",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "section-slideshow",
+    "section-countdown",
+    "section-text",
+    "section-grid",
+    "section-marquee-0",
+    "section_collection_9CGwHX",
+    "ss_tabs_pro_aVQaJ3",
+    "section_icons_row_4cmC6q",
+    "section_banner_image_C37en6",
+    "section_banner_image_DBg3k4",
+    "ss_comparison_table_23_j7igFa",
+    "section_custom_content_ygdtUU",
+    "ss_steps_11_WctdHG",
+    "section_list_butttons_ranjmc",
+    "section-testimonials-with-images",
+    "section_image_with_text_f3VDjL",
+    "ss_gallery_1_TtMdKK",
+    "section_text_eAqPag",
+    "1753114793499346c1",
+    "section-divider",
+    "section_text_LRn883",
+    "section-accordions-with-images",
+    "section-icons-row"
+  ]
+}

@@ -1,0 +1,27 @@
+<div class="ae-vert-gallery" data-ae-vert-gallery>
+  <div class="ae-vert-thumbs" data-ae-vert-thumbs>
+    {% for media in product.media %}
+      <div class="ae-vert-thumb{% if media.id == featured_media.id %} is-active{% endif %}" data-ae-thumb-id="{{ media.id }}">
+        {% render 'media-thumb', media: media, featured_media: featured_media, has_link: false, product_title: product.title %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="ae-vert-main" data-ae-vert-main>
+    {% for media in product.media %}
+      <div class="ae-vert-slide{% unless media.id == featured_media.id %} is-hidden{% endunless %}" data-ae-slide-id="{{ media.id }}">
+        {% render 'media',
+           unique: unique,
+           current_variant: current_variant,
+           media: media,
+           featured_media: featured_media,
+           image_width: 900,
+           enable_video_looping: false,
+           enable_zoom: true,
+           section_type: 'featured' %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+
