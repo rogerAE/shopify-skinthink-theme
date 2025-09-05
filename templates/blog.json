@@ -1,0 +1,70 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "blog-template",
+      "settings": {
+        "layout": "grid",
+        "post_limit": 9,
+        "blog_show_tag_filter": false,
+        "blog_show_rss": false,
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_show_excerpt": false,
+        "blog_image_size": "portrait"
+      }
+    },
+    "rich_text_Qefm6y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AUa7Pt": {
+          "type": "heading",
+          "settings": {
+            "title": "GET IN, WE'RE GLOWING →"
+          }
+        },
+        "text_BJE9ag": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AUa7Pt",
+        "text_BJE9ag"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "instafeed_mKAUak": {
+      "type": "instafeed",
+      "name": "Instafeed App",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Qefm6y",
+    "instafeed_mKAUak"
+  ]
+}

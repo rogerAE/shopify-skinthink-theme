@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "collection_image_enable": true,
+        "description_enable": true
+      }
+    },
+    "collection-filters": {
+      "type": "collection-filters",
+      "disabled": true,
+      "settings": {
+        "enable_color_swatches": false,
+        "collection_sort_enable": false
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "per_row_desktop": 3,
+            "per_row_mobile": "2"
+          }
+        }
+      },
+      "block_order": [
+        "product_grid"
+      ],
+      "settings": {}
+    },
+    "rich_text_UktU9Y": {
+      "type": "rich-text",
+      "blocks": {
+        "text_K7fLUB": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p>Shop the best acne-safe skincare products at Authentic Ego. Acne-safe and fungal acne-safe skincare designed for hormonal acne-prone and adult acne-prone skin. All our products including our moisturizers, serums and cleansers are fungal acne safe and free of common irritants like essential oils and contain no added fragrance, no unnecessary plant extracts and no known allergens. </p><p>All our formulas are Dermatologist tested (hypoallergenic) and formulated to be safe for Sensitive, Eczema and Rosacea Prone skin.</p><p>If you're looking for formulas to support your acne-prone skin, look no further than Authentic Ego. We prioritize the use of biotech, lab-created and safe synthetic ingredients and we disclose all active ingredient percentages in every formula in addition to our product markup information. </p><p>Soothe your skin with biomimetic ingredients like prebiotics, postbiotics, snow mushroom, panthenol, ectoin, peptides,  calming & soothing hydrating ingredients,  green tea, silymarin, turmeric extract and licorice root.</p><p>All our formulas are vegan and we do not test our finished products on animals. </p><p>We are a proudly woman-founded and woman owned brand that is dedicated to serving the needs of acne-prone women around the world.  </p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_K7fLUB"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "collection-filters",
+    "main-collection",
+    "rich_text_UktU9Y"
+  ]
+}

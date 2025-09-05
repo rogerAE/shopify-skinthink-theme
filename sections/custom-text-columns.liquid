@@ -1,0 +1,223 @@
+{% liquid
+  assign min = 1
+  assign max = 10000
+  assign diff = max | minus: min
+  assign randomNumber = 'now' | date: '%N' | modulo: diff | plus: min
+%}
+
+{%- style -%}
+  #cc{{ randomNumber }}.custom-columns .custom-grid {
+    grid-template-columns: repeat({{section.blocks.size | at_most: 4}}, 1fr);
+  }
+
+  {% assign modulo = section.blocks.size | modulo: 2 %}
+
+  @media only screen and (max-width: 820px) {
+    {%- if modulo > 0 -%}
+      #cc{{ randomNumber }}.custom-columns .custom-grid {
+        grid-template-columns: repeat({{section.blocks.size | at_most: 1}}, 1fr);
+      }
+    {%- endif -%}
+
+    {%- if modulo == 0 -%}
+      #cc{{ randomNumber }}.custom-columns .custom-grid {
+        grid-template-columns: repeat({{section.blocks.size | at_most: 1}}, 1fr);
+      }
+    {%- endif -%}
+  }
+
+  #cc{{ randomNumber }}.custom-columns .custom-header-wrapper {
+    max-width: 1100px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+{%- endstyle -%}
+
+<div
+  id='cc{{ randomNumber }}'
+  class='custom-columns index-section{% if section.settings.alt %} index-section--alt{% endif %}'
+>
+  <div class='page-width' data-aos>
+    {%- if section.settings.title != blank or section.settings.description != blank -%}
+      <div class='custom-header-wrapper'>
+        {%- if section.settings.title != blank -%}
+          <h1 class='appear-delay-1 custom-columns-title text-{{ section.settings.align_text }}'>
+            {{ section.settings.title }}
+          </h1>
+        {%- endif -%}
+
+        {%- if section.settings.description != blank -%}
+          <div class='custom-columns-description text-{{ section.settings.align_text }}'>
+            {{ section.settings.description }}
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div class='custom-grid text-{{ section.settings.align_text }}'>
+      {%- for block in section.blocks -%}
+        <div
+          {{ block.shopify_attributes }}
+          data-aos
+          class='custom-grid-item appear-delay-2 {{ section.settings.align_text }}'
+        >
+          {%- if block.settings.enable_image -%}
+            {%- if block.settings.image != blank -%}
+              {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+              <img
+                class='lazyload'
+                data-src='{{ img_url }}'
+                data-widths='[180, 360, 540, 750, 900, 1080]'
+                data-aspectratio='{{ block.settings.image.aspect_ratio }}'
+                data-sizes='auto'
+                style='width: {{ block.settings.image_width }}px;'
+                alt='{{ block.settings.image.alt }}'
+              >
+            {%- else -%}
+              <div class='image-wrap'>{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+            {%- endif -%}
+          {%- endif -%}
+          {%- if block.settings.title != blank -%}
+            <div class='h3'>{{ block.settings.title }}</div>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            {{ block.settings.text }}
+          {%- endif -%}
+
+          {% render 'bullet-list', block: block %}
+
+          {%- if block.settings.secondary_text != blank -%}
+            <div class='rte-setting'>{{ block.settings.secondary_text }}</div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom text columns",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.text-columns.settings.title.label",
+      "default": "Section Title"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Describe this sesction</p>"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.text-columns.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.text-columns.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.text-columns.settings.align_text.options.center.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "alt",
+      "label": "t:sections.text-columns.settings.alt.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "t:sections.text-columns.blocks.column.name",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "enable_image",
+          "label": "t:sections.text-columns.blocks.column.settings.enable_image.label",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.text-columns.blocks.column.settings.image.label"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "t:sections.text-columns.blocks.column.settings.image_width.label",
+          "default": 650,
+          "min": 60,
+          "max": 650,
+          "step": 10,
+          "unit": "px"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.text-columns.blocks.column.settings.title.label",
+          "default": "Example title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:sections.text-columns.blocks.column.settings.text.label",
+          "default": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>"
+        },
+        {
+          "type": "text",
+          "id": "bullet_1",
+          "label": "Bullet 1"
+        },
+        {
+          "type": "text",
+          "id": "bullet_2",
+          "label": "Bullet 2"
+        },
+        {
+          "type": "text",
+          "id": "bullet_3",
+          "label": "Bullet 3"
+        },
+        {
+          "type": "text",
+          "id": "bullet_4",
+          "label": "Bullet 4"
+        },
+        {
+          "type": "text",
+          "id": "bullet_5",
+          "label": "Bullet 5"
+        },
+        {
+          "type": "richtext",
+          "id": "secondary_text",
+          "label": "Text After Bullets",
+          "default": "<p>Use this section add text after the bullets.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom text columns",
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

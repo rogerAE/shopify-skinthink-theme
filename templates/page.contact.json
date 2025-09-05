@@ -1,0 +1,95 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "We're here to help you"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Have a question? Want to chat with the team? Submit your info below and we’ll get back to you within 1 business day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "4e358a51-dd19-4ba0-bf51-471c796a1274": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "f90cff09-b6c3-4c39-9f27-9a641a42ca29": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--16558447886558__f90cff09-b6c3-4c39-9f27-9a641a42ca29-1665575943ad486097-0": {
+          "type": "heading",
+          "settings": {
+            "title": ""
+          }
+        },
+        "template--16558447886558__f90cff09-b6c3-4c39-9f27-9a641a42ca29-1665575943ad486097-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Sidenote: We want to know → What products do you need in your life ASAP? What’s missing from your routine? Fill out the survey and help us help you.</p>"
+          }
+        },
+        "9c4dd7e0-6498-481b-bf6b-03231adc1052": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Fill Out Survey"
+          }
+        }
+      },
+      "block_order": [
+        "template--16558447886558__f90cff09-b6c3-4c39-9f27-9a641a42ca29-1665575943ad486097-0",
+        "template--16558447886558__f90cff09-b6c3-4c39-9f27-9a641a42ca29-1665575943ad486097-1",
+        "9c4dd7e0-6498-481b-bf6b-03231adc1052"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "4e358a51-dd19-4ba0-bf51-471c796a1274",
+    "f90cff09-b6c3-4c39-9f27-9a641a42ca29"
+  ]
+}

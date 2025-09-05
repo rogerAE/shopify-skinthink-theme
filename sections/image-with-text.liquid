@@ -1,0 +1,368 @@
+{{ 'section-meet-tidy-pores.css' | asset_url | stylesheet_tag }}
+
+<div class="meet-tidy-pores-section" style="
+  --section-height: {{ section.settings.section_height }}px;
+  --bg-color: {{ section.settings.background_color }};
+  --text-color: {{ section.settings.text_color }};
+  --scroll-speed: {{ section.settings.scroll_speed }}s;
+">
+  <div class="meet-tidy-pores-container">
+    <!-- Image Block with Overlay Text -->
+    <div class="image-block">
+      {% if section.settings.image %}
+        <img src="{{ section.settings.image | img_url: '2000x' }}" 
+             alt="{{ section.settings.image.alt | escape }}" 
+             loading="lazy"
+             class="section-image">
+      {% else %}
+        <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+      {% endif %}
+      
+      <div class="scrolling-text-container">
+        <div class="scrolling-text" style="animation-duration: var(--scroll-speed);">
+          {% if section.settings.scrolling_text != blank %}
+            {{ section.settings.scrolling_text }}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+    <!-- Text Block -->
+    <div class="text-block">
+      {% if section.settings.heading != blank %}
+        <h2 class="section-heading" style="font-size: {{ section.settings.heading_size }}px;">
+          {{ section.settings.heading }}
+        </h2>
+      {% endif %}
+
+      {% if section.settings.subheading != blank %}
+        <div class="section-subheading" style="font-size: {{ section.settings.subheading_size }}px;">
+          {{ section.settings.subheading }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.description != blank %}
+        <div class="section-description" style="font-size: {{ section.settings.description_size }}px;">
+          {{ section.settings.description }}
+        </div>
+      {% endif %}
+
+      {% if section.settings.button_text != blank %}
+        <a href="{{ section.settings.button_link }}" class="section-button" style="
+          background: {{ section.settings.button_bg_color }};
+          color: {{ section.settings.button_text_color }};
+          font-size: {{ section.settings.button_text_size }}px;
+        ">
+          {{ section.settings.button_text }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<style>
+  .meet-tidy-pores-section {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: var(--section-height);
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .meet-tidy-pores-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  .image-block {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .section-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .placeholder-image {
+    background: #f5f5f5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .scrolling-text-container {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    width: 40%;
+    max-height: 60%;
+    overflow: hidden;
+  }
+
+  .scrolling-text {
+    position: absolute;
+    width: 100%;
+    animation: scrollText linear infinite;
+    color: inherit;
+    line-height: 1.5;
+  }
+
+  @keyframes scrollText {
+    0% { transform: translateY(100%); }
+    100% { transform: translateY(-100%); }
+  }
+
+  .text-block {
+    flex: 1;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .section-heading {
+    color: inherit;
+    margin-bottom: 15px;
+    line-height: 1.2;
+  }
+
+  .section-subheading {
+    color: inherit;
+    margin-bottom: 20px;
+    line-height: 1.3;
+  }
+
+  .section-description {
+    color: inherit;
+    margin: 20px 0;
+    line-height: 1.6;
+  }
+
+  .section-button {
+    display: inline-block;
+    padding: 12px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+    align-self: flex-start;
+  }
+
+  .section-button:hover {
+    opacity: 0.9;
+  }
+
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .meet-tidy-pores-container {
+      flex-direction: column;
+      height: auto;
+    }
+
+    .image-block {
+      height: 50vh;
+      min-height: 400px;
+    }
+
+    .scrolling-text-container {
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      max-height: 30%;
+      padding: 20px;
+      background: rgba(0,0,0,0.5);
+    }
+
+    @keyframes scrollText {
+      0% { transform: translateY(100%); }
+      100% { transform: translateY(-100%); }
+    }
+
+    .text-block {
+      padding: 20px 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .section-heading {
+      font-size: calc({{ section.settings.heading_size }}px * 0.7) !important;
+    }
+
+    .section-subheading {
+      font-size: calc({{ section.settings.subheading_size }}px * 0.7) !important;
+    }
+
+    .section-description {
+      font-size: calc({{ section.settings.description_size }}px * 0.7) !important;
+    }
+    .section-subheading p{
+      margin: 0;
+    }
+
+    .scrolling-text-container {
+      max-height: 40%;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Meet Tidy Pores",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "range",
+      "id": "section_height",
+      "label": "Section Height (Desktop)",
+      "min": 400,
+      "max": 1000,
+      "step": 20,
+      "default": 600,
+      "unit": "px"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Image Settings"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "richtext",
+      "id": "scrolling_text",
+      "label": "Scrolling Text",
+      "default": "<p>Tidy Pore is age-approved, science-locked, and barrier-safe—formulated to brighten, tighten, and drain without the chaos.<br><br>No sting. No stress. Just skin that looks like it's been in its soft glow era all along.</p>"
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Scroll Speed",
+      "min": 10,
+      "max": 60,
+      "step": 1,
+      "default": 20,
+      "unit": "s",
+      "info": "Time for one complete scroll cycle"
+    },
+    {
+      "type": "header",
+      "content": "Text Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "MEET TIDY PORES"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading Size",
+      "min": 20,
+      "max": 60,
+      "step": 1,
+      "default": 36,
+      "unit": "px"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "<p>THE IT-GIRL SERUM FOR ACNE-PRONE SKIN</p>"
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "label": "Subheading Size",
+      "min": 14,
+      "max": 36,
+      "step": 1,
+      "default": 24,
+      "unit": "px"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Additional product details can go here</p>"
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "label": "Description Size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Button Settings"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "SHOP NOW"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button Link"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button Background",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "label": "Button Text Size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Meet Tidy Pores",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}

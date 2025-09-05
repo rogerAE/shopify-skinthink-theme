@@ -1,0 +1,56 @@
+{% style %}
+  ul.custom-bullets {
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+  ul.custom-bullets li {
+    margin: 0;
+  }
+{% endstyle %}
+
+{% if block.settings.bullet_1 != blank
+  or block.settings.bullet_2 != blank
+  or block.settings.bullet_3 != blank
+  or block.settings.bullet_4 != blank
+  or block.settings.bullet_5 != blank
+  or block.settings.bullet_6 != blank
+  or block.settings.bullet_7 != blank
+  or block.settings.bullet_8 != blank
+  or block.settings.bullet_9 != blank
+  or block.settings.bullet_10 != blank
+%}
+  <ul class='custom-bullets'>
+    {%- if block.settings.bullet_1 != blank -%}
+      <li>{{ block.settings.bullet_1 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_2 != blank -%}
+      <li>{{ block.settings.bullet_2 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_3 != blank -%}
+      <li>{{ block.settings.bullet_3 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_4 != blank -%}
+      <li>{{ block.settings.bullet_4 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_5 != blank -%}
+      <li>{{ block.settings.bullet_5 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_6 != blank -%}
+      <li>{{ block.settings.bullet_6 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_7 != blank -%}
+      <li>{{ block.settings.bullet_7 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_8 != blank -%}
+      <li>{{ block.settings.bullet_8 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_9 != blank -%}
+      <li>{{ block.settings.bullet_9 }}</li>
+    {%- endif -%}
+    {%- if block.settings.bullet_10 != blank -%}
+      <li>{{ block.settings.bullet_10 }}</li>
+    {%- endif -%}
+  </ul>
+{% endif %}

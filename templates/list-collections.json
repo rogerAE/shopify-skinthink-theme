@@ -1,0 +1,79 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "disabled": true,
+      "settings": {
+        "title_enable": true,
+        "display_type": "all",
+        "sort": "alphabetical"
+      }
+    },
+    "featured_collection_xqkqXJ": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.featured_collection_grid.name",
+      "settings": {
+        "title": "SHOP ALL",
+        "description": "",
+        "home_featured_products": "all",
+        "rows": 3,
+        "per_row_desktop": 3,
+        "per_row_mobile": "2-flush",
+        "view_all": false,
+        "alt": false
+      }
+    },
+    "rich_text_kk8J9n": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wJWNbz": {
+          "type": "heading",
+          "settings": {
+            "title": "GET IN, WE'RE GLOWING →"
+          }
+        },
+        "text_CEMyBf": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wJWNbz",
+        "text_CEMyBf"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "instafeed_RQexqP": {
+      "type": "instafeed",
+      "name": "Instafeed App",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "featured_collection_xqkqXJ",
+    "rich_text_kk8J9n",
+    "instafeed_RQexqP"
+  ]
+}

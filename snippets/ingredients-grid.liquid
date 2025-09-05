@@ -1,0 +1,71 @@
+{% style %}
+  .custom-ingredients-grid {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    text-align: center;
+    align-items: start;
+    row-gap: 20px;
+    grid-gap: 4px;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+
+  .custom-ingredient {
+    display: grid;
+    justify-items: center;
+    row-gap: 5px;
+  }
+
+  .custom-ingredient p {
+    margin: 0;
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .custom-ingredients-grid {
+      grid-template-columns: repeat(4, auto);
+    }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .custom-ingredients-grid {
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+
+  @media only screen and (max-width: 769px) {
+    .custom-ingredients-grid {
+      grid-template-columns: repeat(4, auto);
+    }
+  }
+{% endstyle %}
+
+{% if block.settings.ingredient_1_label != blank
+  or block.settings.ingredient_2_label != blank
+  or block.settings.ingredient_3_label != blank
+  or block.settings.ingredient_4_label != blank
+  or block.settings.ingredient_5_label != blank
+  or block.settings.ingredient_6_label != blank
+  or block.settings.ingredient_7_label != blank
+  or block.settings.ingredient_8_label != blank
+  or block.settings.ingredient_9_label != blank
+  or block.settings.ingredient_10_label != blank
+  or block.settings.ingredient_11_label != blank
+  or block.settings.ingredient_12_label != blank
+%}
+  <div class='custom-ingredients-grid'>
+    {%- liquid
+      render 'ingredient-item', label: block.settings.ingredient_1_label, checked: block.settings.ingredient_1_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_2_label, checked: block.settings.ingredient_2_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_3_label, checked: block.settings.ingredient_3_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_4_label, checked: block.settings.ingredient_4_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_5_label, checked: block.settings.ingredient_5_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_6_label, checked: block.settings.ingredient_6_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_7_label, checked: block.settings.ingredient_7_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_8_label, checked: block.settings.ingredient_8_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_9_label, checked: block.settings.ingredient_9_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_10_label, checked: block.settings.ingredient_10_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_11_label, checked: block.settings.ingredient_11_is_checked
+      render 'ingredient-item', label: block.settings.ingredient_12_label, checked: block.settings.ingredient_12_is_checked
+    -%}
+  </div>
+{% endif %}

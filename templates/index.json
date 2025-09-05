@@ -1,0 +1,738 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_new_PpXRXR": {
+      "type": "slideshow-new",
+      "blocks": {
+        "image_ydcEXe": {
+          "type": "image",
+          "settings": {
+            "preheading": "YOU DON'T NEED 10 STEPS.YOU NEED THE RIGHT 2.",
+            "title": "SHOP EGO ESSENTIALS",
+            "title_size": 60,
+            "subheading": "<p>You can now get your glow-up, bundled.<br/><strong>$88 value → $80 duo<br/></strong>Save when you shop our essential duo- because some things are just better together...</p>",
+            "link": "",
+            "link_text": "SHOP THE EGO ESSENTIAL SET",
+            "color_accent": "#1e150e",
+            "text_align": "vertical-center horizontal-right",
+            "image": "shopify://shop_images/Ego_Essentials_Set_BG_1.png",
+            "image_mobile": "shopify://shop_images/Ego_Es2sentials_Set_BG_1.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ydcEXe"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__text-shadow {text-align: center; color: #1e150e; width: 70vw;}",
+        "@media only screen and (max-device-width: 767px) {.hero__text-content.vertical-center {padding-top: 100vw; } .hero__text-content.horizontal-right {text-align: center; padding-left: 0; } .hero__text-shadow {width: 100vw; }}"
+      ],
+      "name": "Hero New",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 40,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "custom_advanced_banner_a34fDG": {
+      "type": "custom-advanced-banner",
+      "custom_css": [
+        ".independent-text {position: absolute; font-weight: 500;}",
+        ".text-block-2 {font-family: \"commutersans\"; width: 30vw;}",
+        "@media only screen and (max-device-width: 767px) {.text-block-2 {font-size: 20px !important; top: 1% !important; left: 0% !important; } .text-block-1 h2 {font-size: 30px !important; font-weight: 600; } .text-block-1 p {font-size: 18px !important; margin: 0 0 10px !important; } .text-block-1 a {font-size: 15px !important; } .text1-center-right {top: 57%; } .text-block-2 {width: 100%; }}"
+      ],
+      "name": "Advanced Custom Banner",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Ego_Essentials_Set_BG_1.png",
+        "mobile_image": "shopify://shop_images/Untitled_design_14.jpg",
+        "mobile_image_height": 700,
+        "top_left_text": "<p>YOU DON'T NEED 10 STEPS.<br/>YOU NEED THE RIGHT 2.</p>",
+        "top_left_text_color": "#000000",
+        "top_left_text_size": 30,
+        "top_left_offset_top": 6,
+        "top_left_offset_left": 12,
+        "heading": "SHOP EGO ESSENTIALS",
+        "heading_size": 56,
+        "subheading": "You can now get your glow-up, bundled.",
+        "subheading_size": 24,
+        "price_text": "$88 value → $80 duo",
+        "price_size": 24,
+        "description": "<p>Save when you shop our essential duo-because some things are just better together...</p>",
+        "description_size": 24,
+        "button_label": "SHOP THE EGO ESSENTIAL SET",
+        "button_link": "shopify://products/ego-essentialsego-essentials",
+        "button_size": 18,
+        "text1_color": "#000000",
+        "text1_width_desktop": 42,
+        "text1_width_mobile": 100,
+        "text1_position_desktop": "center-right",
+        "text1_position_mobile": "bottom-center"
+      }
+    },
+    "slideshow_GU6bB6": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9gGrCW": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://products/super-sensa-barrier-repair-moisturizer-with-ectoin-and-panthenol-pdrn",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Website_Header_5_48b83eb5-264a-47a6-b852-0daccc06f5f0.png",
+            "image_mobile": "shopify://shop_images/Authentic_Ego_Social_Content_3.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_9gGrCW"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "marquee": {
+      "type": "marquee",
+      "custom_css": [
+        "/* Wrapper: hides overflow */.scrolling-text-wrapper {overflow: hidden; white-space: nowrap; width: 100%;}"
+      ],
+      "settings": {
+        "text": "FREE STANDARD DOMESTIC U.S. SHIPPING",
+        "link": "",
+        "text_size": 20,
+        "text_spacing": true,
+        "color_scheme": "button",
+        "direction": "left",
+        "speed": "normal"
+      }
+    },
+    "image_with_text_ErWRyE": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".text-block {text-align: center;}",
+        ".section-button {align-self: center; border-radius: 0; margin-top: 10px; font-weight: 100; padding: 12px 60px;}",
+        ".section-subheading {margin-bottom: 10px; font-family: commutersans;}",
+        ".section-description {margin: 5px 0;}",
+        ".image-block {flex: 1.2;}",
+        ".scrolling-text-container {display: none;}",
+        ".section-heading {margin-bottom: 5px;}",
+        "@media only screen and (max-device-width: 767px) {.meet-tidy-pores-container {height: 100%; } .meet-tidy-pores-section {height: 840px; }}"
+      ],
+      "name": "Meet Tidy Pores",
+      "settings": {
+        "section_height": 700,
+        "background_color": "#ffffff",
+        "text_color": "#1e150e",
+        "image": "shopify://shop_images/Adobe_Express_-_file_7_1.png",
+        "scrolling_text": "<p>Tidy Pore is age-approved, science-locked, and barrier-safe—formulated to brighten, tighten, and drain without the chaos.<br/><br/>No sting. No stress. Just skin that looks like it's been in its soft glow era all along.</p>",
+        "scroll_speed": 20,
+        "heading": "MEET TIDY PORES",
+        "heading_size": 56,
+        "subheading": "<p>THE IT-GIRL SERUM FOR ACNE-PRONE SKIN</p>",
+        "subheading_size": 20,
+        "description": "<p>Tidy Pores is ego-approved, science-backed, and barrier-safe- formulated to brighten, tighten, and calm without the chaos. No sting. No stress. Just skin that looks like it's been in its soft  glow era all along.</p>",
+        "description_size": 16,
+        "button_text": "SHOP NOW",
+        "button_link": "shopify://products/tidy-pores-serum",
+        "button_bg_color": "#1e150e",
+        "button_text_color": "#ffffff",
+        "button_text_size": 16
+      }
+    },
+    "testimonials_new_ktVXMa": {
+      "type": "testimonials-new",
+      "blocks": {
+        "testimonial_JaXgTt": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "review": "<p>Amazing moisturizer! Rebuilding my skin barrier and leaving my skin glowy!</p>",
+            "name": "ASHLEE K."
+          }
+        },
+        "testimonial_tUVxtC": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "review": "<p>Best Vitamin C serum out there!!! I have combination skin, and usually most products tend to break me out. Not this one, it makes my face feel more hydrated, and it's lightweight.</p>",
+            "name": "ABEL Z."
+          }
+        },
+        "testimonial_bUyaM6": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "review": "<p>My favorite Vitamin C serum! Loves how it dries down on the skin.</p>",
+            "name": "MARYAM K."
+          }
+        },
+        "testimonial_apPErf": {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "review": "<p>This is a beautiful moisturizer. It glides on the skin well and my skin drinks this moisturizer up immediately.</p>",
+            "name": "ATSUKO"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_JaXgTt",
+        "testimonial_tUVxtC",
+        "testimonial_bUyaM6",
+        "testimonial_apPErf"
+      ],
+      "custom_css": [
+        ".star-rating {color: #efe4d9;}",
+        ".footer-text,.reviewer-name {font-family: \"commutersans\"; font-weight: 500;}",
+        ".testimonial-text {font-style: normal;}",
+        ".section-heading {font-family: \"commutersans\" !important;}",
+        "@media only screen and (max-device-width: 767px) {.section-heading {font-size: calc(35px * 0.8) !important; } .testimonial-text, .star-rating, .reviewer-name {font-size: 15px !important; } .footer-text {font-size: 14px !important; }}"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "background_color": "#1e150e",
+        "text_color": "#fffefa",
+        "rotation_speed": 3,
+        "heading": "#EGOEVIDENCE",
+        "heading_size": 40,
+        "footer_text": "<p>REAL SKIN. REAL RESULTS. REAL RECEIPTS.</p>",
+        "footer_text_size": 20,
+        "star_size": 30,
+        "review_text_size": 27,
+        "name_size": 16
+      }
+    },
+    "slideshow_new_RgC73N": {
+      "type": "slideshow-new",
+      "blocks": {
+        "image_GLJz9E": {
+          "type": "image",
+          "settings": {
+            "preheading": "SHOP THE NEW",
+            "title": "SUPER SENSA",
+            "title_size": 80,
+            "subheading": "<p>OUR ICONIC BARRIER REPAIR GET-CREAM JUST GOT BETTER.</p><p>Because your skin and favorite formulas deserve<br/>to get better - together.</p>",
+            "link": "shopify://products/super-sensa-barrier-repair-moisturizer-with-ectoin-and-panthenol-pdrn",
+            "link_text": "EXPERIENCE THE UPGRADE",
+            "color_accent": "#1e150e",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/Website_Header_7_1944x_d1dcaf57-4084-4eef-a3d4-fe395f3708fb.jpg",
+            "image_mobile": "shopify://shop_images/Website_-_Mobile_2_1296x_e014fa7b-3939-49eb-89d3-a2c8e244b15d.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_GLJz9E"
+      ],
+      "custom_css": [
+        ".hero__text-shadow {color: #1e150e;}",
+        "@media only screen and (max-device-width: 767px) {.hero__text-content.vertical-center {padding-top: 20px; padding-left: 10px; text-align: left !important; } .hero__text-content.vertical-center {vertical-align: top; } .hero__text-content.horizontal-left {text-align: center; padding-right: 0; } .hero__text-shadow {width: 100vw; } .hero__subtitle {font-size: 14px !important; } .hero__subtitle p {margin: 0 0 10px; } .hero__link {font-size: 11px; } .btn {padding: 0.5rem 1rem; }}"
+      ],
+      "name": "Hero New",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "text_columns_new_ptWKh3": {
+      "type": "Text-columns-new",
+      "blocks": {
+        "text_block_PydBRE": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/89.png",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Filtered Beauty: Why Your Shower Water Might Be Messing With Your Skin</p>",
+            "bullet_1": "",
+            "bullet_2": "",
+            "bullet_3": "",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "text_block_FfDJeK": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/90.png",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>Oil Cleansing, Rewritten: A Barrier-Safe DIY for Acne-Prone Skin</p>",
+            "bullet_1": "",
+            "bullet_2": "",
+            "bullet_3": "",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "text_block_b8zpVD": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/91.png",
+            "image_width": 650,
+            "title": "",
+            "text": "<p>The #EgoApproved Guide to Sunscreen for<br/>Acne-Prone Skin</p>",
+            "bullet_1": "",
+            "bullet_2": "",
+            "bullet_3": "",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_PydBRE",
+        "text_block_FfDJeK",
+        "text_block_b8zpVD"
+      ],
+      "custom_css": [
+        ".section-subheading {font-size: 18px; margin-bottom: 20px; margin-top: 20px;}",
+        ".custom-columns {margin: 0 !important;}",
+        ".section-button {font-weight: 100;}"
+      ],
+      "name": "Text columns New",
+      "settings": {
+        "background_color": "#1e150e",
+        "text_color": "#ffffff",
+        "section_padding": 35,
+        "section_padding_mobile": 30,
+        "align_text": "center",
+        "alt": false,
+        "title": "SKIN-TEL",
+        "subheading": "<p>Skincare gets loud. We keep it clear.</p>",
+        "subheading_size": 20,
+        "subheading_spacing": 17,
+        "description": "<p>Skin-Tel is your go-to for ego-approved insight, glow-era guidance, <br/>and clarity without the chaos.</p>",
+        "description_size": 20,
+        "description_spacing": 10,
+        "button_text": "UNLOCK THE INTEL",
+        "button_link": "shopify://blogs/skin-tel-skincare-is-loud-we-keep-it-clearskin-tel",
+        "button_bg_color": "#f7e8df",
+        "button_text_color": "#1e150e",
+        "button_text_size": 16,
+        "button_padding_x": 30,
+        "button_padding_y": 12,
+        "button_border_radius": 0,
+        "button_spacing": 30
+      }
+    },
+    "slideshow_NtUKzN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YgCGrL": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "https://www.authenticego.com/products/tidy-pores-serum",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/TIDY_PORES_copy_2.png",
+            "image_mobile": "shopify://shop_images/Authentic_Ego_Social_Content_1.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_YgCGrL"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "custom_text_columns_NE77NQ": {
+      "type": "custom-text-columns",
+      "blocks": {
+        "text_block_MCimUC": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_4471.png",
+            "image_width": 650,
+            "title": "SUPPORTIVE",
+            "text": "<p><em>Built for Skin That’s Been Through It </em></p><p>We don’t wait for breakouts to happen—we target what triggers them before they show.</p>",
+            "bullet_1": "",
+            "bullet_2": "",
+            "bullet_3": "",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "text_block_NXG96M": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_4493.png",
+            "image_width": 650,
+            "title": "SIMPLE",
+            "text": "<p><em>No Trends. No Fuss. No Reactions.</em></p><p>We leave out the fluff: no essential oils, no fragrances, no trend-hopping extracts. Just what works.</p>",
+            "bullet_1": "",
+            "bullet_2": "",
+            "bullet_3": "",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "text_block_tNnNxg": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_4484.png",
+            "image_width": 650,
+            "title": "RESEARCHED",
+            "text": "<p><em>We Read the Science So You Don’t Have To</em></p><p>Every formula starts with real research and ends with clear skin. If it clogs, burns, or breaks you out? It’s out.</p>",
+            "bullet_1": "",
+            "bullet_2": "",
+            "bullet_3": "",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "text_block_jMyAVG": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/IMG_4483.png",
+            "image_width": 650,
+            "title": "VERSATILE",
+            "text": "<p><em>Because Acne Doesn’t Discriminate</em></p><p>Our formulas are safe for every shade, skin type, and sensitivity—Rosacea, Eczema, Fungal Acne included.</p>",
+            "bullet_1": "",
+            "bullet_2": "",
+            "bullet_3": "",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_MCimUC",
+        "text_block_NXG96M",
+        "text_block_tNnNxg",
+        "text_block_jMyAVG"
+      ],
+      "name": "Custom text columns",
+      "settings": {
+        "title": "It’s Time For A Change",
+        "description": "<p>We’re harnessing the skin’s natural repairing abilities and targeting the unaddressed contributors of hormonal and adult acne breakouts—oxidative stress, lipid peroxidation, microbiome dysbiosis, and barrier dysfunction.<br/></p><p><em><strong>Science-backed, skin-first formulas for real, reactive skin.</strong></em></p>",
+        "align_text": "center",
+        "alt": false
+      }
+    },
+    "hero_animated_TfetpD": {
+      "type": "hero-animated",
+      "blocks": {
+        "image_NMU63X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_Header_2000_x_800_px_4000_x_1000_px_2500_x_1000_px_4f17bcfc-eaf0-41a3-ab12-293c9fd25160.png",
+            "image_mobile": "shopify://shop_images/This_moisturizer_is_so_good_I_m_in_love._I_ve_been_using_it_for_only_a_week_on_my_sensitive_oily_and_acne_prone_skin_and_I_can_t_believe_the_difference_I_ve_noticed_in_my_skin._1.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_WQMYjy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_Header_2000_x_800_px_4000_x_1000_px_2500_x_1000_px_copy_49bde2ec-60e3-46f2-a2da-ffe939dee91d.png",
+            "image_mobile": "shopify://shop_images/2_7b3a6a18-6357-4968-b9ce-970adc4bcbc0.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_pxxK6f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_Header_2000_x_800_px_4000_x_1000_px_2500_x_1000_px_copy_2.png",
+            "image_mobile": "shopify://shop_images/3_ce7f894b-55c2-4c18-97c9-66a54805598b.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_GUVbkx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_Header_2000_x_800_px_4000_x_1000_px_2500_x_1000_px_copy_3.png",
+            "image_mobile": "shopify://shop_images/4_34d5ab31-d8a1-44f8-9d89-6dbcf9baefb5.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_UVbn9z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Website_Header_2000_x_800_px_4000_x_1000_px_2500_x_1000_px_1_copy.png",
+            "image_mobile": "shopify://shop_images/5_c64bfaec-b228-46e0-865b-9269beb136ce.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_NMU63X",
+        "image_WQMYjy",
+        "image_pxxK6f",
+        "image_GUVbkx",
+        "image_UVbn9z"
+      ],
+      "disabled": true,
+      "name": "t:sections.hero-animated.presets.animated_image_hero.name",
+      "settings": {
+        "style": "gif",
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": 0,
+        "mobile_size": 0
+      }
+    },
+    "slideshow_apDnHw": {
+      "type": "slideshow",
+      "blocks": {
+        "image_RjYD3e": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "https://www.instagram.com/p/DKXKzvJxuBG/",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Website_Header_1_copy_c5891e08-b9aa-4a30-bfdc-f2f1627220ad.png",
+            "image_mobile": "shopify://shop_images/Website_-_Mobile_2_c5aeb73f-f79a-4910-ad0c-188d05112946.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_RjYD3e"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "slideshow_4zyCYC": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4pRgXe": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 40,
+            "subheading": "",
+            "link": "shopify://blogs/skin-tel-skincare-is-loud-we-keep-it-clearskin-tel",
+            "link_text": "",
+            "color_accent": "#f7e8df",
+            "text_align": "vertical-bottom horizontal-center",
+            "image": "shopify://shop_images/Heading_6e26d102-173f-48bf-a273-dfd864bad551.png",
+            "image_mobile": "shopify://shop_images/This_moisturizer_is_so_good_I_m_in_love._I_ve_been_using_it_for_only_a_week_on_my_sensitive_oily_and_acne_prone_skin_and_I_can_t_believe_the_difference_I_ve_noticed_in_my_skin._1_d3881eeb-628b-499f-a6b5-c96e74f57f6b.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_4pRgXe"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "image_with_text_Cdf8D6": {
+      "type": "image-with-text",
+      "custom_css": [
+        "/* .section-image {object-fit: contain;}",
+        " */.section-button {border-radius: 0; margin-top: 25px; font-weight: 100;}",
+        ".section-description {margin: 5px 0; width: 70%;}",
+        ".image-block {flex: 1.7;}",
+        ".scrolling-text-container {display: none;}",
+        "@media only screen and (max-device-width: 767px) {.section-description {margin: 5px 0; width: 100%; } .meet-tidy-pores-container {height: 100%; } .meet-tidy-pores-section {height: 800px; } .section-button {margin-top: 10px; }}"
+      ],
+      "name": "Meet Tidy Pores",
+      "settings": {
+        "section_height": 600,
+        "background_color": "#fffcf7",
+        "text_color": "#1e150e",
+        "image": "shopify://shop_images/About_AE_BG.png",
+        "scrolling_text": "",
+        "scroll_speed": 20,
+        "heading": "ABOUT AE",
+        "heading_size": 60,
+        "subheading": "",
+        "subheading_size": 20,
+        "description": "<p>Female-founded. Research-led. Skin-real. Authentic Ego creates barrier-safe, evidence- backed formulas for hormonal, sensitive, and acne- prone skin. We're here to rewrite what support looks like-combining clinical insight with elevated  simplicity, for routines that evolve with you.</p>",
+        "description_size": 20,
+        "button_text": "LEARN MORE",
+        "button_link": "shopify://pages/about",
+        "button_bg_color": "#1e150e",
+        "button_text_color": "#ffffff",
+        "button_text_size": 16
+      }
+    },
+    "slideshow_NzfHXE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_g8K6Ki": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://pages/about",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/TIDY_PORES_1_39a5a0f8-434f-4ab0-902b-25d12f890871.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_g8K6Ki"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "rich_text_FX3EgC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nDe9fw": {
+          "type": "heading",
+          "settings": {
+            "title": "GET IN, WE'RE GLOWING →"
+          }
+        },
+        "text_LffHch": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nDe9fw",
+        "text_LffHch"
+      ],
+      "custom_css": [
+        ".rich-text {padding-top: 0px; padding-bottom: 0px;}"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "1731340862186a20d1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_p8f6Ef": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "#20150f",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 24,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "right",
+            "link_color": "#20150f",
+            "background_color": "#ffffff",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_p8f6Ef"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_new_PpXRXR",
+    "custom_advanced_banner_a34fDG",
+    "custom_text_columns_NE77NQ",
+    "slideshow_GU6bB6",
+    "marquee",
+    "image_with_text_ErWRyE",
+    "testimonials_new_ktVXMa",
+    "slideshow_new_RgC73N",
+    "text_columns_new_ptWKh3",
+    "slideshow_NtUKzN",
+    "hero_animated_TfetpD",
+    "slideshow_apDnHw",
+    "slideshow_4zyCYC",
+    "image_with_text_Cdf8D6",
+    "slideshow_NzfHXE",
+    "rich_text_FX3EgC",
+    "1731340862186a20d1"
+  ]
+}

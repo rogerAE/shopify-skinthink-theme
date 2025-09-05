@@ -1,0 +1,450 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "story_banner_X6kAGQ": {
+      "type": "story-banner",
+      "name": "Story Banner",
+      "settings": {
+        "background_image": "shopify://shop_images/About_AE_Background.png",
+        "heading": "AE AUTHENTIC EGO",
+        "subheading": "FORMULATED DIFFERENTLY. THE WHY BEHIND WHAT WE DO.",
+        "banner_height": 690,
+        "banner_height_mobile": 600,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "padding_sides": 40,
+        "text_width": 80,
+        "heading_size": 60,
+        "subheading_size": 29,
+        "heading_size_mobile": 45,
+        "subheading_size_mobile": 25,
+        "heading_weight": "700",
+        "heading_color": "#20150f",
+        "subheading_color": "#20150f"
+      }
+    },
+    "slideshow_UA7tt9": {
+      "type": "slideshow",
+      "blocks": {
+        "image_aJK8WU": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/TIDY_PORES_1_1e263bff-3975-4479-8428-8ba7fdfa1ccc.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_aJK8WU"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "rotating_block_AbPcPF": {
+      "type": "rotating-block",
+      "blocks": {
+        "item_8pcgjr": {
+          "type": "item",
+          "settings": {
+            "heading": "BARRIER DYSFUNCTION",
+            "text": "<p>A compromised barrier can't protect, heal, or glow. Every Authentic Ego formula supports and strengthens your skin's natural defenses.</p>"
+          }
+        },
+        "item_4VTWmk": {
+          "type": "item",
+          "settings": {
+            "heading": "HORMONAL SKIN SENSITIVITY",
+            "text": "<p>The hormonal cascade that leads to clogged pores and breakouts? We target it gently and precisely, no irritation required.</p>"
+          }
+        },
+        "item_8V3Efh": {
+          "type": "item",
+          "settings": {
+            "heading": "OXIDATIVE STRESS",
+            "text": "<p>A common, yet often ignored trigger. It flares when your skin's antioxidant defenses are depleted-by stress, illness, aging, UV exposure, harsh products, and more. We help replenish, rebuild and protect. </p>"
+          }
+        },
+        "item_PAVXnA": {
+          "type": "item",
+          "settings": {
+            "heading": "LIPID PEROXIDATION",
+            "text": "<p>Oxidized oil = breakouts. Our formulas work to preserve the quality of your sebum and prevent the irritation spiral.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_8pcgjr",
+        "item_4VTWmk",
+        "item_8V3Efh",
+        "item_PAVXnA"
+      ],
+      "custom_css": [
+        ".section-heading {font-size: 40px;}",
+        "@media only screen and (max-device-width: 767px) {.section-heading {font-size: 30px; } .rotating-block-template--19327857164510__rotating_block_AbPcPF {padding: 40px 20px 40px; }}"
+      ],
+      "name": "Rotating Heading Block",
+      "settings": {
+        "max_width": 1000,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_sides": 40,
+        "text_alignment": "center",
+        "heading": "ACNE ISN'T ONE-SIZE-FITS-ALL",
+        "subheading": "<p>Reactive skin is complex-and the support it deserves should be, too. At Authentic Ego, we don't treat breakouts like a surface issue. We go deeper, developing formulas that work with your skin's biology, not against it. Our approach is full-spectrum: rooted in research, grounded in transparency, and designed to target the real science behind adult, hormonal, and sensitive acne. </p><h3><em><br/></em><em><strong>What We Really Target</strong></em></h3>",
+        "rotating_bg_color": "#f7e8df",
+        "rotating_heading_size": 20,
+        "rotating_text_size": 17,
+        "rotating_heading_color": "#000000",
+        "rotating_text_color": "#000000",
+        "rotating_heading_weight": "600",
+        "rotation_speed": 3500
+      }
+    },
+    "hero_animated_9FtQKx": {
+      "type": "hero-animated",
+      "blocks": {
+        "image_F3tVB9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20_4e246120-575f-4c0d-9266-d05a7aa5304b.png",
+            "image_mobile": "shopify://shop_images/3_ac072d74-3427-4c6d-871b-b2166dbc28f1.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_QTUBtN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/21_0a72342a-2c06-40d8-b0c1-5fdad507b12b.png",
+            "image_mobile": "shopify://shop_images/4_d6bdacc7-d05e-4ce1-b767-f414f09ccf98.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_QFCjA9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22_f171af41-6f7d-4cb3-a4dc-572c7409ea3f.png",
+            "image_mobile": "shopify://shop_images/5_af5ebc18-cf37-4794-8961-27548eba5c7c.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_DN7RTH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23_4ff539aa-3480-431e-b3d3-c622bd720278.png",
+            "image_mobile": "shopify://shop_images/6_be0be6b9-4738-4b57-8fce-33647c35cf38.png",
+            "focal_point": "center center"
+          }
+        },
+        "image_yW48cB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/24_7a8815d5-5bea-433f-ac3c-38da4269b509.png",
+            "image_mobile": "shopify://shop_images/7_f0a9fd91-ca6d-40a5-8368-2a2a56e257cc.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_F3tVB9",
+        "image_QTUBtN",
+        "image_QFCjA9",
+        "image_DN7RTH",
+        "image_yW48cB"
+      ],
+      "disabled": true,
+      "name": "t:sections.hero-animated.presets.animated_image_hero.name",
+      "settings": {
+        "style": "gif",
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": 0,
+        "mobile_size": 0
+      }
+    },
+    "image_with_text_UByH9x": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".section-button {border-radius: 0; margin-top: 10px; font-weight: 100;}",
+        ".section-subheading {margin-bottom: 0;}",
+        ".section-description {margin: 5px 0;}",
+        ".scrolling-text-container {display: none;}",
+        ".meet-tidy-pores-container {}",
+        "@media only screen and (max-device-width: 767px) {.meet-tidy-pores-container {flex-direction: column-reverse; } .image-block {height: 45vh; min-height: 350px; flex: none; } .meet-tidy-pores-section {height: 90vh !important; } .text-block {text-align: center; }}"
+      ],
+      "name": "Meet Tidy Pores",
+      "settings": {
+        "section_height": 740,
+        "background_color": "#f6f4f2",
+        "text_color": "#000000",
+        "image": "shopify://shop_images/Authentic_Promise_Backgrdound.png",
+        "scrolling_text": "",
+        "scroll_speed": 20,
+        "heading": "OUR AUTHENTIC PROMISE",
+        "heading_size": 41,
+        "subheading": "",
+        "subheading_size": 24,
+        "description": "<p>We're not just building formulas-we're building trust.<br/>Authentic Ego exists to shift the skincare standard for reactive skin. As we grow, we're committed to setting a new benchmark in transparency, sustainability, and evidence-led care.<br/><strong><br/></strong><em><strong>Here's what that looks like:</strong></em><br/><br/>Disclosing the percentage of active ingredients in every product<br/><br/>Choosing biotech and lab-created ingredients over naturally harvested ingredients-they're more sustainable and better for people and the planet<br/><br/>Maintaining price transparency by disclosing what each formula costs to manufacture<br/><br/>Prioritizing re-investment of our profits into research and development so we can expand our arsenal of ground-breaking formulas</p>",
+        "description_size": 16,
+        "button_text": "",
+        "button_link": "",
+        "button_bg_color": "#000000",
+        "button_text_color": "#ffffff",
+        "button_text_size": 16
+      }
+    },
+    "slideshow_xCGUH9": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zWKtea": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Website_Header_5_bbaad455-1f8f-4a01-9d38-5b742474930b.png",
+            "image_mobile": "shopify://shop_images/Authentic_Ego_Social_Content_3_479ac55b-91c9-493b-9e10-11b011173d90.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_zWKtea"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "faq_bFyk9g": {
+      "type": "faq",
+      "blocks": {
+        "rich_text_KeVj4D": {
+          "type": "rich-text",
+          "settings": {
+            "title": "WHAT WE'RE NOT NORMALIZING",
+            "text": "<p>We’re not here to check boxes—we’re here to challenge the formulas that have failed reactive skin for too long. At Authentic Ego, our goal isn’t just to be clean. It’s to be clinical, considered, and clear in what we include—and what we don’t.</p><p></p><p>Most brands talk about what they’re adding. We care just as much about what we’ve left out.</p><p>Here’s what didn’t make the cut (for a reason):</p>",
+            "align_text": "center"
+          }
+        },
+        "question_BUCh3P": {
+          "type": "question",
+          "settings": {
+            "title": "✦ Fatty Alcohols, Esters & Most Plant Oils",
+            "text": "<p>Often overlooked, but not by us. These ingredients can fuel the growth of malassezia yeast and contribute to lipid peroxidation, fueling breakouts and barrier dysfunction in acne-prone skin.</p>"
+          }
+        },
+        "question_9EAVgA": {
+          "type": "question",
+          "settings": {
+            "title": "✦ Sensitizing Preservatives & Actives",
+            "text": "<p>We avoid the common culprits known to trigger irritation & allergies—because your skin’s balance is non-negotiable.</p>"
+          }
+        },
+        "question_BENTpj": {
+          "type": "question",
+          "settings": {
+            "title": "✦ Essential Oils & Fragrance",
+            "text": "<p>There’s no aesthetic payoff that justifies increased risk of irritation, photosensitivity, or allergic reaction. You’ll never find them in any of our formulas. </p>"
+          }
+        },
+        "question_PwaAXC": {
+          "type": "question",
+          "settings": {
+            "title": "✦ Plant Extracts & Cross-Reactive Allergens",
+            "text": "<p>Natural doesn’t always mean gentle and clean doesn't always mean good. Many botanical extracts are linked to contact dermatitis and inflammation, so we minimize their use—especially those with cross-reactive potential to environmental allergens. </p>"
+          }
+        },
+        "rich_text_TBg336": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>This isn’t about fear-based formulating. It’s about formulating smarter—for skin that needs more than the bare minimum.</p>",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "rich_text_KeVj4D",
+        "question_BUCh3P",
+        "question_9EAVgA",
+        "question_BENTpj",
+        "question_PwaAXC",
+        "rich_text_TBg336"
+      ],
+      "custom_css": [
+        "background-color: var(--color-background-secondary);color: var(--color-foreground-secondary);}h2,.faq-question {color: var(--color-foreground-secondary);}",
+        ".faq-answer {color: var(--color-foreground-secondary); border-top: 1px solid var(--color-foreground-secondary);}"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "title": ""
+      }
+    },
+    "rich_text_YQQLXj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JXHUmr": {
+          "type": "heading",
+          "settings": {
+            "title": "Experience A New Way to Support Acne-Prone Skin"
+          }
+        },
+        "text_GPUVdJ": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Meet our pre and postbiotic packed gel-cream moisturizer made for even the most breakout-prone skin.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JXHUmr",
+        "text_GPUVdJ"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": true
+      }
+    },
+    "featured_product_mUwUdy": {
+      "type": "featured-product",
+      "blocks": {
+        "price_tAecPe": {
+          "type": "price",
+          "settings": {}
+        },
+        "description_HTRLrW": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "variant_picker_3LhKhV": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "buy_buttons_R89PCc": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        }
+      },
+      "block_order": [
+        "price_tAecPe",
+        "description_HTRLrW",
+        "variant_picker_3LhKhV",
+        "buy_buttons_R89PCc"
+      ],
+      "name": "t:sections.featured-product.presets.featured_product.name",
+      "settings": {
+        "featured_product": "super-sensa-barrier-repair-moisturizer-with-ectoin-and-panthenol-pdrn",
+        "product_image_size": "medium",
+        "product_image_type": "slider",
+        "product_zoom_enable": false,
+        "enable_video_looping": false,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "rich_text_7G3jcQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dKQn79": {
+          "type": "heading",
+          "settings": {
+            "title": "GET IN, WE'RE GLOWING →"
+          }
+        },
+        "text_BtxFLU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dKQn79",
+        "text_BtxFLU"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "instafeed_hE7YhR": {
+      "type": "instafeed",
+      "name": "Instafeed App",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "story_banner_X6kAGQ",
+    "slideshow_UA7tt9",
+    "rotating_block_AbPcPF",
+    "hero_animated_9FtQKx",
+    "image_with_text_UByH9x",
+    "slideshow_xCGUH9",
+    "faq_bFyk9g",
+    "rich_text_YQQLXj",
+    "featured_product_mUwUdy",
+    "rich_text_7G3jcQ",
+    "instafeed_hE7YhR"
+  ]
+}

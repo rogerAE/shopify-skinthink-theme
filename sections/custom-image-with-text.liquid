@@ -1,0 +1,445 @@
+{% liquid
+  assign min = 1
+  assign max = 10000
+  assign diff = max | minus: min
+  assign randomNumber = "now" | date: "%N" | modulo: diff | plus: min
+%}
+
+{% style %}
+  #cfr{{ randomNumber }}.custom-feature-row {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: {{ section.settings.image_gap }}px;
+    margin: 0;
+  }
+
+  @media only screen and (max-width:820px) {
+    #cfr{{ randomNumber }}.custom-feature-row {
+      grid-auto-flow: row;
+      row-gap: 40px;
+    }
+  }
+
+  #cfr{{ randomNumber }}.custom-feature-row .feature-row__item {
+    padding: 0;
+    margin: 0;
+    min-width: unset;
+    flex: unset;
+  }
+
+  #cfr{{ randomNumber }}.custom-feature-row .feature-row__text {
+    display: grid;
+    row-gap: 20px;
+  }
+
+  #cfr{{ randomNumber }}.custom-feature-row .feature-row__text > * {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #cfr{{ randomNumber }}.custom-feature-row .feature-row__text > h4 {
+    margin-top: 20px !important;
+  }
+
+  #cfr{{ randomNumber }}.custom-feature-row .feature-row__text .btn {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  #cfr{{ randomNumber }} #custom-klaviyo form {
+    padding: 0 !important;
+  }
+
+  #cfr{{ randomNumber }} #custom-klaviyo form > div {
+    row-gap: 20px;
+  }
+
+  #cfr{{ randomNumber }} #custom-klaviyo form > div > div > div {
+    padding: 0 !important;
+  }
+{% endstyle %}
+
+{%- liquid
+    assign overlap_images = true
+    if section.settings.image != blank and section.settings.image2 == blank
+      assign overlap_images = false
+    endif
+  -%}
+
+{%- if section.settings.layout == 'right' -%}
+  {% style %}
+    @media only screen and (min-width:821px) {
+      #cfr{{ randomNumber }}.custom-feature-row {
+        grid-template-columns: 100fr {{ section.settings.image_width }}fr;
+      }
+    }
+  {% endstyle %}
+{% endif %}
+
+{%- if section.settings.layout == 'left' -%}
+  {% style %}
+    @media only screen and (min-width:821px) {
+      #cfr{{ randomNumber }}.custom-feature-row {
+        grid-template-columns: {{ section.settings.image_width }}fr 100fr;
+      }
+    }
+  {% endstyle %}
+{% endif %}
+
+{%- if overlap_images and section.settings.layout == 'left' -%}
+  {% style %}
+    @media only screen and (min-width:821px) {
+      #cfr{{ randomNumber }}.custom-feature-row .feature-row__item--overlap-images > :first-child {
+        order: 1;
+        transform: translate(-50px, 50px);
+      }
+    }
+  {% endstyle %}
+{% endif %}
+
+<div class="index-section{% if section.settings.alt %} index-section--alt{% endif %}">
+    <div class="page-width">
+      {%- capture image_layout -%}
+        <div class="feature-row__item custom-images{% if overlap_images %} feature-row__item--overlap-images{% endif %}" data-aos>
+            {%- if section.settings.image != blank -%}
+              <div>
+                {%- if section.settings.image_link != blank -%}<a href="{{ section.settings.image_link }}">{%- endif -%}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image.aspect_ratio }}%;">
+                    {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="feature-row__image lazyload"
+                      role="presentation"
+                      data-src="{{ img_url }}"
+                      data-widths="[180, 360, 540, 750, 900, 1080]"
+                      data-aspectratio="{{ section.settings.image.aspect_ratio }}"
+                      data-sizes="auto"
+                      alt="{{ section.settings.image.alt }}">
+                  </div>
+                {%- if section.settings.image_link != blank -%}</a>{%- endif -%}
+              </div>
+            {%- endif -%}
+            {%- if section.settings.image2 != blank -%}
+              <div>
+                {%- if section.settings.image_link != blank -%}<a href="{{ section.settings.image_link }}">{%- endif -%}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: section.settings.image2.aspect_ratio }}%;">
+                    {%- assign img_url = section.settings.image2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="feature-row__image lazyload"
+                      role="presentation"
+                      data-src="{{ img_url }}"
+                      data-widths="[180, 360, 540, 750, 900, 1080]"
+                      data-aspectratio="{{ section.settings.image2.aspect_ratio }}"
+                      data-sizes="auto"
+                      alt="{{ section.settings.image2.alt }}">
+                  </div>
+                {%- if section.settings.image_link != blank -%}</a>{%- endif -%}
+              </div>
+            {%- endif -%}
+            {%- if section.settings.image == blank and section.settings.image2 == blank -%}
+              <div>
+                <div class="image-wrap">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              </div>
+              <div>
+                <div class="image-wrap">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              </div>
+            {%- endif -%}
+        </div>
+    {%- endcapture -%}
+
+        <div id="cfr{{ randomNumber }}" class="custom-feature-row feature-row {% if section.settings.is_not_sticky == false %}sticky{% endif %}">
+            {%- if section.settings.layout == 'left' -%}
+              <div class="item-wrapper">
+                {{ image_layout }}
+              </div>
+            {%- endif -%}
+
+              <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }} text-{{ section.settings.align_text }}" data-aos>
+                  {%- if section.settings.subtitle != blank -%}
+                      <div class="subheading appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.subtitle }}</div>
+                  {%- endif -%}
+                  {%- if section.settings.title != blank -%}
+                      <div class="h2 appear-delay{% cycle '','-1','-2','-3','-4' %}">{{ section.settings.title | escape }}</div>
+                  {%- endif -%}
+
+                  {%- for block in section.blocks -%}
+                      {%- case block.type -%}
+                          {%- when 'klaviyo_form' -%}
+                            {%- if block.settings.id != blank -%}
+                              <div id="custom-klaviyo" class="klaviyo-form-{{ block.settings.id }}"></div>
+                          {%- endif -%}
+                          {%- when 'h2_block' -%}
+                              {%- if block.settings.h2_header != blank -%}
+                                  <h2>{{ block.settings.h2_header }}</h2>
+                              {%- endif -%}
+                          {%- when 'h4_block' -%}
+                              {%- if block.settings.h4_header != blank -%}
+                                  <h4>{{ block.settings.h4_header }}</h4>
+                              {%- endif -%}
+                          {%- when 'description_block' -%}
+                              {%- if block.settings.description != blank -%}
+                                  {{ block.settings.description }}
+                              {%- endif -%}
+                          {%- when 'bullet_list' -%}
+                              {% render 'bullet-list', block: block %}
+                          {%- when 'button_block' -%}
+                              {%- if block.settings.button_label != blank -%}
+                                  <div class="appear-delay{% cycle '','-1','-2','-3','-4' %}">
+                                  <a href="{{ block.settings.button_link }}" class="btn{% if block.settings.button_style == 'secondary' %} btn--tertiary{% endif %}">
+                                      {{ block.settings.button_label }}
+                                  </a>
+                                  </div>
+                              {%- endif -%}
+                      {%- endcase -%}
+                  {%- endfor -%}
+              </div>
+
+            {%- if section.settings.layout == 'right' -%}
+              <div class="item-wrapper">
+                {{ image_layout }}
+              </div>
+            {%- endif -%}
+        </div>
+    </div>
+
+</div>
+
+{% schema %}
+{
+  "name": "Custom Image With Text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.text-and-image.settings.image.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "t:sections.text-and-image.settings.image2.label"
+    },
+    {
+      "type": "range",
+      "id": "image_width",
+      "label": "Image Proportions",
+      "default": 100,
+      "min": 50,
+      "max": 200,
+      "step": 10,
+      "unit": "fr"
+    },
+    {
+      "type": "range",
+      "id": "image_gap",
+      "label": "Image Gap",
+      "default": 20,
+      "min": 0,
+      "max": 200,
+      "step": 10,
+      "unit": "px"
+    },
+    {
+      "type": "url",
+      "id": "image_link",
+      "label": "Image link"
+    },
+    {
+      "type": "checkbox",
+      "id": "is_not_sticky",
+      "label": "Disable sticky image"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "t:sections.text-and-image.settings.subtitle.label"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.text-and-image.settings.title.label",
+      "default": "Image with text"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.text-and-image.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.text-and-image.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.text-and-image.settings.align_text.options.center.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.text-and-image.settings.align_text.options.right.label"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "t:sections.text-and-image.settings.layout.label",
+      "default": "right",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.text-and-image.settings.layout.options.left.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.text-and-image.settings.layout.options.right.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "alt",
+      "label": "t:sections.text-and-image.settings.alt.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "h2_block",
+      "name": "H2 Header",
+      "settings": [
+        {
+          "type": "text",
+          "id": "h2_header",
+          "label": "Header"
+        }
+      ]
+    },
+    {
+      "type": "h4_block",
+      "name": "H4 Header",
+      "settings": [
+        {
+          "type": "text",
+          "id": "h4_header",
+          "label": "Header"
+        }
+      ]
+    },
+    {
+      "type": "description_block",
+      "name": "Description",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
+    },
+    {
+      "type": "button_block",
+      "name": "Button",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "t:sections.text-and-image.settings.button_label.label"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "t:sections.text-and-image.settings.button_link.label"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "t:sections.text-and-image.settings.button_style.label",
+          "default": "primary",
+          "options": [
+            {
+              "value": "primary",
+              "label": "t:sections.text-and-image.settings.button_style.options.primary.label"
+            },
+            {
+              "value": "secondary",
+              "label": "t:sections.text-and-image.settings.button_style.options.secondary.label"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bullet_list",
+      "name": "Bulelt List",
+      "settings": [
+        {
+          "type": "text",
+          "id": "bullet_1",
+          "label": "Bullet 1"
+        },
+        {
+          "type": "text",
+          "id": "bullet_2",
+          "label": "Bullet 2"
+        },
+        {
+          "type": "text",
+          "id": "bullet_3",
+          "label": "Bullet 3"
+        },
+        {
+          "type": "text",
+          "id": "bullet_4",
+          "label": "Bullet 4"
+        },
+        {
+          "type": "text",
+          "id": "bullet_5",
+          "label": "Bullet 5"
+        },
+        {
+          "type": "text",
+          "id": "bullet_6",
+          "label": "Bullet 6"
+        },
+        {
+          "type": "text",
+          "id": "bullet_7",
+          "label": "Bullet 7"
+        },
+        {
+          "type": "text",
+          "id": "bullet_8",
+          "label": "Bullet 8"
+        },
+        {
+          "type": "text",
+          "id": "bullet_9",
+          "label": "Bullet 9"
+        },
+        {
+          "type": "text",
+          "id": "bullet_10",
+          "label": "Bullet 10"
+        }
+      ]
+    },
+    {
+      "type": "klaviyo_form",
+      "name": "Klaviyo Form",
+      "settings": [
+        {
+          "type": "text",
+          "id": "id",
+          "label": "Form Id"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Image With Text"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,314 @@
+{% liquid
+  assign min = 1
+  assign max = 10000
+  assign diff = max | minus: min
+  assign randomNumber = 'now' | date: '%N' | modulo: diff | plus: min
+%}
+
+{%- style -%}
+  .custom-columns .custom-header-wrapper {
+    max-width: 820px;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-grid {
+    column-gap: 160px;
+    grid-template-columns: repeat({{section.blocks.size}}, 355px);
+    transition: transform 0.2s ease;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-actions-mobile {
+    display: none !important;
+  }
+
+  @media only screen and (max-width: 1600px) {
+    #cs{{ randomNumber }}.custom-columns-with-slider .custom-grid {
+      column-gap: 120px;
+    }
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-grid::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-page-width {
+    max-width: unset;
+    margin: 0;
+    padding: 0;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-actions-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr auto;
+    column-gap: 10px;
+    align-items: end;
+    margin-bottom: 106px;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-actions {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 58px;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-action {
+    height: 71px;
+    width: 71px;
+    background-color: #cda076;
+    font-size: 27px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-action:hover {
+    opacity: 0.7;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-action .arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 9px;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-action .arrow.left {
+    transform: rotate(135deg);
+    margin-left: 6px;
+  }
+
+  #cs{{ randomNumber }}.custom-columns-with-slider .custom-action .arrow.right {
+    transform: rotate(-45deg);
+    margin-right: 6px;
+  }
+
+  @media only screen and (max-width: 820px) {
+    #cs{{ randomNumber }}.custom-columns-with-slider .custom-actions-wrapper {
+      column-gap: 0px;
+    }
+
+    #cs{{ randomNumber }}.custom-columns-with-slider .custom-actions-wrapper .custom-actions {
+      display: none;
+    }
+
+    #cs{{ randomNumber }}.custom-columns-with-slider .custom-actions-mobile {
+      display: grid !important;
+      justify-content: center;
+      margin-top: 60px;
+    }
+
+    #cs{{ randomNumber }}.custom-columns-with-slider .custom-grid {
+      column-gap: 80px;
+    }
+  }
+{%- endstyle -%}
+
+<div
+  id='cs{{ randomNumber }}'
+  class='custom-columns custom-columns-with-slider index-section{% if section.settings.alt %} index-section--alt{% endif %}'
+>
+  <div class='page-width' data-aos>
+    <div class='custom-actions-wrapper position-{{ section.settings.align_text }}'>
+      {%- if section.settings.title != blank or section.settings.description != blank -%}
+        <div class='custom-header-wrapper'>
+          {%- if section.settings.title != blank -%}
+            <h1 class='appear-delay-1 custom-columns-title text-{{ section.settings.align_text }}'>
+              {{ section.settings.title }}
+            </h1>
+          {%- endif -%}
+
+          {%- if section.settings.description != blank -%}
+            <div class='custom-columns-description text-{{ section.settings.align_text }}'>
+              {{ section.settings.description }}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+      <div class='custom-actions'>
+        <div class='custom-action left'><i class='arrow left'></i></div>
+        <div class='custom-action right'><i class='arrow right'></i></div>
+      </div>
+    </div>
+  </div>
+
+  <div class='page-width custom-page-width' data-aos>
+    <div class='custom-grid text-{{ section.settings.align_text }}'>
+      {%- for block in section.blocks -%}
+        <div
+          {{ block.shopify_attributes }}
+          data-aos
+          class='custom-grid-item appear-delay-2 {{ section.settings.align_text }}'
+        >
+          {%- if block.settings.enable_image -%}
+            {%- if block.settings.image != blank -%}
+              <div style='max-width: {{ block.settings.image_width }}px'>
+                <div style='height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;'>
+                  {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                  <img
+                    class='lazyload'
+                    data-src='{{ img_url }}'
+                    data-widths='[180, 360, 540, 750, 900, 1080]'
+                    data-aspectratio='{{ block.settings.image.aspect_ratio }}'
+                    data-sizes='auto'
+                    alt='{{ block.settings.image.alt }}'
+                  >
+                </div>
+              </div>
+            {%- else -%}
+              <div class='image-wrap'>{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+            {%- endif -%}
+          {%- endif -%}
+          {%- if block.settings.title != blank -%}
+            <div class='h3'>{{ block.settings.title }}</div>
+          {%- endif -%}
+          {%- if block.settings.text != blank -%}
+            {{ block.settings.text }}
+          {%- endif -%}
+
+          {% render 'bullet-list', block: block %}
+
+          {%- if block.settings.secondary_text != blank -%}
+            <div class='rte-setting'>{{ block.settings.secondary_text }}</div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+    <div class='custom-actions custom-actions-mobile'>
+      <div class='custom-action left'><i class='arrow left'></i></div>
+      <div class='custom-action right'><i class='arrow right'></i></div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Custom slider columns",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:sections.text-columns.settings.title.label",
+      "default": "Section Title"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "default": "<p>Describe this sesction</p>"
+    },
+    {
+      "type": "select",
+      "id": "align_text",
+      "label": "t:sections.text-columns.settings.align_text.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.text-columns.settings.align_text.options.left.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.text-columns.settings.align_text.options.center.label"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "alt",
+      "label": "t:sections.text-columns.settings.alt.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text_block",
+      "name": "t:sections.text-columns.blocks.column.name",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "enable_image",
+          "label": "t:sections.text-columns.blocks.column.settings.enable_image.label",
+          "default": true
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.text-columns.blocks.column.settings.image.label"
+        },
+        {
+          "type": "range",
+          "id": "image_width",
+          "label": "t:sections.text-columns.blocks.column.settings.image_width.label",
+          "default": 650,
+          "min": 60,
+          "max": 650,
+          "step": 10,
+          "unit": "px"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.text-columns.blocks.column.settings.title.label",
+          "default": "Example title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "t:sections.text-columns.blocks.column.settings.text.label",
+          "default": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.</p>"
+        },
+        {
+          "type": "text",
+          "id": "bullet_1",
+          "label": "Bullet 1"
+        },
+        {
+          "type": "text",
+          "id": "bullet_2",
+          "label": "Bullet 2"
+        },
+        {
+          "type": "text",
+          "id": "bullet_3",
+          "label": "Bullet 3"
+        },
+        {
+          "type": "text",
+          "id": "bullet_4",
+          "label": "Bullet 4"
+        },
+        {
+          "type": "text",
+          "id": "bullet_5",
+          "label": "Bullet 5"
+        },
+        {
+          "type": "richtext",
+          "id": "secondary_text",
+          "label": "Text After Bullets",
+          "default": "<p>Use this section add text after the bullets.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom slider columns",
+      "blocks": [
+        {
+          "type": "text_block"
+        },
+        {
+          "type": "text_block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

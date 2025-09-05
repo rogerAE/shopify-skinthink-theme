@@ -1,0 +1,299 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "26c25902-80ce-4ac4-8092-21734e042205": {
+      "type": "faq",
+      "blocks": {
+        "285e0461-47ec-4c57-af29-4c66b433ba5f": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>You don’t need to have all the answers. That’s what we’re here for.</p>",
+            "align_text": "center"
+          }
+        }
+      },
+      "block_order": [
+        "285e0461-47ec-4c57-af29-4c66b433ba5f"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions"
+      }
+    },
+    "46761406-2cf8-4b31-aced-a9dfb82229a5": {
+      "type": "faq",
+      "blocks": {
+        "question_yaAGbq": {
+          "type": "question",
+          "settings": {
+            "title": "What's our story?",
+            "text": "<p>I wanted to create a brand that reflects the authenticity of what we’re trying to achieve. Our goal is to be an authentic voice and resource in an industry full of noise. I want to develop formulas that will make a difference in people's lives while keeping prices as low as possible. - Christina, Founder</p>"
+          }
+        },
+        "template--16665532006622__46761406-2cf8-4b31-aced-a9dfb82229a5-16723356201fc19e2a-0": {
+          "type": "question",
+          "settings": {
+            "title": "Where are you located?",
+            "text": "<p>Our founder is Canadian and lives in Canada, but the business is based in the USA. Our manufacturer is in California, and all products ship from our warehouse in Texas. Our plastic pump bottles and paper packaging are sourced from South Korea.</p>"
+          }
+        },
+        "question_ULynMm": {
+          "type": "question",
+          "settings": {
+            "title": "I don't live in the USA. Where else do you ship to?",
+            "text": "<p>We ship to most countries. You can find more details on our <a href=\"/pages/shipping\" target=\"_blank\" title=\"Shipping\">shipping page</a>.</p><p>If you live in another country, we’re sorry! As an alternative you can always try a mail forwarding service but we can’t guarantee your package will make it to your country safely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_yaAGbq",
+        "template--16665532006622__46761406-2cf8-4b31-aced-a9dfb82229a5-16723356201fc19e2a-0",
+        "question_ULynMm"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "f3ad4e84-e4b2-4630-8eed-0d5bbaeefc6b": {
+      "type": "faq",
+      "blocks": {
+        "f134f52b-f940-46a9-9bd0-9a4670ad7a8f": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Products and Ingredients",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "template--16665532006622__f3ad4e84-e4b2-4630-8eed-0d5bbaeefc6b-16723356201fc19e2a-0": {
+          "type": "question",
+          "settings": {
+            "title": "Where are your products made?",
+            "text": "<p>All of our products are made, manufactured, and packaged in the USA. They are developed and formulated by our Founder & a Cosmetic Chemist.</p>"
+          }
+        },
+        "template--16665532006622__f3ad4e84-e4b2-4630-8eed-0d5bbaeefc6b-16723356201fc19e2a-1": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you source your ingredients from?",
+            "text": "<p>We work with our product manufacturer to source ingredients from global raw ingredients suppliers. The individual ingredients in our products are sourced from all over the world.</p>"
+          }
+        },
+        "69dddb6f-4ab0-4621-956e-8fc08a749a70": {
+          "type": "question",
+          "settings": {
+            "title": "Are your products ‘clean’?",
+            "text": "<p>Based on the standard industry definition that everyone is using, yes. We exceed ‘clean’ standards on all fronts. BUT… ‘clean’ beauty isn’t really a thing and it never was. ‘Clean’ has no objective definition and it can be vague and misleading for consumers. </p><p>To us, the word ‘clean’ means something that hasn’t been contaminated with dirt, bacteria, viruses, or invasive fungi, and last time we checked pretty much every product out there fits that bill. 🤷</p>"
+          }
+        },
+        "574753dc-0ca8-462d-b738-742b063dc2de": {
+          "type": "question",
+          "settings": {
+            "title": "Are your products ‘natural’?",
+            "text": "<p>The word ‘natural’ has no standard or objective definition. This is not a term you’ll ever see us use. </p><p>Just because it’s ‘natural’ doesn’t mean it’s safe, in fact, the opposite can be true. Arsenic is a poisonous substance that’s naturally found in soil. Asbestos is also a naturally occurring substance but it’s a known carcinogen. Lavender essential oil is as natural as it gets but it’s actually a known allergen and cause of contact dermatitis and other adverse health effects. </p><p>We’ve all been led to believe that natural=safe. But this couldn’t be further from the truth. </p><p>We prioritize the use of well-studied ingredients with a track record of safety and use a combination of synthetic, biotech, lab-created, and naturally derived ingredients in our formulas.</p><p></p>"
+          }
+        },
+        "d3fcf48f-9e5b-481c-98ba-472526e9cc74": {
+          "type": "question",
+          "settings": {
+            "title": "What kind of ingredients do you use?",
+            "text": "<p>We prioritize the use of lab-created, safe synthetics, bio-fermented, and biotech ingredients in all our formulas. We use these ingredients because they're more effective than a lot of wild-grown counterparts, they're free of pesticides and environmental contaminants, and we have better visibility into the working conditions of frontline workers. </p><p>We choose to minimize the number of plant-based and harvested ingredients in our formulas because they deplete the already dwindling natural resources of our planet, we have no visibility into the working conditions of the individuals harvesting the ingredients, and natural alternatives are often a lot less eco-friendly than we think. </p><p>Naturally derived plant ingredients are also a big culprit for cases of contact allergies, dermatitis, and alleric reactions to cosmetic products. </p>"
+          }
+        },
+        "question_kFap4q": {
+          "type": "question",
+          "settings": {
+            "title": "Are your products vegan?",
+            "text": "<p>Yes, all our products are vegan.</p>"
+          }
+        },
+        "question_D9yK77": {
+          "type": "question",
+          "settings": {
+            "title": "Do your products contain gluten or nuts?",
+            "text": "<p>Our products are gluten free and are also nut free. However, we cannot guarantee that every single ingredient is free of potential minute traces of these ingredients. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "f134f52b-f940-46a9-9bd0-9a4670ad7a8f",
+        "template--16665532006622__f3ad4e84-e4b2-4630-8eed-0d5bbaeefc6b-16723356201fc19e2a-0",
+        "template--16665532006622__f3ad4e84-e4b2-4630-8eed-0d5bbaeefc6b-16723356201fc19e2a-1",
+        "69dddb6f-4ab0-4621-956e-8fc08a749a70",
+        "574753dc-0ca8-462d-b738-742b063dc2de",
+        "d3fcf48f-9e5b-481c-98ba-472526e9cc74",
+        "question_kFap4q",
+        "question_D9yK77"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "d4d18448-9180-433e-897f-ea0b106ced46": {
+      "type": "faq",
+      "blocks": {
+        "8cc9b4cd-d3e9-4430-a903-f9cae22590fa": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Safety and Efficacy",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "template--16665532006622__d4d18448-9180-433e-897f-ea0b106ced46-16723356201fc19e2a-0": {
+          "type": "question",
+          "settings": {
+            "title": "Have your products been tested?",
+            "text": "<p>As part of our commitment to providing the highest quality products that are safe and effective, all products undergo 4 tests:</p><ul><li><strong>Stability Testing:</strong> This ensures the product remains stable and effective under a range of temperatures and conditions. During this process, we watch out for texture changes, scent changes, or product separation. </li><li><strong>Microbiology Testing:</strong> This process tests the formula for bacterial or fungal contamination and also checks for the presence of heavy metals. We complete this for every batch. </li><li><strong>Preservative Efficacy Testing:</strong> This test introduces bacteria and fungi into a formula sample in order to ‘stress-test’ the effectiveness of the preservative system. If anything develops, we re-formulate the preservative system and re-test. </li><li><strong>Human Repeat Insult Patch Testing (HRIPT):</strong> This test is conducted on 50 human volunteers over a period of weeks under clinical supervision. We specifically request a cross-section of volunteers to ensure it’s tested on various skin tones. This test ensures that the formula is non-irritating and non-allergenic. Volunteers apply the product twice daily under an occluded patch and the clinical team looks out for signs of redness, irritation, or allergic reactions. </li></ul>"
+          }
+        },
+        "template--16665532006622__d4d18448-9180-433e-897f-ea0b106ced46-16723356201fc19e2a-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do your products expire?",
+            "text": "<p>As a growing brand, we manufacture in small batches and use a PAO or period after opening date. Once you open a product the amount of time before you should discard it will be displayed on the back of the bottle in months. </p><p>We use airless pump packaging to maintain the best possible freshness and stability in all our products, to avoid contamination, and to minimize the use of preservatives that can have a potentially negative impact on the skin’s microbiome.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "8cc9b4cd-d3e9-4430-a903-f9cae22590fa",
+        "template--16665532006622__d4d18448-9180-433e-897f-ea0b106ced46-16723356201fc19e2a-0",
+        "template--16665532006622__d4d18448-9180-433e-897f-ea0b106ced46-16723356201fc19e2a-1"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "bd6d1fc0-f333-4451-b4ac-e4a453f5f5e1": {
+      "type": "faq",
+      "blocks": {
+        "5c153628-d9f8-43a5-a4e9-f7ef689a1006": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Sustainability and Transparency",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "template--16665532006622__bd6d1fc0-f333-4451-b4ac-e4a453f5f5e1-16723356201fc19e2a-0": {
+          "type": "question",
+          "settings": {
+            "title": "What are you doing as a brand to minimize your impact?",
+            "text": "<p>We recognize that all product consumption has an impact on both people and the planet. As a growing business, we’re making every effort to build sustainable practices into our business model and improve upon them as we grow. </p><p>Here’s a summary of our current practices:</p><p><strong>Primary packaging</strong></p><ul><li>We’re using product bottles made of 100% recyclable mono-material polypropylene plastic. We chose these bottles over traditional airless pumps because the metal springs in most pumps guarantee they can’t be recycled. Even though our plastic bottles are fully recyclable, we get that most plastic doesn’t end up getting recycled and we’re working on partnering with a recycling organization to ensure every bottle gets recycled. </li></ul><p><strong>Secondary packaging</strong></p><ul><li>Our product boxes are fully recyclable and made from virgin pulp paper. We are looking to use FSC-certified paper once we can meet the minimum order quantities for this material. </li></ul><p><strong>Shipping</strong></p><ul><li>When you get your package you won’t see any extra packaging or unnecessary fluff like stickers or fancy paper in your order. Shipping materials create tremendous amounts of waste so we’re skipping whatever isn’t needed. </li></ul><p><strong>Ingredients</strong></p><ul><li>Since the majority of the ingredients we use are lab-created, they have a much smaller carbon footprint than their wild harvested counterparts. We also have much better visibility into the product lifecycle and can ensure we’re sourcing from raw ingredient supplier who engage in fair business practices. </li></ul><p>We’re just getting started on our journey, so everything is a work in progress. As we scale we’ll be able to invest more and solidify our commitment to being as sustainable as possible while still being honest and transparent. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "5c153628-d9f8-43a5-a4e9-f7ef689a1006",
+        "template--16665532006622__bd6d1fc0-f333-4451-b4ac-e4a453f5f5e1-16723356201fc19e2a-0"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "c2a451ff-f444-46a1-b025-e18557ec24b3": {
+      "type": "faq",
+      "blocks": {
+        "b3dfdba7-254f-4d3f-b464-f8c8d5b1ab4c": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Other",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "template--16665532006622__c2a451ff-f444-46a1-b025-e18557ec24b3-16723356201fc19e2a-0": {
+          "type": "question",
+          "settings": {
+            "title": "The product I want is sold out or hasn’t launched yet. What should I do?",
+            "text": "<p>Check out the product page and you’ll find a spot to submit your email address to receive a notification when it launches or is back in stock.  </p>"
+          }
+        },
+        "template--16665532006622__c2a451ff-f444-46a1-b025-e18557ec24b3-16723356201fc19e2a-1": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know if a product is for me?",
+            "text": "<p>Our goal is to empower you to self-advocate–we want you to make the best decisions for yourself. If you’re ever not sure about a product, <a href=\"https://www.authenticego.com/pages/contact\" target=\"_blank\" title=\"https://www.authenticego.com/pages/contact\">contact the team</a> and we’ll get back to you the next business day.</p>"
+          }
+        },
+        "fee8fb0d-d5ca-40d8-9370-e3c6e95f4a33": {
+          "type": "question",
+          "settings": {
+            "title": "How do I use your products?",
+            "text": "<p>All our individual product directions can be found on the product pages and the back of the box.  You can also scan the QR code on the back of each bottle for more tips and in-depth instructions. If you still have questions you can <a href=\"https://www.authenticego.com/pages/contact\" target=\"_blank\" title=\"https://www.authenticego.com/pages/contact\">contact us</a> and we'll get back to you within 1 business day. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "b3dfdba7-254f-4d3f-b464-f8c8d5b1ab4c",
+        "template--16665532006622__c2a451ff-f444-46a1-b025-e18557ec24b3-16723356201fc19e2a-0",
+        "template--16665532006622__c2a451ff-f444-46a1-b025-e18557ec24b3-16723356201fc19e2a-1",
+        "fee8fb0d-d5ca-40d8-9370-e3c6e95f4a33"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "rich_text_JzUpLd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_f8JrFw": {
+          "type": "heading",
+          "settings": {
+            "title": "GET IN, WE'RE GLOWING →"
+          }
+        },
+        "text_rkizyb": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f8JrFw",
+        "text_rkizyb"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "instafeed_LxEjRg": {
+      "type": "instafeed",
+      "name": "Instafeed App",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "26c25902-80ce-4ac4-8092-21734e042205",
+    "46761406-2cf8-4b31-aced-a9dfb82229a5",
+    "f3ad4e84-e4b2-4630-8eed-0d5bbaeefc6b",
+    "d4d18448-9180-433e-897f-ea0b106ced46",
+    "bd6d1fc0-f333-4451-b4ac-e4a453f5f5e1",
+    "c2a451ff-f444-46a1-b025-e18557ec24b3",
+    "rich_text_JzUpLd",
+    "instafeed_LxEjRg"
+  ]
+}

@@ -1,0 +1,522 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero-animated": {
+      "type": "hero-animated",
+      "blocks": {
+        "hero-animated-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dfgdfg.jpg",
+            "image_mobile": "shopify://shop_images/rwerwer.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "hero-animated-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "fading",
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": 0,
+        "mobile_size": 0
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "loox_reviews_loox_rating_hygF6Q": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "[count] Reviews",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": false,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "0b01ae6f-3a4e-40e6-bbe7-2d18fe88e26a": {
+          "type": "ingredients_grid",
+          "settings": {
+            "ingredient_1_label": "brightening & hyperpigmentation",
+            "ingredient_1_is_checked": true,
+            "ingredient_2_label": "post-acne mark fading",
+            "ingredient_2_is_checked": true,
+            "ingredient_3_label": "broad spectrum antioxidant support",
+            "ingredient_3_is_checked": true,
+            "ingredient_4_label": "barrier repair",
+            "ingredient_4_is_checked": true,
+            "ingredient_5_label": "visible redness & irritation",
+            "ingredient_5_is_checked": true,
+            "ingredient_6_label": "breakout-prone skin",
+            "ingredient_6_is_checked": true,
+            "ingredient_7_label": "long-term hydration",
+            "ingredient_7_is_checked": true,
+            "ingredient_8_label": "calming active breakouts",
+            "ingredient_8_is_checked": true,
+            "ingredient_9_label": "",
+            "ingredient_9_is_checked": false,
+            "ingredient_10_label": "",
+            "ingredient_10_is_checked": false,
+            "ingredient_11_label": "",
+            "ingredient_11_is_checked": true,
+            "ingredient_12_label": "",
+            "ingredient_12_is_checked": true
+          }
+        },
+        "210532a8-a8bf-453e-9965-9cb05f0c4fd1": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Try It Without The Stress",
+            "content": "<p>We want your experience with us to be just as amazing as our products. If it's not for you? Not to worry! We offer a skin happiness guarantee. Simply email us within 30 days after receiving your order and we'll make it right. </p>",
+            "page": ""
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "How to use",
+            "content": "<p>Apply Tidy Pores 1x daily in the AM. May be applied up to 2x daily for more tolerant skin types. </p><p>Apply Super Sensa in the AM & PM. For best results always apply Super Sensa on damp skin or immediately after Tidy Pores.</p>",
+            "page": ""
+          }
+        },
+        "c0e754dc-5ba4-406e-8125-18aeb707bff8": {
+          "type": "tab",
+          "settings": {
+            "title": "Ingredients",
+            "content": "<p><strong>Tidy Pores</strong></p><p>Key Ingredients:<br/>5% Acetamidoethoxyethanol<br/>2% Betaine <br/>2% Glyceryl Glucoside<br/>1% Portulaca Oleracea Extract<br/>.5% Phloretin<br/>.5% Silybum Marianum Extract<br/>.5% Glycyrrhetinic Acid<br/>.5% Camellia Sinensis Leaf Extract<br/>.2% Tetrahydrodiferuloylmethane<br/>.1% Aminopropyl Ascorbyl Phosphate<br/>.1% Tremella Snow Mushroom Extract<br/>.05% Dimethylmethoxy Chromanol<br/><br/>Full Ingredients: Water/Aqua/Eau, Acetamidoethoxyethanol, Propanediol, Betaine, Glyceryl Glucoside, Caprylhydroxamic Acid, 1,2-Hexanediol, Portulaca Oleracea Extract (Purslane Extract), Lactobacillus Ferment, Hydroxyethylcellulose, Phloretin, Silybum Marianum Extract (Milk Thistle Extract), Glycyrrhetinic Acid (Licorice Root Extract), Camellia Sinensis Leaf Extract (Green Tea Extract), Tetrahydrodiferuloylmethane, Panthenol, Aminopropyl Ascorbyl Phosphate, Tremella Fuciformis Sporocarp (Silver Ear Mushroom) Extract, Acetyl Heptapeptide-4, Lactic Acid*, Caprylyl Glycol, Tocopherol**, Tetrasodium Glutamate Diacetate, Dimethylmethoxy Chromanol. </p><p>* 0.1% used as a ph adjuster only. Does not exfoliate.                                                            ** Natural Vitamin E Mixed Tocopherols</p><p><strong>Super Sensa</strong></p><p>Key Ingredients:</p><ul><li>5% Panthenol</li><li>2% Ectoin</li><li>2% Betaine</li><li>2% Glyceryl Glucoside</li><li>6% Prebiotics & Postbiotics</li><li>1% Rice PDRN</li><li>1% Polyglutamic Acid</li><li>1% Tremella Snow Mushroom Extract</li><li>1% Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate (Syn-Up Peptide)</li><li>1% Acetyl Heptapeptide-4</li></ul><p>Full Ingredients: Water/Aqua/Eau, Squalane*, Panthenol, Propanediol**, Ectoin, Glyceryl Glucoside, Betaine, Ammonium Polyacryloyldimethyl Taurate, Cyclopentasiloxane, Xylitylglucoside, Anhydroxylitol, Xylitol, Inulin, Alpha-Glucan Oligosaccharide, Acetyl Heptapeptide-4, Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate, Polyglutamic Acid, Sodium DNA, Trehalose, 1,2-Hexanediol, Caprylhydroxamic Acid, Tremella Fuciformis Sporocarp (Silver Ear Mushroom) Extract, Caprylyl Glycol, Tocopheryl Acetate***.</p><p>* Sugarcane derived<br/>** Biotech corn-derived<br/>*** Natural Vitamin E Mixed Tocopherols</p><p></p>",
+            "page": ""
+          }
+        },
+        "e56455ff-ca1e-4e99-abdf-402f547a1f5f": {
+          "type": "tab",
+          "settings": {
+            "title": "Sustainability",
+            "content": "<ul><li>We prioritize the use of lab-created, safe synthetics, bio-fermented, and biotech ingredients in all our formulas. </li><li>We use these ingredients because they're more effective than a lot of wild-grown counterparts, they're free of pesticides and environmental contaminants, and we have better visibility into the working conditions of those in the supply chain. </li><li>We choose to minimize the number of harvested ingredients in our formulas because they deplete the already dwindling natural resources of our planet and we have no visibility into the working conditions of the individuals harvesting the ingredients. </li></ul>",
+            "page": ""
+          }
+        },
+        "a988985e-acfa-4297-a25b-f514b3a90d1c": {
+          "type": "tab",
+          "settings": {
+            "title": "Recycling Guide",
+            "content": "<ul><li>The outer paperboard packaging can be placed in the recycling</li><li>The product pump and lid is made entirely from polypropylene (PP) mono material. Mono material airless pumps have a higher likelihood of being recycled as they contain no metal parts</li><li>We chose PP plastic because its environmental impact is significantly lower than that of other plastics</li><li>PP has high recyclability, doesn't release harmful chemicals into the environment when recycled and doesn't generate any toxic fumes when burned</li><li>When your product is empty, simply place the cap back on and put it in your recycling bin</li><li>Due to the airless pump technology, there is no need to open and rinse out your product beforehand</li></ul><p><em>We recognize that all packaging has an impact on the people who harvest the raw materials and the planet. We're working to optimize and minimize this impact as part of our long-term strategy. </em></p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_rating_hygF6Q",
+        "price",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "0b01ae6f-3a4e-40e6-bbe7-2d18fe88e26a",
+        "210532a8-a8bf-453e-9965-9cb05f0c4fd1",
+        "tab",
+        "c0e754dc-5ba4-406e-8125-18aeb707bff8",
+        "e56455ff-ca1e-4e99-abdf-402f547a1f5f",
+        "a988985e-acfa-4297-a25b-f514b3a90d1c",
+        "share"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "stacked",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "16622853466de17200": {
+      "type": "marquee",
+      "settings": {
+        "text": "Free shipping on all Domestic (U.S.) orders",
+        "link": "",
+        "text_size": 36,
+        "text_spacing": false,
+        "color_scheme": "text",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
+    "e99c4e3d-810c-430a-88b3-0b16149a91a4": {
+      "type": "custom-text-columns-with-sliders",
+      "blocks": {
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_1_e18bfc83-b81f-42c1-a138-439b4bb9287c.png",
+            "image_width": 120,
+            "title": "Aminopropyl Ascorbyl Phosphate",
+            "text": "<p>We’ve chosen to use the Vitamin C derivative Aminopropyl Ascorbyl Phosphate. It’s a newer molecule that’s formed by conjugating Ascorbic Acid with Kojic Acid and is the most stable Vitamin C derivative on the market. A 0.1% concentration is all that’s needed to see effective results making it great for sensitive skin or those who can’t tolerate traditional Vitamin C serums.</p>",
+            "bullet_1": "Exhibits excellent antioxidant and free radical scavenging activity to protect your skin from oxidative stress and lipid peroxidation",
+            "bullet_2": "Acts as a potent Tyrosinase inhibitor which helps to decrease melanin production to keep skin looking even and clear",
+            "bullet_3": "Effective at stimulating collagen production even at ultra-low percentages",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_2_c54cc62f-e0aa-4cd3-b146-f51337f744b1.png",
+            "image_width": 120,
+            "title": "Dimethylmethoxy Chromanol",
+            "text": "<p>With a similar structure to Vitamin E, we think Dimethylmethoxy Chromanol should be the next big skincare antioxidant. Unlike some other ingredients, it exhibits truly broad spectrum antioxidant activity against the full range of daily aggressors that can negatively impact the skin. </p>",
+            "bullet_1": "The most potent topical ingredient available to protect skin from oxidative stress and lipid peroxidation",
+            "bullet_2": "Stronger antioxidant capacity than Vitamin C, Vitamin E, Resveratrol, or CoQ10",
+            "bullet_3": "The only topical antioxidant that protects against all 3 forms of reactive species that cause free radical damage: ROS (Oxygen), RNS (Nitrogen), and RCS (Carbonyl)",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "9a1f4882-f154-425a-b9d3-9a158c30e1c6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_3.png",
+            "image_width": 120,
+            "title": "Phloretin",
+            "text": "<p>Phloretin is a flavinoid sourced from apples and it provides a broad spectrum of benefits to the skin. </p><p>Due to its (off-the-wall 🤑) cost and the general formulation difficulties it presents, this ingredient is underutilized in skincare formulas. We use a 0.5% concentration which has been clinically tested to be effective for acne-prone skin and is high enough to be effective while negating the need to use alcohol in the formula which is necessary for higher percentages. </p>",
+            "bullet_1": "High-powered calming and soothing properties that minimize irritation, redness, and target skin stress, making it ideal for acne-prone skin. Additionally, it increases native ceramide production, inhibits collagen degradation, and accelerates cell turnover",
+            "bullet_2": "Posesses potent antioxidant and free radical scavenging properties that prevent oxidative stress and lipid peroxidation and also protects skin from UV-induced damage",
+            "bullet_3": "A superior tyrosinase inhibitor that has been shown to be more effective than Kojic Acid or Arbutin",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "c63abce0-f299-4017-9550-ba5a347400fe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_4_7befc46d-7a57-4860-b61e-79fa9d78dc96.png",
+            "image_width": 120,
+            "title": "Silymarin",
+            "text": "<p>Also known as Milk Thistle or<strong> Silybum Marianum Extract,</strong> this ingredient is a naturally occurring flavinoid found in the seeds of the Milk Thistle plant. It’s a potent antioxidant with unique properties that make it particularly great for acne-prone skin.</p>",
+            "bullet_1": "Potent anti-inflammatory properties help to calm skin irritation and stress while protecting against external pollution and environmental aggressors",
+            "bullet_2": "Unique sebum-regulating properties help to regulate oil production without causing dryness making it perfect for acne-prone skin",
+            "bullet_3": "Powerful antioxidant properties shield skin from oxidative stress and lipid peroxidation which can lead to clogged pores",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "15719ba4-59a3-4985-8d45-0bdef0dbf0ea": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_5_a647718e-3d95-4e46-8d0f-73a0e155641d.png",
+            "image_width": 120,
+            "title": "Tetrahydrodiferuloylmethane",
+            "text": "<p>Tetrahydrodiferuloylmethane is a novel, powdered extract that’s derived from the Turmeric plant. It has amazing antioxidant properties that outperform many tradtionally used antioxidants. Where it really shines is its’ ability to target and fade skin discoloration and pigmentation from UV-induced damage or post-acne marks. This extract is completely colorless and odorless and won’t cause any staining of the skin that can be a challenge with other Turmeric Extracts.</p>",
+            "bullet_1": "Potent tyrosinase inhibitor that helps to target the look of post-acne marks and UV-induced discoloration",
+            "bullet_2": "Helps to boost the skin’s natural hyaluronic acid content which keeps skin supple and hydrated",
+            "bullet_3": "Has anti-inflammatory and anti-irritant properties that help to calm and visibly reduce skin irritation",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-0",
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-1",
+        "9a1f4882-f154-425a-b9d3-9a158c30e1c6",
+        "c63abce0-f299-4017-9550-ba5a347400fe",
+        "15719ba4-59a3-4985-8d45-0bdef0dbf0ea"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "High-Impact Ingredients",
+        "description": "<p>All our formulas contain evidence-backed active ingredients at the correct concentration and pH to maximize effectiveness. </p>",
+        "align_text": "left",
+        "alt": false
+      }
+    },
+    "16630605927fd572db": {
+      "type": "rich-text",
+      "blocks": {
+        "1663060592d474b04f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions"
+          }
+        },
+        "1663060592d474b04f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>You don’t need to have all the answers. That’s what we’re here for. For more questions visit our full <a href=\"/pages/faq\" title=\"FAQ\">FAQ page</a> or <a href=\"https://www.authenticego.com/pages/contact\" target=\"_blank\" title=\"https://www.authenticego.com/pages/contact\">contact us</a>. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663060592d474b04f-0",
+        "1663060592d474b04f-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "16630603053bd38f32": {
+      "type": "faq",
+      "blocks": {
+        "16630603051bbdc3ab-0": {
+          "type": "question",
+          "settings": {
+            "title": "What kind of texture does Tidy Pores have?",
+            "text": "<p>Tidy Pores has an ultra-lightweight water-like texture that dries down to a matte finish without stickiness. The formula is silicone-free and and doesn't leave a film on the skin. </p>"
+          }
+        },
+        "d0fe7bb7-dd80-44b5-80c6-6a2ba37fb88e": {
+          "type": "question",
+          "settings": {
+            "title": "I have Fungal Acne / Malassezia Folliculitis. Is this safe for me to use?",
+            "text": "<p>Yes! Tidy Pores is Fungal Acne Safe. It excludes the commonly found plant oils, fatty alcohols, and esters that can contribute to these types of breakouts. It’s also safe for Seborrheic Dermatitis. </p>"
+          }
+        },
+        "083eab4e-3bc1-4394-8201-c6bd2159331f": {
+          "type": "question",
+          "settings": {
+            "title": "I've had issues with Vitamin C serums in the past. Will this irritate my skin?",
+            "text": "<p>A lot of Vitamin C serums use L-Ascorbic Acid which is a gold standard ingredients with lots of evidence to back it up but the downside is it can be highly irritating to the skin.</p><p>We use a Vitamin C derivative called Aminopropyl Ascorbyl Phosphate, which is newer and doesn't have as much research but preliminary data has shown that it's incredibly effective and it doesn't need to be formulated in a highly acidic formula or high percentage  to be effective.</p>"
+          }
+        },
+        "552072e9-2279-4e34-8537-9233984585b1": {
+          "type": "question",
+          "settings": {
+            "title": "Is Tidy Pores suitable for my skin tone?",
+            "text": "<p>We formulated Tidy Pores to meet the unique needs of different skin tones. </p><p>For non-melanated skin tones, Tidy Pores helps to calm and soothe redness and post-inflammatory erythema, and fade post-acne marks.</p><p>For melanated skin, we specifically include ingredients to help inhibit excess melanin production that can lead to uneven skin tone and hyperpigmentation from UV exposure, irritation, inflammation, and acne. </p><p>Our actives have overlapping benefits for all skin tones and we test on a variety of skin tones during product development.</p><p></p>"
+          }
+        },
+        "919849b9-d771-41d5-8776-3ee1c345287a": {
+          "type": "question",
+          "settings": {
+            "title": "Why does Tidy Pores contain Lactic Acid?",
+            "text": "<p>Tidy Pores uses a 0.1 percent concentration of Lactic Acid as a skin friendly ph adjuster. This concentration of Lactic Acid is safe for individuals with Rosacea, Eczema or Lactic Acid sensitivities and it does not sting or exfoliate the skin in any way. </p>"
+          }
+        },
+        "question_hbt7Qy": {
+          "type": "question",
+          "settings": {
+            "title": "How should I incorporate Tidy Pores into my routine?",
+            "text": "<p>Tidy Pores will give you the best results with once daily application in the AM. Apply prior to your moisturizer and SPF. Tolerant skin types may AM & PM. </p>"
+          }
+        },
+        "question_wXY3fr": {
+          "type": "question",
+          "settings": {
+            "title": "Is Tidy Pores safe to use with acids, retinoids or benzoyl peroxide or hypochlorous acid?",
+            "text": "<p>Because Tidy Pores is not a traditional L-Ascorbic Acid serum, it is safe to use alongside other exfoliants like AHAs or BHA. </p><p>If you are using a retinoid we recommend using Tidy Pores in the AM and your retinoid treatment in the evening. </p><p>We recommend waiting at least 30 minutes before using benzoyl peroxide or hypochlorous acid in your routine, or ideally longer. This is because the oxidative action of these treatments decreases the effectiveness of the active ingredients in the formula. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "16630603051bbdc3ab-0",
+        "d0fe7bb7-dd80-44b5-80c6-6a2ba37fb88e",
+        "083eab4e-3bc1-4394-8201-c6bd2159331f",
+        "552072e9-2279-4e34-8537-9233984585b1",
+        "919849b9-d771-41d5-8776-3ee1c345287a",
+        "question_hbt7Qy",
+        "question_wXY3fr"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    },
+    "f3aeaf26-0099-4681-9c67-156557d6b91d": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "b6e409b9-efe1-49a0-8a1a-bff02c525f9c": {
+          "type": "description_block",
+          "settings": {
+            "description": "<p>I formulated Tidy Pores to be the ultimate routine simplifier that's safe for acne-prone and sensitive skin. It's made specifically for those of you who have struggled to find an antioxidant, hyperpigmentation, or Vitamin C serum that doesn't irritate your skin, make you break out, or clog your pores. And bonus, it's safe for Fungal Acne too. </p><p>How did I do it? I substituted the traditional L-Ascorbic Acid with a new vitamin C derivative called Aminopropyl Ascorbyl Phosphate and added in a blend of actives that help to target oxidative stress, lipid peroxidation, dehydration, and irritation. I also included potent tyrosinase inhibitors that help to target and fade discoloration in all skin tones.  </p><p>What's not in it? I excluded common ingredients you may find in other antioxidant serums like L-ascorbic acid, alcohol and glycols.  While these ingredients definitely aren't bad, they give a lot of folks with acne-prone and sensitive skin troubles so I skipped them altogether.    </p><p>                                                              - Christina, Founder Authentic Ego</p><p></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "b6e409b9-efe1-49a0-8a1a-bff02c525f9c"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Arched-Image-Half-Screen-Width-7.png",
+        "image_width": 100,
+        "image_gap": 100,
+        "image_link": "",
+        "is_not_sticky": false,
+        "subtitle": "",
+        "title": "How Does It Work?",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "1745244279eed819f7": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_section_w8HVi4": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_section_w8HVi4"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "166306050706412618": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich_text_n9TFQT": {
+      "type": "rich-text",
+      "blocks": {
+        "text_Aka3dq": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Shop the best skincare duo for hormonal acne-prone, sensitive, Eczema and Rosacea prone skin. Tidy Pores & Super Sensa uses a potent blend of ectoiEctoin, panthenol vegan PDRN, phloretin, milk thistle (silymarin), green tea, turmeric and a gentle vitamin C derivative designed to provide advanced antioxidant protection and effective brightening and post-acne mark fading and hydration that lasts up to 30 hours. If you're looking for a hydrating, skincare duo for hormonal acne prone skin that's also fungal acne safe look no further than Tidy Pores.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_Aka3dq"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "hero-animated",
+    "main",
+    "16622853466de17200",
+    "e99c4e3d-810c-430a-88b3-0b16149a91a4",
+    "16630605927fd572db",
+    "16630603053bd38f32",
+    "f3aeaf26-0099-4681-9c67-156557d6b91d",
+    "1745244279eed819f7",
+    "166306050706412618",
+    "sub",
+    "product-recommendations",
+    "collection-return",
+    "rich_text_n9TFQT"
+  ]
+}

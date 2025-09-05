@@ -1,0 +1,457 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero-animated": {
+      "type": "hero-animated",
+      "blocks": {
+        "hero-animated-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dfgdfg.jpg",
+            "image_mobile": "shopify://shop_images/rwerwer.jpg",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "hero-animated-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "style": "fading",
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link": "",
+        "link_text": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "desktop_size": 0,
+        "mobile_size": 0
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "variant_labels": false,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "disabled": true,
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "0b01ae6f-3a4e-40e6-bbe7-2d18fe88e26a": {
+          "type": "ingredients_grid",
+          "settings": {
+            "ingredient_1_label": "alcohol",
+            "ingredient_1_is_checked": false,
+            "ingredient_2_label": "essential oils",
+            "ingredient_2_is_checked": false,
+            "ingredient_3_label": "fragrances",
+            "ingredient_3_is_checked": false,
+            "ingredient_4_label": "esters",
+            "ingredient_4_is_checked": false,
+            "ingredient_5_label": "fatty alcohols",
+            "ingredient_5_is_checked": false,
+            "ingredient_6_label": "plant oils",
+            "ingredient_6_is_checked": false,
+            "ingredient_7_label": "parabens",
+            "ingredient_7_is_checked": false,
+            "ingredient_8_label": "phthalates",
+            "ingredient_8_is_checked": false,
+            "ingredient_9_label": "silicones",
+            "ingredient_9_is_checked": false,
+            "ingredient_10_label": "irritating plant extracts",
+            "ingredient_10_is_checked": false,
+            "ingredient_11_label": "vegan",
+            "ingredient_11_is_checked": true,
+            "ingredient_12_label": "cruelty-free",
+            "ingredient_12_is_checked": true
+          }
+        },
+        "210532a8-a8bf-453e-9965-9cb05f0c4fd1": {
+          "type": "tab",
+          "settings": {
+            "title": "Try It Without The Stress",
+            "content": "<p>We want your experience with us to be just as amazing as our products. If it's not for you? Not to worry! We offer a skin happiness guarantee. Simply email us within 30 days after receiving your order and we'll make it right. </p>",
+            "page": ""
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "How to use",
+            "content": "<p><strong>Ease into it: </strong>Painful but necessary... we recommend only introducing 1 new product to your routine at a time, and use it consistently for at least 2-3 weeks before adding in anything else. To start, patch test on a small area to see how your skin reacts. After patch testing, move to once daily application. If all signs look clear, you’re safe for regular use!</p><p><strong>Regular use: </strong>Apply a small amount to your skin twice daily, at morning and at night, to clean, slightly damp skin. Works great as a buffer or sandwich for your favorite retinoid. For extra hydration, layer this under your favorite occlusive- we love plain old petroleum jelly. </p>",
+            "page": ""
+          }
+        },
+        "c0e754dc-5ba4-406e-8125-18aeb707bff8": {
+          "type": "tab",
+          "settings": {
+            "title": "Ingredients",
+            "content": "<p>Key Ingredients:</p><ul><li>4% Niacinamide</li><li>2% Betaine</li><li>2% Glyceryl Glucoside</li><li>6% Prebiotics & Postbiotics</li><li>1% Tremella Snow Mushroom Extract</li><li>1% Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate (Syn-Up Peptide)</li></ul><p>Full Ingredients: </p><p>Water/Aqua/Eau, Squalane, Propanediol, Glyceryl Glucoside, Niacinamide, Betaine, Ammonium Polyacryloyldimethyl Taurate, Maltodextrin, Inulin, Swertia Chirata Extract, Artemisia Annua Flower Extract, Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate, Trehalose, Lactobacillus Ferment, Tremella Fuciformis Sporocarp Extract, Acetyl Heptapeptide-4, Alpha-Glucan Oligosaccharide, Xylitylglucoside, Anhydroxylitol, Xylitol, Bifida Ferment Lysate, Polyglutamic Acid, Panthenol, Caprylhydroxamic Acid, 1,2-Hexanediol, Caprylyl Glycol, Tocopheryl Acetate. </p>",
+            "page": ""
+          }
+        },
+        "e56455ff-ca1e-4e99-abdf-402f547a1f5f": {
+          "type": "tab",
+          "settings": {
+            "title": "Sustainability",
+            "content": "<ul><li>We prioritize the use of lab-created, safe synthetics, bio-fermented, and biotech ingredients in all our formulas. </li><li>We use these ingredients because they're more effective than a lot of wild-grown counterparts, they're free of pesticides and environmental contaminants, and we have better visibility into the working conditions of those in the supply chain. </li><li>We choose to minimize the number of harvested ingredients in our formulas because they deplete the already dwindling natural resources of our planet and we have no visibility into the working conditions of the individuals harvesting the ingredients. </li></ul>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Sustainability",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        },
+        "a988985e-acfa-4297-a25b-f514b3a90d1c": {
+          "type": "tab",
+          "settings": {
+            "title": "Recycling Guide",
+            "content": "<ul><li>The outer paperboard packaging can be placed in the recycling</li><li>The product pump and lid is made entirely from polypropylene (PP) mono material. Mono material airless pumps have a higher likelihood of being recycled as they contain no metal parts</li><li>We chose PP plastic because its environmental impact is significantly lower than that of other plastics</li><li>PP has high recyclability, doesn't release harmful chemicals into the environment when recycled and doesn't generate any toxic fumes when burned</li><li>When your product is empty, simply place the cap back on and put it in your recycling bin</li><li>Due to the airless pump technology, there is no need to open and rinse out your product beforehand</li></ul><p><em>We recognize that all packaging has an impact on the people who harvest the raw materials and the planet. We're working to optimize and minimize this impact as part of our long-term strategy. </em></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "0b01ae6f-3a4e-40e6-bbe7-2d18fe88e26a",
+        "210532a8-a8bf-453e-9965-9cb05f0c4fd1",
+        "tab",
+        "c0e754dc-5ba4-406e-8125-18aeb707bff8",
+        "e56455ff-ca1e-4e99-abdf-402f547a1f5f",
+        "contact",
+        "share",
+        "a988985e-acfa-4297-a25b-f514b3a90d1c"
+      ],
+      "settings": {
+        "product_image_size": "large",
+        "product_image_type": "stacked",
+        "product_zoom_enable": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "sku_enable": false
+      }
+    },
+    "16622853466de17200": {
+      "type": "marquee",
+      "settings": {
+        "text": "Free shipping on all Domestic (U.S.) orders",
+        "link": "",
+        "text_size": 36,
+        "text_spacing": false,
+        "color_scheme": "text",
+        "direction": "left",
+        "speed": "slow"
+      }
+    },
+    "f3aeaf26-0099-4681-9c67-156557d6b91d": {
+      "type": "custom-image-with-text",
+      "blocks": {
+        "b6e409b9-efe1-49a0-8a1a-bff02c525f9c": {
+          "type": "description_block",
+          "settings": {
+            "description": "<p>Super Sensa is formulated for the most acne-prone skin types. This is made specifically for those of you who have struggled to find an everyday moisturizer that doesn't irritate your skin or clog your pores. And bonus, it's safe for Fungal Acne too. </p><p>How did we do it? We focused on including ingredients that help harness the skin's natural ability to heal itself by decreasing irritation, fueling the microbiome, and restoring the skin barrier. </p><p>What's not in it? We excluded a lot of the ingredients you may find in other moisturizers for acne-prone skin that can increase something called lipid peroxidation which leads to inflammation and breakouts. These include a lot of plant oils, fatty alcohols, and esters. While these ingredients definitely aren't bad, they give a lot of folks with acne-prone skin troubles so we skipped them altogether. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "b6e409b9-efe1-49a0-8a1a-bff02c525f9c"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Arched_Image_Template_copyasda.png",
+        "image_width": 100,
+        "image_gap": 100,
+        "image_link": "",
+        "is_not_sticky": false,
+        "subtitle": "",
+        "title": "How Does It Work?",
+        "align_text": "left",
+        "layout": "right",
+        "alt": false
+      }
+    },
+    "e99c4e3d-810c-430a-88b3-0b16149a91a4": {
+      "type": "custom-text-columns-with-sliders",
+      "blocks": {
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_1_e18bfc83-b81f-42c1-a138-439b4bb9287c.png",
+            "image_width": 120,
+            "title": "Niacinamide",
+            "text": "<p>Everyone loves niacinamide but high concentrations can be irritating and actually increase breakouts. We use a 4% concentration so everyone can enjoy the benefits of this superstar ingredient without worrying about the drawbacks. This classic heavy-hitter promotes healthy skin cells to amp up your barrier’s effectiveness.</p>",
+            "bullet_1": "Increases native ceramide and fatty acid production in the skin—key components of the skin’s moisture system",
+            "bullet_2": "Strengthens the overall skin barrier, making it resistant to moisture loss",
+            "bullet_3": "Reduces blotchiness, uneven skin tone, and improves the look of pores ",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_2_c54cc62f-e0aa-4cd3-b146-f51337f744b1.png",
+            "image_width": 120,
+            "title": "Syn-Up Peptide",
+            "text": "<p>Also known as Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate (wow that’s a long one!). A new synthetic peptide that helps to fight against dryness, irritation, and redness by boosting good skin bacteria.</p>",
+            "bullet_1": "Inhibits Urokinase and Plasmin downstream pathways—two processes that are responsible for a compromised barrier and increased levels of skin inflammation",
+            "bullet_2": "Reduces skin microbiome markers associated with redness and irritation",
+            "bullet_3": "Increases skin resilience by restoring integrity to the outermost layer of skin (Stratum Corneum)",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "9a1f4882-f154-425a-b9d3-9a158c30e1c6": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_3.png",
+            "image_width": 120,
+            "title": "Tremella Snow Mushroom Extract",
+            "text": "<p>Move over Hyaluronic Acid. Snow Mushroom is a potent polysaccharide humectant that provides superior hydration in both low and high-humidity environments by forming a thin protective layer over the skin that remains flexible and soft over time. </p>",
+            "bullet_1": "Superior skin-feel and softness thanks to its high molecular weight",
+            "bullet_2": "Decreases oxidative stress that can lead to lipid peroxidation and clogged pores",
+            "bullet_3": "Inhibits melanin synthesis and increases collagen production for plump, even skin",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "c63abce0-f299-4017-9550-ba5a347400fe": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_4_7befc46d-7a57-4860-b61e-79fa9d78dc96.png",
+            "image_width": 120,
+            "title": "Prebiotics & Postbiotics",
+            "text": "<p>Give the good bacteria on your skin the fuel they need to thrive long term. A balanced microbiome helps to give your skin the ability to defend itself against inflammation, stress, and irritation. </p>",
+            "bullet_1": "Xylitol-based plant sugars offer multi-layer hydration and prebiotic support",
+            "bullet_2": "Alpha-Glucan Oligosaccharide and Inulin derived from Chicory Root provides gentle protection and promote a diverse skin microbiome",
+            "bullet_3": "Trehalose and Polyglutamic acid give your skin’s microbiome the good stuff it needs to stay hydrated and resilient even in low-humidity conditions",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        },
+        "15719ba4-59a3-4985-8d45-0bdef0dbf0ea": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Asset_5_a647718e-3d95-4e46-8d0f-73a0e155641d.png",
+            "image_width": 120,
+            "title": "Betaine & Glyceryl Glucoside",
+            "text": "<p>A soothing duo to hydrate your skin. Both promote moisture retention—and Betaine doubles up as a calming agent. Think Glycerin, but no stickiness. </p>",
+            "bullet_1": "Betaine has calming, soothing properties and a higher water-binding capacity than Glycerin",
+            "bullet_2": "Glyceryl Glucoside minimizes moisture loss and supports the skin’s aquaporin system",
+            "bullet_3": "Both ingredients help to balance skin’s hydration by regulating the cell’s moisture content",
+            "bullet_4": "",
+            "bullet_5": "",
+            "secondary_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-0",
+        "template--16558448214238__e99c4e3d-810c-430a-88b3-0b16149a91a4-1665158761f5daa17b-1",
+        "9a1f4882-f154-425a-b9d3-9a158c30e1c6",
+        "c63abce0-f299-4017-9550-ba5a347400fe",
+        "15719ba4-59a3-4985-8d45-0bdef0dbf0ea"
+      ],
+      "settings": {
+        "title": "High-Impact Ingredients",
+        "description": "<p>All our formulas contain evidence-backed active ingredients at the correct concentration and pH to maximize effectiveness. </p>",
+        "align_text": "left",
+        "alt": false
+      }
+    },
+    "166306050706412618": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "16630605927fd572db": {
+      "type": "rich-text",
+      "blocks": {
+        "1663060592d474b04f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Frequently Asked Questions"
+          }
+        },
+        "1663060592d474b04f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>You don’t need to have all the answers. That’s what we’re here for. For more questions visit our full <a href=\"/pages/faq\" title=\"FAQ\">FAQ page</a> or <a href=\"https://www.authenticego.com/pages/contact\" target=\"_blank\" title=\"https://www.authenticego.com/pages/contact\">contact us</a>. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663060592d474b04f-0",
+        "1663060592d474b04f-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "16630603053bd38f32": {
+      "type": "faq",
+      "blocks": {
+        "16630603051bbdc3ab-0": {
+          "type": "question",
+          "settings": {
+            "title": "What kind of texture does Super Sensa have?",
+            "text": "<p>This moisturizer has a gel-cream texture and has been formulated to work on all skin types. If you have drier skin or live in a dry climate you may want to layer on a basic occlusive like petroleum jelly to lock in hydration after application. </p>"
+          }
+        },
+        "d0fe7bb7-dd80-44b5-80c6-6a2ba37fb88e": {
+          "type": "question",
+          "settings": {
+            "title": "I have Fungal Acne / Malassezia Folliculitis. Is this safe for me to use?",
+            "text": "<p>Yes! Super Sensa is Fungal Acne Safe. It excludes the commonly found plant oils, fatty alcohols, and esters that can contribute to these types of breakouts. It’s also safe for Seborrheic Dermatitis. </p>"
+          }
+        },
+        "083eab4e-3bc1-4394-8201-c6bd2159331f": {
+          "type": "question",
+          "settings": {
+            "title": "I've had issues with Niacinamide in the past. Will this irritate my skin?",
+            "text": "<p>A lot of products with Niacinamide use a concentration of 10% or more. Anything over 5% can lead to irritation, redness, and inflammation. Super Sensa utilizes a 4% concentration of Niacinamide. This concentration is still clinically effective and minimizes the risk of adverse reactions. </p>"
+          }
+        },
+        "552072e9-2279-4e34-8537-9233984585b1": {
+          "type": "question",
+          "settings": {
+            "title": "Why don’t you use refillable packaging?",
+            "text": "<p>Refillable packaging is definitely trendy, but it only has a benefit to the environment when a product is repurchased several times. The break-even point for refillable packaging to outweigh the benefits of single-use packaging is anywhere from 10 to 20 repurchases of the original product. We don’t think this is particularly realistic, especially for a skincare product so we’re skipping the refillable trend for now. </p>"
+          }
+        },
+        "919849b9-d771-41d5-8776-3ee1c345287a": {
+          "type": "question",
+          "settings": {
+            "title": "Why do you use plastic packaging?",
+            "text": "<p>We chose to use plastic airless pump packaging because it keeps the formula fresher for longer and prevents the degradation and oxidation of active ingredients.  Oxygen is a skincare formula’s worst enemy and airless pump packaging ensures the stability of sensitive ingredients. </p><p>Plastic also has a lower lifecycle analysis (LCA) than aluminum or glass and cradle-to-gate, plastic emits a lower amount of carbon into the atmosphere than any other packaging material. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "16630603051bbdc3ab-0",
+        "d0fe7bb7-dd80-44b5-80c6-6a2ba37fb88e",
+        "083eab4e-3bc1-4394-8201-c6bd2159331f",
+        "552072e9-2279-4e34-8537-9233984585b1",
+        "919849b9-d771-41d5-8776-3ee1c345287a"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "1b64a75f-8ab3-4bec-a110-2ad6e6621bfe": {
+      "type": "rich-text",
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "alt": false
+      }
+    }
+  },
+  "order": [
+    "hero-animated",
+    "main",
+    "16622853466de17200",
+    "f3aeaf26-0099-4681-9c67-156557d6b91d",
+    "e99c4e3d-810c-430a-88b3-0b16149a91a4",
+    "166306050706412618",
+    "16630605927fd572db",
+    "16630603053bd38f32",
+    "sub",
+    "product-recommendations",
+    "collection-return",
+    "1b64a75f-8ab3-4bec-a110-2ad6e6621bfe"
+  ]
+}

@@ -1,0 +1,314 @@
+{{ 'section-testimonials.css' | asset_url | stylesheet_tag }}
+
+<div class="testimonial-section" style="
+  --bg-color: {{ section.settings.background_color }};
+  --text-color: {{ section.settings.text_color }};
+">
+  <div class="testimonial-container">
+    {% if section.settings.heading != blank %}
+      <h2 class="section-heading" style="font-size: {{ section.settings.heading_size }}px;">
+        {{ section.settings.heading }}
+      </h2>
+    {% endif %}
+
+    <div class="testimonial-slider">
+      {% for block in section.blocks %}
+        <div class="testimonial-block" data-index="{{ forloop.index0 }}" {% unless forloop.first %}aria-hidden="true" style="display: none;"{% endunless %}>
+          <div class="star-rating" style="font-size: {{ section.settings.star_size }}px;">
+            {% for i in (1..5) %}
+              {% if i <= block.settings.rating %}
+                ★
+              {% else %}
+                ☆
+              {% endif %}
+            {% endfor %}
+          </div>
+          
+          <div class="testimonial-text" style="font-size: {{ section.settings.review_text_size }}px;">
+            {{ block.settings.review }}
+          </div>
+          
+          <div class="reviewer-name" style="font-size: {{ section.settings.name_size }}px;">
+            {{ block.settings.name }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% if section.settings.footer_text != blank %}
+      <div class="footer-text" style="font-size: {{ section.settings.footer_text_size }}px;">
+        {{ section.settings.footer_text }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Only run if there are testimonials
+    const testimonials = document.querySelectorAll('.testimonial-block');
+    if (testimonials.length <= 1) return;
+
+    // Performance-optimized testimonial rotation
+    let currentIndex = 0;
+    const rotationSpeed = {{ section.settings.rotation_speed | default: 5 }} * 1000;
+    
+    function rotateTestimonials() {
+      // Hide current testimonial
+      testimonials[currentIndex].setAttribute('aria-hidden', 'true');
+      testimonials[currentIndex].style.display = 'none';
+      
+      // Move to next testimonial
+      currentIndex = (currentIndex + 1) % testimonials.length;
+      
+      // Show next testimonial
+      testimonials[currentIndex].removeAttribute('aria-hidden');
+      testimonials[currentIndex].style.display = 'block';
+      
+      // Schedule next rotation
+      setTimeout(rotateTestimonials, rotationSpeed);
+    }
+    
+    // Start rotation with requestAnimationFrame for better performance
+    requestAnimationFrame(function() {
+      setTimeout(rotateTestimonials, rotationSpeed);
+    });
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Testimonials",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout Settings"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f8f8f8"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "rotation_speed",
+      "label": "Review Rotation Speed (seconds)",
+      "min": 3,
+      "max": 15,
+      "step": 1,
+      "default": 5,
+      "unit": "s",
+      "info": "Recommended: 5-8 seconds for best user experience"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Section Heading",
+      "default": "EGOEVIDENCE"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Heading Size",
+      "min": 20,
+      "max": 60,
+      "step": 1,
+      "default": 36,
+      "unit": "px"
+    },
+    {
+      "type": "richtext",
+      "id": "footer_text",
+      "label": "Footer Text",
+      "default": "<p>REAL SKIN. REAL RESULTS. REAL RECEIPTS.</p>"
+    },
+    {
+      "type": "range",
+      "id": "footer_text_size",
+      "label": "Footer Text Size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
+    },
+    {
+      "type": "header",
+      "content": "Review Styling"
+    },
+    {
+      "type": "range",
+      "id": "star_size",
+      "label": "Star Rating Size",
+      "min": 16,
+      "max": 36,
+      "step": 1,
+      "default": 24,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "review_text_size",
+      "label": "Review Text Size",
+      "min": 14,
+      "max": 30,
+      "step": 1,
+      "default": 18,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "name_size",
+      "label": "Reviewer Name Size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonial",
+      "name": "Testimonial",
+      "settings": [
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Star Rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "richtext",
+          "id": "review",
+          "label": "Review Text",
+          "default": "<p>This moisturizer is so good, I'm in love. I've been using it for only a week on my sensitive, oily and acne prone skin and I can't believe the difference I've noticed in my skin.</p>"
+        },
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Reviewer Name",
+          "default": "ASHLEE K."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials",
+      "category": "Custom Sections",
+      "blocks": [
+        {
+          "type": "testimonial",
+          "settings": {
+            "rating": 5,
+            "review": "<p>This moisturizer is so good, I'm in love. I've been using it for only a week on my sensitive, oily and acne prone skin and I can't believe the difference I've noticed in my skin.</p>",
+            "name": "ASHLEE K."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .testimonial-section {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    width: 100%;
+    padding: 60px 0;
+  }
+
+  .testimonial-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .section-heading {
+    margin-bottom: 40px;
+    line-height: 1.2;
+  }
+
+  .testimonial-slider {
+    position: relative;
+    min-height: 200px;
+    margin: 40px auto 40px;
+    max-width: 800px;
+  }
+
+  .testimonial-block {
+    transition: opacity 0.5s ease;
+  }
+
+  [aria-hidden="true"] {
+    display: none !important;
+  }
+
+  .star-rating {
+    color: gold;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+  }
+
+  .testimonial-text {
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  .reviewer-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .footer-text {
+    margin-top: 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .testimonial-section {
+      padding: 40px 0;
+    }
+
+    .section-heading {
+      font-size: calc(var(--heading-size, 36px) * 0.8) !important;
+      margin-bottom: 30px;
+    }
+
+    .testimonial-slider {
+      min-height: 180px;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .section-heading {
+      font-size: calc(var(--heading-size, 36px) * 0.7) !important;
+    }
+
+    .testimonial-slider {
+      min-height: 220px;
+    }
+  }
+</style>

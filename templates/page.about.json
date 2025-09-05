@@ -1,0 +1,252 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advance_image_text_aEMhJa": {
+      "type": "advance-image-text",
+      "custom_css": [
+        ".image-text-columns {background-image: url(\"https://cdn.shopify.com/s/files/1/0607/2441/2638/files/Website_Header_8.png?v=1752838293\"); background-size: cover; background-position: center; background-repeat: no-repeat;}",
+        "@media only screen and (max-device-width: 767px) {.columns-wrapper {flex-direction: column-reverse !important; gap: 0px !important; } .image-text-columns {padding: 50px 0; } .heading {margin-bottom: 5px; }}"
+      ],
+      "name": "Advance Image Text",
+      "settings": {
+        "image_position": "left",
+        "section_padding": 110,
+        "background_color": "rgba(0,0,0,0)",
+        "image": "shopify://shop_images/Website_Header_5_986d3b6d-e9a3-4d6f-8938-4e111fb2fa34.png",
+        "heading": "AE AUTHENTIC EGO",
+        "heading_size": 50,
+        "text": "<p>FORMULATED FOR REAL, REACTIVE SKIN</p><p>Authentic Ego is a female-founded skincare brand rethinking what it means to care for reactive skin.</p><p>We didn't see ourselves—or our skin—in the formulas lining the shelves. So we built something different.</p><p>Rooted in research and guided by real-life skin cycles, our products are made for the moments most brands ignore: the flare-ups, the hormonal shifts, the sensitivity that doesn't go away after your 20s.</p><p>Designed to meet your skin exactly where it is, every formula delivers barrier-safe, clinically-considered support that works with you—through breakouts, progress, and everything in between.</p>",
+        "text_size": 18,
+        "button_text": "",
+        "button_link": "",
+        "button_text_size": 16,
+        "button_bg": "#000000",
+        "button_text_color": "#ffffff",
+        "text_color": "#f7e8df"
+      }
+    },
+    "slideshow_fm8D8H": {
+      "type": "slideshow",
+      "blocks": {
+        "image_pGt69w": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Website_Header_5_080a3381-d2c3-41fd-b1c1-466c9bf3e788.png",
+            "image_mobile": "shopify://shop_images/WEBSITE_-_PHONE_SIZING_1_copy.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_pGt69w"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "advanced_content_94MVYP": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_h4Ek6t": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"heading\" style=\"display: flex; justify-content: center; align-items: center; gap: 10px; text-align: center;\">\n  <h2 style=\"margin: 0;\">A NOTE FROM OUR FOUNDER</h2>\n</div>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "liquid_AHneRG": {
+          "type": "liquid",
+          "settings": {
+            "code": "I never struggled with acne as a teenager. But in my early twenties, everything changed. A series of autoimmune diagnoses, chronic stress, and systemic health shifts triggered relentless breakouts-deep, painful, and impossible to ignore. My skin became unpredictable. So did my confidence. <br><br>\nI tried everything. Each treatment addressed one symptom but created another. It felt like my skin was always reacting -and my mental health was caught in the crossfire. No routine was designed for skin like mine: skin in flux, skin under stress, skin that didn't fit into the clear-or-nothing narrative of conventional beauty.<br><br>\nEventually, I stopped asking, How do I fix this?\nAnd started asking, Why is this happening?\nWhy are so many of us-especially women-dealing with new or worsening acne in adulthood?",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_k8Wd7p": {
+          "type": "liquid",
+          "settings": {
+            "code": "Why are conventional solutions falling short? And more importantly, what would it look like to build something smarter?<br><br>\nThat's why I created Authentic Ego: a brand born not from trends, but from lived experience, research, and the drive to do things differently. Our mission isn't to promise perfect skin. It's to design formulas that meet you where you are and evolve with you.<br><br>\n<b>Formulas for real, reactive skin-built to support every phase, not just the pretty ones.<br><br>\nXx, Christina</b>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_h4Ek6t",
+        "liquid_AHneRG",
+        "liquid_k8Wd7p"
+      ],
+      "custom_css": [
+        "@media only screen and (max-device-width: 767px) {.heading {justify-content: flex-start !imporatnt; } .rte {margin-bottom: 5px; }}"
+      ],
+      "name": "t:sections.advanced-content.presets.custom_content.name",
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "alt": false
+      }
+    },
+    "slideshow_jhXH3P": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tdNQEA": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/I_never_struggled_with_acne_as_a_teenager._But_in_my_early_twenties_everything_changed._A_series_of_autoimmune_diagnoses_chronic_stress_and_systemic_health_shifts_triggered_relentless.png",
+            "image_mobile": "shopify://shop_images/AE_-_Giveaway_Social_Stories_6_copy.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_tdNQEA"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "advance_image_text_6Gh38R": {
+      "type": "advance-image-text",
+      "custom_css": [
+        "@media only screen and (max-device-width: 767px) {.columns-wrapper {flex-direction: column-reverse !important; gap: 0px !important; } .image-text-columns {padding: 50px 0; } .heading {margin-bottom: 5px; }}"
+      ],
+      "name": "Advance Image Text",
+      "settings": {
+        "image_position": "right",
+        "section_padding": 110,
+        "background_color": "#1e150e",
+        "image": "shopify://shop_images/Website_Header_5_1aebf945-cec1-474c-abf8-fb9caac39450.png",
+        "heading": "THE EGO ETHOS",
+        "heading_size": 50,
+        "text": "<p>We don't do one-size-fits-all routines. We don't chase trends, and we don't believe skin has to be \"clear\" to be cared for. We're here for the skin that flares, shifts, and speaks up. Formulas that work with your biology-not against it. Support that adapts. Ingredients that make sense. Packaging that stays out of the way. Real skin. Real science. Real standards. No fluff. No filler. Just formulas that evolve with you.</p>",
+        "text_size": 18,
+        "button_text": "",
+        "button_link": "",
+        "button_text_size": 16,
+        "button_bg": "#000000",
+        "button_text_color": "#ffffff",
+        "text_color": "#f7e8df"
+      }
+    },
+    "slideshow_FrB39G": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ydmybW": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Website_Header_5_4c9019df-902e-42a4-ba40-4e06be6daaf9.png",
+            "image_mobile": "shopify://shop_images/WEBSITE_-_PHONE_SIZING_1_0eb0515e-3408-488a-bfb9-3ec9349f1eec.png",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ydmybW"
+      ],
+      "disabled": true,
+      "name": "t:sections.slideshow.presets.hero_optional_slideshow.name",
+      "settings": {
+        "style": "arrows",
+        "desktop_size": 0,
+        "mobile_size": 0,
+        "autoplay": false,
+        "autoplay_speed": 7
+      }
+    },
+    "rich_text_y7q484": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9bEmQy": {
+          "type": "heading",
+          "settings": {
+            "title": "GET IN, WE'RE GLOWING →"
+          }
+        },
+        "text_hMUaPU": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9bEmQy",
+        "text_hMUaPU"
+      ],
+      "name": "t:sections.rich-text.presets.rich_text.name",
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "instafeed_jqjtXN": {
+      "type": "instafeed",
+      "name": "Instafeed App",
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advance_image_text_aEMhJa",
+    "slideshow_fm8D8H",
+    "advanced_content_94MVYP",
+    "slideshow_jhXH3P",
+    "advance_image_text_6Gh38R",
+    "slideshow_FrB39G",
+    "rich_text_y7q484",
+    "instafeed_jqjtXN"
+  ]
+}

@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "26c25902-80ce-4ac4-8092-21734e042205": {
+      "type": "faq",
+      "blocks": {
+        "285e0461-47ec-4c57-af29-4c66b433ba5f": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>You don’t need to have all the answers. That’s what we’re here for.</strong></p>",
+            "align_text": "left"
+          }
+        },
+        "template--16558448476382__26c25902-80ce-4ac4-8092-21734e042205-16655751648e28ff5b-0": {
+          "type": "question",
+          "settings": {
+            "title": "How did Authentic Ego get its name and what’s the meaning behind it?",
+            "text": "<p>We wanted to create a name that reflected who we are and what we’re trying to achieve. Our goal is to be an authentic voice in an industry that’s known for misleading people. It kind of just came to be this way!</p>"
+          }
+        },
+        "template--16558448476382__26c25902-80ce-4ac4-8092-21734e042205-16655751648e28ff5b-1": {
+          "type": "question",
+          "settings": {
+            "title": "Where are you located?",
+            "text": "<p>Our founder is Canadian, but the business is based in the USA. Our manufacturer is in California, and all products ship from our warehouse in Texas. Our plastic pump bottles are sourced from South Korea.</p>"
+          }
+        },
+        "852d2dec-7918-4497-995c-1f866e4f8137": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Products and Ingredients</strong></p>",
+            "align_text": "left"
+          }
+        },
+        "a7848c9f-8c79-475a-afe5-9453d6371991": {
+          "type": "question",
+          "settings": {
+            "title": "Where are your products made?",
+            "text": "<p>All of our products are made, manufactured, and packaged in the USA.</p>"
+          }
+        },
+        "e8749c76-97c1-4b48-abc8-f64a10877724": {
+          "type": "question",
+          "settings": {
+            "title": "Where do you source your ingredients from?",
+            "text": "<p>Supply chain transparency is an important goal of ours that is harder to achieve as a small business. For now, our lab partner purchases ingredients from global raw ingredients suppliers, so the individual ingredients in our products may be sourced from all over the world.</p>"
+          }
+        },
+        "334c3126-3cae-4aed-a0ed-657f283b823a": {
+          "type": "question",
+          "settings": {
+            "title": "I care about sustainability. What are you doing as a brand to minimize your impact?",
+            "text": "<p>As a small business, we have to carefully balance what’s reasonable with what we want. Of course, we’d love to have zero impact, but that’s not realistic at the moment. Instead of feeling bad about what we can’t do, we focus on what we can do. Currently, our efforts include:</p><p>— Our moisturizer bottles are made of 100% recyclable PP plastic–pump included, so there’s no need to disassemble before recycling.<br/>— We minimize shipping waste–you won’t see extra unnecessary stuff with your order when it’s delivered.<br/>— Authentic Ego is committed to working with ethical partners for our manufacturing, shipping, and packaging materials.</p><p>We’re always trying to be better, so consider everything we do a work in progress. Long term, we’d love to incorporate more into our day-to-day operations. We’ll keep you updated as we grow.</p>"
+          }
+        },
+        "8f5deede-d301-4769-9b87-a511c584fc69": {
+          "type": "question",
+          "settings": {
+            "title": "The product I want is sold out or hasn’t launched yet. What should I do?",
+            "text": "<p>Check out the product page! There, you’ll find a spot to submit your email address to receive a notification when it launches or is back in stock.  </p>"
+          }
+        },
+        "0f2238ac-8613-47ee-9319-6c2e4da76fa2": {
+          "type": "question",
+          "settings": {
+            "title": "Do your products expire?",
+            "text": "<p>As a small brand we are only manufacturing in small batches so we are using a PAO or period after opening date. Once you open a product the amount of time before you discard it will be displayed on the back of the bottle in months. We use airless pump packaging to maintain the best possible freshness and stability in all our products, to avoid contamination and to minimize the use of preservatives that can have a negative impact on the skin’s microbiome.  </p>"
+          }
+        },
+        "6ebeede1-d3bf-4bfd-97cc-2037ac26e2f1": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Order help</strong></p>",
+            "align_text": "left"
+          }
+        },
+        "62f9d14b-65de-4414-accd-d42e0e37c7e8": {
+          "type": "question",
+          "settings": {
+            "title": "How do I know if a product is for me?",
+            "text": "<p>Our goal is to empower you to self-advocate–we want you to make the best decisions for yourself. If you’re ever not sure about a product, contact the team. We’ll get back to you the next business day.</p>"
+          }
+        },
+        "1cc98857-c065-430a-89f5-ea8bbc402710": {
+          "type": "question",
+          "settings": {
+            "title": "Do you plan to release more products?",
+            "text": "<p>Yes! We’re in this business to help you and plan to add more products to our line as we see the need for them. Want to be part of the effort? Complete this <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">quick survey</a>.</p>"
+          }
+        },
+        "45f6a35a-c2d3-45d5-9f3a-7e0640f6b01e": {
+          "type": "question",
+          "settings": {
+            "title": "I’m not in the US or Canada. Where do you ship to?",
+            "text": "<p>We ship worldwide except for:</p><p>Cuba, Iran, North Korea, Sierra Leone, Palestinian Territories, South Sudan, Myanmar, Republic of Crimea, Mexico, Russia, Brazil, Spain, Cote d’Ivoire, Democratic Republic of the Congo, Liberia, Lebanon, Sudan, Belarus, Iraq, Zimbabwe, Syria and China.</p><p>If you live in one of these countries, we’re sorry! Shipping carriers will not send to them. As an alternative you can always try a mail forwarding service but we can’t guarantee your package will make it to your country safely.</p>"
+          }
+        },
+        "08fdf950-6fe8-42a5-98db-f6d1def60a41": {
+          "type": "question",
+          "settings": {
+            "title": "What carriers do you use?",
+            "text": "<p>We can ship via USPS, FedEx or DHL. You can choose your preferred carrier during the checkout process.</p>"
+          }
+        },
+        "62610990-96aa-40f4-8a22-1bd20263c203": {
+          "type": "question",
+          "settings": {
+            "title": "Will my order have taxes/duties if it’s shipped abroad?",
+            "text": "<p>Orders shipping to destinations outside the United States may be subject to customs or import fees and taxes upon arrival in your country. Unfortunately we have no control over this and your carrier will advise you if import fees, duties or taxes are due upon arrival.  </p><p><em>Helpful hint: If you’re trying to avoid import fees, duties and taxes on your package you may want to consider shipping with USPS as there is a lesser chance your package will be flagged—but we can’t guarantee it!</em></p>"
+          }
+        },
+        "a4202953-8966-41c5-9c66-3f4c7da202e0": {
+          "type": "question",
+          "settings": {
+            "title": "When will my order ship?",
+            "text": "<p>We know you’re excited for your order, so we do our best to ensure that all orders ship the next business day after the order is placed.</p><p>This excludes holidays. We do not ship on the following holidays: New Year’s Day, Memorial Day, Fourth of July, Labor Day, Thanksgiving, Christmas Day.</p><p>If one of the above holidays happens to fall on a weekend, the holiday is observed the next business day, so your package will ship the following business day.</p>"
+          }
+        },
+        "6c41dd89-ca9d-4d52-b26a-f08622303955": {
+          "type": "question",
+          "settings": {
+            "title": "I’m anxious to receive my order. How can I track it?",
+            "text": "<p>We totally understand! Once your order ships you will receive a notification email with all the tracking information.  </p>"
+          }
+        },
+        "e61e53eb-d276-4e88-8007-f30286fd893d": {
+          "type": "question",
+          "settings": {
+            "title": "Can I change or cancel my order after it’s placed?",
+            "text": "<p>If your order hasn’t shipped yet we can absolutely cancel or modify it. If it has shipped and you used Fedex or DHL as the carrier you can refuse the parcel and it will be returned to our warehouse.  </p>"
+          }
+        },
+        "71eacc45-df64-4b9e-a4b3-fda34cd02711": {
+          "type": "question",
+          "settings": {
+            "title": "What if I don’t like the products I purchased?",
+            "text": "<p>We’re determined to keep all irritants and unnecessary chemicals out of our products, but we know that everybody is different. If a product doesn’t work with your skin, contact us within 30 days and we will make things right. </p>"
+          }
+        },
+        "271e8947-896b-449c-8cef-ba785ec537c2": {
+          "type": "question",
+          "settings": {
+            "title": "I don’t see what I need here. Can you help me with my order?",
+            "text": "<p>Of course! You can <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">contact our team</a> anytime.</p>"
+          }
+        },
+        "ad374dd9-49be-48d2-af5a-400e7acc3053": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>Other</strong></p>",
+            "align_text": "left"
+          }
+        },
+        "5e9641fa-37d1-4d98-82b2-469ad417d9bb": {
+          "type": "question",
+          "settings": {
+            "title": "How do I use your products?",
+            "text": "<p>All our individual product directions can be found on the product pages and the back of the box.  You can also scan the QR code on the back of each bottle for more tips. If you still have questions you can contact us here.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "285e0461-47ec-4c57-af29-4c66b433ba5f",
+        "template--16558448476382__26c25902-80ce-4ac4-8092-21734e042205-16655751648e28ff5b-0",
+        "template--16558448476382__26c25902-80ce-4ac4-8092-21734e042205-16655751648e28ff5b-1",
+        "852d2dec-7918-4497-995c-1f866e4f8137",
+        "a7848c9f-8c79-475a-afe5-9453d6371991",
+        "e8749c76-97c1-4b48-abc8-f64a10877724",
+        "334c3126-3cae-4aed-a0ed-657f283b823a",
+        "8f5deede-d301-4769-9b87-a511c584fc69",
+        "0f2238ac-8613-47ee-9319-6c2e4da76fa2",
+        "6ebeede1-d3bf-4bfd-97cc-2037ac26e2f1",
+        "62f9d14b-65de-4414-accd-d42e0e37c7e8",
+        "1cc98857-c065-430a-89f5-ea8bbc402710",
+        "45f6a35a-c2d3-45d5-9f3a-7e0640f6b01e",
+        "08fdf950-6fe8-42a5-98db-f6d1def60a41",
+        "62610990-96aa-40f4-8a22-1bd20263c203",
+        "a4202953-8966-41c5-9c66-3f4c7da202e0",
+        "6c41dd89-ca9d-4d52-b26a-f08622303955",
+        "e61e53eb-d276-4e88-8007-f30286fd893d",
+        "71eacc45-df64-4b9e-a4b3-fda34cd02711",
+        "271e8947-896b-449c-8cef-ba785ec537c2",
+        "ad374dd9-49be-48d2-af5a-400e7acc3053",
+        "5e9641fa-37d1-4d98-82b2-469ad417d9bb"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "26c25902-80ce-4ac4-8092-21734e042205"
+  ]
+}

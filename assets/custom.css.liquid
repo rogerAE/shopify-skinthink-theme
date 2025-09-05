@@ -1,0 +1,77 @@
+.custom-columns .custom-header-wrapper {
+    display: grid;
+    row-gap: 33px;
+}
+
+.custom-columns .custom-columns-title {
+    margin: 0px;
+}
+
+.custom-columns .custom-columns-description p:last-of-type {
+    margin: 0px;
+}
+
+.custom-columns .custom-grid {
+    display: grid;
+    grid-auto-flow: dense;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.custom-columns .custom-grid .custom-grid-item {
+    display: grid;
+    row-gap: 35px;
+    align-content: start;
+}
+
+.custom-columns .custom-grid .custom-grid-item.center {
+    justify-items: center;
+}
+
+.custom-columns .custom-grid .custom-grid-item .h3 {
+    margin: 0px;
+}
+
+.custom-columns .custom-grid .custom-grid-item p {
+    margin: 0px;
+}
+
+header.site-header {
+    transition: all 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+header.site-header.temp-hidden {
+    opacity: 0 !important;
+    position: unset !important;
+}
+
+header.site-header.site-header--sticky {
+    opacity: 0;
+}
+
+header.site-header.site-header--sticky.visible {
+    opacity: 1;
+}
+
+.klaviyo-form input {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-radius: 0 !important;
+    border-bottom-width: 2px !important;
+}
+
+p.small {
+    font-size: calc(var(--typeBaseSize) * 0.85);
+}
+.aaaformbuilder_form input[type="text"], .aaaformbuilder_form input[type="search"], .aaaformbuilder_form input[type="password"], .aaaformbuilder_form input[type="email"], .aaaformbuilder_form input[type="file"], .aaaformbuilder_form input[type="number"], .aaaformbuilder_form input[type="tel"], .aaaformbuilder_form textarea, .aaaformbuilder_form select {
+    
+    border: 0 !important;
+    border-bottom: 2px solid !important;
+    border-bottom-color: #000 !important;
+    box-shadow: unset !important;
+}
+
+.article__content {
+  text-align: left !important;
+}

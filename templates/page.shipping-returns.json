@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "92bcd9fa-d82d-4670-ba0b-ba794e0ff3d3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16665531810014__92bcd9fa-d82d-4670-ba0b-ba794e0ff3d3-1671657910134032fb-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "d9e13111-3f7c-49a3-95d1-1c2f45d13508": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We currently ship within the USA & Canada and to the following countries:</p><p>Albania, Andorra, Australia, Bahrain, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Hungary, Iceland, Ireland, Kosovo, Kuwait, Latvia, Liechtenstein, Lithuania, Luxembourg, Malaysia, Malta, Moldova, Monaco, Montenegro, The Netherlands, New Zealand, North Macedonia, Norway, The Philippines, Poland, Qatar, Romania, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Korea, Sweden, Switzerland, Thailand, Türkiye, United Arab Emirates & United Kingdom.</p><p>We are unable to ship to China, Germany, Spain & other countries due to government and/or postal restrictions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16665531810014__92bcd9fa-d82d-4670-ba0b-ba794e0ff3d3-1671657910134032fb-0",
+        "d9e13111-3f7c-49a3-95d1-1c2f45d13508"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "alt": false
+      }
+    },
+    "ac339aeb-0727-4d2c-a132-2f6c752420c1": {
+      "type": "faq",
+      "blocks": {
+        "f0718dc1-b690-40b6-93c0-4e32e9beda3e": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Domestic (USA) Orders",
+            "text": "<p>We can ship via USPS or FedEx. You can choose your preferred carrier during the checkout process. We are unable to ship to PO Boxes.</p><p>We offer free standard USPS shipping on all orders within the Contiguous United States. </p><p>We also offer USPS Express shipping for $10 and FedEx 2-Day shipping for $15.</p><p>All orders ship within 2 business days excluding federal US holidays. Please allow additional handling time during peak seasons. </p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "f0718dc1-b690-40b6-93c0-4e32e9beda3e"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "879ad951-0ca4-4dbd-b89c-d021ea96ffad": {
+      "type": "faq",
+      "blocks": {
+        "088f4797-8763-4fe2-8171-2176ed8eea7b": {
+          "type": "rich-text",
+          "settings": {
+            "title": "International Orders",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "template--16665531810014__879ad951-0ca4-4dbd-b89c-d021ea96ffad-16716577645e3de33a-0": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship to my Country?",
+            "text": "<p>We ship worldwide except for:</p><p>Cuba, Iran, North Korea, Sierra Leone, Palestinian Territories, South Sudan, Myanmar, Republic of Crimea, Mexico, Russia, Brazil, Spain, Cote d’Ivoire, Democratic Republic of the Congo, Liberia, Lebanon, Sudan, Belarus, Iraq, Zimbabwe, Syria, and China.</p><p>If you live in one of these countries, we’re sorry! Shipping carriers will not send to these locations. Alternatively, you can always try a mail forwarding service, but we can’t guarantee your package will make it to your country safely. </p>"
+          }
+        },
+        "template--16665531810014__879ad951-0ca4-4dbd-b89c-d021ea96ffad-16716577645e3de33a-1": {
+          "type": "question",
+          "settings": {
+            "title": "What shipping carriers do you use?",
+            "text": "<p>We can ship via USPS, FedEx or DHL. You can choose your preferred carrier during the checkout process.</p>"
+          }
+        },
+        "f7ebbed7-a0dc-4673-8222-c1c8524e7fd3": {
+          "type": "question",
+          "settings": {
+            "title": "Why is international shipping so #$%& expensive?!",
+            "text": "<p>We know how frustrating it can be when shipping to your country can cost almost as much as what you purchased. We don’t mark up any shipping prices. The shipping prices you see are based on the most competitive rates available. </p><p>As we scale up as a business, we’ll be working hard to make international shipping more accessible and affordable to our customers across the globe. </p>"
+          }
+        },
+        "197fbdfc-7a7a-4845-95d0-340c6404db8f": {
+          "type": "question",
+          "settings": {
+            "title": "Will my order have taxes, duties, or import fees?",
+            "text": "<p>Orders shipping to destinations outside the United States may be subject to customs or import fees and taxes upon arrival in your country. Unfortunately, we have no control over this and your carrier will advise you if import fees, duties or taxes are due upon arrival.  </p><p><em>Helpful hint: If you’re trying to avoid import fees, duties and taxes on your package you may want to consider shipping with USPS as there is a lesser chance your parcel will be flagged—but we can’t guarantee it!</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "088f4797-8763-4fe2-8171-2176ed8eea7b",
+        "template--16665531810014__879ad951-0ca4-4dbd-b89c-d021ea96ffad-16716577645e3de33a-0",
+        "template--16665531810014__879ad951-0ca4-4dbd-b89c-d021ea96ffad-16716577645e3de33a-1",
+        "f7ebbed7-a0dc-4673-8222-c1c8524e7fd3",
+        "197fbdfc-7a7a-4845-95d0-340c6404db8f"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    },
+    "75515b72-4bd3-4174-87ac-93f397edb4c5": {
+      "type": "faq",
+      "blocks": {
+        "3f41821d-f072-4044-a037-8c2122516f54": {
+          "type": "rich-text",
+          "settings": {
+            "title": "International Orders",
+            "text": "<p>All orders ship from our USA warehouse.</p><p>We offer tracked priority shipping through APC ParcelConnect for $15. Once your package reaches your country, the final mile of delivery may be through your local postal system. </p><p>Please allow 5-15 business days for delivery dependent on your location and/or local customs. Please note that this is an approximate delivery window and is not guaranteed as there may be delays in customs processing which is out of our control.</p><p><strong>***PLEASE NOTE</strong>: Duties & taxes are not included and may be charged by your local customs upon receipt of your package. We unfortunately do not have control over the duties and taxes charged by your country.</p><p>All international orders will ship out within 2 business days excluding federal US holidays. Please allow additional handling time during peak seasons.</p>",
+            "align_text": "left"
+          }
+        },
+        "041c3351-6893-42ac-bdf2-e861be576243": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Other Info",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_RnVfLh": {
+          "type": "question",
+          "settings": {
+            "title": "How can I track my order?",
+            "text": "<p>Once your order ships, you’ll receive a notification email with tracking information. </p>"
+          }
+        },
+        "template--16665531810014__75515b72-4bd3-4174-87ac-93f397edb4c5-16716577645e3de33a-0": {
+          "type": "question",
+          "settings": {
+            "title": "I don’t see what I need here. Can you help me?",
+            "text": "<p>Of course! You can contact our team anytime by <a href=\"https://www.authenticego.com/pages/contact\" title=\"https://www.authenticego.com/pages/contact\">filling out this form.</a> </p>"
+          }
+        },
+        "question_nGnNn7": {
+          "type": "question",
+          "settings": {
+            "title": "When will my order ship?",
+            "text": "<p>Most orders ship the next business day but please allow 2 business days for shipping and additional time during peak shopping seasons. </p><p>We don’t ship on the following holidays: New Year’s Day, Memorial Day, Fourth of July, Labor Day, Thanksgiving, or Christmas Day.</p><p>If one of the above holidays happens to fall on a weekend, the holiday is observed the next business day, so your package will ship the following business day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "3f41821d-f072-4044-a037-8c2122516f54",
+        "041c3351-6893-42ac-bdf2-e861be576243",
+        "question_RnVfLh",
+        "template--16665531810014__75515b72-4bd3-4174-87ac-93f397edb4c5-16716577645e3de33a-0",
+        "question_nGnNn7"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "92bcd9fa-d82d-4670-ba0b-ba794e0ff3d3",
+    "ac339aeb-0727-4d2c-a132-2f6c752420c1",
+    "879ad951-0ca4-4dbd-b89c-d021ea96ffad",
+    "75515b72-4bd3-4174-87ac-93f397edb4c5"
+  ]
+}

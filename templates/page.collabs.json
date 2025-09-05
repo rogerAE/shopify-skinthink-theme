@@ -1,0 +1,43 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collabs": {
+      "type": "apps",
+      "blocks": {
+        "4d9a8416-5a71-4b40-802c-549a6d52161d": {
+          "type": "shopify://apps/collabs/blocks/application-page/54758706-9f25-4fa9-a553-64720a4c998b",
+          "settings": {
+            "heading": "Enter Your #EgoEra",
+            "show_square_logo": true,
+            "show_partnership_info": true,
+            "button_text": "APPLY NOW",
+            "number_of_images": "4",
+            "logo_position": "above",
+            "corner_style": "square",
+            "button_background_color": "#000000",
+            "button_label_color": "#ffffff",
+            "link_color": "#eb5a5b"
+          }
+        }
+      },
+      "block_order": [
+        "4d9a8416-5a71-4b40-802c-549a6d52161d"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "collabs"
+  ]
+}

@@ -1,0 +1,10 @@
+{%- if label != blank -%}
+  <div class='custom-ingredient'>
+    {% if checked == true %}
+      {% render 'group-338' %}
+    {%- else -%}
+      {% render 'group-330' %}
+    {%- endif -%}
+    <p class="small">{{ label }}</p>
+  </div>
+{%- endif -%}
