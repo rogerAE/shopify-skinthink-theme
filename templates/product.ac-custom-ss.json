@@ -1320,8 +1320,8 @@
           "type": "step",
           "settings": {
             "step": "STEP 2",
-            "title": "SERUMS",
-            "text": "<p>Tidy Pores if you want a clarity kickstarter ;)<br/><br/>Apply 1–2 pumps of this acne-safe, vitamin C-powered serum to dry skin. Brightens, hydrates, and calms in one ego-approved step.</p>"
+            "title": "SERUMS [A.M. ONLY]",
+            "text": "<p>Tidy Pores if you want a clarity kickstarter ;) </p><p>Apply 1  pump of this acne-safe, vitamin C-powered serum to damp skin. It brightens, hydrates, and protects in one ego-approved step.</p>"
           }
         },
         "step_tqaxVr": {
@@ -1329,7 +1329,7 @@
           "settings": {
             "step": "STEP 3",
             "title": "TREAT (OPTIONAL)",
-            "text": "<p>Layer your retinoid, spot treatment, or other actives now.</p>"
+            "text": "<p>PM: Layer your favorite retinoid, exfoliant, treatment, or other actives now.</p>"
           }
         },
         "step_W8Fm4r": {
