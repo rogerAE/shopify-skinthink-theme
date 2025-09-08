@@ -1341,24 +1341,24 @@
         "subheading_yPjUGf": {
           "type": "subheading",
           "settings": {
-            "text": "<p>Welcome to</p>",
-            "size": 100
+            "text": "<p>Your Skin, Our Science</p>",
+            "size": 110
           }
         },
         "heading_6n4GGp": {
           "type": "heading",
           "settings": {
-            "text": "<p>Palo Alto</p>",
-            "size": 180,
+            "text": "<p>APPLY TO BE PART OF OUR CASE STUDY</p>",
+            "size": 110,
             "heading_highlight_type": "underline-hand-drawn",
-            "highlight_color": "#000",
+            "highlight_color": "#20150f",
             "highlight_text_color": ""
           }
         },
         "text_KUz6p8": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p><strong>We’re tracking real results on real skin—starting with yours.</strong></p><p>If you're ready to make a change, apply to our 90-day case study trial…</p><p><br/></p><p>✔ 3 months of product, free of charge<br/>✔ Personalized check-ins + direct founder support<br/>✔ Early access to future launches<br/>✔ Exclusive perks for participants</p>",
             "size": 100
           }
         },
@@ -1366,8 +1366,8 @@
           "type": "button",
           "settings": {
             "stacked_button": false,
-            "button_1_text": "Shop All",
-            "button_1_link": "shopify://collections/all",
+            "button_1_text": "Submit Your Application Now →",
+            "button_1_link": "https://authenticego.typeform.com/to/Iu6zyer8",
             "button_1_color": "btn--white",
             "button_1_style": "btn--solid-border",
             "button_1_size": "btn--medium",
@@ -1390,15 +1390,17 @@
         "height": "six-fifty-height",
         "enable_mobile_height": false,
         "mobile_height": "four-fifty-height-mobile",
+        "image": "shopify://shop_images/You_ve_already_trusted_Authentic_Ego_with_your_skin._Now_you_re_part_of_the_EgoSystem_where_every_formula_is_designed_to_support_the_complex_biology_of_adult_hormonal_and_reactive_ski_4b0fe37e-c2c8-40af-90f1-6af62fa291e5.png",
+        "image_mobile": "shopify://shop_images/Social_Post_-_NEW_Content_W_Call_outs.png",
         "overlay_opacity": 10,
-        "transition": "zoom-out",
-        "enable_zoom_animation": true,
+        "transition": "fade",
+        "enable_zoom_animation": false,
         "enable_card_scrolling": false,
-        "increase_border_radius": true,
+        "increase_border_radius": false,
         "content_width": 80,
         "text_position": "left",
         "text_alignment": "text-left",
-        "text_color": "text-light",
+        "text_color": "text-dark",
         "width": "wrapper--full",
         "padding_top": 0,
         "padding_bottom": 0
