@@ -1621,6 +1621,186 @@
         "lazy": true
       }
     },
+    "ss_tabs_pro_zJkG73": {
+      "type": "ss-tabs-pro",
+      "blocks": {
+        "tab_EcnjgM": {
+          "type": "tab",
+          "settings": {
+            "title": "Are your products really safe for sensitive, perioral dermatitis-prone, rosacea, and eczema prone skin?",
+            "product_description": false,
+            "content": "<p>Yes. We exceed the Rosacea Society, National Eczema Organization’s and EU allergen-free guidelines when it comes to ingredient we formulate with. </p><p><br/></p><ul><li>We exclude all fragrances, all essential oils, and potential cross-reactive plant extracts (like Chamomile, Bisabolol, Centella, Aloe, Oat, etc.).</li></ul><p></p><ul><li>We exclude known and suspected contact allergens like Cocamidopropyl Betaine, Butylene Glycol, Propylene Glycol, Methylisothiazolinone, and Methylchloroisothiazolinone etc. </li></ul><p><br/></p><ul><li>We also exclude ingredients that can trigger feelings of discomfort, stinging and burning in the skin such as Phenoxyethanol, Alcohol, and Benzyl Alcohol. <br/></li></ul><p>We’re not here to demonize the use of ANY ingredients but we intentionally have an extensive ‘No-go’ list to ensure the absolute lowest risk of irritation and allergy possible for our sensitive skin warriors &lt;3</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_EzNxbb": {
+          "type": "tab",
+          "settings": {
+            "title": "Are Super Sensa & Tidy Pores fungal acne safe?",
+            "product_description": false,
+            "content": "<p>Yes. We exclude all ingredients that can contribute to Malassezia yeast overgrowth. Period. While Malassezia yeast is a naturally occurring part of the skin microbiome, we can limit its’ overgrowth by excluding specific ingredients that can be a food source for Malassezia.</p><p><br/></p><p>While the study of how skincare ingredients affect fungal development is in its infancy, we listen to the real world lived experiences of our fungal acne sufferers who overwhelmingly report positive improvements by following a fungal acne safe routine. </p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_dQzkTr": {
+          "type": "tab",
+          "settings": {
+            "title": "Is Super Sensa & Tidy Pores really acne safe?",
+            "product_description": false,
+            "content": "<p>Yes both acne safe and has been specifically formulated to exclude the 5 types of ingredients that can contribute to acne breakouts. We are the first and only brand to formulate based on this system. </p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_DtmCY4": {
+          "type": "tab",
+          "settings": {
+            "title": "Will Super Sensa work for dry skin?",
+            "product_description": false,
+            "content": "<p>Despite being lightweight, Super Sensa is much more hydrating than your average gel-cream moisturizer and we have many customers with dry skin who love it. If you’re consistently or extremely dry all over and live in a very dry or cold climate you may find Super Sensa on its own is not hydrating enough—but stay tuned we’ll be releasing a richer cream moisturizer at the beginning of 2026!</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_bBLMbM": {
+          "type": "tab",
+          "settings": {
+            "title": "Are Super Sensa & Tidy Pores pregnancy safe?",
+            "product_description": false,
+            "content": "<p>Super Sensa & Tidy Pores don’t contain any ingredients that are contraindicated during pregnancy or breastfeeding however, it’s important to always speak with a qualified healthcare professional before starting any new product.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        }
+      },
+      "block_order": [
+        "tab_EcnjgM",
+        "tab_EzNxbb",
+        "tab_dQzkTr",
+        "tab_DtmCY4",
+        "tab_bBLMbM"
+      ],
+      "name": "SS - Tabs Pro",
+      "settings": {
+        "section_class": "",
+        "background-color": "#ffffff",
+        "lazy": true,
+        "padding_top_desktop": 36,
+        "padding_bottom_desktop": 36,
+        "padding_horizontal_desktop": 50,
+        "margin_top_desktop": 36,
+        "margin_bottom_desktop": 36,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 15,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "section-width": 120,
+        "section_title": "",
+        "section_title_html_element": "h2",
+        "section_title_text_align_desktop": "center",
+        "section_title_color": "#20150f",
+        "section_title_font_family": "open_sans_n6",
+        "custom_font_family_name": "",
+        "section_title_font_weight": "inherit",
+        "section_title_font_size_desktop": 0,
+        "section_title_line_height_desktop": 0,
+        "section_title_letter_spacing_desktop": 0,
+        "section_title_margin_top_desktop": 0,
+        "section_title_margin_bottom_desktop": 8,
+        "section_title_text_align": "center",
+        "section_title_font_size": 0,
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_margin_top": 12,
+        "section_title_margin_bottom": 8,
+        "section_tab_title_font_family": "open_sans_n4",
+        "tab_title_custom_font_family_name": "",
+        "section_tab_title_font_weight": "inherit",
+        "tab_style": "with-border",
+        "tab_border_width": 1,
+        "tab_border_radius": 6,
+        "tab_border_color": "#20150f",
+        "tab_background_color": "#fff7f2",
+        "tab_text_color": "#20150f",
+        "tab_active_hover_background_color": "#20150f",
+        "tab_active_state_selector": "background_color",
+        "tab_active_title_color": "#FFFFFF",
+        "tag_alignment": "fullwidth",
+        "tab_padding_vertical_desktop": 14,
+        "tab_padding_horizontal_desktop": 14,
+        "tab_gap_desktop": 10,
+        "tab_title_font_size_desktop": 0,
+        "tab_title_line_height_desktop": 0,
+        "tab_title_letter_spacing_desktop": 0,
+        "tab_padding_vertical": 12,
+        "tab_padding_horizontal": 12,
+        "tab_gap": 6,
+        "tab_title_font_size": 0,
+        "tab_title_line_height": 0,
+        "tab_title_letter_spacing": 0,
+        "content_background_color": "transparent",
+        "content_border_color": "#20150f",
+        "content_border_width": 1,
+        "content_border_radius": 6,
+        "content_margin_top_desktop": 20,
+        "content_padding_top_desktop": 20,
+        "content_padding_horizontal_desktop": 20,
+        "content_padding_bottom_desktop": 20,
+        "content_margin_bottom_desktop": 0,
+        "content_padding_horizontal": 20,
+        "content_margin_top": 12,
+        "content_padding_top": 20,
+        "content_padding_bottom": 20,
+        "content_margin_bottom": 0,
+        "content_text_align_desktop": "left",
+        "content_text_color": "#20150f",
+        "content_text_font": "open_sans_n4",
+        "content_text_custom_font_family_name": "",
+        "content_text_font_weight": "inherit",
+        "content_text_font_size_desktop": 0,
+        "content_text_line_height_desktop": 0,
+        "content_text_letter_spacing_desktop": 0,
+        "content_text_align": "left",
+        "content_text_font_size": 0,
+        "content_text_line_height": 0,
+        "content_text_letter_spacing": 0,
+        "content_link_color": "#20150f",
+        "content_link_underline": false
+      }
+    },
     "175319143921205bc2": {
       "type": "apps",
       "blocks": {
@@ -1636,28 +1816,6 @@
       "disabled": true,
       "settings": {
         "bg_color": "",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "1753191429f163aa19": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_BPVhNy": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "review_data": "real_data",
-            "max_width": 1200
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_BPVhNy"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "#ffffff",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
@@ -1946,6 +2104,7 @@
       "block_order": [
         "judge_me_reviews_ugc_media_grid_fDUgUV"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "#20150f",
         "width": "wrapper",
@@ -2005,8 +2164,8 @@
     "section_divider_AREMnw",
     "ss_steps_11_XakNyR",
     "ss_feature_39_mApF3z",
+    "ss_tabs_pro_zJkG73",
     "175319143921205bc2",
-    "1753191429f163aa19",
     "ss_before_after_9_AkFqDL",
     "1753191432043d58a4",
     "175319144783bd2e40",
