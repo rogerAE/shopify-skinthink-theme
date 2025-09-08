@@ -106,7 +106,7 @@
         "show_country_name": false,
         "show_country_flag": false,
         "highlight_item": "Sale",
-        "enable_custom_badge": true,
+        "enable_custom_badge": false,
         "custom_badge_text": "15% off",
         "highlight_item_color": "#de5757",
         "header_transparent": false,
