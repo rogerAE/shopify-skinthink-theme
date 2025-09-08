@@ -1203,7 +1203,7 @@
           "type": "button",
           "settings": {
             "heading": "LOG IN →",
-            "button_link": "",
+            "button_link": "/account/login",
             "overlay_opacity": 100,
             "block_text_color": "",
             "bg_color": "",
