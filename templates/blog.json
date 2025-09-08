@@ -22,7 +22,7 @@
         "show_tags": true,
         "show_comments_count": false,
         "tag_alignment": "center",
-        "bg_color": "#ffffff",
+        "bg_color": "#fff7f2",
         "gradient": "",
         "padding_top": 60,
         "padding_bottom": 60
@@ -43,12 +43,12 @@
       "type": "section-newsletter",
       "settings": {
         "flex_align": "align--middle-split",
-        "text_color": "text-dark",
+        "text_color": "text-light",
         "title": "Let's Get Glowing",
         "text": "<p>Subscribe for skin-intel, #EgoChecks, and clear-skin secrets—no clutter, just clarity.</p>",
         "extra_fields": "",
         "button_text": "SUBSCRIBE",
-        "bg_color": "#fff7f2",
+        "bg_color": "#de5757",
         "gradient": "",
         "image_height": "three-fifty-height",
         "overlay_opacity": 10,
