@@ -1814,6 +1814,214 @@
         "lazy": true
       }
     },
+    "section_text_4TwrL9": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_Ygwxqy": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>GET MORE CLARITY</p>",
+            "size": 100,
+            "margin_bottom": 16
+          }
+        },
+        "heading_CYWJtV": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>ADDITIONAL FAQ</p>",
+            "size": 195,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_RMPXtL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here are some more common questions surrounding Tidy Pores...</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Ygwxqy",
+        "heading_CYWJtV",
+        "text_RMPXtL"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 30,
+        "padding_bottom": 0
+      }
+    },
+    "ss_tabs_pro_wnKfVP": {
+      "type": "ss-tabs-pro",
+      "blocks": {
+        "tab_63HPcG": {
+          "type": "tab",
+          "settings": {
+            "title": "Is Tidy Pores really safe for sensitive, perioral dermatitis-prone, rosacea, and eczema prone skin?",
+            "product_description": false,
+            "content": "<p>Yes. We exceed the Rosacea Society, National Eczema Organization’s and EU allergen-free guidelines when it comes to ingredient we formulate with. </p><p><br/></p><ul><li>We exclude all fragrances, all essential oils, and potential cross-reactive plant extracts (like Chamomile, Bisabolol, Centella, Aloe, Oat, etc.).</li></ul><p><br/></p><ul><li>We exclude known and suspected contact allergens like Cocamidopropyl Betaine, Butylene Glycol, Propylene Glycol, Methylisothiazolinone, and Methylchloroisothiazolinone etc. </li><li>We also exclude ingredients that can trigger feelings of discomfort, stinging and burning in the skin such as Phenoxyethanol, Alcohol, and Benzyl Alcohol. </li></ul><p><br/></p><p>We’re not here to demonize the use of ANY ingredients but we intentionally have an extensive ‘No-go’ list to ensure the absolute lowest risk of irritation and allergy possible for our sensitive skin warriors &lt;3</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_cXnnae": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 2",
+            "product_description": false,
+            "content": "<p>Tab content 2</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_hUAjBa": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 3",
+            "product_description": false,
+            "content": "<p>Tab content 3</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_YnptQC": {
+          "type": "tab",
+          "settings": {
+            "title": "Tab 4",
+            "product_description": false,
+            "content": "<p>Tab content 4</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        }
+      },
+      "block_order": [
+        "tab_63HPcG",
+        "tab_cXnnae",
+        "tab_hUAjBa",
+        "tab_YnptQC"
+      ],
+      "name": "SS - Tabs Pro",
+      "settings": {
+        "section_class": "",
+        "background-color": "#ffffff",
+        "lazy": true,
+        "padding_top_desktop": 36,
+        "padding_bottom_desktop": 36,
+        "padding_horizontal_desktop": 50,
+        "margin_top_desktop": 36,
+        "margin_bottom_desktop": 36,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 15,
+        "margin_top": 36,
+        "margin_bottom": 36,
+        "section-width": 120,
+        "section_title": "",
+        "section_title_html_element": "h2",
+        "section_title_text_align_desktop": "center",
+        "section_title_color": "#20150f",
+        "section_title_font_family": "open_sans_n6",
+        "custom_font_family_name": "",
+        "section_title_font_weight": "inherit",
+        "section_title_font_size_desktop": 0,
+        "section_title_line_height_desktop": 0,
+        "section_title_letter_spacing_desktop": 0,
+        "section_title_margin_top_desktop": 36,
+        "section_title_margin_bottom_desktop": 8,
+        "section_title_text_align": "center",
+        "section_title_font_size": 0,
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_margin_top": 12,
+        "section_title_margin_bottom": 8,
+        "section_tab_title_font_family": "open_sans_n4",
+        "tab_title_custom_font_family_name": "",
+        "section_tab_title_font_weight": "inherit",
+        "tab_style": "with-border",
+        "tab_border_width": 1,
+        "tab_border_radius": 6,
+        "tab_border_color": "#20150f",
+        "tab_background_color": "#fff7f2",
+        "tab_text_color": "#20150f",
+        "tab_active_hover_background_color": "#20150f",
+        "tab_active_state_selector": "background_color",
+        "tab_active_title_color": "#FFFFFF",
+        "tag_alignment": "fullwidth",
+        "tab_padding_vertical_desktop": 14,
+        "tab_padding_horizontal_desktop": 14,
+        "tab_gap_desktop": 10,
+        "tab_title_font_size_desktop": 0,
+        "tab_title_line_height_desktop": 0,
+        "tab_title_letter_spacing_desktop": 0,
+        "tab_padding_vertical": 12,
+        "tab_padding_horizontal": 12,
+        "tab_gap": 6,
+        "tab_title_font_size": 0,
+        "tab_title_line_height": 0,
+        "tab_title_letter_spacing": 0,
+        "content_background_color": "transparent",
+        "content_border_color": "#20150f",
+        "content_border_width": 1,
+        "content_border_radius": 6,
+        "content_margin_top_desktop": 20,
+        "content_padding_top_desktop": 20,
+        "content_padding_horizontal_desktop": 20,
+        "content_padding_bottom_desktop": 20,
+        "content_margin_bottom_desktop": 0,
+        "content_padding_horizontal": 20,
+        "content_margin_top": 12,
+        "content_padding_top": 20,
+        "content_padding_bottom": 20,
+        "content_margin_bottom": 0,
+        "content_text_align_desktop": "left",
+        "content_text_color": "#20150f",
+        "content_text_font": "open_sans_n4",
+        "content_text_custom_font_family_name": "",
+        "content_text_font_weight": "inherit",
+        "content_text_font_size_desktop": 0,
+        "content_text_line_height_desktop": 0,
+        "content_text_letter_spacing_desktop": 0,
+        "content_text_align": "left",
+        "content_text_font_size": 0,
+        "content_text_line_height": 0,
+        "content_text_letter_spacing": 0,
+        "content_link_color": "#20150f",
+        "content_link_underline": false
+      }
+    },
     "1753191429f163aa19": {
       "type": "apps",
       "blocks": {
@@ -1830,44 +2038,6 @@
       ],
       "settings": {
         "bg_color": "#ffffff",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "1753191432043d58a4": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_all_reviews_text_wcMcmt": {
-          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_all_reviews_text_wcMcmt"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "#f7e7df",
-        "width": "wrapper",
-        "padding_top": 60,
-        "padding_bottom": 60
-      }
-    },
-    "175319143921205bc2": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_medals_YLVtdL": {
-          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_medals_YLVtdL"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "",
         "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 60
@@ -2004,9 +2174,9 @@
     "ss_steps_11_XakNyR",
     "ss_before_after_9_AkFqDL",
     "ss_feature_39_mApF3z",
+    "section_text_4TwrL9",
+    "ss_tabs_pro_wnKfVP",
     "1753191429f163aa19",
-    "1753191432043d58a4",
-    "175319143921205bc2",
     "175319144783bd2e40",
     "1753191456cba150fa",
     "175319146428a0a4bb",
