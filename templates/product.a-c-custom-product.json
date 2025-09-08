@@ -1139,6 +1139,15 @@
     "ss_feature_15_eNVbpD": {
       "type": "ss-feature-15",
       "blocks": {
+        "item_8xyBe4": {
+          "type": "item",
+          "settings": {
+            "icon": "love",
+            "heading": "TIDY PORES ACTIVES",
+            "text": "<p><strong>Aminopropyl Ascorbyl Phosphate</strong> </p><p>An ultra gentle & stable form of Vitamin C that delivers all the brightening and anti-aging benefits without the irritation that traditional Vitamin C can cause. It works at a super low concentration to help protect collagen, even out skin tone, and protect against daily environmental damage, making it perfect for sensitive & acne-prone skin.</p><p><br/></p><p><strong>Dimethylmethoxy Chromanol</strong> </p><p>Think of this as Vitamin E's more powerful cousin - it's one of the strongest antioxidants available that shields your skin from pollution, UV rays, and other daily stressors that cause premature aging. Unlike other antioxidants that only protect against certain types of damage, this ingredient provides complete 360-degree protection to keep your skin healthy and youthful with zero irritation.</p><p><br/></p><p><strong>Phloretin</strong> </p><p>Sourced from apples, this powerful ingredient is like a soothing superhero for acne-prone and irritated skin, calming redness while boosting your skin's natural ceramide production for stronger, healthier skin. It also works as a superior brightening agent to fade dark spots and discoloration more effectively than many other brightening actives on the market.</p><p><br/></p><p><strong>Silymarin (Milk Thistle Extract)</strong> </p><p>This natural extract from milk thistle seeds is perfect for oily and acne-prone skin because it regulates oil production without over-drying while providing powerful calming benefits. It acts like a protective shield against lipid peroxidation, pollution and environmental damage while keeping your skin calm, balanced, and clear.</p><p><br/></p><p><strong>Tetrahydrodiferuloylmethane</strong> </p><p>This colorless, odorless turmeric extract is specifically designed to target and fade post-acne marks, sun spots, and other skin discoloration without any of the staining or irritation issues of regular turmeric. It also naturally boosts your skin's hyaluronic acid levels to keep skin plump and hydrated while reducing skin stress and irritation.</p>",
+            "image": "shopify://shop_images/DSC_0269.jpg"
+          }
+        },
         "item_3YYCYw": {
           "type": "item",
           "settings": {
@@ -1146,15 +1155,6 @@
             "heading": "TIDY PORES INGREDIENTS",
             "text": "<p>We paired our power actives with calming hydrators so your skin stays clear <em>and</em> comfortable.</p><p><br/></p><p>- Hyaluronic acid for deep hydration<br/><br/>- Licorice root extract and allantoin to soothe, calm, and prevent irritation<br/><br/>- Formulated without fragrance, essential oils, or known acne triggers — because clean should never mean compromised.</p>",
             "image": "shopify://shop_images/Website_-_Mobile_3_b0fa332f-9365-4d57-a90c-216a313b4684.png"
-          }
-        },
-        "item_8xyBe4": {
-          "type": "item",
-          "settings": {
-            "icon": "love",
-            "heading": "TIDY PORES ACTIVES",
-            "text": "<p>Tidy Pores is powered by an ultra-gentle, stabilized Vitamin C derivative (Aminopropyl Ascorbyl Phosphate) that brightens without the sting and targets the root cause of hormonal breakouts — lipid peroxidation.</p><p><br/></p><p>- Niacinamide fades post-acne marks and strengthens your barrier<br/><br/>- Glutathione, ferulic acid, and EGCG provide antioxidant protection against stress, pollution, and future flare-ups<br/><br/>- Zinc PCA helps balance oil production while calming inflammation</p>",
-            "image": "shopify://shop_images/DSC_0269.jpg"
           }
         },
         "item_EACaK8": {
@@ -1188,8 +1188,8 @@
         }
       },
       "block_order": [
-        "item_3YYCYw",
         "item_8xyBe4",
+        "item_3YYCYw",
         "item_EACaK8",
         "item_cGxkfy",
         "item_RTck9q"
