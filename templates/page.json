@@ -204,7 +204,7 @@
         "content_padding_bottom": 20,
         "content_margin_bottom": 0,
         "content_text_align_desktop": "left",
-        "content_text_color": "#000000",
+        "content_text_color": "#20150f",
         "content_text_font": "open_sans_n4",
         "content_text_custom_font_family_name": "",
         "content_text_font_weight": "inherit",
@@ -215,7 +215,7 @@
         "content_text_font_size": 0,
         "content_text_line_height": 0,
         "content_text_letter_spacing": 0,
-        "content_link_color": "#000000",
+        "content_link_color": "#20150f",
         "content_link_underline": false
       }
     },
