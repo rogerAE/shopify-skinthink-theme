@@ -1880,13 +1880,30 @@
             "image_align": "center",
             "image_radius": 20
           }
+        },
+        "tab_Bgtiy3": {
+          "type": "tab",
+          "settings": {
+            "title": "Can I layer Super Sensa with Benzoyl Peroxide?",
+            "product_description": false,
+            "content": "<p>Yes Super Sensa is a perfect pair for leave-on Benzoyl Peroxide and other acne treatments and it can help decrease and prevent the irritation, redness, peeling and dryness that can occur with Benzoyl Peroxide and other acne treatments. </p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
         }
       },
       "block_order": [
         "tab_iBGnX6",
         "tab_E9gdT8",
         "tab_TRhmDX",
-        "tab_piArXH"
+        "tab_piArXH",
+        "tab_Bgtiy3"
       ],
       "name": "SS - Tabs Pro",
       "settings": {
