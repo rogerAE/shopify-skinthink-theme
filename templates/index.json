@@ -1332,7 +1332,76 @@
         "testimonial_text_color": "text-dark",
         "width": "wrapper--full-padded",
         "padding_top": 40,
-        "padding_bottom": 36
+        "padding_bottom": 46
+      }
+    },
+    "section_banner_image_tmUcxj": {
+      "type": "section-banner-image",
+      "blocks": {
+        "subheading_yPjUGf": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>Welcome to</p>",
+            "size": 100
+          }
+        },
+        "heading_6n4GGp": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Palo Alto</p>",
+            "size": 180,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_KUz6p8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand, describe a product, share announcements, or welcome customers to your store.</p>",
+            "size": 100
+          }
+        },
+        "button_Xqedep": {
+          "type": "button",
+          "settings": {
+            "stacked_button": false,
+            "button_1_text": "Shop All",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--white",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--medium",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yPjUGf",
+        "heading_6n4GGp",
+        "text_KUz6p8",
+        "button_Xqedep"
+      ],
+      "name": "Banner image",
+      "settings": {
+        "height": "six-fifty-height",
+        "enable_mobile_height": false,
+        "mobile_height": "four-fifty-height-mobile",
+        "overlay_opacity": 10,
+        "transition": "zoom-out",
+        "enable_zoom_animation": true,
+        "enable_card_scrolling": false,
+        "increase_border_radius": true,
+        "content_width": 80,
+        "text_position": "left",
+        "text_alignment": "text-left",
+        "text_color": "text-light",
+        "width": "wrapper--full",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_image_with_text_f3VDjL": {
@@ -1803,6 +1872,7 @@
     "ss_steps_11_WctdHG",
     "section_list_butttons_ranjmc",
     "section-testimonials-with-images",
+    "section_banner_image_tmUcxj",
     "section_image_with_text_f3VDjL",
     "ss_gallery_1_TtMdKK",
     "section_text_eAqPag",
