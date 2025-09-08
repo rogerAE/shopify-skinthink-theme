@@ -1760,7 +1760,7 @@
       "settings": {
         "feature_bg_type": "image",
         "bg_image": "shopify://shop_images/Untitled_design_14_68b63408-6a63-4208-917f-4606bdc3bb60.png",
-        "bg_image_mobile": "shopify://shop_images/Website_-_Mobile_2_copy_2.png",
+        "bg_image_mobile": "shopify://shop_images/Website_-_Mobile_5.png",
         "feature_bg_overlay": 0,
         "content_align": "center",
         "content_align_mobile": "center",
@@ -1804,7 +1804,7 @@
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
         "padding_top": 36,
-        "padding_bottom": 52,
+        "padding_bottom": 0,
         "padding_horizontal": 5,
         "padding_horizontal_mobile": 1.5,
         "full_width": false,
