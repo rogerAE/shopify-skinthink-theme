@@ -1192,7 +1192,7 @@
           "type": "button",
           "settings": {
             "heading": "JOIN THE #EGOSYSTEM →",
-            "button_link": "",
+            "button_link": "/account/register",
             "overlay_opacity": 100,
             "block_text_color": "",
             "bg_color": "",
