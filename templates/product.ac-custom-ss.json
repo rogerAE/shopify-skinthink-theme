@@ -1821,15 +1821,15 @@
           "type": "subheading",
           "settings": {
             "text": "<p>GET MORE CLARITY</p>",
-            "size": 100,
+            "size": 160,
             "margin_bottom": 16
           }
         },
         "heading_HcGUKb": {
           "type": "heading",
           "settings": {
-            "text": "<p>Our Story</p>",
-            "size": 100,
+            "text": "<p>ADDITIONAL FAQ</p>",
+            "size": 195,
             "heading_highlight_type": "underline-hand-drawn",
             "highlight_color": "#000",
             "highlight_text_color": ""
@@ -1838,7 +1838,7 @@
         "text_EJhkRA": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Here are some more common questions surrounding Super Sensa...</p>",
             "size": 100
           }
         }
