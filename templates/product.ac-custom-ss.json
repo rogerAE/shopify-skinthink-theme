@@ -1320,7 +1320,7 @@
           "type": "step",
           "settings": {
             "step": "STEP 2",
-            "title": "SERUMS [A.M. ONLY]",
+            "title": "SERUMS (A.M. ONLY)",
             "text": "<p>Tidy Pores if you want a clarity kickstarter ;) </p><p>Apply 1  pump of this acne-safe, vitamin C-powered serum to damp skin. It brightens, hydrates, and protects in one ego-approved step.</p>"
           }
         },
@@ -1345,7 +1345,7 @@
           "settings": {
             "step": "STEP 5",
             "title": "SPF (AM ONLY)",
-            "text": "<p>Don’t skip the shield. Protect your progress with a mineral or acne-safe sunscreen—your skin’s final layer of defense.</p>"
+            "text": "<p>Don’t skip the shield. Protect your skin with a lightweight acne-safe SPF as your skin’s final layer of defense to protect your progress. </p>"
           }
         }
       },
