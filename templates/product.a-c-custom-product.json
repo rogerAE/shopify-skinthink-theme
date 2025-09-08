@@ -1881,9 +1881,9 @@
         "tab_cXnnae": {
           "type": "tab",
           "settings": {
-            "title": "Tab 2",
+            "title": "Is Tidy Pores fungal acne safe?",
             "product_description": false,
-            "content": "<p>Tab content 2</p>",
+            "content": "<p>Yes. We exclude all ingredients that can contribute to Malassezia yeast overgrowth. Period. While Malassezia yeast is a naturally occurring part of the skin microbiome, overgrowth leads to persistent whiteheads, inflammation, and skin irritation and we can limit its’ overgrowth by excluding specific ingredients that can be a food source for Malassezia.</p><p><br/></p><p>While the study of how skincare ingredients affect fungal acend evelopments is in its infancy, we prefer to listen to the real world lived experiences of our fungal acne sufferers who overwhelmingly report positive improvements by following a fungal acne safe routine. </p>",
             "page_content": "",
             "show_page_title": false,
             "page_title_html_element": "h2",
@@ -1897,9 +1897,9 @@
         "tab_hUAjBa": {
           "type": "tab",
           "settings": {
-            "title": "Tab 3",
+            "title": "Is Tidy Pores acne safe?",
             "product_description": false,
-            "content": "<p>Tab content 3</p>",
+            "content": "<p>Yes Tidy Pores is acne safe and has been specifically formulated to exclude the 5 types of ingredients that can contribute to acne breakouts. We are the first and only brand to formulate based on this system. </p>",
             "page_content": "",
             "show_page_title": false,
             "page_title_html_element": "h2",
@@ -1913,9 +1913,41 @@
         "tab_YnptQC": {
           "type": "tab",
           "settings": {
-            "title": "Tab 4",
+            "title": "What if I use Hypochlorous Acid?",
             "product_description": false,
-            "content": "<p>Tab content 4</p>",
+            "content": "<p>Hypochlorous acid neutralizes antioxidants so if you use it in your routine we recommend spraying it on clean damp skin and letting it dry completely before applying TIdy Pores. </p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_CjnxQU": {
+          "type": "tab",
+          "settings": {
+            "title": "Can I layer Tidy Pores with Benzoyl Peroxide?",
+            "product_description": false,
+            "content": "<p>Since Benzoyl peroxide is an oxidant it will negatively impact the antioxidants in Tidy Pores if you apply them at the same time. If you use a leave on BP product, we recommend applying Tidy Pores in the AM and your BP treatment at night.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_8JWNYc": {
+          "type": "tab",
+          "settings": {
+            "title": "Is Tidy Pores pregnancy safe?",
+            "product_description": false,
+            "content": "<p>Tidy Pores doesn’t contain any ingredients that are contraindicated during pregnancy or breastfeeding however, it’s important to always speak with a qualified healthcare professional before starting any new product.</p>",
             "page_content": "",
             "show_page_title": false,
             "page_title_html_element": "h2",
@@ -1931,7 +1963,9 @@
         "tab_63HPcG",
         "tab_cXnnae",
         "tab_hUAjBa",
-        "tab_YnptQC"
+        "tab_YnptQC",
+        "tab_CjnxQU",
+        "tab_8JWNYc"
       ],
       "name": "SS - Tabs Pro",
       "settings": {
