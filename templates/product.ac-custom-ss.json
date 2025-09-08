@@ -1896,6 +1896,22 @@
             "image_align": "center",
             "image_radius": 20
           }
+        },
+        "tab_dLtAee": {
+          "type": "tab",
+          "settings": {
+            "title": "Will Super Sensa work for dry skin?",
+            "product_description": false,
+            "content": "<p>Despite being lightweight, Super Sensa is much more hydrating than your average gel-cream moisturizer and we have many customers with dry skin who love it. If you’re consistently or extremely dry all over and live in a very dry or cold climate you may find Super Sensa on its own is not hydrating enough—but stay tuned we’ll be releasing a richer cream moisturizer at the beginning of 2026!</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
         }
       },
       "block_order": [
@@ -1903,7 +1919,8 @@
         "tab_E9gdT8",
         "tab_TRhmDX",
         "tab_piArXH",
-        "tab_Bgtiy3"
+        "tab_Bgtiy3",
+        "tab_dLtAee"
       ],
       "name": "SS - Tabs Pro",
       "settings": {
