@@ -1912,6 +1912,22 @@
             "image_align": "center",
             "image_radius": 20
           }
+        },
+        "tab_jAN6rW": {
+          "type": "tab",
+          "settings": {
+            "title": "Is Super Sensa pregnancy safe?",
+            "product_description": false,
+            "content": "<p>Super Sensa doesn’t contain any ingredients that are contraindicated during pregnancy or breastfeeding however, it’s important to always speak with a qualified healthcare professional before starting any new product.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
         }
       },
       "block_order": [
@@ -1920,7 +1936,8 @@
         "tab_TRhmDX",
         "tab_piArXH",
         "tab_Bgtiy3",
-        "tab_dLtAee"
+        "tab_dLtAee",
+        "tab_jAN6rW"
       ],
       "name": "SS - Tabs Pro",
       "settings": {
