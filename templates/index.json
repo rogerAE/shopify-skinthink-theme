@@ -15,9 +15,9 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/header.png",
-            "image_mobile": "shopify://shop_images/Untitled_design_14_6bf09336-98d5-4272-a459-890831c9b89e.png",
-            "overlay_opacity": 5,
+            "image": "shopify://shop_images/You_ve_already_trusted_Authentic_Ego_with_your_skin._Now_you_re_part_of_the_EgoSystem_where_every_formula_is_designed_to_support_the_complex_biology_of_adult_hormonal_and_reactive_ski_c457a73b-9c72-42b1-9ec8-92740f2d1dd9.png",
+            "image_mobile": "shopify://shop_images/Social_Post_-_NEW_Content_W_Call_outs_1.png",
+            "overlay_opacity": 0,
             "content_width": 91,
             "text_position": "left",
             "text_alignment": "text-left",
@@ -87,7 +87,7 @@
       "settings": {
         "slide_height": "seven-fifty-height",
         "enable_mobile_height": true,
-        "mobile_slide_height": "full-height-mobile",
+        "mobile_slide_height": "five-fifty-height-mobile",
         "show_nav_dots": false,
         "show_nav_arrows": false,
         "show_arrow_down": false,
@@ -1469,12 +1469,12 @@
         "layout": "inline",
         "image_location": "left",
         "image_width": "standard",
-        "image": "shopify://shop_images/Untitled_design_14_copy_7.png",
+        "image": "shopify://shop_images/eb5a5b_b95cacbe-f349-41e9-85cc-4d25becdca04.png",
         "block_bg_color": "#de5757",
         "text_color": "text-light",
         "bg_color": "#20150f",
         "gradient": "",
-        "section_width": "wrapper",
+        "section_width": "wrapper--full",
         "add_gutter": true,
         "padding_top": 60,
         "padding_bottom": 60
