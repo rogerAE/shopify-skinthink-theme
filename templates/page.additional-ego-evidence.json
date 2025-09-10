@@ -144,7 +144,7 @@
         "section_class": "",
         "background-color": "#ffffff",
         "lazy": true,
-        "padding_top_desktop": 36,
+        "padding_top_desktop": 8,
         "padding_bottom_desktop": 36,
         "padding_horizontal_desktop": 50,
         "margin_top_desktop": 36,
@@ -153,6 +153,508 @@
         "padding_bottom": 36,
         "padding_horizontal": 15,
         "margin_top": 36,
+        "margin_bottom": 36,
+        "section-width": 120,
+        "section_title": "",
+        "section_title_html_element": "h2",
+        "section_title_text_align_desktop": "center",
+        "section_title_color": "#20150f",
+        "section_title_font_family": "open_sans_n6",
+        "custom_font_family_name": "",
+        "section_title_font_weight": "inherit",
+        "section_title_font_size_desktop": 0,
+        "section_title_line_height_desktop": 0,
+        "section_title_letter_spacing_desktop": 0,
+        "section_title_margin_top_desktop": 0,
+        "section_title_margin_bottom_desktop": 8,
+        "section_title_text_align": "center",
+        "section_title_font_size": 0,
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_margin_top": 12,
+        "section_title_margin_bottom": 8,
+        "section_tab_title_font_family": "open_sans_n4",
+        "tab_title_custom_font_family_name": "",
+        "section_tab_title_font_weight": "inherit",
+        "tab_style": "with-border",
+        "tab_border_width": 1,
+        "tab_border_radius": 6,
+        "tab_border_color": "#20150f",
+        "tab_background_color": "#fff7f2",
+        "tab_text_color": "#20150f",
+        "tab_active_hover_background_color": "#20150f",
+        "tab_active_state_selector": "background_color",
+        "tab_active_title_color": "#ffffff",
+        "tag_alignment": "fullwidth",
+        "tab_padding_vertical_desktop": 14,
+        "tab_padding_horizontal_desktop": 14,
+        "tab_gap_desktop": 10,
+        "tab_title_font_size_desktop": 0,
+        "tab_title_line_height_desktop": 0,
+        "tab_title_letter_spacing_desktop": 0,
+        "tab_padding_vertical": 12,
+        "tab_padding_horizontal": 12,
+        "tab_gap": 6,
+        "tab_title_font_size": 0,
+        "tab_title_line_height": 0,
+        "tab_title_letter_spacing": 0,
+        "content_background_color": "rgba(0,0,0,0)",
+        "content_border_color": "#20150f",
+        "content_border_width": 1,
+        "content_border_radius": 6,
+        "content_margin_top_desktop": 20,
+        "content_padding_top_desktop": 20,
+        "content_padding_horizontal_desktop": 20,
+        "content_padding_bottom_desktop": 20,
+        "content_margin_bottom_desktop": 0,
+        "content_padding_horizontal": 20,
+        "content_margin_top": 12,
+        "content_padding_top": 20,
+        "content_padding_bottom": 20,
+        "content_margin_bottom": 0,
+        "content_text_align_desktop": "left",
+        "content_text_color": "#20150f",
+        "content_text_font": "open_sans_n4",
+        "content_text_custom_font_family_name": "",
+        "content_text_font_weight": "inherit",
+        "content_text_font_size_desktop": 0,
+        "content_text_line_height_desktop": 0,
+        "content_text_letter_spacing_desktop": 0,
+        "content_text_align": "left",
+        "content_text_font_size": 0,
+        "content_text_line_height": 0,
+        "content_text_letter_spacing": 0,
+        "content_link_color": "#20150f",
+        "content_link_underline": false
+      }
+    },
+    "section_text_6kJxFW": {
+      "type": "section-text",
+      "blocks": {
+        "heading_gtn3FA": {
+          "type": "heading",
+          "settings": {
+            "text": "<p><strong>The Evidence Behind Every Formula</strong></p>",
+            "size": 195,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#20150f",
+            "highlight_text_color": ""
+          }
+        },
+        "subheading_DytRqp": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>A closer look at the research that shaped and inspired each SKU—from ingredient selection to formulation strategy.</p>",
+            "size": 120,
+            "margin_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_gtn3FA",
+        "subheading_DytRqp"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "section_text_hbBVqJ": {
+      "type": "section-text",
+      "blocks": {
+        "heading_Xg7ELy": {
+          "type": "heading",
+          "settings": {
+            "text": "<p>Super Sensa</p>",
+            "size": 195,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#20150f",
+            "highlight_text_color": ""
+          }
+        },
+        "subheading_RQTymL": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p><strong>Here are the research and studies that inspired our Super Sensa formula:</strong></p>",
+            "size": 120,
+            "margin_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Xg7ELy",
+        "subheading_RQTymL"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "#ffffff",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "ss_tabs_pro_J4zBQV": {
+      "type": "ss-tabs-pro",
+      "blocks": {
+        "tab_MwPDC3": {
+          "type": "tab",
+          "settings": {
+            "title": "Panthenol",
+            "product_description": false,
+            "content": "<p>Gehring, W., & Gloor, M. (2000). Effect of topically applied dexpanthenol on epidermal barrier function and stratum corneum hydration: Results of a human in vivo study. Arzneimittelforschung, 50(7), 659–663. </p><p>PubMed</p><p><br/></p><p>Camargo, F. B., Jr., Gaspar, L. R., & Maia Campos, P. M. B. G. (2011). Skin moisturizing effects of panthenol-based formulations. Journal of Cosmetic Science, 62(4), 361–370. </p><p>PubMed</p><p><br/></p><p>Stettler, H., Kurka, P., Lunau, N., et al. (2017). A new topical panthenol-containing emollient: Results from two randomized controlled studies assessing skin moisturization and barrier restoration potential, and the effect on skin microflora. Journal of Dermatological Treatment, 28(2), 173–180. </p><p>PubMed</p><p><br/></p><p>Biro, K., Thaçi, D., Ochsendorf, F. R., Kaufmann, R., & Boehncke, W.-H. (2003). Efficacy of dexpanthenol in skin protection against irritation: A double-blind, placebo-controlled study. Contact Dermatitis, 49(2), 80–84. </p><p>PubMed</p><p><br/></p><p>Proksch, E., & Nissen, H. P. (2002). Dexpanthenol enhances skin barrier repair and reduces inflammation after sodium lauryl sulphate-induced irritation. Journal of Dermatological Treatment, 13(4), 173–178. </p><p><br/></p><p>Gao, M., Gao, N., Wang, L., et al. (2025). Evaluation of the efficacy and safety of a panthenol-enriched mask for skin barrier recovery after facial laser treatment: Double-blind randomized controlled study. Journal of Cosmetic Dermatology, 24(7), e70223. </p><p><br/></p><p>Addor, F. A. S. A., et al. (2021). Efficacy and safety of topical dexpanthenol-containing spray vs. petrolatum after non-ablative laser: Randomized split-face trial. Cosmetics, 8(3), 87. </p><p><br/></p><p>Cho, Y. S., Kim, H. O., Woo, S. M., & Lee, D. H. (2022). Use of dexpanthenol for atopic dermatitis—Benefits and recommendations based on current evidence. Journal of Clinical Medicine, 11(14), 3943. </p><p><br/></p><p>Peltier, E., et al. (2022). Dexpanthenol-containing liquid cleanser in atopic-prone skin: Multicenter observational study (4 weeks). Clinical, Cosmetic and Investigational Dermatology, 15, 1967–1979. </p><p><br/></p><p>Proksch, E., de Bony, R., Trapp, S., & Boudon, S. (2017). Topical use of dexpanthenol: A 70th anniversary article. Journal of Dermatological Treatment, 28(8), 766–773. (Narrative review). </p><p><br/></p><p>Gorski, J., Proksch, E., Baron, J. M., Schmid, D., & Zhang, L. (2020). Dexpanthenol in wound healing after medical and cosmetic interventions (postprocedure wound healing). Pharmaceuticals, 13(7), 138.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_FHNKgD": {
+          "type": "tab",
+          "settings": {
+            "title": "Ectoin",
+            "product_description": false,
+            "content": "<p>Cheng, W., Liu, X., Zhao, H., & Yu, J. (2022). Ectoin protects human skin fibroblasts from oxidative damage. Applied Sciences, 12(17), 8531. </p><p><br/></p><p>Marini, A., Reinelt, K., Krutmann, J., & Wlaschek, M. (2014). Ectoine-containing cream in mild to moderate atopic dermatitis. <em>Skin Pharmacology and Physiology</em>, 27(2), 57–65.</p><p><br/></p><p>Załęska, I., et al. (2025). Ectoine improved parameters in laser-damaged skin models. <em>Molecules</em>, 30(11), 2470.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_CGPWcK": {
+          "type": "tab",
+          "settings": {
+            "title": "Glyceryl Glucoside",
+            "product_description": false,
+            "content": "<p>Schrader A, Siefken W, Kueper T, Breitenbach U, Gatermann C, Sperling G, Biernoth T, Scherner C, Stäb F, Wenck H, Wittern KP, Blatt T. Effects of glyceryl glucoside on AQP3 expression, barrier function and hydration of human skin. Skin Pharmacol Physiol. 2012;25(4):192-9. doi: 10.1159/000338190. Epub 2012 May 15. PMID: 22584263.</p><p><br/></p><p>Weber, Teresa & Kausch, Martina & Rippke, Frank & Schoelermann, Andrea & Filbry, Alexander. (2012). Treatment of xerosis with a topical formulation containing glyceryl glucoside, natural moisturizing factors, and ceramide. The Journal of clinical and aesthetic dermatology. 5. 29-39.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_hQBBWP": {
+          "type": "tab",
+          "settings": {
+            "title": "Betaine",
+            "product_description": false,
+            "content": "<p>El-Chami, C., Foster, A. R., Johnson, C., Clausen, R. P., Cornwell, P., Haslam, I. S., Steward, M. C., Watson, R. E. B., Young, H. S., & O’Neill, C. A. (2021). Organic osmolytes increase expression of specific tight junction proteins in skin and alter barrier function in keratinocytes. <em>British Journal of Dermatology, 184</em>(3), 482–494. </p><p><br/></p><p>El-Chami, C., Haslam, I. S., Steward, M. C., & O’Neill, C. A. (2018). Organic osmolytes preserve the function of the developing tight junction in ultraviolet B-irradiated rat epidermal keratinocytes. <em>Scientific Reports, 8</em>, 5167.</p><p>Nicander, I., Åberg, P., & Ollmar, S. (2003). The use of different concentrations of betaine as a reducing irritation agent in soaps monitored visually and non-invasively. <em>Skin Research and Technology, 9</em>(1), 43–49. </p><p><br/></p><p>Nicander, I., Rantanen, I., Lundh Rozell, B., Söderling, E., & Ollmar, S. (2003). The ability of betaine to reduce the irritating effects of detergents assessed visually, histologically and by bioengineering methods. <em>Skin Research and Technology, 9</em>(1), 50–58. </p><p><br/></p><p>Rantanen, I., Nicander, I., Jutila, K., Ollmar, S., Tenovuo, J., & Söderling, E. (2002). Betaine reduces the irritating effect of sodium lauryl sulfate on human oral mucosa in vivo. <em>Acta Odontologica Scandinavica, 60</em>(5), 306–310.</p><p><br/></p><p>Rauhala, L., Hämäläinen, L., Dunlop, T. W., Pehkonen, P., Bart, G., Kokkonen, M., Tammi, M., Tammi, R., & Pasonen-Seppänen, S. (2015). The organic osmolyte betaine induces keratin 2 expression in rat epidermal keratinocytes—A genome-wide study in UVB-irradiated organotypic 3D cultures. <em>Toxicology in Vitro, 30</em>(1 Pt B), 462–475.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_KRbeC7": {
+          "type": "tab",
+          "settings": {
+            "title": "Xylitylglucoside, Anhydroxylitol & Xylitol",
+            "product_description": false,
+            "content": "<p>Garcia, C., Valin, E., Hernandez, E., Kern, C., & Roso, A. (2023). Effect of a simple sugar-based ingredient on skin moisturization: Biological mode of action and clinical effects. <em>Asian Journal of Beauty & Cosmetology, 21</em>(1), 13–27. </p><p><br/></p><p>Gougeon, S., Hernandez, E., Chevrot, N., et al. (2023). Evaluation of a new connected portable camera for the analysis of skin microrelief and the assessment of the effect of skin moisturisers. <em>Skin Research and Technology, 29</em>, e13190. </p><p><br/></p><p>Fluhr, J. W., Tfayli, A., Darlenski, R., Darvin, M. E., Joly-Tonetti, N., & Lachmann, N. (2023). Glycerol and natural sugar-derived complex modulate differentially stratum corneum water-binding properties and structural parameters in an in vitro Raman-desorption model. <em>Journal of Biophotonics, 16</em>(1), e202200201. </p><p><br/></p><p>Korponyai, C., Szél, E., Behány, Z., et al. (2017). Effects of locally applied glycerol and xylitol on the hydration, barrier function and morphological parameters of the skin. <em>Acta Dermato-Venereologica, 97</em>, 182–187.</p><p><br/></p><p>Szél, E., Polyánka, H., Szabó, K., et al. (2019). Protective effects of glycerol and xylitol in keratinocytes exposed to hyperosmotic stress. <em>Journal of Cosmetic Dermatology, 18</em>(6), 1650–1659. </p><p><br/></p><p>Katsuyama, M., Kobayashi, Y., Ichikawa, H., et al. (2005). A novel method to control the balance of skin microflora. Part 2: A study to assess the effect of a cream containing farnesol and xylitol on atopic dry skin. <em>Journal of Dermatological Science, 38</em>(3), 207–213.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_anPFnD": {
+          "type": "tab",
+          "settings": {
+            "title": "Inulin",
+            "product_description": false,
+            "content": "<p>Antão, H. S., Passerini, E., Guimarães, J. P., Saldanha, J., Coelho, J. D., & Fortunato, M. (2017). Efficacy, tolerability and acceptability of topical regimens containing the prebiotic Biolin in children suffering from atopic dermatitis. <em>European Journal of Pediatric Dermatology, 27</em>(2), 102–112.</p><p><br/></p><p>Le Bourgot, C., Guillochon, A., Pouradier, F., et al. (2022). Effects of short chain fructo-oligosaccharides on selected skin bacteria: Toward a targeted prebiotic for skin health. <em>Scientific Reports, 12</em>, 9342.</p><p><br/></p><p>Li, M., Dsouza, N., Kim, E., et al. (2023). Multi-omic approach to decipher the impact of skincare products with pre/postbiotics on skin microbiome and metabolome. <em>Frontiers in Medicine, 10</em>, 1165980.</p><p><br/></p><p>Li, M., Hernandez, E., Kern, C., et al. (2021). The prebiotic effect of triple-biotic technology on skin health. <em>Journal of Cosmetics, Dermatological Sciences and Applications, 11</em>(4), 380–397.</p><p><br/></p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_HgMbL4": {
+          "type": "tab",
+          "settings": {
+            "title": "Alpha-Glucan Oligosaccharide",
+            "product_description": false,
+            "content": "<p>Antão, H. S., Passerini, E., Guimarães, J. P., Saldanha, J., Coelho, J. D., & Fortunato, M. (2017). <em>Efficacy, tolerability and acceptability of topical regimens containing the prebiotic Biolin in children suffering from atopic dermatitis.</em> <em>European Journal of Pediatric Dermatology, 27</em>(2), 102–112.</p><p><br/></p><p>Fournière, M., Latire, T., Souak, D., Feuilloley, M., & Bedoui, Y. (2020). <em>Staphylococcus epidermidis and Cutibacterium acnes: Two major sentinels of skin microbiota and the influence of cosmetics.</em> <em>Microorganisms, 8</em>(11), 1752.</p><p>Kim, H.-B., Park, J.-H., & Kim, Y.-S. (2025). <em>Skin microbiome dynamics in atopic dermatitis.</em> <em>Allergy, Asthma & Immunology Research, 17</em>(2), 165–180.</p><p><br/></p><p>Phan, S., Sheshanna, B., & co-authors. (2023). <em>Topical prebiotics and microbiome metabolites: A systematic review of the effects of altering the skin microbiome in atopic dermatitis.</em> <em>Journal of Integrative Dermatology.</em></p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        }
+      },
+      "block_order": [
+        "tab_MwPDC3",
+        "tab_FHNKgD",
+        "tab_CGPWcK",
+        "tab_hQBBWP",
+        "tab_KRbeC7",
+        "tab_anPFnD",
+        "tab_HgMbL4"
+      ],
+      "name": "SS - Tabs Pro",
+      "settings": {
+        "section_class": "",
+        "background-color": "#ffffff",
+        "lazy": true,
+        "padding_top_desktop": 8,
+        "padding_bottom_desktop": 0,
+        "padding_horizontal_desktop": 50,
+        "margin_top_desktop": 36,
+        "margin_bottom_desktop": 0,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "padding_horizontal": 15,
+        "margin_top": 36,
+        "margin_bottom": 8,
+        "section-width": 120,
+        "section_title": "",
+        "section_title_html_element": "h2",
+        "section_title_text_align_desktop": "center",
+        "section_title_color": "#20150f",
+        "section_title_font_family": "open_sans_n6",
+        "custom_font_family_name": "",
+        "section_title_font_weight": "inherit",
+        "section_title_font_size_desktop": 0,
+        "section_title_line_height_desktop": 0,
+        "section_title_letter_spacing_desktop": 0,
+        "section_title_margin_top_desktop": 0,
+        "section_title_margin_bottom_desktop": 8,
+        "section_title_text_align": "center",
+        "section_title_font_size": 0,
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_margin_top": 12,
+        "section_title_margin_bottom": 8,
+        "section_tab_title_font_family": "open_sans_n4",
+        "tab_title_custom_font_family_name": "",
+        "section_tab_title_font_weight": "inherit",
+        "tab_style": "with-border",
+        "tab_border_width": 1,
+        "tab_border_radius": 6,
+        "tab_border_color": "#20150f",
+        "tab_background_color": "#fff7f2",
+        "tab_text_color": "#20150f",
+        "tab_active_hover_background_color": "#20150f",
+        "tab_active_state_selector": "background_color",
+        "tab_active_title_color": "#ffffff",
+        "tag_alignment": "fullwidth",
+        "tab_padding_vertical_desktop": 14,
+        "tab_padding_horizontal_desktop": 14,
+        "tab_gap_desktop": 10,
+        "tab_title_font_size_desktop": 0,
+        "tab_title_line_height_desktop": 0,
+        "tab_title_letter_spacing_desktop": 0,
+        "tab_padding_vertical": 12,
+        "tab_padding_horizontal": 12,
+        "tab_gap": 6,
+        "tab_title_font_size": 0,
+        "tab_title_line_height": 0,
+        "tab_title_letter_spacing": 0,
+        "content_background_color": "rgba(0,0,0,0)",
+        "content_border_color": "#20150f",
+        "content_border_width": 1,
+        "content_border_radius": 6,
+        "content_margin_top_desktop": 20,
+        "content_padding_top_desktop": 20,
+        "content_padding_horizontal_desktop": 20,
+        "content_padding_bottom_desktop": 20,
+        "content_margin_bottom_desktop": 0,
+        "content_padding_horizontal": 20,
+        "content_margin_top": 12,
+        "content_padding_top": 20,
+        "content_padding_bottom": 20,
+        "content_margin_bottom": 0,
+        "content_text_align_desktop": "left",
+        "content_text_color": "#20150f",
+        "content_text_font": "open_sans_n4",
+        "content_text_custom_font_family_name": "",
+        "content_text_font_weight": "inherit",
+        "content_text_font_size_desktop": 0,
+        "content_text_line_height_desktop": 0,
+        "content_text_letter_spacing_desktop": 0,
+        "content_text_align": "left",
+        "content_text_font_size": 0,
+        "content_text_line_height": 0,
+        "content_text_letter_spacing": 0,
+        "content_link_color": "#20150f",
+        "content_link_underline": false
+      }
+    },
+    "ss_tabs_pro_YqJJrc": {
+      "type": "ss-tabs-pro",
+      "blocks": {
+        "tab_X6wThk": {
+          "type": "tab",
+          "settings": {
+            "title": "Acetyl Heptapeptide-4",
+            "product_description": false,
+            "content": "<p>Pelle, E., et al. (2025). Post-marketing observational study of acetyl heptapeptide-4 in sensitive skin. <em>Journal of Cosmetic Dermatology</em>. (Advance online).</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_amJTXy": {
+          "type": "tab",
+          "settings": {
+            "title": "Amidinobenzyl Benzylsulfonyl D-Seryl Homophenylalaninamide Acetate",
+            "product_description": false,
+            "content": "<p>Campiche, R., Schwab, M., Margot, P., Rytz, A., & Voegeli, R. (2024). Establishing the inhibition of the serine protease plasmin as an innovative anti-age strategy in cosmetics. <em>Cosmetics</em>, 11(3), 103.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_XNtQWg": {
+          "type": "tab",
+          "settings": {
+            "title": "Polyglutamic Acid",
+            "product_description": false,
+            "content": "<p>Ko, H.-J., Choi, J.-H., Kim, C., & Ryu, J.-M. (2025). Poly-γ-glutamic acid from a novel Bacillus subtilis strain: Strengthening the skin barrier and improving moisture retention in keratinocytes and a reconstructed skin model. Biomolecules, 15(x), x–x. </p><p><br/></p><p>Radzikowska, A., Zdroik, K., Dębowska, R., Ostrowska, B., Rzepka, M., Pasikowska-Piwko, M., Rogiewicz, K., & Eris, I. (2019, October). PGA (γ-polyglutamic acid) vs hyaluronic acid—Comparative study of natural moisturizers. Poster presented at EADV 2019, Madrid. </p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_3wLqjT": {
+          "type": "tab",
+          "settings": {
+            "title": "Sodium DNA",
+            "product_description": false,
+            "content": "<p><em>Plant-/microbial-derived PDRN exhibits the same A2A-receptor biology and ex vivo skin-barrier/wound-healing effects as salmon-derived PDRN. Human topical data exist for polynucleotides in wounds, but head-to-head clinical trials of vegan sources are not yet published.</em></p><p><br/></p><p>Lee, K.-S., Kim, Y.-H., Yu, B., Lee, J., Kim, H., & Kim, J. (2023). Analysis of skin regeneration and barrier-improvement efficacy of polydeoxyribonucleotide isolated from Panax ginseng adventitious root. Molecules, 28(22), 7726. </p><p><br/></p><p>Chae, D., Oh, S.-W., Choi, Y.-S., Kang, D.-J., Park, C.-W., Lee, J., & Seo, W.-S. (2025). First report on microbial-derived polydeoxyribonucleotide: A sustainable and enhanced alternative to salmon-based polydeoxyribonucleotide. Current Issues in Molecular Biology, 47(1), 41. </p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_6jrCr8": {
+          "type": "tab",
+          "settings": {
+            "title": "Trehalose",
+            "product_description": false,
+            "content": "<p>Zhang, H., et al. (2024). Sodium trehalose sulfate upregulates barrier factors and hydrates skin. <em>Dermatologic Therapy</em>, 37(2), e16345.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_6fXE9x": {
+          "type": "tab",
+          "settings": {
+            "title": "Tremella Fuciformis Sporocarp (Silver Ear Mushroom) Extract",
+            "product_description": false,
+            "content": "<p>Woźniak, B., et al. (2023). Optimization of a cosmetic formulation with <em>Tremella fuciformis</em> extract; hygroscopicity vs HA. <em>Cosmetics</em>, 10(3), 82.</p><p><br/></p><p>Zhuang, J., et al. (2021). <em>Tremella</em> polysaccharides: Structure, moisturizing and antioxidant properties. <em>Food Science and Human Wellness</em>, 10(3), 408–420.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        },
+        "tab_DLyM66": {
+          "type": "tab",
+          "settings": {
+            "title": "Tocopherol",
+            "product_description": false,
+            "content": "<p>Fiume, M. M., et al. (2018). Safety assessment of tocopherols and tocotrienols as used in cosmetics. <em>International Journal of Toxicology, 37</em>(S1), 61S–94S.</p>",
+            "page_content": "",
+            "show_page_title": false,
+            "page_title_html_element": "h2",
+            "image_height": "adapt",
+            "desktop_image_width": "50",
+            "layout": "column",
+            "image_align": "center",
+            "image_radius": 20
+          }
+        }
+      },
+      "block_order": [
+        "tab_X6wThk",
+        "tab_amJTXy",
+        "tab_XNtQWg",
+        "tab_3wLqjT",
+        "tab_6jrCr8",
+        "tab_6fXE9x",
+        "tab_DLyM66"
+      ],
+      "name": "SS - Tabs Pro",
+      "settings": {
+        "section_class": "",
+        "background-color": "#ffffff",
+        "lazy": true,
+        "padding_top_desktop": 8,
+        "padding_bottom_desktop": 4,
+        "padding_horizontal_desktop": 50,
+        "margin_top_desktop": 36,
+        "margin_bottom_desktop": 36,
+        "padding_top": 8,
+        "padding_bottom": 36,
+        "padding_horizontal": 15,
+        "margin_top": 0,
         "margin_bottom": 36,
         "section-width": 120,
         "section_title": "",
@@ -854,6 +1356,10 @@
     "main-page",
     "section_text_k3QJgi",
     "ss_tabs_pro_DXNKNk",
+    "section_text_6kJxFW",
+    "section_text_hbBVqJ",
+    "ss_tabs_pro_J4zBQV",
+    "ss_tabs_pro_YqJJrc",
     "section_accordions_with_images_9hNpqW",
     "section_custom_content_9p6y4X",
     "section_text_8fhPCM",
