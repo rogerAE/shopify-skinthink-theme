@@ -26,29 +26,38 @@
         "heading_KLRRPE": {
           "type": "heading",
           "settings": {
-            "text": "<h1>Acne Isn’t One-Size-Fits-All</h1>",
-            "size": 125,
+            "text": "<p><strong>Our #EgoEvidence</strong></p>",
+            "size": 195,
             "heading_highlight_type": "underline-hand-drawn",
             "highlight_color": "#20150f",
             "highlight_text_color": ""
           }
         },
+        "subheading_Jzdtke": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p><em><strong>The real research behind our real results</strong></em></p>",
+            "size": 120,
+            "margin_bottom": 16
+          }
+        },
         "text_qKnjVT": {
           "type": "text",
           "settings": {
-            "text": "<p>Reactive skin is complex—and the support it deserves should be, too. At Authentic Ego, we don’t treat breakouts like a surface issue. We go deeper, developing formulas that work with your skin’s biology, not against it.</p><p>Our approach is full-spectrum: rooted in research, grounded in transparency, and designed to target the real science behind adult, hormonal, and sensitive acne.</p><p><br/></p><p><em><strong>What We Really Target</strong></em></p>",
+            "text": "<p>Our product development framework integrates peer-reviewed research with empirical consumer data to address gaps in current cosmetic approaches. Rather than following market trends, we systematically evaluate published studies on ingredient-acne interactions while incorporating qualitative data from individuals with hormonal acne, malassezia folliculitis, rosacea, eczema, and sensitive skin conditions. This dual approach acknowledges that while mechanistic studies provide valuable insights into acne pathophysiology, consumer tolerance and real-world efficacy often diverge from controlled laboratory and study conditions.</p><p><br/></p><p>We recognize that research definitively linking specific cosmetic ingredients to acne pathogenesis remains limited and flawed, with much of the current literature focused on individual components rather than complex formulation interactions. Our methodology treats published research as foundational guidance rather than prescriptive protocols, allowing for formulation adjustments based on tolerability profiles, stability requirements, and manufacturing constraints. This approach reflects the reality that translating laboratory findings into commercially viable, consumer-tolerated products requires balancing scientific rigor with practical formulation science.</p><p><br/></p><p>We acknowledge that widely-used marketing terms such as \"acne safe,\" \"non-comedogenic,\" \"dermatologist tested,\" \"hypoallergenic,\" and \"fungal acne safe\" lack standardized regulatory definitions and exist primarily as consumer-facing descriptors. However, we employ this terminology strategically because it represents the language consumers use when seeking appropriate products for their skin concerns. Simultaneously, we are working to develop evidence-based frameworks to establish meaningful criteria for these terms, particularly \"fungal acne safe,\" \"acne safe,\" and \"non-comedogenic,\" grounded in mechanistic understanding rather than marketing convention.</p><p><br/></p><p>As the field continues to evolve, we will contribute to the growing body of evidence through systematic documentation of our formulation outcomes and consumer feedback, recognizing that advancing acne supportive skincare requires both rigorous research interpretation and iterative product development informed by clinical experience.</p><p><br/></p><p><em><strong>The following compilation represents the current scientific literature that directly informs our product development methodology and brand ethos outlined above. This (imperfect) literature provides the mechanistic foundation upon which all our innovations are built.</strong></em></p>",
             "size": 100
           }
         }
       },
       "block_order": [
         "heading_KLRRPE",
+        "subheading_Jzdtke",
         "text_qKnjVT"
       ],
       "name": "Text",
       "settings": {
         "text_position": "center",
-        "bg_color": "",
+        "bg_color": "#ffffff",
         "gradient": "",
         "text_color": "text-dark",
         "width": "wrapper--narrow",
@@ -62,9 +71,9 @@
         "tab_dMQ9f9": {
           "type": "tab",
           "settings": {
-            "title": "Lipid Peroxidation",
+            "title": "Pathophysiology of Acne + Hormonal Skin Disorders",
             "product_description": false,
-            "content": "<p>Oxidized oil = more inflammation. Our formulas work to preserve the quality of your sebum and prevent the irritation spiral.</p>",
+            "content": "<p>Kardeh, S., Moein, S. A., Namazi, M. R., & Kardeh, B. (2021). Evidence for the important role of oxidative stress in the pathogenesis of acne. <em>Galen Medical Journal, 8</em>, e1291.<a href=\"https://doi.org/10.31661/gmj.v8i0.1291\"> https://doi.org/10.31661/gmj.v8i0.1291</a></p><p><br/></p><p>Bowe, W. P., & Logan, A. C. (2010). Clinical implications of lipid peroxidation in acne vulgaris. <em>Lipids in Health and Disease, 9</em>, 141.<a href=\"https://doi.org/10.1186/1476-511X-9-141\"> https://doi.org/10.1186/1476-511X-9-141</a></p><p><br/></p><p>Su, L., Wang, F., Wang, Y., Qin, C., Yang, X., & Ye, J. (2024). Circulating biomarkers of oxidative stress in people with acne vulgaris: a systematic review and meta-analysis. <em>Archives of Dermatological Research, 316</em>(4), 105.<a href=\"https://doi.org/10.1007/s00403-024-02840-5\"> https://doi.org/10.1007/s00403-024-02840-5</a></p><p><br/></p><p><br/></p><p>Popa, G. L., Mitran, C. I., Mitran, M. I., Tampa, M., Matei, C., Popa, M. I., & Georgescu, S. R. (2023). Markers of oxidative stress in patients with acne: A literature review. <em>Life, 13</em>(7), 1433.<a href=\"https://doi.org/10.3390/life13071433\"> https://doi.org/10.3390/life13071433</a></p><p><br/></p><p>Reynolds, R. V., Yeung, H., Cheng, C. E., Cook-Bolden, F., Desai, S. R., Druby, K. M., Freeman, E. E., Keri, J. E., Stein Gold, L. F., Tan, J. K., Tollefson, M. M., Weiss, J. S., Wu, P. A., Zaenglein, A. L., Han, J. M., & Barbieri, J. S. (2024). Guidelines of care for the management of acne vulgaris. <em>Journal of the American Academy of Dermatology, 90</em>(5), 1006.e1-1006.e30.<a href=\"https://doi.org/10.1016/j.jaad.2023.12.017\"> https://doi.org/10.1016/j.jaad.2023.12.017</a></p><p><br/></p><p>Thiboutot, D., Jabara, S., Thibault, A., Knaggs, H., & Pelle, E. (2013). Acne vulgaris and the epidermal barrier. <em>Journal of Clinical and Aesthetic Dermatology, 6</em>(12), 36-44.</p><p><br/></p><p>Kim, I., Jung, D. R., Kim, R. H., Lee, D., Jung, Y., Ha, J. H., Lee, E. K., Kim, J. M., Kim, J. Y., Jang, J. H., Bae, J. T., Cho, Y. S., & Shin, J. H. (2024). Complete genome of single locus sequence typing D1 strain Cutibacterium acnes CN6 isolated from healthy facial skin. <em>BMC Genomic Data, 25</em>(1), 94.<a href=\"https://doi.org/10.1186/s12863-024-01277-z\"> https://doi.org/10.1186/s12863-024-01277-z</a></p><p><br/></p><p>O'Neill, A. M., Cavagnero, K. J., Seidman, J. S., Zaramela, L., Chen, Y., Li, L., Rawls, M., Tom, W. L., Zhu, W., Phakoona, A., Curd, E., Parker, A., Williams, K., Paladini, P., Plissard, C., Dorrestein, P. C., Gallo, R. L., & Knight, R. (2024). Genetic and functional analyses of Cutibacterium acnes isolates reveal association of a linear plasmid with skin inflammation. <em>Journal of Investigative Dermatology, 144</em>(1), 116-124.<a href=\"https://doi.org/10.1016/j.jid.2023.07.018\"> https://doi.org/10.1016/j.jid.2023.07.018</a></p><p><br/></p><p>Cavallo, I., Sivori, F., Truglio, M., Maio, F., Lucantoni, F., Cardinali, G., De Cesare, G. B., Pontone, M., Curtolo, A., Cocchi, P., Sperduti, I., Rossi, E. D., Ensoli, F., Cristaudo, A., Palamara, A. T., Masci, A. M., Pimpinelli, F., & Di Domenico, E. G. (2022). Skin dysbiosis and Cutibacterium acnes biofilm in inflammatory acne lesions of adolescents. <em>Scientific Reports, 12</em>(1), 21104.<a href=\"https://doi.org/10.1038/s41598-022-25436-3\"> https://doi.org/10.1038/s41598-022-25436-3</a></p><p><br/></p><p>Sánchez-Pellicer, P., Navarro-Moratalla, L., Núñez-Delegido, E., Ruzafa-Costas, B., Agüera-Santos, J., & Navarro-López, V. (2022). Acne, microbiome, and probiotics: The gut-skin axis. <em>Microorganisms, 10</em>(7), 1303.<a href=\"https://doi.org/10.3390/microorganisms10071303\"> https://doi.org/10.3390/microorganisms10071303</a></p><p><br/></p>",
             "page_content": "",
             "show_page_title": false,
             "page_title_html_element": "h2",
@@ -78,9 +87,9 @@
         "tab_DmRtJ6": {
           "type": "tab",
           "settings": {
-            "title": "5α-Reductase Activity",
+            "title": "Comedogenicity + Product Safety Standards",
             "product_description": false,
-            "content": "<p>The hormonal cascade that leads to excess oil and clogged pores? We target it gently and precisely, no suppressants required.</p>",
+            "content": "<p>Fulton, J. E. (1984). Comedogenicity of current therapeutic products, cosmetics, and their ingredients. <em>Journal of the American Academy of Dermatology, 10</em>(4), 525-532.</p><p><br/></p><p>Mills, O. H., & Kligman, A. M. (1975). Acne mechanica. <em>Archives of Dermatology, 111</em>(4), 481-483.</p><p><br/></p><p>Mills, O. H., & Kligman, A. M. (1982). A human model for assessing comedogenic substances. <em>Archives of Dermatology, 118</em>(11), 903-905.</p><p><br/></p><p>Waranuch, N., Jaruratanasirikul, N., Panapisal, V., Singha, W., & Maneenuan, D. (2021). Safety assessment on comedogenicity of dermatological products. <em>Journal of Cosmetic Dermatology, 20</em>(7), 2254-2262.</p><p><br/></p><p>de Groot, A. C., & Stappen, I. (2018). Essential oils and their single compounds in cosmetics—A critical review. <em>Cosmetics, 5</em>(1), 11.<a href=\"https://doi.org/10.3390/cosmetics5010011\"> https://doi.org/10.3390/cosmetics5010011</a></p><p><br/></p><p>Ottaviani, M., Camera, E., & Picardo, M. (2021). Effect of commonly used cosmetic preservatives on skin resident microflora dynamics. <em>Journal of Cosmetic Dermatology, 20</em>(4), 1079-1089.</p><p><br/></p><p>Singh, V., Redhu, R., Verma, R., Mittal, V., & Kaushik, D. (2021). Anti-acne treatment using nanotechnology based on novel drug delivery system and patents on acne formulations: A review. <em>Recent Patents on Nanotechnology, 15</em>(4), 331-350.<a href=\"https://doi.org/10.2174/1872210514999201209214011\"> https://doi.org/10.2174/1872210514999201209214011</a></p><p><br/></p><p>González-Serva, A., Santos, M., Kerdel, F. A., & Eaglstein, W. H. (2004). Error of refraction: polarizable crystals within most open comedones. <em>Acta Dermato-Venereologica, 84</em>(6), 476-479.</p><p><br/></p>",
             "page_content": "",
             "show_page_title": false,
             "page_title_html_element": "h2",
@@ -94,9 +103,9 @@
         "tab_Q3LzeX": {
           "type": "tab",
           "settings": {
-            "title": "Microbiome Imbalance",
+            "title": "Malassezia, Microbiome, and Fungal Acne Science",
             "product_description": false,
-            "content": "<p>A disrupted barrier and biome can trigger sensitivity and flare-ups. We work to rebalance the skin’s ecosystem—without over-cleansing or sterilizing it.</p>",
+            "content": "<p>Ashbee, H. R. (2002). Immunology of diseases associated with Malassezia species. <em>Clinical Microbiology Reviews, 15</em>(1), 21-57.</p><p><br/></p><p>Tejima, K., Yoshida, Y., Okabayashi, K., Taniguchi, M., & Kamei, K. (2019). Long-chain acyl-CoA synthetase and growth of Malassezia. <em>Medical Mycology, 57</em>, 980-989.</p><p><br/></p><p>Triana, S., de García, M. C. G., Restrepo, S., Tabares, A. M., Gomes, M. A., & Cárdenas, M. (2017). Lipid metabolic versatility in Malassezia yeasts. <em>Frontiers in Microbiology, 8</em>, 1772.</p><p><br/></p><p>Limbu, S., Tatzel, S., Kuchler-Bopp, S., Zahra, H., Benkirane-Jessel, N., & Schneider, P. (2021). A folliculocentric perspective of dandruff pathogenesis. <em>BioEssays, 43</em>(6), e2100005.</p><p><br/></p><p>Martínez-Ortega, J. I., Fernández-González, M., & Romero-Jiménez, R. M. (2024). Malassezia folliculitis: Pathogenesis and diagnostics. <em>Dermatology Practical & Conceptual, 14</em>(3), e2024xx.</p>",
             "page_content": "",
             "show_page_title": false,
             "page_title_html_element": "h2",
@@ -110,9 +119,9 @@
         "tab_7BFmJ6": {
           "type": "tab",
           "settings": {
-            "title": "Barrier Dysfunction",
+            "title": "Fragrance, Irritation, Barrier Health + Oxidative Stress",
             "product_description": false,
-            "content": "<p>A compromised barrier can’t protect, heal, or glow. Every Authentic Ego formula supports and strengthens your skin’s natural defenses.</p>",
+            "content": "<p>Oyewole, A. O., Birch-Machin, M. A., Gendron, A. C., & Rees, J. L. (2015). Role of ultraviolet radiation in acne pathogenesis via sebum peroxidation. <em>Experimental Dermatology, 24</em>(5), 400-408.</p><p><br/></p><p>Pham, D.-M., Boussouira, B., Moyal, D., & Nguyen, Q. L. (2015). Oxidization of squalene: a key skin event with clinical relevance. <em>International Journal of Cosmetic Science, 37</em>(4), 357-365.</p><p><br/></p><p>Valacchi, G., Sticozzi, C., Pecorelli, A., Cervellati, F., Cervellati, C., & Maioli, E. (2001). Effect of benzoyl peroxide on antioxidant status and cytokines in keratinocytes. <em>Toxicology in Vitro, 15</em>(6), 323-328.</p><p><br/></p><p>Weber, S. U., Thiele, J. J., Cross, C. E., & Packer, L. (2003). Topical α-tocotrienol inhibits lipid peroxidation but not BP-induced TEWL. <em>Free Radical Biology & Medicine, 34</em>(2), 170-176.</p><p><br/></p><p>Rodriguez, I., Lewis, J., & Zhai, H. (2024). Navigating allergic contact dermatitis to fragrance. <em>Cutis, 114</em>(2), 41-45.</p><p><br/></p><p>Sukakul, T., Napattarachaibumrung, P., Soh, M. Q., Kunkun, A., Iomtawiatchaisak, K., Naraphisa, N., Boonchai, W., & Woo, Y. R. (2024). Fragrance contact allergy—A review focusing on patch testing. <em>Acta Dermato-Venereologica, 104</em>, adv40332.</p><p><br/></p><p>Uter, W., Johansen, J. D., Börje, A., Karlberg, A.-T., Lidén, C., Rastogi, S., Roberts, D., & White, I. R. (2017). Contact allergy to fragrances: Current clinical and regulatory status. <em>Allergo Journal International, 26</em>(3), 123-137.</p><p><br/></p><p>Patel, K., Michaelis, T. C., Katta, R., & Baron, E. D. (2022). Irritant contact dermatitis—a review. <em>Clinical, Cosmetic and Investigational Dermatology, 15</em>, 1495-1510.</p><p><br/></p><p>Parać, E., Grubišić-Čabo, F., & Šitum, M. (2023). Acne-like eruptions: Disease features and differential diagnosis. <em>Cosmetics, 10</em>(3), 89.</p><p><br/></p><p>Kligman, A. M., & Mills, O. H. (1972). Acne cosmetica. <em>Archives of Dermatology, 106</em>(6), 843-850.</p><p><br/></p><p>Kossard, S., Zagarella, S., & Lee, M. S. (2021). Eruptive necrotizing infundibular crystalline folliculitis. <em>American Journal of Dermatopathology, 43</em>(12), 879-883.</p><p><br/></p><p>Saxer-Sekulic, N., Hrabec, Z., Anzengruber, F., Dummer, R., Kerl, K., & French, L. E. (2014). Necrotizing infundibular crystalline folliculitis. <em>Dermatology, 228</em>(1), 1-4.</p>",
             "page_content": "",
             "show_page_title": false,
             "page_title_html_element": "h2",
@@ -376,6 +385,7 @@
         "heading_AEwFGm",
         "text_4ihadH"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "text_position": "center",
@@ -461,6 +471,7 @@
         "tab_bFxxLD",
         "tab_CcVkxd"
       ],
+      "disabled": true,
       "name": "SS - Tabs Pro",
       "settings": {
         "section_class": "",
@@ -632,6 +643,7 @@
       "block_order": [
         "text_VXD3qj"
       ],
+      "disabled": true,
       "name": "Text",
       "settings": {
         "text_position": "center",
@@ -742,6 +754,7 @@
         "description_yKaBrf",
         "icon_row_TLqVJe"
       ],
+      "disabled": true,
       "name": "Featured product",
       "settings": {
         "product": "super-sensa-barrier-repair-moisturizer-with-ectoin-and-panthenol-pdrn",
