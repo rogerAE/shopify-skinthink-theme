@@ -73,17 +73,6 @@
             "border_color": ""
           }
         },
-        "button": {
-          "type": "button",
-          "settings": {
-            "heading": "SHOP BUNDLES",
-            "button_link": "shopify://collections/bundles",
-            "overlay_opacity": 100,
-            "block_text_color": "#de5757",
-            "bg_color": "#ffffff",
-            "border_color": "#de5757"
-          }
-        },
         "button-0": {
           "type": "button",
           "settings": {
@@ -94,12 +83,23 @@
             "bg_color": "#ffffff",
             "border_color": "#de5757"
           }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "heading": "SHOP BUNDLES",
+            "button_link": "shopify://collections/bundles",
+            "overlay_opacity": 100,
+            "block_text_color": "#de5757",
+            "bg_color": "#ffffff",
+            "border_color": "#de5757"
+          }
         }
       },
       "block_order": [
         "button_nUbTQy",
-        "button",
-        "button-0"
+        "button-0",
+        "button"
       ],
       "settings": {
         "title": "",
