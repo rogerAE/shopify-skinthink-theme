@@ -83,21 +83,21 @@
           "type": "text",
           "settings": {
             "title": "What's our story?",
-            "text": "<p>I wanted to create a brand that reflects the authenticity of what we’re trying to achieve. Our goal is to be an authentic voice and resource in an industry full of noise. I want to develop formulas that will make a difference in people's lives while keeping prices as low as possible. - Christina, Founder</p>"
+            "text": "<p>I founded Authentic Ego because I was frustrated by the skincare industry's failure to innovate for acne-prone skin, leaving millions of people, especially those with melanated and sensitive skin conditions feeling ignored. </p><p><br/></p><p>While brands continue pushing the same outdated approach of \"kill bacteria, exfoliate, moisturize,\" I knew there had to be a better way that actually addresses the root causes of acne formation. </p><p><br/></p><p>My mission is to revolutionize acne skincare by developing science-backed formulations that target the earliest phases of breakout development—focusing on oxidative stress, lipid peroxidation, inflammation, and microbiome dysbiosis rather than just treating end-stage acne inflammation. </p><p><br/></p><p>I created this company to give people around the world access to truly effective, innovative solutions that finally acknowledge the complex nature of adult and hormonal acne. Ultimately, I want to change not just how we make skincare products, but how we think about and treat acne-prone skin with topical skincare formulations entirely.</p>"
           }
         },
         "text-1": {
           "type": "text",
           "settings": {
             "title": "Where are you located?",
-            "text": "<p>Our founder is Canadian and lives in Canada, but the business is based in the USA. Our manufacturer is in California, and all products ship from our warehouse in Texas. Our plastic pump bottles and paper packaging are sourced from South Korea.</p>"
+            "text": "<p>We are a USA-based brand. Our founder is Canadian and still lives in Canada, and the rest of our team is based in the USA.</p>"
           }
         },
         "text-2": {
           "type": "text",
           "settings": {
             "title": "I don't live in the USA. Where else do you ship to?",
-            "text": "<p>We ship to most countries. You can find more details on our <a href=\"https://www.authenticego.com/pages/shipping\" target=\"_blank\" title=\"Shipping\">shipping page</a>.</p><p>If you live in another country, we’re sorry! As an alternative you can always try a mail forwarding service but we can’t guarantee your package will make it to your country safely.</p>"
+            "text": "<p>We ship to most countries. You can find more details on our <a href=\"https://www.authenticego.com/pages/shipping\" target=\"_blank\" title=\"Shipping\">shipping page</a>.</p>"
           }
         }
       },
@@ -116,7 +116,7 @@
         "heading_size": 120,
         "text": "",
         "tabs_bg_color": "rgba(0,0,0,0)",
-        "bg_color": "#f7e7df",
+        "bg_color": "#fff7f2",
         "gradient": "",
         "text_color": "text-dark",
         "border_color": "",
@@ -132,7 +132,7 @@
           "type": "text",
           "settings": {
             "title": "Where are your products made?",
-            "text": "<p>All of our products are made, manufactured, and packaged in the USA. They are developed and formulated by our Founder & Cosmetic Chemist.</p>"
+            "text": "<p>All of our products are made, manufactured, and packaged in the USA. They are developed and formulated by our Founder & a Cosmetic Chemist.</p>"
           }
         },
         "text-6": {
@@ -146,21 +146,21 @@
           "type": "text",
           "settings": {
             "title": "Are your products ‘clean’?",
-            "text": "<p>Based on the standard industry definition that everyone is using, yes. We exceed ‘clean’ standards on all fronts. BUT… ‘clean’ beauty isn’t really a thing and it never was. ‘Clean’ has no objective definition and it can be vague and misleading for consumers. </p><p>To us, the word ‘clean’ means something that hasn’t been contaminated with dirt, bacteria, viruses, or invasive fungi, and last time we checked pretty much every product out there fits that bill!</p>"
+            "text": "<p>Based on the standard industry definition that everyone is using, yes. We exceed ‘clean’ standards on all fronts. BUT… ‘clean’ beauty isn’t really a thing and it never was. ‘Clean’ has no objective definition and it can be vague and misleading for consumers. </p><p><br/></p><p>To us, the word ‘clean’ means something that hasn’t been contaminated with dirt, bacteria, viruses, or invasive fungi, and last time we checked pretty much every product out there fits that bill. </p><p><br/></p><p>Clean, natural, eco-friendly, carbon-neutral, or sustainable are words we will NEVER use when selling our products. </p>"
           }
         },
         "text-8": {
           "type": "text",
           "settings": {
             "title": "Are your products ‘natural’?",
-            "text": "<p>The word ‘natural’ has no standard or objective definition. This is not a term you’ll ever see us use. </p><p>Just because it’s ‘natural’ doesn’t mean it’s safe, in fact, the opposite can be true. Arsenic is a poisonous substance that’s naturally found in soil. Asbestos is also a naturally occurring substance but it’s a known carcinogen. Lavender essential oil is as natural as it gets but it’s actually a known allergen and cause of contact dermatitis and other adverse health effects. </p><p>We’ve all been led to believe that natural=safe. But this couldn’t be further from the truth. </p><p>We prioritize the use of well-studied ingredients with a track record of safety and use a combination of synthetic, biotech, lab-created, and naturally derived ingredients in our formulas.</p>"
+            "text": "<p>The word ‘natural’ has no standard or objective definition. This is not a term you’ll ever see us use. </p><p><br/></p><p>Just because it’s ‘natural’ doesn’t mean it’s safe, in fact, the opposite can be true. Arsenic is a poisonous substance that’s naturally found in soil. Asbestos is also a naturally occurring substance but it’s a known carcinogen. Lavender essential oil is as natural as it gets but it’s actually a known allergen and cause of contact dermatitis and other adverse health effects. </p><p><br/></p><p>We’ve all been led to believe that natural=safe. But this couldn’t be further from the truth. We prioritize the use of well-studied ingredients with a track record of safety and use a combination of synthetic, biotech, lab-created, and select naturally derived ingredients in our formulas</p>"
           }
         },
         "text-9": {
           "type": "text",
           "settings": {
             "title": "What kind of ingredients do you use?",
-            "text": "<p>We prioritize the use of lab-created, safe synthetics, bio-fermented, and biotech ingredients in all our formulas. We use these ingredients because they're more effective than a lot of wild-grown counterparts, they're free of pesticides and environmental contaminants, and we have better visibility into the working conditions of frontline workers. </p><p>We choose to minimize the number of plant-based and harvested ingredients in our formulas because they deplete the already dwindling natural resources of our planet, we have no visibility into the working conditions of the individuals harvesting the ingredients, and natural alternatives are often a lot less eco-friendly than we think. </p><p>Naturally derived plant ingredients are also a big culprit for cases of contact allergies, dermatitis, and alleric reactions to cosmetic products.</p>"
+            "text": "<p>We prioritize the use of lab-created, safe synthetics, bio-fermented, and biotech ingredients in all our formulas. We use these ingredients because they're more effective than a lot of wild-grown counterparts, they have significantly lower concerns with pesticides and environmental contaminants, and we know that lab made ingredients aren’t contributing to exploitation of workers who harvest naturally grown ingredients. </p><p><br/></p><p>We choose to minimize the number of plant-based and harvested ingredients in our formulas because they deplete the already dwindling natural resources of our planet, we have no visibility into the working conditions of the individuals harvesting the ingredients, and natural alternatives are often a lot less eco-friendly than we think. </p><p><br/></p><p>Naturally derived plant ingredients are also a big culprit for cases of contact allergies, dermatitis, and allergic reactions to cosmetic products.</p>"
           }
         },
         "text_ATPJxH": {
@@ -330,6 +330,87 @@
         "padding_bottom": 80
       }
     },
+    "section_accordions_Na4KY4": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_kGDb6q": {
+          "type": "text",
+          "settings": {
+            "title": "How do subscriptions work?",
+            "text": "<p>When you subscribe, you'll enjoy convenient automatic deliveries at your chosen frequency, plus exclusive subscriber benefits. </p><p><br/></p><p>Upon subscribing, you'll receive immediate access to your personalized subscription portal where you can easily manage all aspects of your subscription, including delivery schedules, payment methods, shipping addresses, and frequency intervals. </p><p><br/></p><p>Your subscription ensures you never run out of your essential skincare products while providing cost savings compared to one-time purchases.</p>"
+          }
+        },
+        "text_8xBmUE": {
+          "type": "text",
+          "settings": {
+            "title": "Can I cancel my subscription after my first order?",
+            "text": "<p>To ensure you experience the full benefits of our products we require a minimum commitment of 3 order fulfillments when you subscribe. This allows adequate time to see the transformative results our products deliver. </p><p><br/></p><p>You may cancel your subscription at any time after your 3rd order has been fulfilled and shipped. This policy helps us maintain our subscription pricing while ensuring customer satisfaction with product results.</p>"
+          }
+        },
+        "text_kH7mxQ": {
+          "type": "text",
+          "settings": {
+            "title": "Can I skip a delivery?",
+            "text": "<p>Absolutely! We understand that skincare needs can vary, and you may have product remaining from previous orders. You can easily skip any upcoming delivery through your subscription portal without penalty. </p><p><br/></p><p>Simply log in at least 48 hours before your next scheduled delivery date to skip that shipment. Your subsequent deliveries will automatically resume according to your original schedule.</p>"
+          }
+        },
+        "text_4rWKnc": {
+          "type": "text",
+          "settings": {
+            "title": "Can I change how often I get my orders?",
+            "text": "<p>Yes, you have complete flexibility over your delivery frequency! </p><p><br/></p><p>You can adjust your subscription interval at any time through your subscription portal. Whether you want to receive products every 30 60, or 90 days, you can modify your schedule to match your skincare usage patterns. </p><p><br/></p><p>Changes made at least 48 hours before your next scheduled delivery will take effect immediately.</p>"
+          }
+        },
+        "text_4HRpm9": {
+          "type": "text",
+          "settings": {
+            "title": "How do I change my delivery address?",
+            "text": "<p>You can update your shipping address at any time by logging into your subscription portal. For uninterrupted service, please ensure any address changes are made at least 2 business days before your next scheduled renewal date. </p><p><br/></p><p>If you need to update your address for an order that's already processed, please contact our team immediately for assistance.</p>"
+          }
+        },
+        "text_qGwWKa": {
+          "type": "text",
+          "settings": {
+            "title": "Can I add discount codes to my subscription?",
+            "text": "<p>Subscription orders are already discounted from our regular retail prices and cannot be combined with additional promotional codes or sales. </p><p><br/></p><p>This pricing structure allows us to offer you the best ongoing value long-term while maintaining the quality and consistency of your skincare routine. </p><p><br/></p><p>One-time purchases remain eligible for promotional discounts and codes.</p>"
+          }
+        },
+        "text_kQT9XV": {
+          "type": "text",
+          "settings": {
+            "title": "How do I update my payment information?",
+            "text": "<p>You can securely update your payment method anytime through your subscription portal. We accept all major credit cards and PayPal. </p><p><br/></p><p>If your payment method fails, we'll notify you immediately and pause your subscription until payment information is updated. </p><p><br/></p><p>For security purposes, we recommend updating payment details promptly to avoid any interruption in your skincare routine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_kGDb6q",
+        "text_8xBmUE",
+        "text_kH7mxQ",
+        "text_4rWKnc",
+        "text_4HRpm9",
+        "text_qGwWKa",
+        "text_kQT9XV"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "Subscription FAQ's",
+        "type_style": "font-body",
+        "heading_size": 120,
+        "text": "",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "section_text_MPxnPk": {
       "type": "section-text",
       "blocks": {
@@ -347,7 +428,7 @@
             "text": "<h1><strong>Join The #EGOSYSTEM</strong></h1>",
             "size": 100,
             "heading_highlight_type": "underline-hand-drawn",
-            "highlight_color": "#000",
+            "highlight_color": "#000000",
             "highlight_text_color": ""
           }
         },
@@ -416,6 +497,7 @@
     "section-accordions-1",
     "section_accordions_FaM8bn",
     "section-accordions-2",
+    "section_accordions_Na4KY4",
     "section_text_MPxnPk",
     "17531330068ac18dd1"
   ]
