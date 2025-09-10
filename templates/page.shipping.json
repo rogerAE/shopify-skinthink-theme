@@ -34,7 +34,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "text": "<h1>#EgoAnswers</h1>",
+            "text": "<h1>#EgoAnswers - Shipping</h1>",
             "size": 150,
             "heading_highlight_type": "italics",
             "highlight_color": "#d43747",
@@ -44,7 +44,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We built this brand around transparency! Scroll though for clarity to some popular questions about our brand and products. Have other questions not listed? Email us: info@authenticego.com </p>",
+            "text": "<p>We currently ship within the USA and to the following countries:</p><p><br/></p><p>Albania, Andorra, Australia, Bahrain, Belgium, Bosnia and Herzegovina, Bulgaria, Canada, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Hungary, Iceland, Ireland, Kosovo, Kuwait, Latvia, Liechtenstein, Lithuania, Luxembourg, Malaysia, Malta, Moldova, Monaco, Montenegro, The Netherlands, New Zealand, North Macedonia, Norway, The Philippines, Poland, Qatar, Romania, San Marino, Serbia, Singapore, Slovakia, Slovenia, South Korea, Sweden, Switzerland, Thailand, Türkiye, United Arab Emirates & United Kingdom.</p><p><br/></p><p>We are unable to ship to China, Germany, Saudi Arabia, Spain & other countries due to government and/or postal restrictions.</p><p><br/></p><p>We built this brand around transparency! Scroll though for clarity to some popular questions about our brand and products. Have other questions not listed? Email us: info@authenticego.com</p>",
             "size": 100
           }
         },
@@ -71,7 +71,7 @@
         "bg_color": "",
         "gradient": "",
         "text_color": "text-dark",
-        "width": "wrapper--narrow",
+        "width": "wrapper",
         "padding_top": 60,
         "padding_bottom": 40
       }
@@ -82,38 +82,30 @@
         "text-0": {
           "type": "text",
           "settings": {
-            "title": "What's our story?",
-            "text": "<p>I founded Authentic Ego because I was frustrated by the skincare industry's failure to innovate for acne-prone skin, leaving millions of people, especially those with melanated and sensitive skin conditions feeling ignored. </p><p><br/></p><p>While brands continue pushing the same outdated approach of \"kill bacteria, exfoliate, moisturize,\" I knew there had to be a better way that actually addresses the root causes of acne formation. </p><p><br/></p><p>My mission is to revolutionize acne skincare by developing science-backed formulations that target the earliest phases of breakout development—focusing on oxidative stress, lipid peroxidation, inflammation, and microbiome dysbiosis rather than just treating end-stage acne inflammation. </p><p><br/></p><p>I created this company to give people around the world access to truly effective, innovative solutions that finally acknowledge the complex nature of adult and hormonal acne. Ultimately, I want to change not just how we make skincare products, but how we think about and treat acne-prone skin with topical skincare formulations entirely.</p>"
+            "title": "Domestic (USA) Orders",
+            "text": "<p>We can ship via USPS or FedEx. You can choose your preferred carrier during the checkout process. We are unable to ship to PO Boxes.</p><p><br/></p><p>We offer free standard USPS shipping on all orders within the Contiguous United States.</p><p><br/></p><p>We also offer USPS Express shipping for $10 and FedEx 2-Day shipping for $15.</p><p><br/></p><p>All orders ship within 2 business days excluding federal US holidays. Please allow additional handling time during peak seasons. Please note that Express and 2-day shipping are still subject to a 2-business-day handling time. </p>"
           }
         },
         "text-1": {
           "type": "text",
           "settings": {
-            "title": "Where are you located?",
-            "text": "<p>We are a USA-based brand. Our founder is Canadian and still lives in Canada, and the rest of our team is based in the USA.</p>"
-          }
-        },
-        "text-2": {
-          "type": "text",
-          "settings": {
-            "title": "I don't live in the USA. Where else do you ship to?",
-            "text": "<p>We ship to most countries. You can find more details on our <a href=\"https://www.authenticego.com/pages/shipping\" target=\"_blank\" title=\"Shipping\">shipping page</a>.</p>"
+            "title": "International Orders",
+            "text": "<p>All orders ship from our USA warehouse.</p><p><br/></p><p>We offer tracked & insured priority shipping through APC ParcelConnect for a flat rate of $15 USD. Once your package reaches your country, the final mile of delivery may be through your local postal system.</p><p><br/></p><p>Please allow 10-20 business days for delivery dependent on your location and/or local customs. <strong>Please note</strong>: this is an approximate delivery window and is not guaranteed, as there may be delays with your local customs processing which is out of our control.</p><p><br/></p><p><strong>***PLEASE NOTE:</strong> Duties & taxes are not included and may be charged by your local customs upon receipt of your package. We unfortunately do not have control over the duties and taxes charged by your country.</p><p><br/></p><p>All international orders will ship out within 2 business days, excluding federal US holidays. Please allow additional handling time during peak seasons.</p>"
           }
         }
       },
       "block_order": [
         "text-0",
-        "text-1",
-        "text-2"
+        "text-1"
       ],
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": true,
         "line_thickness": "normal",
         "subheading": "",
-        "title": "",
-        "type_style": "font-heading",
-        "heading_size": 120,
+        "title": "Domestic + International FAQ's",
+        "type_style": "font-body",
+        "heading_size": 100,
         "text": "",
         "tabs_bg_color": "rgba(0,0,0,0)",
         "bg_color": "#fff7f2",
@@ -131,75 +123,43 @@
         "text-5": {
           "type": "text",
           "settings": {
-            "title": "Where are your products made?",
-            "text": "<p>All of our products are made, manufactured, and packaged in the USA. They are developed and formulated by our Founder & a Cosmetic Chemist.</p>"
+            "title": "How can I track my order?",
+            "text": "<p>Once your order ships, you’ll receive a notification email with tracking information. This contains the most up-to-date tracking information available. </p>"
           }
         },
         "text-6": {
           "type": "text",
           "settings": {
-            "title": "Where do you source your ingredients from?",
-            "text": "<p>We work with our product manufacturer to source ingredients from global raw ingredients suppliers. The individual ingredients in our products are sourced from all over the world.</p>"
+            "title": "When will my order ship?",
+            "text": "<p>Most orders ship the next business day but please allow 2 business days for shipping and additional time during peak shopping seasons.</p><p><br/></p><p>We don’t ship on the following holidays: New Year’s Day, Memorial Day, Fourth of July, Labor Day, Thanksgiving, or Christmas Day.</p><p><br/></p><p>If one of the above holidays happens to fall on a weekend, the holiday is observed the next business day, so your package will ship the following business day.</p>"
           }
         },
         "text-7": {
           "type": "text",
           "settings": {
-            "title": "Are your products ‘clean’?",
-            "text": "<p>Based on the standard industry definition that everyone is using, yes. We exceed ‘clean’ standards on all fronts. BUT… ‘clean’ beauty isn’t really a thing and it never was. ‘Clean’ has no objective definition and it can be vague and misleading for consumers. </p><p><br/></p><p>To us, the word ‘clean’ means something that hasn’t been contaminated with dirt, bacteria, viruses, or invasive fungi, and last time we checked pretty much every product out there fits that bill. </p><p><br/></p><p>Clean, natural, eco-friendly, carbon-neutral, or sustainable are words we will NEVER use when selling our products. </p>"
-          }
-        },
-        "text-8": {
-          "type": "text",
-          "settings": {
-            "title": "Are your products ‘natural’?",
-            "text": "<p>The word ‘natural’ has no standard or objective definition. This is not a term you’ll ever see us use. </p><p><br/></p><p>Just because it’s ‘natural’ doesn’t mean it’s safe, in fact, the opposite can be true. Arsenic is a poisonous substance that’s naturally found in soil. Asbestos is also a naturally occurring substance but it’s a known carcinogen. Lavender essential oil is as natural as it gets but it’s actually a known allergen and cause of contact dermatitis and other adverse health effects. </p><p><br/></p><p>We’ve all been led to believe that natural=safe. But this couldn’t be further from the truth. We prioritize the use of well-studied ingredients with a track record of safety and use a combination of synthetic, biotech, lab-created, and select naturally derived ingredients in our formulas</p>"
-          }
-        },
-        "text-9": {
-          "type": "text",
-          "settings": {
-            "title": "What kind of ingredients do you use?",
-            "text": "<p>We prioritize the use of lab-created, safe synthetics, bio-fermented, and biotech ingredients in all our formulas. We use these ingredients because they're more effective than a lot of wild-grown counterparts, they have significantly lower concerns with pesticides and environmental contaminants, and we know that lab made ingredients aren’t contributing to exploitation of workers who harvest naturally grown ingredients. </p><p><br/></p><p>We choose to minimize the number of plant-based and harvested ingredients in our formulas because they deplete the already dwindling natural resources of our planet, we have no visibility into the working conditions of the individuals harvesting the ingredients, and natural alternatives are often a lot less eco-friendly than we think. </p><p><br/></p><p>Naturally derived plant ingredients are also a big culprit for cases of contact allergies, dermatitis, and allergic reactions to cosmetic products.</p>"
-          }
-        },
-        "text_ATPJxH": {
-          "type": "text",
-          "settings": {
-            "title": "Are your products vegan?",
-            "text": "<p>Yes, all our products are vegan.</p>"
-          }
-        },
-        "text_tnVAFx": {
-          "type": "text",
-          "settings": {
-            "title": "Do your products contain gluten or nuts?",
-            "text": "<p>Our products are gluten free and are also nut free. However, we cannot guarantee that every single ingredient is free of potential minute traces of these ingredients.</p>"
+            "title": "I don’t see what I need here. Can you help me?",
+            "text": "<p>Of course! You can contact our team anytime by contacting us <a href=\"/pages/contact\" target=\"_blank\" title=\"Contact\">here</a>.</p>"
           }
         }
       },
       "block_order": [
         "text-5",
         "text-6",
-        "text-7",
-        "text-8",
-        "text-9",
-        "text_ATPJxH",
-        "text_tnVAFx"
+        "text-7"
       ],
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": true,
         "line_thickness": "normal",
         "subheading": "",
-        "title": "Products + Ingredients",
+        "title": "Shipping FAQ's",
         "type_style": "font-body",
         "heading_size": 100,
         "text": "",
         "tabs_bg_color": "rgba(0,0,0,0)",
-        "bg_color": "",
+        "bg_color": "#de5757",
         "gradient": "",
-        "text_color": "text-dark",
+        "text_color": "text-light",
         "border_color": "",
         "width": "wrapper--narrow",
         "padding_top": 60,
@@ -228,6 +188,7 @@
         "text-10",
         "text-11"
       ],
+      "disabled": true,
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": true,
@@ -261,6 +222,7 @@
       "block_order": [
         "text_KTxEUp"
       ],
+      "disabled": true,
       "name": "Accordions",
       "settings": {
         "layout": "one-column",
@@ -311,6 +273,7 @@
         "text-14",
         "text-15"
       ],
+      "disabled": true,
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": true,
@@ -392,6 +355,7 @@
         "text_qGwWKa",
         "text_kQT9XV"
       ],
+      "disabled": true,
       "settings": {
         "layout": "one-column",
         "show_accordion_divider": true,
