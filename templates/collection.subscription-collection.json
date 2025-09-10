@@ -73,6 +73,17 @@
             "border_color": ""
           }
         },
+        "button-0": {
+          "type": "button",
+          "settings": {
+            "heading": "SUBSCRIPTIONS",
+            "button_link": "shopify://collections/clearcommitment-subscriptions",
+            "overlay_opacity": 100,
+            "block_text_color": "#de5757",
+            "bg_color": "#ffffff",
+            "border_color": "#de5757"
+          }
+        },
         "button": {
           "type": "button",
           "settings": {
@@ -83,23 +94,12 @@
             "bg_color": "#ffffff",
             "border_color": "#de5757"
           }
-        },
-        "button-0": {
-          "type": "button",
-          "settings": {
-            "heading": "SUBSCRIPTIONS",
-            "button_link": "",
-            "overlay_opacity": 100,
-            "block_text_color": "#de5757",
-            "bg_color": "#ffffff",
-            "border_color": "#de5757"
-          }
         }
       },
       "block_order": [
         "button_nUbTQy",
-        "button",
-        "button-0"
+        "button-0",
+        "button"
       ],
       "settings": {
         "title": "",
@@ -150,8 +150,38 @@
         "padding_bottom": 0
       }
     },
+    "section_collection_zD7bxr": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "collection": "clearcommitment-subscriptions",
+        "products_layout": "grid",
+        "products_limit": 8,
+        "products_per_row_on_desktop": 4,
+        "columns_mobile": "2",
+        "text_alignment": "text-left",
+        "title": "<h1>#ClearCommitment Subscriptions</h1>",
+        "heading_size": 100,
+        "heading_highlight_type": "underline-hand-drawn",
+        "highlight_color": "#20150f",
+        "highlight_text_color": "#20150f",
+        "text": "<p>Your skincare, on autopilot. Stay consistent with the formulas your skin loves — no drop-offs, no guesswork. Delivered on your schedule, because progress is a practice.</p>",
+        "text_size": 100,
+        "button_position": "top",
+        "button_text": "",
+        "button_color": "btn--black",
+        "button_style": "btn--text",
+        "button_size": "btn--medium",
+        "bg_color": "#ffffff",
+        "enable_slider_mobile": true,
+        "width": "wrapper--full-padded",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
     "collection": {
       "type": "collection",
+      "disabled": true,
       "settings": {
         "show_breadcrumbs": false,
         "products_per_page": 24,
@@ -308,6 +338,7 @@
     "section-text",
     "section-list-butttons",
     "subcollections",
+    "section_collection_zD7bxr",
     "collection",
     "section-icons-row",
     "section_text_mzMUhR",
