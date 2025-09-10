@@ -1480,111 +1480,93 @@
         "padding_bottom": 60
       }
     },
-    "ss_gallery_1_TtMdKK": {
-      "type": "ss-gallery-1",
+    "section_slideshow_VEQndE": {
+      "type": "section-slideshow",
       "blocks": {
-        "image_TVUwCJ": {
+        "image_jfF8Wq": {
           "type": "image",
           "settings": {
-            "url": "",
-            "hide_mobile": false
+            "image": "shopify://shop_images/You_ve_already_trusted_Authentic_Ego_with_your_skin._Now_you_re_part_of_the_EgoSystem_where_every_formula_is_designed_to_support_the_complex_biology_of_adult_hormonal_and_reactive_ski_c457a73b-9c72-42b1-9ec8-92740f2d1dd9.png",
+            "image_mobile": "shopify://shop_images/Social_Post_-_NEW_Content_W_Call_outs_1.png",
+            "overlay_opacity": 0,
+            "content_width": 91,
+            "text_position": "left",
+            "text_alignment": "text-left",
+            "text_color": "text-dark",
+            "subheading": "THE FUTURE OF ACNE-CARE IS HERE",
+            "title": "<p>FORMULATED FOR REAL, REACTIVE SKIN</p>",
+            "heading_size": 110,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#fff7f2",
+            "highlight_text_color": "#ffffff",
+            "text": "Discover the new science of skincare, built for breakout-prone skin.",
+            "text_size": 70,
+            "stacked_button": true,
+            "button_1_text": "SHOP ALL PRODUCTS →",
+            "button_1_link": "shopify://collections/all",
+            "button_1_color": "btn--primary",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "shopify://collections/all",
+            "button_2_color": "btn--secondary",
+            "button_2_style": "btn--solid-border",
+            "button_2_size": "btn--large",
+            "video_text": "",
+            "video_link": ""
           }
         },
-        "image_p6JqjV": {
+        "image_hDawDL": {
           "type": "image",
           "settings": {
-            "url": "",
-            "hide_mobile": false
-          }
-        },
-        "image_w8irC4": {
-          "type": "image",
-          "settings": {
-            "url": "",
-            "hide_mobile": false
-          }
-        },
-        "image_yjy73K": {
-          "type": "image",
-          "settings": {
-            "url": "",
-            "hide_mobile": false
-          }
-        },
-        "image_xVDarz": {
-          "type": "image",
-          "settings": {
-            "url": "",
-            "hide_mobile": false
-          }
-        },
-        "image_jRdYXH": {
-          "type": "image",
-          "settings": {
-            "url": "",
-            "hide_mobile": false
+            "image": "shopify://shop_images/You_ve_already_trusted_Authentic_Ego_with_your_skin._Now_you_re_part_of_the_EgoSystem_where_every_formula_is_designed_to_support_the_complex_biology_of_adult_hormonal_and_reactive_ski_16c90fd2-7cda-412a-8ed8-5df98aa232ca.png",
+            "image_mobile": "shopify://shop_images/Website_-_Mobile_3_copy.png",
+            "overlay_opacity": 10,
+            "content_width": 80,
+            "text_position": "left",
+            "text_alignment": "text-left",
+            "text_color": "text-dark",
+            "subheading": "JOIN THE PROGRAM",
+            "title": "<p>#COMPLEXIONCLUB</p>",
+            "heading_size": 150,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#fff7f2",
+            "highlight_text_color": "#20150f",
+            "text": "learn more + apply for our curated creator program",
+            "text_size": 70,
+            "stacked_button": false,
+            "button_1_text": "APPLY NOW →",
+            "button_1_link": "shopify://pages/collab",
+            "button_1_color": "btn--secondary",
+            "button_1_style": "btn--solid-border",
+            "button_1_size": "btn--large",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_color": "btn--black",
+            "button_2_style": "btn--solid",
+            "button_2_size": "btn--medium",
+            "video_text": "",
+            "video_link": ""
           }
         }
       },
       "block_order": [
-        "image_TVUwCJ",
-        "image_p6JqjV",
-        "image_w8irC4",
-        "image_yjy73K",
-        "image_xVDarz",
-        "image_jRdYXH"
+        "image_jfF8Wq",
+        "image_hDawDL"
       ],
-      "disabled": true,
-      "name": "SS - Gallery #1",
       "settings": {
-        "heading": "<h3>#COMPLEXIONCLUB</h3>",
-        "heading_custom": true,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 32,
-        "heading_size_mobile": 28,
-        "heading_height": 130,
-        "heading_align": "left",
-        "heading_align_mobile": "center",
-        "sub_heading": "<p>Apply to join the #ComplexionClub for early access to product trials, PR drops, affiliate perks, campaign collabs, and more...</p>",
-        "sub_heading_custom": true,
-        "sub_heading_font": "josefin_sans_n4",
-        "sub_heading_size": 16,
-        "sub_heading_size_mobile": 16,
-        "sub_heading_height": 130,
-        "sub_heading_mt": 16,
-        "sub_heading_mt_mobile": 16,
-        "sub_heading_align": "left",
-        "sub_heading_align_mobile": "center",
-        "images_gap": 10,
-        "images_gap_mobile": 10,
-        "images_radius": 4,
-        "images_position": "row",
-        "images_position_mobile": "column",
-        "images_mt": 32,
-        "images_mt_mobile": 24,
-        "main_image_url": "",
-        "main_image_width": 40,
-        "small_images_row": 3,
-        "small_images_row_mobile": 2,
-        "heading_color": "#20150f",
-        "sub_heading_color": "#20150f",
-        "image_overlay": "#000000",
-        "background_color": "#de5757",
-        "background_gradient": "linear-gradient(180deg, rgba(255, 247, 242, 1), rgba(252, 252, 252, 1) 100%)",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
+        "slide_height": "five-fifty-height",
+        "enable_mobile_height": true,
+        "mobile_slide_height": "five-fifty-height-mobile",
+        "show_nav_dots": false,
+        "show_nav_arrows": false,
+        "show_arrow_down": false,
+        "autoplay": true,
+        "duration": 3,
+        "transition": "fade",
+        "enable_zoom_animation": false,
+        "enable_card_scrolling": false,
+        "increase_border_radius": false
       }
     },
     "section_text_eAqPag": {
@@ -1876,7 +1858,7 @@
     "section-testimonials-with-images",
     "section_banner_image_tmUcxj",
     "section_image_with_text_f3VDjL",
-    "ss_gallery_1_TtMdKK",
+    "section_slideshow_VEQndE",
     "section_text_eAqPag",
     "1753114793499346c1",
     "section-divider",
