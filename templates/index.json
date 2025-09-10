@@ -1145,7 +1145,7 @@
         "steps_padding_horizontal_mobile": 8,
         "steps_padding_vertical": 4,
         "steps_padding_vertical_mobile": 4,
-        "steps_radius": 100,
+        "steps_radius": 6,
         "steps_border_thickness": 1,
         "steps_content_align": "left",
         "steps_content_align_mobile": "left",
