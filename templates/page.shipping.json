@@ -1,0 +1,504 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main-page": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "bg_color": "",
+        "gradient": "",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-text": {
+      "type": "section-text",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>NO SECRETS. JUST SCIENCE.</p>",
+            "size": 125,
+            "margin_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1>#EgoAnswers</h1>",
+            "size": 150,
+            "heading_highlight_type": "italics",
+            "highlight_color": "#d43747",
+            "highlight_text_color": "#000000"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We built this brand around transparency! Scroll though for clarity to some popular questions about our brand and products. Have other questions not listed? Email us: info@authenticego.com </p>",
+            "size": 100
+          }
+        },
+        "button": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_text": "Read More",
+            "button_link": "",
+            "button_color": "btn--black",
+            "button_style": "btn--solid",
+            "button_size": "btn--small"
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 40
+      }
+    },
+    "section-accordions": {
+      "type": "section-accordions",
+      "blocks": {
+        "text-0": {
+          "type": "text",
+          "settings": {
+            "title": "What's our story?",
+            "text": "<p>I founded Authentic Ego because I was frustrated by the skincare industry's failure to innovate for acne-prone skin, leaving millions of people, especially those with melanated and sensitive skin conditions feeling ignored. </p><p><br/></p><p>While brands continue pushing the same outdated approach of \"kill bacteria, exfoliate, moisturize,\" I knew there had to be a better way that actually addresses the root causes of acne formation. </p><p><br/></p><p>My mission is to revolutionize acne skincare by developing science-backed formulations that target the earliest phases of breakout development—focusing on oxidative stress, lipid peroxidation, inflammation, and microbiome dysbiosis rather than just treating end-stage acne inflammation. </p><p><br/></p><p>I created this company to give people around the world access to truly effective, innovative solutions that finally acknowledge the complex nature of adult and hormonal acne. Ultimately, I want to change not just how we make skincare products, but how we think about and treat acne-prone skin with topical skincare formulations entirely.</p>"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "title": "Where are you located?",
+            "text": "<p>We are a USA-based brand. Our founder is Canadian and still lives in Canada, and the rest of our team is based in the USA.</p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "settings": {
+            "title": "I don't live in the USA. Where else do you ship to?",
+            "text": "<p>We ship to most countries. You can find more details on our <a href=\"https://www.authenticego.com/pages/shipping\" target=\"_blank\" title=\"Shipping\">shipping page</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-0",
+        "text-1",
+        "text-2"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "",
+        "type_style": "font-heading",
+        "heading_size": 120,
+        "text": "",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-accordions-0": {
+      "type": "section-accordions",
+      "blocks": {
+        "text-5": {
+          "type": "text",
+          "settings": {
+            "title": "Where are your products made?",
+            "text": "<p>All of our products are made, manufactured, and packaged in the USA. They are developed and formulated by our Founder & a Cosmetic Chemist.</p>"
+          }
+        },
+        "text-6": {
+          "type": "text",
+          "settings": {
+            "title": "Where do you source your ingredients from?",
+            "text": "<p>We work with our product manufacturer to source ingredients from global raw ingredients suppliers. The individual ingredients in our products are sourced from all over the world.</p>"
+          }
+        },
+        "text-7": {
+          "type": "text",
+          "settings": {
+            "title": "Are your products ‘clean’?",
+            "text": "<p>Based on the standard industry definition that everyone is using, yes. We exceed ‘clean’ standards on all fronts. BUT… ‘clean’ beauty isn’t really a thing and it never was. ‘Clean’ has no objective definition and it can be vague and misleading for consumers. </p><p><br/></p><p>To us, the word ‘clean’ means something that hasn’t been contaminated with dirt, bacteria, viruses, or invasive fungi, and last time we checked pretty much every product out there fits that bill. </p><p><br/></p><p>Clean, natural, eco-friendly, carbon-neutral, or sustainable are words we will NEVER use when selling our products. </p>"
+          }
+        },
+        "text-8": {
+          "type": "text",
+          "settings": {
+            "title": "Are your products ‘natural’?",
+            "text": "<p>The word ‘natural’ has no standard or objective definition. This is not a term you’ll ever see us use. </p><p><br/></p><p>Just because it’s ‘natural’ doesn’t mean it’s safe, in fact, the opposite can be true. Arsenic is a poisonous substance that’s naturally found in soil. Asbestos is also a naturally occurring substance but it’s a known carcinogen. Lavender essential oil is as natural as it gets but it’s actually a known allergen and cause of contact dermatitis and other adverse health effects. </p><p><br/></p><p>We’ve all been led to believe that natural=safe. But this couldn’t be further from the truth. We prioritize the use of well-studied ingredients with a track record of safety and use a combination of synthetic, biotech, lab-created, and select naturally derived ingredients in our formulas</p>"
+          }
+        },
+        "text-9": {
+          "type": "text",
+          "settings": {
+            "title": "What kind of ingredients do you use?",
+            "text": "<p>We prioritize the use of lab-created, safe synthetics, bio-fermented, and biotech ingredients in all our formulas. We use these ingredients because they're more effective than a lot of wild-grown counterparts, they have significantly lower concerns with pesticides and environmental contaminants, and we know that lab made ingredients aren’t contributing to exploitation of workers who harvest naturally grown ingredients. </p><p><br/></p><p>We choose to minimize the number of plant-based and harvested ingredients in our formulas because they deplete the already dwindling natural resources of our planet, we have no visibility into the working conditions of the individuals harvesting the ingredients, and natural alternatives are often a lot less eco-friendly than we think. </p><p><br/></p><p>Naturally derived plant ingredients are also a big culprit for cases of contact allergies, dermatitis, and allergic reactions to cosmetic products.</p>"
+          }
+        },
+        "text_ATPJxH": {
+          "type": "text",
+          "settings": {
+            "title": "Are your products vegan?",
+            "text": "<p>Yes, all our products are vegan.</p>"
+          }
+        },
+        "text_tnVAFx": {
+          "type": "text",
+          "settings": {
+            "title": "Do your products contain gluten or nuts?",
+            "text": "<p>Our products are gluten free and are also nut free. However, we cannot guarantee that every single ingredient is free of potential minute traces of these ingredients.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text_ATPJxH",
+        "text_tnVAFx"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "Products + Ingredients",
+        "type_style": "font-body",
+        "heading_size": 100,
+        "text": "",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-accordions-1": {
+      "type": "section-accordions",
+      "blocks": {
+        "text-10": {
+          "type": "text",
+          "settings": {
+            "title": "Have your products been tested?",
+            "text": "<p>As part of our commitment to providing the highest quality products that are safe and effective, all products undergo 4 tests:</p><ul><li><strong>Stability Testing:</strong> This ensures the product remains stable and effective under a range of temperatures and conditions. During this process, we watch out for texture changes, scent changes, or product separation. </li><li><strong>Microbiology Testing:</strong> This process tests the formula for bacterial or fungal contamination and also checks for the presence of heavy metals. We complete this for every batch. </li><li><strong>Preservative Efficacy Testing:</strong> This test introduces bacteria and fungi into a formula sample in order to ‘stress-test’ the effectiveness of the preservative system. If anything develops, we re-formulate the preservative system and re-test. </li><li><strong>Human Repeat Insult Patch Testing (HRIPT):</strong> This test is conducted on 50 human volunteers over a period of weeks under clinical supervision. We specifically request a cross-section of volunteers to ensure it’s tested on various skin tones. This test ensures that the formula is non-irritating and non-allergenic. Volunteers apply the product twice daily under an occluded patch and the clinical team looks out for signs of redness, irritation, or allergic reactions. </li></ul>"
+          }
+        },
+        "text-11": {
+          "type": "text",
+          "settings": {
+            "title": "Do your products expire?",
+            "text": "<p>As a growing brand, we manufacture in small batches and use a PAO or period after opening date. Once you open a product the amount of time before you should discard it will be displayed on the back of the bottle in months. </p><p>We use airless pump packaging to maintain the best possible freshness and stability in all our products, to avoid contamination, and to minimize the use of preservatives that can have a potentially negative impact on the skin’s microbiome.  </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-10",
+        "text-11"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "Safety + Efficacy",
+        "type_style": "font-body",
+        "heading_size": 100,
+        "text": "",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#20150f",
+        "gradient": "",
+        "text_color": "text-light",
+        "border_color": "",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_accordions_FaM8bn": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_KTxEUp": {
+          "type": "text",
+          "settings": {
+            "title": "What are you doing as a brand to minimize your impact?",
+            "text": "<p>We recognize that all product consumption has an impact on both people and the planet. As a growing business, we’re making every effort to build sustainable practices into our business model and improve upon them as we grow. </p><p>Here’s a summary of our current practices:</p><p><br/></p><p><strong>Primary packaging</strong></p><ul><li>We’re using product bottles made of 100% recyclable mono-material polypropylene plastic. We chose these bottles over traditional airless pumps because the metal springs in most pumps guarantee they can’t be recycled. Even though our plastic bottles are fully recyclable, we get that most plastic doesn’t end up getting recycled and we’re working on partnering with a recycling organization to ensure every bottle gets recycled. </li></ul><p><br/></p><p><strong>Secondary packaging</strong></p><ul><li>Our product boxes are fully recyclable and made from virgin pulp paper. We are looking to use FSC-certified paper once we can meet the minimum order quantities for this material. </li></ul><p><br/></p><p><strong>Shipping</strong></p><ul><li>When you get your package you won’t see any extra packaging or unnecessary fluff like stickers or fancy paper in your order. Shipping materials create tremendous amounts of waste so we’re skipping whatever isn’t needed. </li></ul><p><br/></p><p><strong>Ingredients</strong></p><ul><li>Since the majority of the ingredients we use are lab-created, they have a much smaller carbon footprint than their wild harvested counterparts. We also have much better visibility into the product lifecycle and can ensure we’re sourcing from raw ingredient supplier who engage in fair business practices.</li></ul><p><br/></p><p>We’re just getting started on our journey, so everything is a work in progress. As we scale we’ll be able to invest more and solidify our commitment to being as sustainable as possible while still being honest and transparent. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_KTxEUp"
+      ],
+      "name": "Accordions",
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": false,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "Sustainability + Transparency",
+        "type_style": "font-body",
+        "heading_size": 100,
+        "text": "",
+        "tabs_bg_color": "#de5757",
+        "bg_color": "#de5757",
+        "gradient": "",
+        "text_color": "text-light",
+        "border_color": "",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section-accordions-2": {
+      "type": "section-accordions",
+      "blocks": {
+        "text-13": {
+          "type": "text",
+          "settings": {
+            "title": "The product I want is sold out or hasn’t launched yet. What should I do?",
+            "text": "<p>Check out the product page and you’ll find a spot to submit your email address to receive a notification when it launches or is back in stock.  </p>"
+          }
+        },
+        "text-14": {
+          "type": "text",
+          "settings": {
+            "title": "How do I know if a product is for me?",
+            "text": "<p>Our goal is to empower you to self-advocate–we want you to make the best decisions for yourself. If you’re ever not sure about a product, <a href=\"https://www.authenticego.com/pages/contact\" target=\"_blank\" title=\"https://www.authenticego.com/pages/contact\">contact the team </a>and we’ll get back to you the next business day</p>"
+          }
+        },
+        "text-15": {
+          "type": "text",
+          "settings": {
+            "title": "How do I use your products?",
+            "text": "<p>All our individual product directions can be found on the product pages and the back of the box.  You can also scan the QR code on the back of each bottle for more tips and in-depth instructions. If you still have questions you can <a href=\"https://www.authenticego.com/pages/contact\" target=\"_blank\" title=\"https://www.authenticego.com/pages/contact\">contact us </a>and we'll get back to you within 1 business day.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text-13",
+        "text-14",
+        "text-15"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "Other",
+        "type_style": "font-body",
+        "heading_size": 100,
+        "text": "",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 80
+      }
+    },
+    "section_accordions_Na4KY4": {
+      "type": "section-accordions",
+      "blocks": {
+        "text_kGDb6q": {
+          "type": "text",
+          "settings": {
+            "title": "How do subscriptions work?",
+            "text": "<p>When you subscribe, you'll enjoy convenient automatic deliveries at your chosen frequency, plus exclusive subscriber benefits. </p><p><br/></p><p>Upon subscribing, you'll receive immediate access to your personalized subscription portal where you can easily manage all aspects of your subscription, including delivery schedules, payment methods, shipping addresses, and frequency intervals. </p><p><br/></p><p>Your subscription ensures you never run out of your essential skincare products while providing cost savings compared to one-time purchases.</p>"
+          }
+        },
+        "text_8xBmUE": {
+          "type": "text",
+          "settings": {
+            "title": "Can I cancel my subscription after my first order?",
+            "text": "<p>To ensure you experience the full benefits of our products we require a minimum commitment of 3 order fulfillments when you subscribe. This allows adequate time to see the transformative results our products deliver. </p><p><br/></p><p>You may cancel your subscription at any time after your 3rd order has been fulfilled and shipped. This policy helps us maintain our subscription pricing while ensuring customer satisfaction with product results.</p>"
+          }
+        },
+        "text_kH7mxQ": {
+          "type": "text",
+          "settings": {
+            "title": "Can I skip a delivery?",
+            "text": "<p>Absolutely! We understand that skincare needs can vary, and you may have product remaining from previous orders. You can easily skip any upcoming delivery through your subscription portal without penalty. </p><p><br/></p><p>Simply log in at least 48 hours before your next scheduled delivery date to skip that shipment. Your subsequent deliveries will automatically resume according to your original schedule.</p>"
+          }
+        },
+        "text_4rWKnc": {
+          "type": "text",
+          "settings": {
+            "title": "Can I change how often I get my orders?",
+            "text": "<p>Yes, you have complete flexibility over your delivery frequency! </p><p><br/></p><p>You can adjust your subscription interval at any time through your subscription portal. Whether you want to receive products every 30 60, or 90 days, you can modify your schedule to match your skincare usage patterns. </p><p><br/></p><p>Changes made at least 48 hours before your next scheduled delivery will take effect immediately.</p>"
+          }
+        },
+        "text_4HRpm9": {
+          "type": "text",
+          "settings": {
+            "title": "How do I change my delivery address?",
+            "text": "<p>You can update your shipping address at any time by logging into your subscription portal. For uninterrupted service, please ensure any address changes are made at least 2 business days before your next scheduled renewal date. </p><p><br/></p><p>If you need to update your address for an order that's already processed, please contact our team immediately for assistance.</p>"
+          }
+        },
+        "text_qGwWKa": {
+          "type": "text",
+          "settings": {
+            "title": "Can I add discount codes to my subscription?",
+            "text": "<p>Subscription orders are already discounted from our regular retail prices and cannot be combined with additional promotional codes or sales. </p><p><br/></p><p>This pricing structure allows us to offer you the best ongoing value long-term while maintaining the quality and consistency of your skincare routine. </p><p><br/></p><p>One-time purchases remain eligible for promotional discounts and codes.</p>"
+          }
+        },
+        "text_kQT9XV": {
+          "type": "text",
+          "settings": {
+            "title": "How do I update my payment information?",
+            "text": "<p>You can securely update your payment method anytime through your subscription portal. We accept all major credit cards and PayPal. </p><p><br/></p><p>If your payment method fails, we'll notify you immediately and pause your subscription until payment information is updated. </p><p><br/></p><p>For security purposes, we recommend updating payment details promptly to avoid any interruption in your skincare routine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_kGDb6q",
+        "text_8xBmUE",
+        "text_kH7mxQ",
+        "text_4rWKnc",
+        "text_4HRpm9",
+        "text_qGwWKa",
+        "text_kQT9XV"
+      ],
+      "settings": {
+        "layout": "one-column",
+        "show_accordion_divider": true,
+        "line_thickness": "normal",
+        "subheading": "",
+        "title": "Subscription FAQ's",
+        "type_style": "font-body",
+        "heading_size": 120,
+        "text": "",
+        "tabs_bg_color": "rgba(0,0,0,0)",
+        "bg_color": "#fff7f2",
+        "gradient": "",
+        "text_color": "text-dark",
+        "border_color": "",
+        "width": "wrapper--narrow",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "section_text_MPxnPk": {
+      "type": "section-text",
+      "blocks": {
+        "subheading_4fhPrW": {
+          "type": "subheading",
+          "settings": {
+            "text": "<p>GET IN, WE'RE GLOWING →</p>",
+            "size": 125,
+            "margin_bottom": 16
+          }
+        },
+        "heading_kUn7Fr": {
+          "type": "heading",
+          "settings": {
+            "text": "<h1><strong>Join The #EGOSYSTEM</strong></h1>",
+            "size": 100,
+            "heading_highlight_type": "underline-hand-drawn",
+            "highlight_color": "#000000",
+            "highlight_text_color": ""
+          }
+        },
+        "text_ttdKyz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Skincare is personal. Your scroll should be too. Follow along for skincare rituals, cycle support, and all the #EgoChecks you’re gonna need on the journey of loving the skin you’re in.</p>",
+            "size": 100
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4fhPrW",
+        "heading_kUn7Fr",
+        "text_ttdKyz"
+      ],
+      "name": "Text",
+      "settings": {
+        "text_position": "center",
+        "bg_color": "",
+        "gradient": "",
+        "text_color": "text-dark",
+        "width": "wrapper--narrow",
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "17531330068ac18dd1": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_TxPBFp": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": true,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_TxPBFp"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 28,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main-page",
+    "section-text",
+    "section-accordions",
+    "section-accordions-0",
+    "section-accordions-1",
+    "section_accordions_FaM8bn",
+    "section-accordions-2",
+    "section_accordions_Na4KY4",
+    "section_text_MPxnPk",
+    "17531330068ac18dd1"
+  ]
+}
