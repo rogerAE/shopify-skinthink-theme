@@ -88,7 +88,7 @@
           "type": "button",
           "settings": {
             "heading": "SUBSCRIPTIONS",
-            "button_link": "",
+            "button_link": "shopify://collections/clearcommitment-subscriptions",
             "overlay_opacity": 100,
             "block_text_color": "#de5757",
             "bg_color": "#ffffff",
