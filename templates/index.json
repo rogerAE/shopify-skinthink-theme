@@ -772,7 +772,7 @@
         "text_f9nVCT": {
           "type": "text",
           "settings": {
-            "text": "<h4><em><strong>Your Ritual, Remembered.</strong></em></h4><p></p>",
+            "text": "<h4><em><strong>Your Ritual, Remembered. </strong></em></h4><h4><em>Subscribe now and save 10%</em></h4><p></p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 15,
@@ -787,7 +787,7 @@
           "type": "button",
           "settings": {
             "button": "SHOP SUBSCRIPTIONS →",
-            "url": "",
+            "url": "shopify://collections/clearcommitment-subscriptions",
             "open_in_new_tab": true,
             "button_style": "outline",
             "button_custom": true,
