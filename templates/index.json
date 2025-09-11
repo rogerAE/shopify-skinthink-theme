@@ -639,7 +639,7 @@
           "settings": {
             "stacked_button": false,
             "button_1_text": "JOIN THE WAITLIST NOW →",
-            "button_1_link": "shopify://collections/all",
+            "button_1_link": "shopify://products/gentle-cleanser",
             "button_1_color": "btn--white",
             "button_1_style": "btn--solid-border",
             "button_1_size": "btn--medium",
