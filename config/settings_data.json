@@ -641,5 +641,10 @@
       "checkout_error_color": "#d02e2e",
       "content_for_index": []
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".purchase-option, .purchase-option__details {display: none !important;}"
+    ]
   }
 }
