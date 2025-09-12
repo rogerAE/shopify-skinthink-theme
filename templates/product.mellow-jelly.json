@@ -621,10 +621,38 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "1757678719b5e6907d": {
+      "type": "apps",
+      "blocks": {
+        "amp_back_in_stock_app_block_mfbLLa": {
+          "type": "shopify://apps/amp-back-in-stock/blocks/app-block/bfa6a8c4-24e2-411a-9396-e35031b33f34",
+          "settings": {
+            "caption": "Email me when available",
+            "font_size": 16,
+            "color": "#ffffff",
+            "background_color": "#000000",
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "classes": "button button--full-width",
+            "style": "text-decoration:none"
+          }
+        }
+      },
+      "block_order": [
+        "amp_back_in_stock_app_block_mfbLLa"
+      ],
+      "settings": {
+        "bg_color": "",
+        "width": "wrapper",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "product",
+    "1757678719b5e6907d",
     "apps",
     "section-columns",
     "section-overlapping-images",
