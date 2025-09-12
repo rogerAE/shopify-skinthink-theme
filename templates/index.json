@@ -567,9 +567,9 @@
         "text_hnn3DL": {
           "type": "text",
           "settings": {
-            "icon_name": "fair-trade",
-            "title": "Versatile",
-            "text": "<p><em>Because Acne Doesn’t Discriminate</em></p><p>Our formulas are made for every tone, type, & sensitivity—Rosacea, Eczema & Fungal Acne included.</p>"
+            "icon_name": "heart",
+            "title": "Inclusive",
+            "text": "<p><em>Skincare That Sees You</em><br/>We formulate for universal compatibility across all skin tones, types, and sensitivities, including rosacea, eczema, and fungal acne-prone skin. We exclude all ingredients linked to paradoxical hyperpigmentation in melanated skin, ensuring our commitment to true inclusivity goes beyond surface-level promises.</p>"
           }
         }
       },
