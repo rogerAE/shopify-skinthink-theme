@@ -63,6 +63,7 @@
         },
         "divider": {
           "type": "divider",
+          "disabled": true,
           "settings": {
             "show_line": true,
             "padding_bottom": 6
@@ -85,7 +86,6 @@
         },
         "form": {
           "type": "form",
-          "disabled": true,
           "settings": {
             "show_labels": true,
             "show_quantity": true,
