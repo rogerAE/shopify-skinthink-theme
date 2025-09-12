@@ -33,6 +33,7 @@
         },
         "icon": {
           "type": "icon",
+          "disabled": true,
           "settings": {
             "icon_name": "none",
             "icon_color": "",
