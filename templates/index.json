@@ -1503,7 +1503,7 @@
             "text_size": 70,
             "stacked_button": true,
             "button_1_text": "Share Good Skin With Your Circle →",
-            "button_1_link": "#EgoEffect",
+            "button_1_link": "/#EgoEffect",
             "button_1_color": "btn--primary",
             "button_1_style": "btn--solid-border",
             "button_1_size": "btn--large",
