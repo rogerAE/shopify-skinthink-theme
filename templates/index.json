@@ -551,7 +551,7 @@
         "text_FgxQEJ": {
           "type": "text",
           "settings": {
-            "icon_name": "eco-friendly",
+            "icon_name": "scientific",
             "title": "Simple",
             "text": "<p><em>No Filters. No Fuss. No Reactions.</em></p><p>We leave out the fluff: no essential oils, no fragrances, no trendy ingredients. Just what works.</p>"
           }
@@ -559,9 +559,9 @@
         "text_krY6MB": {
           "type": "text",
           "settings": {
-            "icon_name": "phthalate-free",
+            "icon_name": "message",
             "title": "Researched",
-            "text": "<p><em>We Read the Science So You Don’t Have To</em></p><p>Every formula starts with real research and ends with clear skin. We vet every single ingredient for acne-causing potential. </p>"
+            "text": "<p><em>We're Rewriting The Rules So You Don't Have To</em><br/>We're revolutionizing what it means for skincare to be truly non-comedogenic and non-acnegenic. We're developing new criteria that excludes specific ingredients based on the five distinct ways skincare can trigger acne formation.</p>"
           }
         },
         "text_hnn3DL": {
