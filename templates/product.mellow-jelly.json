@@ -91,6 +91,7 @@
         },
         "timer": {
           "type": "timer",
+          "disabled": true,
           "settings": {
             "end_date": "2025-8-30",
             "end_time": "11:59",
@@ -100,7 +101,7 @@
             "heading": "Limited time offer",
             "heading_size": 95,
             "heading_style": "font-heading",
-            "text": "<p>Exclusive styles at 30% off, only for three days!<\/p>",
+            "text": "<p>Exclusive styles at 30% off, only for three days!</p>",
             "text_size": 85,
             "bg_color": "#f7f6f4",
             "text_color": "text-dark",
@@ -123,6 +124,7 @@
         },
         "icon-1": {
           "type": "icon",
+          "disabled": true,
           "settings": {
             "icon_name": "mail",
             "icon_color": "",
@@ -152,6 +154,7 @@
         },
         "product_accordion": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": true,
@@ -163,13 +166,14 @@
             "line_thickness": "normal",
             "accordion_heading": "About Super Sensa",
             "heading_style": "font-body",
-            "accordion_text": "<ul><li>Barrier-coded, ultra-calming gel-cream<\/li><li>5% panthenol + 2% ectoin,  1% rice PDRN + 2% peptide duo<\/li><li>Deep long long-lasting hydration + faster barrier repair<\/li><li>Calms visible redness + irritation<\/li><li>Strengthens skin for long-term resilience<\/li><\/ul>",
+            "accordion_text": "<ul><li>Barrier-coded, ultra-calming gel-cream</li><li>5% panthenol + 2% ectoin,  1% rice PDRN + 2% peptide duo</li><li>Deep long long-lasting hydration + faster barrier repair</li><li>Calms visible redness + irritation</li><li>Strengthens skin for long-term resilience</li></ul>",
             "accordion_page": "",
             "padding_bottom": 0
           }
         },
         "product_accordion-0": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": true,
@@ -181,13 +185,14 @@
             "line_thickness": "normal",
             "accordion_heading": "About Tidy Pores",
             "heading_style": "font-body",
-            "accordion_text": "<ul><li>Acne-safe, barrier-smart vitamin C serum<\/li><li>Brightens, tightens, & hydrates for up to 30 hours<\/li><li>Helps fade post-acne marks<\/li><li>Protects against oxidative stress & lipid peroxidation (hidden triggers behind breakouts)<\/li><li>Powered by stabilized, ultra-gentle vitamin C + 11 potent antioxidants<\/li><li>Delivers clarity without irritation<\/li><\/ul>",
+            "accordion_text": "<ul><li>Acne-safe, barrier-smart vitamin C serum</li><li>Brightens, tightens, & hydrates for up to 30 hours</li><li>Helps fade post-acne marks</li><li>Protects against oxidative stress & lipid peroxidation (hidden triggers behind breakouts)</li><li>Powered by stabilized, ultra-gentle vitamin C + 11 potent antioxidants</li><li>Delivers clarity without irritation</li></ul>",
             "accordion_page": "",
             "padding_bottom": 0
           }
         },
         "product_accordion-1": {
           "type": "product_accordion",
+          "disabled": true,
           "settings": {
             "show_description": false,
             "show_read_more": true,
@@ -199,7 +204,7 @@
             "line_thickness": "normal",
             "accordion_heading": "Why They're Better Together",
             "heading_style": "font-body",
-            "accordion_text": "<p>Two steps that simplify your routine, support skin recovery, and help you glow smarter. Designed to layer seamlessly for calm, clear, hydrated skin.<\/p><p>Dermatologist-tested. Breakout-safe. Ego-approved.<\/p>",
+            "accordion_text": "<p>Two steps that simplify your routine, support skin recovery, and help you glow smarter. Designed to layer seamlessly for calm, clear, hydrated skin.</p><p>Dermatologist-tested. Breakout-safe. Ego-approved.</p>",
             "accordion_page": "",
             "padding_bottom": 24
           }
@@ -272,7 +277,7 @@
             "image_width": 100,
             "title": "Sustainable & trendy",
             "heading_size": 120,
-            "text": "<p>Our pieces are sustainably made, and designed to be a timeless piece in your wardrobe.<\/p>",
+            "text": "<p>Our pieces are sustainably made, and designed to be a timeless piece in your wardrobe.</p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -289,7 +294,7 @@
             "image_width": 100,
             "title": "Elevate your style",
             "heading_size": 120,
-            "text": "<p>Made with natural materials, each item is comfortable and easily machine washable.<\/p>",
+            "text": "<p>Made with natural materials, each item is comfortable and easily machine washable.</p>",
             "text_size": 100,
             "button_text": "",
             "button_link": "",
@@ -338,12 +343,12 @@
         "image_link_2": "",
         "hide_image_2": false,
         "subheading": "",
-        "title": "<p>Sustainable trends for <em>everyone<\/em><\/p>",
+        "title": "<p>Sustainable trends for <em>everyone</em></p>",
         "heading_size": 130,
         "heading_highlight_type": "highlight-color",
         "highlight_color": "#000000",
         "highlight_text_color": "#ecc295",
-        "description": "<p>Our mission is to empower people through sustainable fashion. We want everyone to look and feel good, while also doing our part to protect the environment.<\/p>",
+        "description": "<p>Our mission is to empower people through sustainable fashion. We want everyone to look and feel good, while also doing our part to protect the environment.</p>",
         "text_size": 100,
         "button_text": "Shop new arrivals",
         "button_link": "",
@@ -425,7 +430,7 @@
           "settings": {
             "icon_name": "none",
             "title": "Save 10% on your first order",
-            "text": "<p>When you subscribe<\/p>"
+            "text": "<p>When you subscribe</p>"
           }
         },
         "text-0": {
@@ -433,7 +438,7 @@
           "settings": {
             "icon_name": "none",
             "title": "Free Standard Shipping",
-            "text": "<p>On all domestic US orders<\/p>"
+            "text": "<p>On all domestic US orders</p>"
           }
         },
         "text-1": {
@@ -441,7 +446,7 @@
           "settings": {
             "icon_name": "none",
             "title": "ShopPay ",
-            "text": "<p>Buy now, pay later<\/p>"
+            "text": "<p>Buy now, pay later</p>"
           }
         }
       },
@@ -481,13 +486,18 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_review_widget_BPVhNy": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
         }
       },
       "block_order": [
         "judge_me_reviews_review_widget_BPVhNy"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "",
         "width": "wrapper",
@@ -499,13 +509,14 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_all_reviews_text_wcMcmt": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/all_reviews_text\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/all_reviews_text/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         }
       },
       "block_order": [
         "judge_me_reviews_all_reviews_text_wcMcmt"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "",
         "width": "wrapper",
@@ -517,7 +528,8 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_medals_YLVtdL": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/medals\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/medals/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -535,7 +547,8 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_preview_badge_TpxgMh": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -553,7 +566,8 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_verified_badge_6DU7m7": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/verified_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/verified_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
           "settings": {}
         }
       },
@@ -571,7 +585,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_featured_carousel_ATe49W": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/featured_carousel\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "maxwidth": 1080
           }
@@ -580,6 +594,7 @@
       "block_order": [
         "judge_me_reviews_featured_carousel_ATe49W"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "",
         "width": "wrapper",
@@ -591,7 +606,7 @@
       "type": "apps",
       "blocks": {
         "judge_me_reviews_ugc_media_grid_fDUgUV": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/ugc_media_grid\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/ugc_media_grid/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {}
         }
@@ -599,6 +614,7 @@
       "block_order": [
         "judge_me_reviews_ugc_media_grid_fDUgUV"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "",
         "width": "wrapper",
