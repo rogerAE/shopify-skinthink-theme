@@ -643,8 +643,6 @@
     }
   },
   "platform_customizations": {
-    "custom_css": [
-      ".purchase-option, .purchase-option__details {display: none !important;}"
-    ]
+    "custom_css": []
   }
 }
