@@ -1443,7 +1443,7 @@
           "type": "button",
           "settings": {
             "button_text": "SEE OUR STORY →",
-            "button_link": "shopify://pages/our-story",
+            "button_link": "shopify://pages/about-us",
             "button_color": "btn--secondary",
             "button_style": "btn--solid",
             "button_size": "btn--small",
